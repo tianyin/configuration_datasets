@@ -1,0 +1,59 @@
+
+[mysql]
+prompt=db1 (\\d)>\\_
+
+[client]
+default-character-set=utf8
+
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+default-character-set=utf8
+default-table-type=innodb
+default-time-zone=UTC
+
+skip-external-locking
+set-variable = key_buffer=4M
+set-variable = max_allowed_packet=16M
+set-variable = max_connections=200
+set-variable = read_buffer_size=512K
+set-variable = sort_buffer_size=1M
+set-variable = query_cache_size=32M
+set-variable = table_cache=4096
+set-variable = thread_cache=32
+set-variable = tmp_table_size=128M
+set-variable = wait_timeout=28800
+
+innodb_file_per_table=1
+innodb_flush_log_at_trx_commit=1
+innodb_buffer_pool_size = 2048M
+innodb_log_file_size = 128M
+innodb_open_files=4000
+innodb_flush_method=O_DIRECT
+
+server-id=2401
+master-host=db2
+master-user=replicate
+master-password=XXXXXXXXXXXXXXXXX
+master-connect-retry=30
+log-bin
+expire_logs_days=20
+log-slave-updates
+auto-increment-increment=2
+auto-increment-offset=1
+
+log-slow-queries = /var/lib/mysql/slow.log
+long_query_time = 5
+log_queries_not_using_indexes = 1
+
+[mysql.server]
+user=mysql
+basedir=/var/lib
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+
+[mysqldump]
+quick
+

@@ -1,0 +1,23 @@
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+innodb_buffer_pool_size = 1G
+sort_buffer_size = 4M
+read_buffer_size = 1M
+read_rnd_buffer_size = 16M
+innodb_file_format = Barracuda
+
+query_cache_type = 1
+query_cache_size = 100M
+
+# http://dev.mysql.com/doc/refman/5.5/en/performance-schema.html
+;performance_schema
+
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

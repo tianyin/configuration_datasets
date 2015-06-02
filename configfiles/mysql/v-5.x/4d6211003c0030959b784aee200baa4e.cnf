@@ -1,0 +1,15 @@
+[mysqld]
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
+concurrent_insert = ALWAYS
+expire_logs_days = 30
+connect_timeout = 10
+max_binlog_size = 1073741824
+sporadic-binlog-dump-fail
+basedir = "C:/Program Files/MySQL"
+datadir = "C:/Program Files/MySQL/MySQL Server 5.6/data"
+tmpdir = "D:/MySQL/temp_files"
+log-bin = "D:/MySQL/log_files/log-bin"
+server-id = 5
+tmpdir = "D:/MySQL/temp_files"
+binlog-do-db = mydb
+plugin_dir = "C:/Program Files/MySQL/MySQL Server 5.6//lib/plugin"

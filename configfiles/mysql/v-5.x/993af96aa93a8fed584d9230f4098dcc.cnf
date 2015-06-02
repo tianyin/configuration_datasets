@@ -1,0 +1,11 @@
+[mysqld]
+datadir=/opt/local/var/db/mysql5
+socket=/tmp/mysql.sock
+port=3306
+
+[mysql.server]
+user=mysql
+basedir=/opt/local/libexec/mysqld
+
+[client]
+socket=/opt/local/lib/mysql5/bin/mysql

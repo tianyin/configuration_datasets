@@ -1,0 +1,13 @@
+[mysqld]
+datadir=/home/iepm/mysql
+socket=/home/iepm/mysql/mysql.sock
+port=1000
+
+[mysqld.server]
+datadir=/home/iepm/mysql
+socket=/home/iepm/mysql/mysql.sock
+port=1000
+
+[client]
+socket=/home/iepm/mysql/mysql.sock
+port=1000

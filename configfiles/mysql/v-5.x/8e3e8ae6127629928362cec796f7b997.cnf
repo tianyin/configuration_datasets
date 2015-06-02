@@ -1,0 +1,51 @@
+
+[client]
+#password       = [your_password]
+port            = 3306
+socket          = /tmp/mysql.sock
+
+# *** Application-specific options follow here ***
+
+#
+# The MySQL server
+#
+[mysqld]
+#large-pages
+
+# generic configuration options
+port            = 3306
+socket          = /tmp/mysql.sock
+skip-locking
+skip-external-locking
+datadir = /disk3/Datareal/oficial/mysql
+net_buffer_length       = 1024K
+join_buffer_size        = 4M
+sort_buffer_size        = 4M
+read_buffer_size        = 4M
+read_rnd_buffer_size    = 4M
+table_cache             = 1000
+max_allowed_packet      = 160M
+
+max_connections=50
+max_user_connections=200
+
+key_buffer              = 300M
+key_buffer_size         = 300M
+#thread_cache           = 400
+thread_stack            = 192K
+thread_cache_size       = 96
+thread_concurrency      = 8
+#thread_stack           = 128K
+
+default-character-set   = utf8
+innodb_flush_method=O_DSYNC
+innodb_buffer_pool_size= 15G
+innodb_additional_mem_pool_size=128M
+innodb_log_file_size= 256M
+innodb_log_buffer_size=72M
+innodb_flush_log_at_trx_commit=0
+innodb_thread_concurrency=8
+innodb_file_per_table=1
+innodb_log_files_in_group=2
+innodb_table_locks=0
+innodb_lock_wait_timeout = 50

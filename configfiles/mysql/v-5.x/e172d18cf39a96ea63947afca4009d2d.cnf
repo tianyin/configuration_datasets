@@ -1,0 +1,45 @@
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+# Settings user and group are ignored when systemd is used.
+# If you need to run mysqld under a different user or group,
+# customize your systemd unit file for mysqld according to the
+# instructions in http://fedoraproject.org/wiki/Systemd
+
+innodb_file_per_table=1
+skip-name-resolve
+innodb_data_file_path = ibdata1:2000M;ibdata2:10M:autoextend
+
+log-error=/var/log/mysql/mysql_error.log
+long_query_time=1
+slow_query_log=1
+log-warnings=2
+slow-query-log-file=/var/log/mysql/log-slow-queries.log
+
+#starting
+#old_passwords=1
+
+#log-bin
+#binlog-do-db=<database name>  # input the database which should be replicated
+#binlog-ignore-db=mysql            # input the database that should be ignored for replication
+#binlog-ignore-db=test
+
+
+server-id=1
+#ending
+
+open_files_limit= 2000
+thread_cache_size = 64
+
+query_cache_limit=400M
+query_cache_size = 400M
+query_cache_type=1
+[mysql.server]
+user=mysql
+basedir=/var/lib
+
+[mysqld_safe]
+#log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

@@ -1,0 +1,9 @@
+[mysqld]
+basedir=/u01/app/mysql
+datadir=/u07/mysql/data
+#log
+#log-bin
+log-slow-queries
+[mysql_upgrade]
+basedir=/u01/app/mysql
+datadir=/u07/mysql/data

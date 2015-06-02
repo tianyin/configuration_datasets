@@ -1,0 +1,97 @@
+SOFTWARE,LINK,TYPE,SUBTYPE,DESC
+MySQL,http://serverfault.com/questions/395993/limit-number-of-connections-to-a-mysql-database,DIFFICULTY,FINDING KNOBS,limit number of connections to a mysql database
+MySQL,http://serverfault.com/questions/119858/increasing-the-number-of-mysql-connections,DIFFICULTY,FINDING KNOBS,increasing the number of mysql connections
+MySQL,http://serverfault.com/questions/313400/datetime-format-changed-between-mysql-5-0-and-5-1,DIFFICULTY,FINDING KNOBS,datetime format changed between mysql 5 0 and 5 1
+MySQL,http://serverfault.com/questions/148800/why-does-mysql-have-utf8-for-collation-on-its-information-schema-but-latin1-sw,DIFFICULTY,FINDING KNOBS,why does mysql have utf8 for collation on its information schema but latin1 sw
+MySQL,http://serverfault.com/questions/338291/enabling-general-log-in-mysql-5-1-52-on-rhel6,DIFFICULTY,FINDING KNOBS,enabling general log in mysql 5 1 52 on rhel6
+MySQL,http://serverfault.com/questions/329795/mysql-users-changed-their-ip-address-whats-the-best-way-to-deal-with-this,DIFFICULTY,FINDING KNOBS,mysql users changed their ip address whats the best way to deal with this
+MySQL,http://serverfault.com/questions/243631/mysql-server-running-only-on-unix-socket,DIFFICULTY,FINDING KNOBS,mysql server running only on unix socket
+MySQL,http://serverfault.com/questions/261134/is-mysql-port-3306-encrypted-and-if-no-how-can-i-encrypt-it,DIFFICULTY,FINDING KNOBS,is mysql port 3306 encrypted and if no how can i encrypt it
+MySQL,http://serverfault.com/questions/169614/how-to-disable-mysqls-cache,DIFFICULTY,FINDING KNOBS,how to disable mysqls cache
+MySQL,http://serverfault.com/questions/489869/mysql-turning-select-full-join-is-too-high-how-to-identify-the-queries-cau,DIFFICULTY,FINDING KNOBS,mysql turning select full join is too high how to identify the queries cau
+MySQL,http://lists.mysql.com/mysql/163694,DIFFICULTY,FINDING KNOBS,MySQL Timeout Question
+MySQL,http://lists.mysql.com/mysql/158665,DIFFICULTY,FINDING KNOBS,Shrinking innodb datafiles?
+MySQL,http://lists.mysql.com/mysql/117075,DIFFICULTY,FINDING KNOBS,persistent connections timeout
+MySQL,http://lists.mysql.com/mysql/76425,DIFFICULTY,FINDING KNOBS,Data Directory
+MySQL,http://serverfault.com/questions/270258/mysql-not-accepting-connections-from-wp,DIFFICULTY,FINDING KNOBS,mysql not accepting connections from wp
+MySQL,http://serverfault.com/questions/453251/how-to-speed-up-a-mysql-import,DIFFICULTY,FINDING KNOBS,how to speed up a mysql import
+MySQL,http://serverfault.com/questions/140153/mysql-on-windows-how-do-i-set-the-wait-timeout-for-connections-using-named-pip,DIFFICULTY,FINDING KNOBS,mysql on windows how do i set the wait timeout for connections using named pip
+MySQL,http://serverfault.com/questions/8293/mysql-connection-security,DIFFICULTY,FINDING KNOBS,mysql connection security
+MySQL,http://serverfault.com/questions/149109/speed-up-mysql-for-inserts-for-testing-purposes,DIFFICULTY,FINDING KNOBS,speed up mysql for inserts for testing purposes
+MySQL,http://lists.mysql.com/mysql/163004,DIFFICULTY,FINDING KNOBS,how can i connect mysql server with the server's IP but not localhost?
+MySQL,http://lists.mysql.com/mysql/131031,DIFFICULTY,FINDING KNOBS,"simple problem, no tcp port openning"
+MySQL,http://serverfault.com/questions/108741/problems-configuring-mysql-on-ubuntu-for-remote-access,DIFFICULTY,FINDING KNOBS,problems configuring mysql on ubuntu for remote access
+MySQL,http://serverfault.com/questions/300935/how-to-make-mysql-to-find-old-databases-on-hdd,DIFFICULTY,FINDING KNOBS,how to make mysql to find old databases on hdd
+MySQL,http://serverfault.com/questions/304648/mysql-and-multi-core-processors,DIFFICULTY,FINDING KNOBS,mysql and multi core processors
+MySQL,http://serverfault.com/questions/299587/mysql-replication-where-is-data,DIFFICULTY,FINDING KNOBS,mysql replication where is data
+MySQL,http://serverfault.com/questions/555827/optimal-setup-for-bulk-csv-import,DIFFICULTY,FINDING KNOBS,optimal setup for bulk csv import
+MySQL,http://serverfault.com/questions/227597/store-each-database-in-a-different-directory,DIFFICULTY,FINDING KNOBS,store each database in a different directory
+MySQL,http://serverfault.com/questions/289336/where-does-the-php-mysql-connection-take-its-default-charset,DIFFICULTY,FINDING KNOBS,where does the php mysql connection take its default charset
+MySQL,http://lists.mysql.com/mysql/65493,DIFFICULTY,SETTING KNOBS,Indefinite Timeouts
+MySQL,http://serverfault.com/questions/202911/how-do-i-enable-log-slow-queries-on-mysql-5-1,DIFFICULTY,SETTING KNOBS,how do i enable log slow queries on mysql 5 1
+MySQL,http://serverfault.com/questions/177156/apache-mysql-configuration-for-high-traffic-server,DIFFICULTY,SETTING KNOBS,apache mysql configuration for high traffic server
+MySQL,http://lists.mysql.com/mysql/45651,DIFFICULTY,SETTING KNOBS,max_connections
+MySQL,http://serverfault.com/questions/6354/error-2006-hy000-at-line-149351-mysql-server-has-gone-away,DIFFICULTY,SETTING KNOBS,error 2006 hy000 at line 149351 mysql server has gone away
+MySQL,http://lists.mysql.com/mysql/153526,ERROR,FIXING ERRORS,Setting wait_timeout in my.cnf?
+MySQL,http://serverfault.com/questions/385559/is-it-safe-to-modify-innodb-data-file-path-value-for-mysql-5,ERROR,FIXING ERRORS,is it safe to modify innodb data file path value for mysql 5
+MySQL,http://serverfault.com/questions/346866/set-group-concat-max-len-permanently-mysql-config,ERROR,FIXING ERRORS,set group concat max len permanently mysql config
+MySQL,http://serverfault.com/questions/512503/percona-and-mysql-audit,ERROR,FIXING ERRORS,percona and mysql audit
+MySQL,http://serverfault.com/questions/249529/how-to-access-remotly-to-a-mysql-server,ERROR,FIXING ERRORS,how to access remotly to a mysql server
+MySQL,http://lists.mysql.com/mysql/112082,ERROR,FIXING ERRORS,MySQL 4.0.1 & SSL config - a shot in the dark
+MySQL,http://lists.mysql.com/mysql/136867,ERROR,DIAGNOSING ERRORS,mysqld ended
+MySQL,http://lists.mysql.com/mysql/176252,ERROR,DIAGNOSING ERRORS,Lock wait timeout exceeded Errors
+MySQL,http://serverfault.com/questions/564378/mysql-shut-down-it-self-periodically,ERROR,DIAGNOSING ERRORS,mysql shut down it self periodically
+MySQL,http://serverfault.com/questions/240032/mysql-database-restore-error,ERROR,DIAGNOSING ERRORS,mysql database restore error
+MySQL,http://serverfault.com/questions/59232/cant-get-mysqld-started-on-osx-server-was-working-before,ERROR,DIAGNOSING ERRORS,cant get mysqld started on osx server was working before
+MySQL,http://serverfault.com/questions/359028/mysql-crashes-every-few-seconds,ERROR,DIAGNOSING ERRORS,mysql crashes every few seconds
+MySQL,http://serverfault.com/questions/143373/cant-connect-to-local-mysql-server-through-socket,ERROR,DIAGNOSING ERRORS,cant connect to local mysql server through socket
+MySQL,http://serverfault.com/questions/503453/cant-start-mysql-5-6-server-after-computer-is-restarted,ERROR,DIAGNOSING ERRORS,cant start mysql 5 6 server after computer is restarted
+MySQL,http://serverfault.com/questions/420285/error-running-mysql-daemon,ERROR,DIAGNOSING ERRORS,error running mysql daemon
+MySQL,http://serverfault.com/questions/256254/mysql-server-doesnt-startup,ERROR,DIAGNOSING ERRORS,mysql server doesnt startup
+MySQL,http://serverfault.com/questions/320253/mysql-multi-level-replication-breaks-constantly,ERROR,DIAGNOSING ERRORS,mysql multi level replication breaks constantly
+MySQL,http://serverfault.com/questions/416570/mysqld-job-failed-to-start,ERROR,DIAGNOSING ERRORS,mysqld job failed to start
+MySQL,http://serverfault.com/questions/540913/issue-in-mysql-database-error-on-server-and-works-fine-on-local,ERROR,DIAGNOSING ERRORS,issue in mysql database error on server and works fine on local
+MySQL,http://lists.mysql.com/mysql/153171,ERROR,DIAGNOSING ERRORS,Connection speed
+MySQL,http://lists.mysql.com/mysql/140866,ERROR,DIAGNOSING ERRORS,strange start.
+MySQL,http://lists.mysql.com/mysql/99222,ERROR,DIAGNOSING ERRORS,having trouble killing mysqld to restart and change root
+MySQL,http://lists.mysql.com/mysql/144431,ERROR,DIAGNOSING ERRORS,access denied for ALL users
+MySQL,http://lists.mysql.com/mysql/164805,ERROR,DIAGNOSING ERRORS,InnoDB - Foreign Key - Error 150.
+MySQL,http://lists.mysql.com/mysql/140172,ERROR,DIAGNOSING ERRORS,Need your help in setting up database.
+MySQL,http://serverfault.com/questions/255909/cant-start-mysql-after-upgrade,ERROR,DIAGNOSING ERRORS,cant start mysql after upgrade
+MySQL,http://lists.mysql.com/mysql/149162,ERROR,DIAGNOSING ERRORS,MySQL 4.0.14 stops responding to PHP 4.3.2
+MySQL,http://lists.mysql.com/mysql/167600,ERROR,DIAGNOSING ERRORS,ERROR 1114: The table '#sql-3612_4' is full
+MySQL,http://serverfault.com/questions/474116/mysql-error-1429-federation,ERROR,DIAGNOSING ERRORS,mysql error 1429 federation
+MySQL,http://serverfault.com/questions/258709/attempted-to-change-database-drive-resulted-in-cant-connect-to-local-mysql-ser,ERROR,DIAGNOSING ERRORS,attempted to change database drive resulted in cant connect to local mysql ser
+MySQL,http://serverfault.com/questions/308707/mysql-hangs-up-the-server-how-to-avoid-this,ERROR,DIAGNOSING ERRORS,mysql hangs up the server how to avoid this
+MySQL,http://serverfault.com/questions/537553/mariadb-galera-clustering-active-active-operation-not-permitted-error,ERROR,DIAGNOSING ERRORS,mariadb galera clustering active active operation not permitted error
+MySQL,http://serverfault.com/questions/222206/extreme-slowness-with-a-remote-database-in-drupal,ERROR,DIAGNOSING ERRORS,extreme slowness with a remote database in drupal
+MySQL,http://serverfault.com/questions/144121/splitting-a-mysql-db-in-two-may-ease-server-from-too-many-connetions-i-dont,ERROR,DIAGNOSING ERRORS,splitting a mysql db in two may ease server from too many connetions i dont
+MySQL,http://serverfault.com/questions/178303/mysql-binlog-not-logging,ERROR,DIAGNOSING ERRORS,mysql binlog not logging
+MySQL,http://serverfault.com/questions/317256/mysql-5-0-5-1-upgrade-table-upgrades-taking-a-very-long-time,ERROR,DIAGNOSING ERRORS,mysql 5 0 5 1 upgrade table upgrades taking a very long time
+MySQL,http://serverfault.com/questions/102720/datadump-fails-with-exit-code-1,ERROR,DIAGNOSING ERRORS,datadump fails with exit code 1
+MySQL,http://serverfault.com/questions/471372/etc-my-cnf-what-i-am-missing,ERROR,DIAGNOSING ERRORS,etc my cnf what i am missing
+MySQL,http://serverfault.com/questions/538652/mysql-5-1-69-at-centos-6-4-doesnt-know-enable-named-pipe,ERROR,DIAGNOSING ERRORS,mysql 5 1 69 at centos 6 4 doesnt know enable named pipe
+MySQL,http://serverfault.com/questions/221566/mysql-command-line-not-working,ERROR,DIAGNOSING ERRORS,mysql command line not working
+MySQL,http://serverfault.com/questions/445822/mysql-died-during-the-night-on-a-12-04-1-ubuntu,ERROR,DIAGNOSING ERRORS,mysql died during the night on a 12 04 1 ubuntu
+MySQL,http://serverfault.com/questions/534676/mysql-failed-to-start-error-1053-windows-server-2008-r2,ERROR,DIAGNOSING ERRORS,mysql failed to start error 1053 windows server 2008 r2
+MySQL,http://serverfault.com/questions/362336/mysql-odbc-issue-data-source-name-not-found-and-no-default-driver-specified,ERROR,DIAGNOSING ERRORS,mysql odbc issue data source name not found and no default driver specified
+MySQL,http://serverfault.com/questions/403454/ubuntu-12-04-mysql-5-5-24-crashes-everyday,ERROR,DIAGNOSING ERRORS,ubuntu 12 04 mysql 5 5 24 crashes everyday
+MySQL,http://serverfault.com/questions/143805/unable-to-enable-innodb-in-mysql-on-ubuntu-10-04,ERROR,DIAGNOSING ERRORS,unable to enable innodb in mysql on ubuntu 10 04
+MySQL,http://lists.mysql.com/mysql/175978,ERROR,DIAGNOSING ERRORS,MySQL 4.0.2 is topping out at 1024 threads!
+MySQL,http://serverfault.com/questions/300553/mysql-innodb-table-size-performance,OTHER,PRACTICES,mysql innodb table size performance
+MySQL,http://serverfault.com/questions/551803/my-cnf-for-big-wordpress-installation,OTHER,PRACTICES,my cnf for big wordpress installation
+MySQL,http://serverfault.com/questions/199003/recommend-a-good-guide-for-mysql-optimization,OTHER,PRACTICES,recommend a good guide for mysql optimization
+MySQL,http://serverfault.com/questions/419299/run-mysql-server-self-contained-and-as-a-user,OTHER,PRACTICES,run mysql server self contained and as a user
+MySQL,http://lists.mysql.com/mysql/415,OTHER,PRACTICES,configuration question
+MySQL,http://serverfault.com/questions/3120/how-do-i-profile-mysql,OTHER,PRACTICES,how do i profile mysql
+MySQL,http://serverfault.com/questions/144206/mysql-config-on-large-machine,OTHER,PRACTICES,mysql config on large machine
+MySQL,http://serverfault.com/questions/320827/how-to-prevent-innodb-log-files-from-getting-corrupted,OTHER,PRACTICES,how to prevent innodb log files from getting corrupted
+MySQL,http://serverfault.com/questions/176936/mysql-replicate-structure-only,OTHER,PRACTICES,mysql replicate structure only
+MySQL,http://lists.mysql.com/mysql/144776,OTHER,PRACTICES,Faster reindexing
+MySQL,http://lists.mysql.com/mysql/69390,OTHER,LEARNING/TRAINING,autocommit == innobase_flush_log_at_trx_commit ?
+MySQL,http://serverfault.com/questions/415884/files-in-mysql-data-folder,OTHER,LEARNING/TRAINING,files in mysql data folder
+MySQL,http://lists.mysql.com/mysql/118708,OTHER,LEARNING/TRAINING,changing a slave to a master in mysql replication
+MySQL,http://serverfault.com/questions/316938/mysql-max-allowed-packet-greater-than-1-gb-is-it-possible,OTHER,LEARNING/TRAINING,mysql max allowed packet greater than 1 gb is it possible
+MySQL,http://serverfault.com/questions/311179/mysql-binary-logs-more-than-15-gb,OTHER,LEARNING/TRAINING,mysql binary logs more than 15 gb
+MySQL,http://serverfault.com/questions/169632/how-does-mysql-expires-the-cache,OTHER,LEARNING/TRAINING,how does mysql expires the cache
+MySQL,http://serverfault.com/questions/538164/mysql-max-connections-in-shared-hosting-environment,OTHER,LEARNING/TRAINING,mysql max connections in shared hosting environment

@@ -1,0 +1,11 @@
+[mysqld]
+datadir=/mysql/mydatabase
+socket=/mysql/mydatabase/mysql.sock
+     
+[mysql.server]
+user=mysql
+basedir=/mysql/mydatabase
+
+[safe_mysqld]
+err-log=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

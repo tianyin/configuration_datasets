@@ -1,0 +1,15 @@
+[mysqld]
+basedir=/usr/local/mysql
+datadir=/usr/local/mysql
+socket=/usr/local/mysql/tmp/mysql.sock
+
+[mysql.server]
+user=mysql
+#basedir=/var/lib
+
+[client]
+socket=/usr/local/mysql/tmp/mysql.sock
+
+[mysqld_safe]
+err-log=/usr/local/mysql/logs/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

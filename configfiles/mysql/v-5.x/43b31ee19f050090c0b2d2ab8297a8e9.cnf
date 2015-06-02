@@ -1,0 +1,19 @@
+    [mysqld]
+    datadir=/var/lib/mysql
+    socket=/var/lib/mysql/mysql.sock
+    user=mysql
+    old_passwords=1
+    symbolic-links=0
+    max_allowed_packet = 100M
+
+    log-bin = /var/lib/mysql/logs/borg-binlog.log
+    max_binlog_size=50M
+    expire_logs_days=7
+
+    [mysql.server]
+    user=mysql
+    basedir=/var/lib
+
+    [mysqld_safe]
+    log-error=/var/log/mysqld.log
+    pid-file=/var/run/mysqld/mysqld.pid

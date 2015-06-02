@@ -1,0 +1,27 @@
+[mysqld]
+port = 5533
+socket=/tmp/mysql.galera1.sock
+datadir=/data/mysql/galera1
+#basedir=/usr/bin
+user=root
+log_error=error.log
+innodb_file_per_table
+
+### galera-required settings ###
+query_cache_size=0
+binlog_format=ROW
+default_storage_engine=innodb
+innodb_autoinc_lock_mode=2
+#innodb_locks_unsafe_for_binlog=1
+
+### wsrep basic settings ###
+wsrep_provider=/usr/lib/libgalera_smm.so
+wsrep_cluster_name=boringname
+wsrep_cluster_address=gcomm://localhost:5533,localhost:5534,localhost:5535
+wsrep_sst_method=rsync
+#wsrep_sst_auth=repluser:replpass
+wsrep_node_name=node1
+wsrep_node_address=localhost:5533
+
+[mysql]
+user=root

@@ -1,0 +1,151 @@
+[mysqld]
+# Settings user and group are ignored when systemd is used (fedora >= 15).
+# If you need to run mysqld under different user or group, 
+# customize your systemd unit file for mysqld according to the
+# instructions in http://fedoraproject.org/wiki/Systemd
+user=mysql
+
+datadir=/data2/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+## Files
+back_log            = 300
+open-files-limit    = 8192
+open-files          = 1024  
+skip-external-locking
+skip-name-resolve
+
+## Logging
+relay-log           = mysqld-relay-bin
+relay-log-index     = mysqld-relay-bin.index
+#log                = mysql-gen.log 
+log_warnings
+log_bin             = mysql-bin
+#log_queries_not_using_indexes
+max_binlog_size         = 256M  #max size for binlog before rolling
+expire_logs_days        = 4 #binlog files older than this will be purged
+
+## Per-Thread Buffers * (max_connections) = total per-thread mem usage
+thread_stack            = 256K    #default: 32bit: 192K, 64bit: 256K
+sort_buffer_size        = 1M      #default: 2M, larger may cause perf issues
+read_buffer_size        = 1M      #default: 128K, change in increments of 4K
+read_rnd_buffer_size    = 1M      #default: 256K                
+join_buffer_size        = 1M      #default: 128K
+binlog_cache_size       = 64K     #default: 32K, size of buffer to hold TX queries
+## total per-thread buffer memory usage: 8832000K = 8.625GB
+
+## Query Cache
+query_cache_size        = 32M   #global buffer
+query_cache_limit       = 512K  #max query result size to put in cache
+
+## Connections
+max_connections         = 2000  #multiplier for memory usage via per-thread buffers
+max_connect_errors      = 100   #default: 10
+concurrent_insert       = 2 #default: 1, 2: enable insert for all instances
+connect_timeout         = 30    #default -5.1.22: 5, +5.1.22: 10
+max_allowed_packet      = 32M   #max size of incoming data to allow
+
+## Default Table Settings
+sql_mode            = NO_AUTO_CREATE_USER
+
+## Table and TMP settings
+max_heap_table_size         = 1G    #recommend same size as tmp_table_size
+bulk_insert_buffer_size     = 1G    #recommend same size as tmp_table_size
+tmp_table_size                  = 1G    #recommend 1G min
+#tmpdir                         = /data/mysql-tmp0:/data/mysql-tmp1 #Recommend using RAMDISK for tmpdir
+
+## Table cache settings
+table_cache             = 512   #5.0.x <default: 64>
+table_open_cache        = 512   #5.1.x, 5.5.x <default: 64>
+
+## Thread settings
+thread_concurrency      = 16  #recommend 2x CPU cores
+thread_cache_size       = 100 #recommend 5% of max_connections
+
+## MyISAM Engine
+key_buffer          = 1M    #global buffer
+myisam_sort_buffer_size     = 128M  #index buffer size for creating/altering indexes
+myisam_max_sort_file_size   = 256M  #max file size for tmp table when creating/alering indexes
+myisam_repair_threads       = 4 #thread quantity when running repairs
+myisam_recover          = BACKUP    #repair mode, recommend BACKUP 
+
+## InnoDB Plugin Independent Settings
+#innodb_data_home_dir            = /data2/var/lib/mysql
+#innodb_data_file_path      = ibdata1:128M;ibdata2:10M:autoextend
+#innodb_log_file_size       = 512M  #64G_RAM+ = 768, 24G_RAM+ = 512, 8G_RAM+ = 256, 2G_RAM+ = 128 
+#innodb_log_files_in_group  = 4 #combined size of all logs <4GB. <2G_RAM = 2, >2G_RAM = 4
+innodb_buffer_pool_size     = 32G   #global buffer
+innodb_additional_mem_pool_size = 4M    #global buffer
+innodb_status_file          #extra reporting
+innodb_file_per_table           #enable always
+innodb_flush_log_at_trx_commit  = 2 #2/0 = perf, 1 = ACID
+innodb_table_locks      = 0 #preserve table locks
+innodb_log_buffer_size      = 128M  #global buffer
+innodb_lock_wait_timeout    = 60    
+innodb_thread_concurrency   = 16    #recommend 2x core quantity
+innodb_commit_concurrency   = 16    #recommend 4x num disks
+#innodb_flush_method        = O_DIRECT     #O_DIRECT = local/DAS, O_DSYNC = SAN/iSCSI
+innodb_support_xa       = 0        #recommend 0, disable xa to negate extra disk flush
+skip-innodb-doublewrite
+
+## Binlog sync settings
+## XA transactions = 1, otherwise set to 0 for best performance
+sync_binlog         = 1
+
+## TX Isolation
+transaction-isolation       = REPEATABLE-READ #REPEATABLE-READ req for ACID, SERIALIZABLE req XA
+
+## Per-Thread Buffer memory utilization equation:
+#(read_buffer_size + read_rnd_buffer_size + sort_buffer_size + thread_stack + join_buffer_size + binlog_cache_size) * max_connections
+
+## Global Buffer memory utilization equation:
+# innodb_buffer_pool_size + innodb_additional_mem_pool_size + innodb_log_buffer_size + key_buffer_size + query_cache_size
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+# Semisynchronous Replication
+# http://dev.mysql.com/doc/refman/5.5/en/replication-semisync.html
+# uncomment next line on MASTER
+;plugin-load=rpl_semi_sync_master=semisync_master.so
+# uncomment next line on SLAVE
+;plugin-load=rpl_semi_sync_slave=semisync_slave.so
+
+# Others options for Semisynchronous Replication
+;rpl_semi_sync_master_enabled=1
+;rpl_semi_sync_master_timeout=10
+;rpl_semi_sync_slave_enabled=1
+
+# http://dev.mysql.com/doc/refman/5.5/en/performance-schema.html
+;performance_schema
+
+thread_cache_size = 4
+query_cache_type = 1
+
+slow-query-log
+long_query_time         = 10
+slow_query_log_file     = /var/log/mysql/mysql-slow.log
+log-warnings            = 2
+
+# slave config
+skip-slave-start
+server-id = 22
+#read_only = 1
+skip-name-resolve
+
+log-bin=/data2/var/log/mysql/mysql-bin
+relay_log_purge=0
+binlog-format=MIXED
+#expire_logs_days = 31
+log-bin-trust-function-creators = 1
+
+slave-skip-errors = 1062,1146,1032
+
+replicate-wild-ignore-table=%.norep%
+
+#testing
+table_definition_cache = 5000
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

@@ -1,0 +1,14 @@
+[mysqld]
+max_connections=500
+join_buffer_size = 2M
+tmp_table_size = 24M
+max_heap_table_size = 24M
+query_cache_size = 256M
+key_buffer=128M
+key_buffer_size = 512M
+thread_cache_size = 4
+table_cache = 500
+table_open_cache = 96
+innodb_buffer_pool_size = 27M
+slow_query_log
+local-infile=0

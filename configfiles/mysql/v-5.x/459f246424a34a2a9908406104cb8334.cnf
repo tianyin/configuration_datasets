@@ -1,0 +1,150 @@
+[mysqld_safe]
+nice = -15
+
+open_files_limit=18916
+[client]
+socket = /var/lib/mysql/mysql.sock
+default-character-set = utf8
+
+[mysql]
+default-character-set=utf8
+
+[mysqld]
+## Charset and Collation
+character-set-server = utf8
+default-character-set = utf8
+collation-server = utf8_general_ci
+init-connect='SET NAMES utf8'
+local-infile=0
+bind-address=127.0.0.1
+skip-networking
+
+## Files
+back_log = 300
+open-files-limit = 8192
+open-files = 1024
+port = 3306
+socket = /var/lib/mysql/mysql.sock
+pid-file = /var/lib/mysql/mysql.pid
+skip-external-locking
+
+## Logging
+datadir = /var/lib/mysql
+#relay_log = mysql-relay-bin
+relay_log_index = mysql-relay-index
+log = mysql-gen.log
+log_error = mysql-error.err
+log_error = mysql-error.err
+log_warnings
+log_bin = mysql-bin
+log_slow_queries = mysql-slow.log
+#log_queries_not_using_indexes
+long_query_time = 10 #default: 10
+max_binlog_size = 256M #max size for binlog before rolling
+expire_logs_days = 4 #binlog files older than this will be purged
+
+## Per-Thread Buffers * (max_connections) = total per-thread mem usage
+thread_stack = 256K #default: 32bit: 192K, 64bit: 256K
+sort_buffer_size = 1M #default: 2M, larger may cause perf issues
+read_buffer_size = 1M #default: 128K, change in increments of 4K
+read_rnd_buffer_size = 1M #default: 256K
+join_buffer_size = 1M #default: 128K
+binlog_cache_size = 64K #default: 32K, size of buffer to hold TX queries
+## total per-thread buffer memory usage: 8832000K = 8.625GB
+
+## Query Cache
+query_cache_size = 32M #global buffer
+query_cache_limit = 512K #max query result size to put in cache
+
+## Connections
+max_connections = 2000 #multiplier for memory usage via per-thread buffers
+max_connect_errors = 100 #default: 10
+concurrent_insert = 2 #default: 1, 2: enable insert for all instances
+connect_timeout = 30 #default -5.1.22: 5, +5.1.22: 10
+max_allowed_packet = 128M #max size of incoming data to allow
+wait_timeout = 360
+
+## Default Table Settings
+sql_mode = NO_AUTO_CREATE_USER
+
+## Table and TMP settings
+max_heap_table_size = 1G #recommend same size as tmp_table_size
+bulk_insert_buffer_size = 1G #recommend same size as tmp_table_size
+tmp_table_size = 1G #recommend 1G min
+table_definition_cache = 4K
+#tmpdir = /data/mysql-tmp0:/data/mysql-tmp1 #Recommend using RAMDISK for tmpdir
+
+## Table cache settings
+#table_cache = 512 #5.0.x <default: 64>
+#table_open_cache = 512 #5.1.x, 5.5.x <default: 64>
+
+## Thread settings
+thread_concurrency = 16 #recommend 2x CPU cores
+thread_cache_size = 100 #recommend 5% of max_connections
+
+## Replication
+#read_only
+#skip-slave-start
+#slave-skip-errors = <default: none, recommend:1062>
+#slave-net-timeout = <default: 3600>
+#slave-load-tmpdir = <location of slave tmpdir>
+#slave_transaction_retries = <default: 10>
+#server-id = <unique value>
+#replicate-same-server-id = <default: 0, recommend: 0, !if log_slave_updates=1>
+#auto-increment-increment = <default: none>
+#auto-increment-offset = <default: none>
+#master-connect-retry = <default: 60>
+#log-slave-updates = <default: 0 disable>
+#report-host = <master_server_ip>
+#report-user = <replication_user>
+#report-password = <replication_user_pass>
+#report-port = <default: 3306>
+#replicate-do-db =
+#replicate-ignore-db =
+#replicate-do-table =
+#relicate-ignore-table =
+#replicate-rewrite-db =
+#replicate-wild-do-table =
+#replicate-wild-ignore-table =
+## MyISAM Engine
+key_buffer = 1M #global buffer
+myisam_sort_buffer_size = 128M #index buffer size for creating/altering indexes
+myisam_max_sort_file_size = 256M #max file size for tmp table when creating/alering indexes
+myisam_repair_threads = 4 #thread quantity when running repairs
+myisam_recover = BACKUP #repair mode, recommend BACKUP
+
+innodb_data_home_dir = /var/lib/mysql
+innodb_data_file_path = ibdata1:18M;ibdata2:10M:autoextend
+innodb_log_file_size = 512M 
+#64G_RAM+ = 768, 24G_RAM+ = 512, 8G_RAM+ = 256, 2G_RAM+ = 128
+innodb_log_files_in_group = 4 
+#combined size of all logs <4GB. <2G_RAM = 2, >2G_RAM = 4
+innodb_buffer_pool_size = 18G 
+#global buffer
+innodb_additional_mem_pool_size = 4M #global buffer
+innodb_status_file #extra reporting
+innodb_file_per_table #enable always
+innodb_flush_log_at_trx_commit = 2 #2/0 = perf, 1 = ACID
+innodb_table_locks = 0 #preserve table locks
+innodb_log_buffer_size = 128M #global buffer
+innodb_lock_wait_timeout = 60
+innodb_thread_concurrency = 16 #recommend 2x core quantity
+innodb_commit_concurrency = 16 #recommend 4x num disks
+#innodb_flush_method = O_DIRECT #O_DIRECT = local/DAS, O_DSYNC = SAN/iSCSI
+innodb_support_xa = 0 #recommend 0, disable xa to negate extra disk flush
+skip-innodb-doublewrite
+
+## Binlog sync settings
+## XA transactions = 1, otherwise set to 0 for best performance
+sync_binlog = 0
+
+## TX Isolation
+transaction-isolation = REPEATABLE-READ #REPEATABLE-READ req for ACID, SERIALIZABLE req XA
+
+## Per-Thread Buffer memory utilization equation:
+#(read_buffer_size + read_rnd_buffer_size + sort_buffer_size + thread_stack + join_buffer_size + binlog_cache_size) * max_connections
+
+[mysqldump]
+quick
+quote-names
+max_allowed_packet = 128M

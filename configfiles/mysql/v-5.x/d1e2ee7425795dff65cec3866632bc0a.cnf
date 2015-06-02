@@ -1,0 +1,22 @@
+
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+# Default to using old password format for compatibility with mysql 3.x
+# clients (those using the mysqlclient10 compatibility package).
+old_passwords=1
+server-id=2
+master-host=20.9.13.7
+master-user=jojoj
+master-password=ojojojo
+master-connect-retry=60
+replicate-do-db=opfilter
+
+[mysql.server]
+user=mysql
+basedir=/var/lib
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+

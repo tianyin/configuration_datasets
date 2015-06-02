@@ -1,0 +1,836 @@
+VERSION,LINK,DESC,SOURCE
+4.0.18,http://lists.mysql.com/mysql/162897,MySQL Lists: mysql: connection errors when making lot of connections continiously.,mailing_list
+5.0.45,http://lists.mysql.com/mysql/211529,MySQL Lists: mysql: /tmp/mysql.sock dissapears,mailing_list
+5.5.x,http://dba.stackexchange.com/questions/1927/why-does-mysql-say-im-out-of-memory,why does mysql say im out of memory,dba.stackexchange.com
+3.26.47,http://lists.mysql.com/mysql/99818,MySQL Lists: mysql: problems with default-character-set=cp1251,mailing_list
+unknown,http://serverfault.com/questions/362595/mysql-bind-on-unix-socket-permission-denied,mysql bind on unix socket permission denied,serverfault.com
+5.0.x,http://lists.mysql.com/mysql/215626,MySQL Lists: mysql: Partial Replication,mailing_list
+unknown,http://serverfault.com/questions/531632/mysql-is-running-slow-on-db-import,mysql is running slow on db import,serverfault.com
+unknown,http://serverfault.com/questions/151966/problem-setting-up-master-master-replication-in-mysql,problem setting up master master replication in mysql,serverfault.com
+5.1.52,http://lists.mysql.com/mysql/228299,MySQL Lists: mysql: BINLOG data,mailing_list
+4.0.14,http://lists.mysql.com/mysql/147840,MySQL Lists: mysql: mysql 4.0.14 + replication + windows XP PROF,mailing_list
+5.6.10,http://stackoverflow.com/questions/15765168/mysql-access-denied-for-user-rootlocalhost,mysql access denied for user rootlocalhost,stackoverflow.com
+unknown,http://serverfault.com/questions/432109/server-quit-without-updating-pid-file-on-multiple-mysql-installation-in-linux,server quit without updating pid file on multiple mysql installation in linux,serverfault.com
+unknown,http://lists.mysql.com/mysql/112445,MySQL Lists: mysql: The Character Set Used for Data and Sorting,mailing_list
+unknown,http://stackoverflow.com/questions/10191349/mysql-on-ec2-instance-slow-results-after-the-first-query,mysql on ec2 instance slow results after the first query,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/160588,MySQL Lists: mysql: Can't connect,mailing_list
+3.23.36,http://lists.mysql.com/mysql/135989,MySQL Lists: mysql: [mysqld ],mailing_list
+5.0.x,http://lists.mysql.com/mysql/218162,"MySQL Lists: mysql: Copy 70GB ibdata, etc. and server won't start now",mailing_list
+3.23.52,http://lists.mysql.com/mysql/122426,MySQL Lists: mysql: MySQL-max-3.23.52-win,mailing_list
+unknown,http://stackoverflow.com/questions/5737089/two-mysql-servers,two mysql servers,stackoverflow.com
+3.23.51,http://lists.mysql.com/mysql/117291,MySQL Lists: mysql: Packet is larger than max_allowed_packet,mailing_list
+3.23.44 ,http://lists.mysql.com/mysql/92051,MySQL Lists: mysql: Access denied for user: 'myuser@localhost',mailing_list
+5.5.x,http://stackoverflow.com/questions/16321847/how-can-wait-timeout-interactive-timeout-be-ignored,how can wait timeout interactive timeout be ignored,stackoverflow.com
+unknown,http://stackoverflow.com/questions/3666352/mysql-fails-to-start-and-i-cant-see-why,mysql fails to start and i cant see why,stackoverflow.com
+4.0.3,http://lists.mysql.com/mysql/121762,MySQL Lists: mysql: Replication issues,mailing_list
+unknown,http://lists.mysql.com/mysql/92150,MySQL Lists: mysql: mysql win32 binary w/ innodb: error number 3,mailing_list
+unknown,http://stackoverflow.com/questions/6095922/mysql-connection-from-remote-pc,mysql connection from remote pc,stackoverflow.com
+3.23.34,http://lists.mysql.com/win32/5376,MySQL Lists: win32: Fw: MySQL on W2K service keeps shutting down,mailing_list
+5.0.22,http://lists.mysql.com/mysql/216391,MySQL Lists: mysql: Re: Resend: enabling storage engine with RPM install,mailing_list
+5.0.50,http://stackoverflow.com/questions/17939730/mysql-out-of-memory-needed-xxxxxxx-bytes,mysql out of memory needed xxxxxxx bytes,stackoverflow.com
+5.5.30,http://dba.stackexchange.com/questions/35284/mysql-cant-create-test-file-1067-error,mysql cant create test file 1067 error,dba.stackexchange.com
+5.5.x,http://serverfault.com/questions/329298/could-not-start-the-service-mysql-error0-how-to-get-mysql-5-5-server-running,could not start the service mysql error0 how to get mysql 5 5 server running,serverfault.com
+unknown,http://serverfault.com/questions/323175/cant-start-mysqld-on-centos5-after-attempting-to-upgrade-to-php-5-3,cant start mysqld on centos5 after attempting to upgrade to php 5 3,serverfault.com
+3.23.32,http://lists.mysql.com/mysql/65205,MySQL Lists: mysql: distinct problem with join and order by,mailing_list
+unknown,http://serverfault.com/questions/233496/remi-repo-mysql-server-not-starting,remi repo mysql server not starting,serverfault.com
+5.1.69,http://serverfault.com/questions/538652/mysql-5-1-69-at-centos-6-4-doesnt-know-enable-named-pipe,mysql 5 1 69 at centos 6 4 doesnt know enable named pipe,serverfault.com
+3.23.15,http://lists.mysql.com/mysql/39054,MySQL Lists: mysql: replication don't work in 3.23.15 on aix,mailing_list
+unknown,http://lists.mysql.com/cluster/6240,MySQL Lists: cluster: cluster performance,mailing_list
+3.23.42,http://lists.mysql.com/mysql/88608,MySQL Lists: mysql: what does it mean Open_files?,mailing_list
+3.23.49a,http://lists.mysql.com/mysql/103499,MySQL Lists: mysql: setting up replication woes,mailing_list
+4.0.13,http://lists.mysql.com/mysql/147435,MySQL Lists: mysql: Replication Problem...,mailing_list
+4.0.x,http://lists.mysql.com/mysql/184842,MySQL Lists: mysql: Import dump (4.0 > 4.1) and collation problem,mailing_list
+5.0.45-Debian_1,http://lists.mysql.com/cluster/5517,"MySQL Lists: cluster: INSERT not working, error 879 (?)",mailing_list
+3.23.54,http://lists.mysql.com/mysql/136677,MySQL Lists: mysql: remote connection to mysql server,mailing_list
+5.5.30,http://dba.stackexchange.com/questions/41475/mysql-innodb-does-not-return-the-last-row-on-select-with-desc-order,mysql innodb does not return the last row on select with desc order,dba.stackexchange.com
+4.0.16,http://lists.mysql.com/mysql/153348,MySQL Lists: mysql: AMD64 Performance,mailing_list
+4.1.11,http://lists.mysql.com/mysql/183683,MySQL Lists: mysql: Re: no /tmp/mysql.sock,mailing_list
+unknown,http://lists.mysql.com/mysql/129831,MySQL Lists: mysql: Can't create new thread,mailing_list
+unknown,http://serverfault.com/questions/183573/mysql-my-cnf-for-a-50gb-of-ram-server,mysql my cnf for a 50gb of ram server,serverfault.com
+5.5.21,http://serverfault.com/questions/488489/mysql-database-config-optimization,mysql database config optimization,serverfault.com
+3.22.x,http://lists.mysql.com/win32/8159,MySQL Lists: win32: Re: Installation mySQL Database on Non System Drive (Win200  Server)),mailing_list
+5.5,http://dba.stackexchange.com/questions/52761/understanding-indexes-and-using-them-better,understanding indexes and using them better,dba.stackexchange.com
+5.5.28,http://serverfault.com/questions/463075/nginx-php-fpm-mysql-high-cpu-low-ram,nginx php fpm mysql high cpu low ram,serverfault.com
+5.1.x,http://serverfault.com/questions/81341/moving-a-mysql-innodb-data-partition-from-one-computer-to-the-other,moving a mysql innodb data partition from one computer to the other,serverfault.com
+3.23.x,http://lists.mysql.com/mysql/131054,MySQL Lists: mysql: my.ini,mailing_list
+4.0.12,http://lists.mysql.com/win32/10928,MySQL Lists: win32: Replication issues 4.0.12,mailing_list
+5.1.57,http://dba.stackexchange.com/questions/61495/mysql-high-cpu-usage-myisam-tables,mysql high cpu usage myisam tables,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/153618,MySQL Lists: mysql: Time consuming table regeneration: JAVA & MySQL,mailing_list
+5.1.47,http://dba.stackexchange.com/questions/41694/mysqld-dead-but-subsys-locked,mysqld dead but subsys locked,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/224759,MySQL Lists: mysql: Re: Can't connect to MySQL server on '127.0.0.1' (111),mailing_list
+5.0.16,http://lists.mysql.com/mysql/192066,MySQL Lists: mysql: Re: chroot in MySQL 5.0,mailing_list
+unknown,http://serverfault.com/questions/281217/problem-moving-a-mysql-data-directory-to-a-new-drive,problem moving a mysql data directory to a new drive,serverfault.com
+5.1.69,http://dba.stackexchange.com/questions/49119/how-to-configure-mysql-master-slave-to-backup-master-to-slave,how to configure mysql master slave to backup master to slave,dba.stackexchange.com
+3.23.42,http://lists.mysql.com/win32/7588,MySQL Lists: win32: persistent shutdown of MySQL 3.23.42 Max on Win2K,mailing_list
+3.23.53,http://lists.mysql.com/mysql/122368,MySQL Lists: mysql: mySQL on windows xp,mailing_list
+5.5.x,http://serverfault.com/questions/520412/cant-ssh-tunnel-to-access-a-remote-mysql-server,cant ssh tunnel to access a remote mysql server,serverfault.com
+3.23.52,http://lists.mysql.com/mysql/169474,MySQL Lists: mysql: Cygwin Mysql No Response,mailing_list
+5.1.45,http://stackoverflow.com/questions/2883465/mysql-config-file-for-large-system,mysql config file for large system,stackoverflow.com
+unknown,http://lists.mysql.com/cluster/6707,MySQL Lists: cluster: Data usage increased to 81%(2597 32K pages of total 3200),mailing_list
+3.23.38,http://lists.mysql.com/mysql/133813,MySQL Lists: mysql: Bug Report:  mysql-3.23.38-win,mailing_list
+5.5.14,http://dba.stackexchange.com/questions/6134/fixing-mysql-errors-recorded-in-error-logs,fixing mysql errors recorded in error logs,dba.stackexchange.com
+unknown,http://dba.stackexchange.com/questions/56412/mysql-query-extremely-slow-after-server-restart,mysql query extremely slow after server restart,dba.stackexchange.com
+5.5.28,http://dba.stackexchange.com/questions/39692/mysql-loses-connection,mysql loses connection,dba.stackexchange.com
+4.0.20,http://lists.mysql.com/mysql/175691,MySQL Lists: mysql: Moving innodb from Linux to Windows,mailing_list
+4.0.5,http://lists.mysql.com/mysql/175888,MySQL Lists: mysql: Mysql taking 100% Mem utilisation,mailing_list
+unknown,http://lists.mysql.com/mysql/194480,"MySQL Lists: mysql: Re: Error: server is running,with the --read-only option",mailing_list
+5.5.x,http://serverfault.com/questions/375490/what-am-i-doing-wrong-in-my-config-for-mysql,what am i doing wrong in my config for mysql,serverfault.com
+5.5.24,http://serverfault.com/questions/431597/mysql-binlogs-seems-incomplete,mysql binlogs seems incomplete,serverfault.com
+5.1.41,http://serverfault.com/questions/331940/mysql-filled-all-ram-on-the-system,mysql filled all ram on the system,serverfault.com
+unknown,http://lists.mysql.com/mysql/135901,MySQL Lists: mysql: Re: mysql.sock,mailing_list
+5.5.x,http://serverfault.com/questions/328443/replication-stops,replication stops,serverfault.com
+unknown,http://lists.mysql.com/mysql/150967,MySQL Lists: mysql: Replication MASTER-SLAVE,mailing_list
+3.23.55,http://lists.mysql.com/mysql/133116,MySQL Lists: mysql: RE: mysqld-max but still no referential integrity?,mailing_list
+2.23.49,http://lists.mysql.com/mysql/119584,MySQL Lists: mysql: MySQL 2.23.52-max unstable? High loads,mailing_list
+unknown,http://lists.mysql.com/win32/9280,MySQL Lists: win32: innodb setup on Win2000,mailing_list
+unknown,http://lists.mysql.com/mysql/207579,MySQL Lists: mysql: ERROR 2002 (HY000): Can't connect to local MySQL server,mailing_list
+5.1.61,http://dba.stackexchange.com/questions/27892/innodb-master-master-replication-goes-inconsistant-after-power-failure-tests,innodb master master replication goes inconsistant after power failure tests,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/10807242/mysql-optimize-variables-for-large-tables,mysql optimize variables for large tables,stackoverflow.com
+3.23.32,http://lists.mysql.com/mysql/76458,MySQL Lists: mysql: Getting MySQL-3.23.35/up working on my box.,mailing_list
+unknown,http://dba.stackexchange.com/questions/20210/query-cache-tuning-for-a-database-server-to-keep-db-from-slowing,query cache tuning for a database server to keep db from slowing,dba.stackexchange.com
+5.5.x,http://stackoverflow.com/questions/11112691/freebsd-mysql-5-5-high-i-o-usage,freebsd mysql 5 5 high i o usage,stackoverflow.com
+3.23.36,http://lists.mysql.com/mysql/82467,"MySQL Lists: mysql: Lost bin-log(s) following logrotate affecting recovery,
+  replication",mailing_list
+5.5.22,http://dba.stackexchange.com/questions/39807/error-1034-hy000-wrong-aligned-block-while-importing-in-mysql,error 1034 hy000 wrong aligned block while importing in mysql,dba.stackexchange.com
+5.5.24,http://stackoverflow.com/questions/17387299/what-are-huge-files-0-000001-and-0-000002-files-and-so-on-in-mysql-data-folder,what are huge files 0 000001 and 0 000002 files and so on in mysql data folder,stackoverflow.com
+unknown,http://lists.mysql.com/replication/1652,MySQL Lists: replication: Upload from cluster takes forever,mailing_list
+unknown,http://lists.mysql.com/mysql/213754,MySQL Lists: mysql: Re: Major Performance Degradation after replacing Hard Drive,mailing_list
+3.23.54,http://lists.mysql.com/mysql/139905,MySQL Lists: mysql: RE: Memory Usage Question,mailing_list
+unknown,http://serverfault.com/questions/446843/error-2003-hy000-cant-connect-to-mysql-server-on-111,error 2003 hy000 cant connect to mysql server on 111,serverfault.com
+unknown,http://lists.mysql.com/replication/2469,MySQL Lists: replication: replication problem's with data base mysql,mailing_list
+5.1.56,http://serverfault.com/questions/420694/connecting-to-mqsql-database-externally-on-windows,connecting to mqsql database externally on windows,serverfault.com
+4.0.15,http://lists.mysql.com/mysql/150460,MySQL Lists: mysql: Mysql Problem in Windows 2000 advanced server,mailing_list
+5.1.69,http://serverfault.com/questions/518747/mysql-is-running-very-slow-on-centos-6x-not-5x,mysql is running very slow on centos 6x not 5x,serverfault.com
+5.5.8,http://stackoverflow.com/questions/6783538/difficulties-with-mysql-connection-in-visual-basic-2010-express,difficulties with mysql connection in visual basic 2010 express,stackoverflow.com
+5.5.30,http://dba.stackexchange.com/questions/46893/mysql-memory-grows-over-time,mysql memory grows over time,dba.stackexchange.com
+5.6.12,http://serverfault.com/questions/516934/after-installing-mysql-5-6-the-server-cant-start,after installing mysql 5 6 the server cant start,serverfault.com
+5.1.x,http://stackoverflow.com/questions/2252243/lots-of-mysql-sleep-processes,lots of mysql sleep processes,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/204512,MySQL Lists: mysql: FW: [PART 2/2] InnoDB - Different EXPLAINs for same query,mailing_list
+5.5.x,http://stackoverflow.com/questions/7928675/mysql-i-cannot-login-as-root-after-upgrading-to-5-5,mysql i cannot login as root after upgrading to 5 5,stackoverflow.com
+5.1.31,http://lists.mysql.com/mysql/216281,MySQL Lists: mysql: Install problem: log file issue,mailing_list
+3.23.56,http://lists.mysql.com/mysql/147220,MySQL Lists: mysql: Perfomance Tuning,mailing_list
+5.0.18,http://lists.mysql.com/mysql/193465,MySQL Lists: mysql: Help...I am desparate,mailing_list
+5.5.x,http://dba.stackexchange.com/questions/58256/what-is-best-configuration-for-50gb-database-for-mysql-server-5-5,what is best configuration for 50gb database for mysql server 5 5,dba.stackexchange.com
+3.23.36,http://lists.mysql.com/mysql/70628,MySQL Lists: mysql: Starting .36 with innobase failed on HPUX-11 / problem with my.cnf,mailing_list
+unknown,http://serverfault.com/questions/503588/cant-connect-to-mysql-server,cant connect to mysql server,serverfault.com
+5.5.x,http://stackoverflow.com/questions/20523297/24-cores-and-mysql-is-using-1-on-insert,24 cores and mysql is using 1 on insert,stackoverflow.com
+3.23.54,http://lists.mysql.com/mysql/138038,MySQL Lists: mysql: Starting MySQL port 3306 not listening,mailing_list
+3.23.35,http://lists.mysql.com/mysql/68805,MySQL Lists: mysql: RE: AW: AW: Got an error reading communication packets,mailing_list
+5.6.x,http://serverfault.com/questions/530215/modifying-the-mysql-default-data-location,modifying the mysql default data location,serverfault.com
+unknown,http://serverfault.com/questions/495488/rails-mysql-post-server-restart-why-do-i-get-cant-create-write-to-file-tm,rails mysql post server restart why do i get cant create write to file tm,serverfault.com
+unknown,http://lists.mysql.com/mysql/184402,MySQL Lists: mysql: Query Issue on Large DB,mailing_list
+5.5.28,http://lists.mysql.com/win32/19175,MySQL Lists: win32: mysql threads too high,mailing_list
+5.5.33,http://dba.stackexchange.com/questions/48659/finding-swap-causes-of-mysql,finding swap causes of mysql,dba.stackexchange.com
+4.1.9,http://lists.mysql.com/mysql/181059,MySQL Lists: mysql: slowly running mysql server,mailing_list
+4.1.10a,http://lists.mysql.com/mysql/192729,MySQL Lists: mysql: MySQL hangs each relative poor time,mailing_list
+5.6.14,http://dba.stackexchange.com/questions/53715/random-mysql-cannot-connect-to-master-errors,random mysql cannot connect to master errors,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/223564,MySQL Lists: mysql: MySQL replication SSL,mailing_list
+unknown,http://serverfault.com/questions/288937/help-about-log-mysql,help about log mysql,serverfault.com
+unknown,http://lists.mysql.com/mysql/196911,MySQL Lists: mysql: Re: ~ How to install 3 instances of mysql~,mailing_list
+unknown,http://lists.mysql.com/mysql/149467,MySQL Lists: mysql: RE: Unable to Create DB Connection,mailing_list
+4.0.17,http://lists.mysql.com/win32/13294,MySQL Lists: win32: RE: Continuing database hang/slowdown,mailing_list
+5.1.49,http://serverfault.com/questions/259912/problem-with-wireshark-mysql-sniffing,problem with wireshark mysql sniffing,serverfault.com
+3.23.28,http://lists.mysql.com/mysql/61230,MySQL Lists: mysql: Replication - show master status gives double result,mailing_list
+5.1.x,http://serverfault.com/questions/87705/very-slow-mysql,very slow mysql,serverfault.com
+5.5.x,http://dba.stackexchange.com/questions/61523/how-should-i-config-the-my-inior-my-cnf-file-for-mysql,how should i config the my inior my cnf file for mysql,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/54391,MySQL Lists: mysql: Major bug in replicaton,mailing_list
+unknown,http://stackoverflow.com/questions/10717767/mysql-magento-performance-issues-on-amazon-ec2,mysql magento performance issues on amazon ec2,stackoverflow.com
+unknown,http://serverfault.com/questions/300958/mysql-is-hogging-my-server-resources,mysql is hogging my server resources,serverfault.com
+3.23.52,http://lists.mysql.com/win32/10001,MySQL Lists: win32: Re: MySQL and INNODB,mailing_list
+3.23.49,http://lists.mysql.com/mysql/120412,MySQL Lists: mysql: The Important question,mailing_list
+5.5.22,http://stackoverflow.com/questions/10059948/cannot-install-mysql-server-in-windows-xp,cannot install mysql server in windows xp,stackoverflow.com
+5.1.x,http://serverfault.com/questions/53266/how-to-fine-tune-our-mysql-server,how to fine tune our mysql server,serverfault.com
+4.0.18,http://lists.mysql.com/win32/14670,"MySQL Lists: win32: winmysql not showing database commands (create database, etc.)",mailing_list
+3.23.47,http://lists.mysql.com/win32/8176,MySQL Lists: win32: Intermittent MyISAM Table Index Key Corruption Problem,mailing_list
+4.0.13,http://lists.mysql.com/mysql/144328,MySQL Lists: mysql: mysqld crashes during long index build,mailing_list
+unknown,http://serverfault.com/questions/426289/marriadb-on-opensuse-11-4-continually-crashes,marriadb on opensuse 11 4 continually crashes,serverfault.com
+unknown,http://lists.mysql.com/cluster/6322,MySQL Lists: cluster: RE: Disk backed storage scaling?,mailing_list
+unknown,http://lists.mysql.com/mysql/185216,MySQL Lists: mysql: some thing wrong when I try to use innodb,mailing_list
+4.1.20,http://lists.mysql.com/mysql/217989,MySQL Lists: mysql: very strange performance issue,mailing_list
+unknown,http://stackoverflow.com/questions/19117487/i-cant-start-mysql-on-linux-error-mysqld-safe,i cant start mysql on linux error mysqld safe,stackoverflow.com
+unknown,http://stackoverflow.com/questions/7923683/mysql-not-using-the-available-memory,mysql not using the available memory,stackoverflow.com
+5.0.x,http://dba.stackexchange.com/questions/14006/innodb-update-performance,innodb update performance,dba.stackexchange.com
+unknown,http://serverfault.com/questions/505682/django-cant-connect-to-local-mysql-server-through-socket,django cant connect to local mysql server through socket,serverfault.com
+unknown,http://serverfault.com/questions/99140/mysql-server-overloading-without-error,mysql server overloading without error,serverfault.com
+unknown,http://stackoverflow.com/questions/19100530/mysql-select-or-update-acting-very-strange,mysql select or update acting very strange,stackoverflow.com
+5.1.63,http://dba.stackexchange.com/questions/30856/mysql-server-optimization-tips-needed-innodb,mysql server optimization tips needed innodb,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/221609,MySQL Lists: mysql: Re: Foreign Key Problem,mailing_list
+5.5.32,http://stackoverflow.com/questions/18694188/mysql-connection-taking-too-much-time,mysql connection taking too much time,stackoverflow.com
+unknown,http://serverfault.com/questions/389289/cant-connect-to-local-mysql-server-through-socket-var-lib-mysql-mysql-sock-2,cant connect to local mysql server through socket var lib mysql mysql sock 2,serverfault.com
+4.1.x,http://lists.mysql.com/mysql/201074,MySQL Lists: mysql: Log files,mailing_list
+4.0.1-alpha,http://lists.mysql.com/mysql/117511,MySQL Lists: mysql: BUG in 4.0.1 - alpha,mailing_list
+3.23.36,http://lists.mysql.com/mysql/84441,MySQL Lists: mysql: MySQL crashing/stopping in ABRIASOFT's installation,mailing_list
+5.1.61,http://serverfault.com/questions/453729/periodic-mysql-lockup-when-wordpress-is-under-heavy-load,periodic mysql lockup when wordpress is under heavy load,serverfault.com
+unknown,http://lists.mysql.com/win32/11419,MySQL Lists: win32: install problem,mailing_list
+unknown,http://stackoverflow.com/questions/12944386/mysql-not-working,mysql not working,stackoverflow.com
+unknown,http://stackoverflow.com/questions/11819047/access-denied-for-user-userlocalhost-on-mysql,access denied for user userlocalhost on mysql,stackoverflow.com
+5.5.x,http://dba.stackexchange.com/questions/30295/bin-logs-with-high-i-o,bin logs with high i o,dba.stackexchange.com
+unknown,http://lists.mysql.com/win32/16374,MySQL Lists: win32: Last attempt,mailing_list
+unknown,http://serverfault.com/questions/204461/how-to-set-query-cache-size-and-join-buffer-size-in-my-cnf-file,how to set query cache size and join buffer size in my cnf file,serverfault.com
+5.0.95,http://dba.stackexchange.com/questions/15004/how-to-initiate-mysql-on-mac-os-x-10-6-8,how to initiate mysql on mac os x 10 6 8,dba.stackexchange.com
+3.23.25-beta,http://lists.mysql.com/mysql/53580,MySQL Lists: mysql: MySQL hangs,mailing_list
+unknown,http://stackoverflow.com/questions/19577394/error-2002-hy000-cant-connect-to-local-mysql-server-after-my-cnf-update,error 2002 hy000 cant connect to local mysql server after my cnf update,stackoverflow.com
+5.1.52,http://serverfault.com/questions/351926/high-iowait-on-amazon-ec2-mysql-instance-with-ebs-volume,high iowait on amazon ec2 mysql instance with ebs volume,serverfault.com
+4.0.26,http://lists.mysql.com/mysql/194737,MySQL Lists: mysql: Need help configuring INNODB (Customer is ready to sue),mailing_list
+4.0.13,http://lists.mysql.com/mysql/141542,MySQL Lists: mysql: Replication over SSL,mailing_list
+unknown,http://lists.mysql.com/mysql/128735,MySQL Lists: mysql: RE : Optimizing,mailing_list
+4.0.16,http://lists.mysql.com/mysql/152957,MySQL Lists: mysql: FW: performance while creating indexes,mailing_list
+3.23.51,http://lists.mysql.com/mysql/114364,MySQL Lists: mysql: replication error - failed reading log event (server_errno=1159),mailing_list
+5.0.96,http://dba.stackexchange.com/questions/42096/mysql-is-running-but-not-working,mysql is running but not working,dba.stackexchange.com
+unknown,http://serverfault.com/questions/490656/mysql-not-starting-error-usr-sbin-mysqld-unknown-option-query-cache-si,mysql not starting error usr sbin mysqld unknown option query cache si,serverfault.com
+4.0.14.,http://lists.mysql.com/mysql/152072,MySQL Lists: mysql: Mysql Performance Question,mailing_list
+unknown,http://dba.stackexchange.com/questions/31793/very-poor-insert-performance-mysql-percona-server,very poor insert performance mysql percona server,dba.stackexchange.com
+3.23.41-log,http://lists.mysql.com/mysql/146147,MySQL Lists: mysql: RE: Aborted clients,mailing_list
+unknown,http://serverfault.com/questions/436322/mysql-migrate-huge-db-from-innodb-to-ndbcluster-err-the-table-is-full,mysql migrate huge db from innodb to ndbcluster err the table is full,serverfault.com
+5.5.x,http://lists.mysql.com/mysql/229787,MySQL Lists: mysql: mysql 5.5 crashed on Debian 6 after server crash,mailing_list
+5.1.26,http://serverfault.com/questions/387275/mysql-errors-with-drupal-and-mediatemple,mysql errors with drupal and mediatemple,serverfault.com
+4.0.12,http://lists.mysql.com/mysql/136020,MySQL Lists: mysql: MySQL4 keeps restarting itself,mailing_list
+4.0.2,http://lists.mysql.com/mysql/116747,MySQL Lists: mysql: RE: Foreign keys vont delete on cascade,mailing_list
+unknown,http://lists.mysql.com/win32/11734,"MySQL Lists: win32: Fw: NT service starts, but I still have to start server manually.",mailing_list
+unknown,http://dba.stackexchange.com/questions/33239/in-mysql-multiple-instance-default-instance-is-running-second-instance-is-not,in mysql multiple instance default instance is running second instance is not,dba.stackexchange.com
+unknown,http://serverfault.com/questions/421539/any-mysql-client-on-my-local-machine-freezes-if-not-talking-to-server-for-a-whil,any mysql client on my local machine freezes if not talking to server for a whil,serverfault.com
+5.1.61,http://lists.mysql.com/mysql/229874,MySQL Lists: mysql: Lost  connection to MySQL server - need help.,mailing_list
+5.1.69,http://dba.stackexchange.com/questions/45809/mysql-tried-to-restart-itself-3-or-more-times-but-it-failed-finally,mysql tried to restart itself 3 or more times but it failed finally,dba.stackexchange.com
+3.23.52,http://lists.mysql.com/mysql/148549,MySQL Lists: mysql: Fw: Replication Problem (XP+mysql4.0.14),mailing_list
+5.5.22,http://serverfault.com/questions/400020/mysql-using-high-virt-memory-and-res-is-compartively,mysql using high virt memory and res is compartively,serverfault.com
+5.5.24,http://stackoverflow.com/questions/20022537/wampserver-error-2003-hy000-cant-connect-to-mysql-server-on-localhost-1,wampserver error 2003 hy000 cant connect to mysql server on localhost 1,stackoverflow.com
+3.23.41,http://lists.mysql.com/win32/7340,"MySQL Lists: win32: Can't get past ""incorrect info in file host.frm"" on new win2k install",mailing_list
+5.1.66,http://serverfault.com/questions/470993/solving-mysql-2003-error,solving mysql 2003 error,serverfault.com
+unknown,http://lists.mysql.com/mysql/146750,MySQL Lists: mysql: error message: C:mysqin\share\english\errmsg.sys,mailing_list
+unknown,http://lists.mysql.com/mysql/216244,MySQL Lists: mysql: mysql optimization tips,mailing_list
+5.1.45,http://serverfault.com/questions/144206/mysql-config-on-large-machine,mysql config on large machine,serverfault.com
+3.23.54a,http://lists.mysql.com/mysql/130310,"MySQL Lists: mysql: RedHat 8, mysql-server-3.23.54a-4 and relocating the data directory",mailing_list
+5.5.29,http://dba.stackexchange.com/questions/36465/is-my-cnf-for-mysql-5-5-is-suitable-and-well-tuned-for-below-hardware-spec,is my cnf for mysql 5 5 is suitable and well tuned for below hardware spec,dba.stackexchange.com
+4.12 and 4.19,http://lists.mysql.com/mysql/178831,"MySQL Lists: mysql: Re: Connection performance, suggestions?",mailing_list
+5.5.x,http://dba.stackexchange.com/questions/27473/the-best-mysql-configuration-for-my-server,the best mysql configuration for my server,dba.stackexchange.com
+4.1.14,http://lists.mysql.com/mysql/189743,MySQL Lists: mysql: Re: daemon crash when shutting down large databases,mailing_list
+unknown,http://lists.mysql.com/mysql/115560,MySQL Lists: mysql: Starting on Windows 2000 Server,mailing_list
+5.1.41,http://serverfault.com/questions/248033/any-problems-with-my-mysql-replication-setup-command,any problems with my mysql replication setup command,serverfault.com
+3.23.39,http://lists.mysql.com/win32/6706,MySQL Lists: win32: Re: MySQL won't start as a service in Windows 2000,mailing_list
+4.0.2.-alpha,http://lists.mysql.com/mysql/121521,MySQL Lists: mysql: re: Problems with LOAD DATA LOCAL INFILE,mailing_list
+4.1.9,http://lists.mysql.com/mysql/190168,"MySQL Lists: mysql: Out Of Memory problems: One MySQL user, 86 minutes sleeping",mailing_list
+5.5.x,http://stackoverflow.com/questions/19950760/mysql-performance-tuning-myisam-using-my-cnf,mysql performance tuning myisam using my cnf,stackoverflow.com
+5.1.32-0.dotdeb.1,http://lists.mysql.com/mysql/216957,MySQL Lists: mysql: Mysql High load CPU,mailing_list
+5.1.61,http://stackoverflow.com/questions/13224177/why-is-this-mysql-query-so-slow-in-mysql-5-1-56,why is this mysql query so slow in mysql 5 1 56,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/71868,MySQL Lists: mysql: Newbie Linux 7 installation question,mailing_list
+5.1.39,http://serverfault.com/questions/287907/mysql-not-using-specified-ram-anymore,mysql not using specified ram anymore,serverfault.com
+ 5.0.77,http://serverfault.com/questions/238155/severe-mysqldump-performance-degradation-using-centos-linux-8gb-pae-and-mysql-5,severe mysqldump performance degradation using centos linux 8gb pae and mysql 5,serverfault.com
+unknown,http://lists.mysql.com/win32/7318,MySQL Lists: win32: Big Problems for me...,mailing_list
+unknown,http://lists.mysql.com/mysql/74962,"MySQL Lists: mysql: Can't connect to local MySQL server through socket '/tmp/mysql.sock'
+ (2)",mailing_list
+4.0.20d,http://lists.mysql.com/win32/15203,MySQL Lists: win32: Need Help on My MySQL Installation Problem,mailing_list
+4.1.20,http://lists.mysql.com/replication/473,MySQL Lists: replication: Replication error -- Slave I/O thread: error connecting to master,mailing_list
+unknown,http://stackoverflow.com/questions/5167827/mysql-tablespace-location-using-innodb-engine,mysql tablespace location using innodb engine,stackoverflow.com
+3.23.49,http://lists.mysql.com/mysql/109585,MySQL Lists: mysql: Replication OpenBSD  Linux is failing,mailing_list
+4.1.11,http://lists.mysql.com/mysql/188920,"MySQL Lists: mysql: default my.cnf vs huge.cnf nearly same performance with
+	sql-bench/run-all-tests",mailing_list
+unknown,http://serverfault.com/questions/276699/how-do-i-enable-innodb-on-ubuntu-server-10-04,how do i enable innodb on ubuntu server 10 04,serverfault.com
+3.23.27,http://lists.mysql.com/mysql/56397,MySQL Lists: mysql: Changing Location of PID File,mailing_list
+unknown,http://dba.stackexchange.com/questions/28104/mysql-innodb-write-operations-are-extremely-slow,mysql innodb write operations are extremely slow,dba.stackexchange.com
+3.23.36,http://lists.mysql.com/mysql/91066,MySQL Lists: mysql: table corrupted after an error free load,mailing_list
+5.0.37,http://lists.mysql.com/mysql/207526,MySQL Lists: mysql: mysqldump problem with large innodb tables...,mailing_list
+5.1.x,http://stackoverflow.com/questions/10883031/getting-error-cant-connect-to-mysql-server-on-server-ip-99,getting error cant connect to mysql server on server ip 99,stackoverflow.com
+3.23.52,http://lists.mysql.com/mysql/141751,MySQL Lists: mysql: Problem with mysql replication,mailing_list
+unknown,http://serverfault.com/questions/397740/nginx-apache-mysql-memcache-with-server-4g-ram-how-optimize-to-enought-me,nginx apache mysql memcache with server 4g ram how optimize to enought me,serverfault.com
+4.0.12,http://lists.mysql.com/win32/11085,MySQL Lists: win32: Re: MySQL 4.0.12 on Win XP Pro not working; error# 1450,mailing_list
+3.23.43,http://lists.mysql.com/win32/7636,MySQL Lists: win32: MySQL doesn't start up,mailing_list
+3.22.26a,http://lists.mysql.com/win32/868,MySQL Lists: win32: win32 and --init-file directive,mailing_list
+4.0.1,http://lists.mysql.com/win32/8195,MySQL Lists: win32: Embedded MySQL server,mailing_list
+unknown,http://dba.stackexchange.com/questions/19453/jboss-dont-fail-over-mysql-slave-using-datasource,jboss dont fail over mysql slave using datasource,dba.stackexchange.com
+3.23.42,http://lists.mysql.com/mysql/87321,MySQL Lists: mysql: Stupid InnoDB,mailing_list
+unknown,http://serverfault.com/questions/146699/specific-apache-mysql-settings-for-a-light-weight-site,specific apache mysql settings for a light weight site,serverfault.com
+5.5.15,http://serverfault.com/questions/309853/how-to-enable-the-mysql-slow-query-log-5-5-15,how to enable the mysql slow query log 5 5 15,serverfault.com
+4.0.24,http://lists.mysql.com/mysql/183059,MySQL Lists: mysql: libCstd.so.1 not found while running mysql_install_db,mailing_list
+5.0.67,http://stackoverflow.com/questions/2194914/why-is-mysql-innodb-so-much-slower-at-full-table-scans-than-myisam,why is mysql innodb so much slower at full table scans than myisam,stackoverflow.com
+5.1.68,http://dba.stackexchange.com/questions/40180/mysql-hangs-after-every-restart-corrupted-tables-every-now-and-then-5-1-6,mysql hangs after every restart corrupted tables every now and then 5 1 6,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/21498840/mysql-server-does-not-use-all-available-ram,mysql server does not use all available ram,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/99213,MySQL Lists: mysql: Help!,mailing_list
+3.23.41-log,http://lists.mysql.com/mysql/130385,MySQL Lists: mysql: Recreating indexes on large tables,mailing_list
+unknown,http://serverfault.com/questions/532002/unable-to-do-manual-mysql-install,unable to do manual mysql install,serverfault.com
+3.23.40,http://lists.mysql.com/mysql/82881,MySQL Lists: mysql: Re: BDB and InnoDB in windows nt versions,mailing_list
+5.1.30,http://stackoverflow.com/questions/1980004/2006-mysql-server-has-gone-away-error-in-wamp,2006 mysql server has gone away error in wamp,stackoverflow.com
+unknown,http://stackoverflow.com/questions/8601237/optimizing-mysql-database-for-fast-count,optimizing mysql database for fast count,stackoverflow.com
+3.23.55,http://lists.mysql.com/win32/11855,MySQL Lists: win32: External lock causing mysql crash.,mailing_list
+4.0.20,http://lists.mysql.com/mysql/169661,MySQL Lists: mysql: Slow server - any idea?,mailing_list
+unknown,http://stackoverflow.com/questions/22140152/ubuntu-mysql-my-cnf-settings-not-updating,ubuntu mysql my cnf settings not updating,stackoverflow.com
+5.1.52,http://lists.mysql.com/mysql/229549,MySQL Lists: mysql: Re: help: innodb database cannot recover,mailing_list
+3.23.39,http://lists.mysql.com/mysql/79121,MySQL Lists: mysql: Potential MySQL replication bug,mailing_list
+3.23.x,http://lists.mysql.com/mysql/76135,MySQL Lists: mysql: Error I'm receiving,mailing_list
+unknown,http://lists.mysql.com/mysql/211977,MySQL Lists: mysql: Re: R: Multiple instances howto,mailing_list
+5.0.77,http://serverfault.com/questions/242150/mysql-replicating-the-mysql-database,mysql replicating the mysql database,serverfault.com
+4.1.7,http://lists.mysql.com/mysql/176437,MySQL Lists: mysql: Re: Innodb Corruption with error logs now.,mailing_list
+5.0.77,http://serverfault.com/questions/280644/cannot-enlarge-mysql-innodb-buffer-size-causes-mysql-to-crash,cannot enlarge mysql innodb buffer size causes mysql to crash,serverfault.com
+5.0.45,http://serverfault.com/questions/351062/general-logging-wont-work-in-mysql,general logging wont work in mysql,serverfault.com
+3.22.32-1,http://lists.mysql.com/mysql/38705,MySQL Lists: mysql: mysql_install_db fail!!!,mailing_list
+unknown,http://stackoverflow.com/questions/4854713/loading-mysql-database-from-dump-is-taking-a-long-time,loading mysql database from dump is taking a long time,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/118811,MySQL Lists: mysql: Replication problem: slave can't log into master,mailing_list
+3.23.58,http://lists.mysql.com/mysql/163222,MySQL Lists: mysql: mysql error file,mailing_list
+unknown,http://lists.mysql.com/mysql/183122,MySQL Lists: mysql: ibdata1 grows beyound borders..,mailing_list
+unknown,http://dba.stackexchange.com/questions/49838/query-getting-periodically-stuck-in-copying-to-tmp-table-state-never-complete,query getting periodically stuck in copying to tmp table state never complete,dba.stackexchange.com
+5.0.51,http://serverfault.com/questions/106323/fixing-mysql-server-has-gone-away-error,fixing mysql server has gone away error,serverfault.com
+5.1.66,http://lists.mysql.com/mysql/230090,MySQL Lists: mysql: DBA: please review my.cnf [for Java Hibernate application] and give suggestions,mailing_list
+4.0.1-alpha,http://lists.mysql.com/mysql/112192,"MySQL Lists: mysql: inoodb autoextend problem, solaris 2.7, 4.0.1-alpha-max",mailing_list
+4.0.12,http://lists.mysql.com/mysql/139992,MySQL Lists: mysql: Can't start mysql demon with my.cnf,mailing_list
+unknown,http://serverfault.com/questions/233166/problem-with-mysql-and-utf-8,problem with mysql and utf 8,serverfault.com
+5.1.59,http://serverfault.com/questions/323470/terrible-mysqld-performance-after-system-upgrade,terrible mysqld performance after system upgrade,serverfault.com
+5.6.x,http://serverfault.com/questions/351257/installing-mysql-5-6-on-ubuntu,installing mysql 5 6 on ubuntu,serverfault.com
+5.0.22,http://stackoverflow.com/questions/9300600/no-results-after-removing-mysql-ft-stopword-file,no results after removing mysql ft stopword file,stackoverflow.com
+4.1.2,http://lists.mysql.com/mysql/167362,MySQL Lists: mysql: Problems installing 4.0 & 4.1 on XP system,mailing_list
+3.23.54-57,http://lists.mysql.com/mysql/149427,"MySQL Lists: mysql: RE: ""ERROR 1030: Got error 127 from table handler""",mailing_list
+3.23.57,http://lists.mysql.com/win32/11904,MySQL Lists: win32: installation problems,mailing_list
+4.0.22,http://lists.mysql.com/mysql/182495,MySQL Lists: mysql: InnoDB Performance,mailing_list
+3.23.56,http://lists.mysql.com/mysql/146369,MySQL Lists: mysql: using innodb,mailing_list
+unknown,http://stackoverflow.com/questions/14176163/mysqld-defaults-file-and-tmpdir-problems,mysqld defaults file and tmpdir problems,stackoverflow.com
+3.23.36,http://lists.mysql.com/mysql/86869,MySQL Lists: mysql: MySQL 3.23.36 crash on MDK 8,mailing_list
+unknown,http://stackoverflow.com/questions/10948585/mysql-thread-not-executing-still-in-sleep-state,mysql thread not executing still in sleep state,stackoverflow.com
+5.1.41,http://stackoverflow.com/questions/7708092/mysqld-intermittent-restarts-under-load,mysqld intermittent restarts under load,stackoverflow.com
+unknown,http://stackoverflow.com/questions/6563591/speed-up-innodb-mysql-database-import,speed up innodb mysql database import,stackoverflow.com
+3.23.36,http://lists.mysql.com/mysql/82274,MySQL Lists: mysql: Mysql causing severe load problems on Dual-Athlon server?,mailing_list
+unknown,http://serverfault.com/questions/163166/mysql-connection-error-mysql-server-gets-down-for-a-while-and-then-restarts,mysql connection error mysql server gets down for a while and then restarts,serverfault.com
+unknown,http://stackoverflow.com/questions/21313395/mysql-not-booting-with-new-my-cnf-file-from-percona-tools,mysql not booting with new my cnf file from percona tools,stackoverflow.com
+3.23.32,http://lists.mysql.com/mysql/73119,MySQL Lists: mysql: Performance Problems with Huge Table,mailing_list
+4.1.11,http://lists.mysql.com/mysql/193742,MySQL Lists: mysql: localhost vs. 127.0.0.1 error: 'Lost connection to MySQL server during query',mailing_list
+5.5.24,http://stackoverflow.com/questions/14389907/does-it-make-sense-to-alter-this-db-schema-with-indexed-columns-for-binary-filte,does it make sense to alter this db schema with indexed columns for binary filte,stackoverflow.com
+4.0.20,http://lists.mysql.com/mysql/172208,MySQL Lists: mysql: innodb long sempahore wait,mailing_list
+3.22.34,http://lists.mysql.com/win32/10959,MySQL Lists: win32: Problems...,mailing_list
+4.0.14,http://lists.mysql.com/mysql/149209,MySQL Lists: mysql: Problem with MySQL 4.0.14 - Server Crash,mailing_list
+5.0.x,http://lists.mysql.com/mysql/193564,MySQL Lists: mysql: ~75% performance drop upgrading from Mysql 4.0 to 5.0,mailing_list
+5.5.x,http://dba.stackexchange.com/questions/25463/slow-backup-and-extremely-slow-restores,slow backup and extremely slow restores,dba.stackexchange.com
+unknown,http://lists.mysql.com/win32/1712,MySQL Lists: win32: MULTIPLE DATABASES,mailing_list
+4.0.16,http://lists.mysql.com/mysql/157677,MySQL Lists: mysql: [Fwd: Re: Replication syncronization lag.],mailing_list
+4.0.23,http://lists.mysql.com/mysql/184030,MySQL Lists: mysql: mysqld post-mortem,mailing_list
+unknown,http://serverfault.com/questions/94646/launching-mysql-server-same-permissions-for-root-and-for-user,launching mysql server same permissions for root and for user,serverfault.com
+5.1.61,http://stackoverflow.com/questions/10447009/mysql-blocked-in-preparing-statement-with-really-strange-behavior,mysql blocked in preparing statement with really strange behavior,stackoverflow.com
+5.5.28,http://dba.stackexchange.com/questions/31182/mysql-slowly-uses-memory-until-it-starts-to-use-swap,mysql slowly uses memory until it starts to use swap,dba.stackexchange.com
+5.5.33,http://stackoverflow.com/questions/21658687/ssl-setup-error-error-2026-hy000failed-to-set-ciphers-to-use,ssl setup error error 2026 hy000failed to set ciphers to use,stackoverflow.com
+5.0.77,http://lists.mysql.com/mysql/221042,MySQL Lists: mysql: Re: Best Configuration on Production Server,mailing_list
+unknown,http://lists.mysql.com/mysql/191342,MySQL Lists: mysql: locked status problem,mailing_list
+4.0.16-nt,http://lists.mysql.com/win32/12801,"MySQL Lists: win32: newbie question: user priveledges, admin, setting up root user, etc.",mailing_list
+3.23.49,http://lists.mysql.com/mysql/101865,MySQL Lists: mysql: Re: win start problem,mailing_list
+unknown,http://stackoverflow.com/questions/13845813/logging-mysql-queries-wont-work,logging mysql queries wont work,stackoverflow.com
+4.1.12,http://lists.mysql.com/mysql/196810,MySQL Lists: mysql: FW: Mysql C API character set,mailing_list
+5.1.26,http://stackoverflow.com/questions/19531109/128mb-ram-for-mysql-from-mediatemple-my-cnf-tweaks,128mb ram for mysql from mediatemple my cnf tweaks,stackoverflow.com
+3.23.49,http://lists.mysql.com/mysql/122973,MySQL Lists: mysql: Can't Restart Server,mailing_list
+5.1.22,http://lists.mysql.com/cluster/5432,MySQL Lists: cluster: Mysqld daemon still dumping,mailing_list
+5.0.95,http://dba.stackexchange.com/questions/50467/invalidating-query-cache-entrieskey,invalidating query cache entrieskey,dba.stackexchange.com
+5.0.x,http://lists.mysql.com/mysql/200764,MySQL Lists: mysql: query logging is making me mental!,mailing_list
+unknown,http://lists.mysql.com/mysql/118956,MySQL Lists: mysql: RE: Replication problem: slave can't log into master (update),mailing_list
+5.1.x,http://dba.stackexchange.com/questions/16296/repair-with-keycache-in-mysql-runs-every-time-cant-even-log-why-its-happening,repair with keycache in mysql runs every time cant even log why its happening,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/17430802/cant-connect-to-local-mysql-server-through-socket-var-run-mysqld-mysqld-sock,cant connect to local mysql server through socket var run mysqld mysqld sock,stackoverflow.com
+4.1.7,http://lists.mysql.com/mysql/176068,MySQL Lists: mysql: innodb data file grew beyond the specified max size in config,mailing_list
+5.5.28,http://lists.mysql.com/mysql/228673,"MySQL Lists: mysql: Innodb, MySQL 5.5.28 - Would an incorrect setting in my.cnf cause
+ mysqld to randomly crash on high load?",mailing_list
+unknown,http://stackoverflow.com/questions/14068946/mysql-crashes-due-to-out-of-memory-while-running-magento,mysql crashes due to out of memory while running magento,stackoverflow.com
+unknown,http://stackoverflow.com/questions/17208659/django-nginx-and-uwsgi-caching-results-until-uwsgi-mysql-restart,django nginx and uwsgi caching results until uwsgi mysql restart,stackoverflow.com
+4.0.5,http://lists.mysql.com/mysql/171629,MySQL Lists: mysql: Re: replication config without stopping master server,mailing_list
+5.5.x,http://stackoverflow.com/questions/5906478/please-help-me-with-table-nested-join-optimization-way-too-slow,please help me with table nested join optimization way too slow,stackoverflow.com
+3.23.39,http://lists.mysql.com/mysql/126155,MySQL Lists: mysql: getting InnoDB running on windows 2000,mailing_list
+unknown,http://serverfault.com/questions/434382/mysql-server-fails-to-start,mysql server fails to start,serverfault.com
+unknown,http://serverfault.com/questions/534434/should-cpu-usage-be-so-low-while-memory-usage-is-high-on-heavy-mysql-server,should cpu usage be so low while memory usage is high on heavy mysql server,serverfault.com
+4.0.x,http://lists.mysql.com/mysql/96655,MySQL Lists: mysql: Error 1114 table full with 14000 error??,mailing_list
+5.5.x,http://stackoverflow.com/questions/6633785/glassfish-nested-connection-pool-error,glassfish nested connection pool error,stackoverflow.com
+5.5.33,http://stackoverflow.com/questions/21677968/replication-of-mysql-slave-is-very-slow-its-increasing-second-behind-master,replication of mysql slave is very slow its increasing second behind master,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/204477,MySQL Lists: mysql: [PART 2/2] InnoDB - Different EXPLAINs for same query,mailing_list
+4.1.9,http://lists.mysql.com/mysql/179661,MySQL Lists: mysql: Replication issue: I/O thread dies immediately after START SLAVE with no logged errors,mailing_list
+3.22.32-log,http://lists.mysql.com/mysql/48794,MySQL Lists: mysql: Failed to override defaults with option files?  FreeBSD,mailing_list
+3.23.14,http://lists.mysql.com/mysql/34430,MySQL Lists: mysql: RE: isamchk running daily for optimized queries?,mailing_list
+4.0.16,http://lists.mysql.com/mysql/155463,MySQL Lists: mysql: Re: MySQL 4.0.16 64bit crash report,mailing_list
+unknown,http://lists.mysql.com/mysql/207688,MySQL Lists: mysql: Re : Re : InnoDB: Assertion failure - MySQL keeps crashing,mailing_list
+unknown,http://dba.stackexchange.com/questions/50516/mysql-on-drdb-very-fragile,mysql on drdb very fragile,dba.stackexchange.com
+4.0.3-beta,http://lists.mysql.com/mysql/119404,MySQL Lists: mysql: mysqld got signal 11 bug under FreeBSD 4.6 (using 4.0.3 binary),mailing_list
+5.1.30,http://lists.mysql.com/cluster/6449,MySQL Lists: cluster: mysql crashing with query_cache enabled,mailing_list
+3.23.55,http://lists.mysql.com/mysql/134314,MySQL Lists: mysql: how turn off binary update log?,mailing_list
+4.1.8,http://lists.mysql.com/mysql/178595,MySQL Lists: mysql: Replication Slave I/O Thread won't start on 4.1.8,mailing_list
+5.0.x,http://lists.mysql.com/mysql/204496,MySQL Lists: mysql: Re: Strange InnoDB Deadlock Behavior,mailing_list
+unknown,http://dba.stackexchange.com/questions/55693/com-mysql-jdbc-exceptions-jdbc4-communicationsexception-communications-link-fai,com mysql jdbc exceptions jdbc4 communicationsexception communications link fai,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/187306,MySQL Lists: mysql: default collation char,mailing_list
+3.23.43,http://lists.mysql.com/mysql/93662,MySQL Lists: mysql: Sudden Mysql 3.23.43 crash w/stack trace.,mailing_list
+unknown,http://lists.mysql.com/mysql/163620,MySQL Lists: mysql: Problems with clean NET STOP MYSQL on Win2000 server after adding INNODB space,mailing_list
+3.23.52,http://lists.mysql.com/mysql/119994,MySQL Lists: mysql: max_connections,mailing_list
+5.5.30,http://dba.stackexchange.com/questions/42477/errors-while-creating-multiple-mysql-5-5-instances,errors while creating multiple mysql 5 5 instances,dba.stackexchange.com
+5.1.49,http://lists.mysql.com/mysql/227151,MySQL Lists: mysql: Re: Remote mysql too slow,mailing_list
+5.1.30,http://lists.mysql.com/mysql/218125,MySQL Lists: mysql: Re: XAMMP-MySQL crashing,mailing_list
+unknown,http://serverfault.com/questions/558340/failed-to-start-production-mysql-server-no-log-messages-either,failed to start production mysql server no log messages either,serverfault.com
+5.0.x,http://lists.mysql.com/mysql/194165,MySQL Lists: mysql: Troubles installing MySQL5 via Darwin Ports,mailing_list
+unknown,http://serverfault.com/questions/560869/unable-to-start-mysql-with-selinux,unable to start mysql with selinux,serverfault.com
+unknown,http://stackoverflow.com/questions/14810004/mysql-mariadb-innodb-indexes-stops-working,mysql mariadb innodb indexes stops working,stackoverflow.com
+5.5.10,http://stackoverflow.com/questions/6051983/mysql-need-help-for-rapidly-growing-table-and-decreasing-speed-4mio-rows,mysql need help for rapidly growing table and decreasing speed 4mio rows,stackoverflow.com
+5.5.24,http://serverfault.com/questions/441783/mysql-crashes-when-connecting-from-localhost-with-tcp-unix-sockets-work,mysql crashes when connecting from localhost with tcp unix sockets work,serverfault.com
+unknown,http://stackoverflow.com/questions/18857261/cant-start-mysql-anymore,cant start mysql anymore,stackoverflow.com
+5.5.33,http://stackoverflow.com/questions/19383815/deadlock-when-dropping-and-creating-temporary-table-on-percona-xtradb-cluster-5,deadlock when dropping and creating temporary table on percona xtradb cluster 5,stackoverflow.com
+4.1.16,http://lists.mysql.com/mysql/194538,MySQL Lists: mysql: SSL connection problems with Fedora Core 4,mailing_list
+unknown,http://serverfault.com/questions/223857/semi-dedicated-linux-server-trying-to-figure-out-reason-for-sluggish-performan,semi dedicated linux server trying to figure out reason for sluggish performan,serverfault.com
+3.23.49-MAX,http://lists.mysql.com/mysql/102250,MySQL Lists: mysql: Running MySQL as Service on 2000 Server,mailing_list
+3.23.46,http://lists.mysql.com/mysql/94561,MySQL Lists: mysql: show tables doesn't work in 3.23.46,mailing_list
+unknown,http://lists.mysql.com/mysql/80671,MySQL Lists: mysql: charsets on win32 mysql,mailing_list
+unknown,http://stackoverflow.com/questions/1695567/cant-connect-to-mysql-using-bitnami-lamp-stack-through-php,cant connect to mysql using bitnami lamp stack through php,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/229517,"MySQL Lists: mysql: Why ""ERROR 2003 (HY000): Can't connect to MySQL server on
+ '192.168.27.72' (111)""?",mailing_list
+unknown,http://stackoverflow.com/questions/11671962/problems-editing-mysqls-my-cnf-with-vi,problems editing mysqls my cnf with vi,stackoverflow.com
+5.0.26-pro-log,http://lists.mysql.com/mysql/205833,MySQL Lists: mysql: HPUX out of memory errors - kernel tuning?,mailing_list
+4.0.18,http://lists.mysql.com/mysql/204592,MySQL Lists: mysql: Unable to put data on a different computer from mysql,mailing_list
+3.23.36,http://lists.mysql.com/mysql/103030,MySQL Lists: mysql: Re: replication through port forwarded firewall,mailing_list
+unknown,http://serverfault.com/questions/488100/php-cant-connect-to-mysql-after-changing-datadir,php cant connect to mysql after changing datadir,serverfault.com
+4.0.12,http://lists.mysql.com/mysql/137610,MySQL Lists: mysql: can't set tx_isolation=read-commited in my.cnf,mailing_list
+4.1.12,http://lists.mysql.com/replication/285,MySQL Lists: replication: Strange error: Misconfigured master - server id was not set.,mailing_list
+4.1.x,http://lists.mysql.com/mysql/175534,MySQL Lists: mysql: GIS - NULL columns,mailing_list
+4.0.16,http://lists.mysql.com/win32/12528,MySQL Lists: win32: FW: Can't get service to start on Win2000 Terminal Server,mailing_list
+3.23.11-alpha-log,http://lists.mysql.com/mysql/38358,MySQL Lists: mysql: pb with mysqlaccess n phpmyadmin ...,mailing_list
+unknown,http://lists.mysql.com/mysql/225237,MySQL Lists: mysql: RE: need help with -- unknown variable,mailing_list
+4.0.16,http://lists.mysql.com/mysql/199234,MySQL Lists: mysql: Upgrading and table engine change advise,mailing_list
+5.5.23,http://stackoverflow.com/questions/11538705/mysql-with-innodb-table-keep-crashing,mysql with innodb table keep crashing,stackoverflow.com
+4.0.18,http://lists.mysql.com/mysql/171015,MySQL Lists: mysql: MySQL eats 100% CPU on a quad CPU system...,mailing_list
+unknown,http://dba.stackexchange.com/questions/33733/mysql-not-closing-connections,mysql not closing connections,dba.stackexchange.com
+unknown,http://serverfault.com/questions/521533/accessing-remote-mysql-instance-for-replica-set-creation,accessing remote mysql instance for replica set creation,serverfault.com
+4.0.12,http://lists.mysql.com/mysql/142268,MySQL Lists: mysql: MySQL memory problem,mailing_list
+3.22.32,http://lists.mysql.com/mysql/89454,MySQL Lists: mysql: Re: Can't set max_connections on debian version,mailing_list
+unknown,http://dba.stackexchange.com/questions/45779/pt-table-checksum-diffs-cannot-be-detected-because-no-slaves-were-found-1,pt table checksum diffs cannot be detected because no slaves were found 1,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/127007,"MySQL Lists: mysql: No A, O, U, etc.",mailing_list
+5.0.24,http://lists.mysql.com/mysql/201584,MySQL Lists: mysql: mysql_upgrade script problems on MySQL 5.0.24,mailing_list
+5.1.69,http://dba.stackexchange.com/questions/50377/my-cnf-configuration-for-1and1-xl8-server-8-core-cpu-and-8gig-ram,my cnf configuration for 1and1 xl8 server 8 core cpu and 8gig ram,dba.stackexchange.com
+unknown,http://lists.mysql.com/cluster/4061,MySQL Lists: cluster: Disable cluster?,mailing_list
+3.23.38,http://lists.mysql.com/mysql/74207,MySQL Lists: mysql: Mysqld-max Bug Report,mailing_list
+3.22.32,http://lists.mysql.com/mysql/47042,MySQL Lists: mysql: non-standard data dir?,mailing_list
+unknown,http://lists.mysql.com/win32/8633,MySQL Lists: win32: about installation MySQL under Win2000 professional.,mailing_list
+5.6.13,http://stackoverflow.com/questions/21370960/creating-a-large-mysql-index-1b-rows-fails-with-lost-connection-to-mysql-serv,creating a large mysql index 1b rows fails with lost connection to mysql serv,stackoverflow.com
+4.0.17,http://lists.mysql.com/mysql/162260,MySQL Lists: mysql: Mystifying mysqld memory usage explosion,mailing_list
+unknown,http://stackoverflow.com/questions/19199039/xampp-change-mysql-data-dir-not-working,xampp change mysql data dir not working,stackoverflow.com
+unknown,http://stackoverflow.com/questions/21591957/in-mysql-how-can-i-overcome-the-broken-characters-of-about-81-foreign-languages,in mysql how can i overcome the broken characters of about 81 foreign languages,stackoverflow.com
+4.0.18,http://lists.mysql.com/mysql/176488,MySQL Lists: mysql: Re: latin1/utf-8 problem,mailing_list
+5.0.1,http://lists.mysql.com/mysql/174844,MySQL Lists: mysql: Replication Issue,mailing_list
+5.0.45,http://serverfault.com/questions/231514/how-to-set-up-mysql-server-to-utilize-more-memory,how to set up mysql server to utilize more memory,serverfault.com
+5.0.0,http://lists.mysql.com/mysql/171690,MySQL Lists: mysql: bug report!!,mailing_list
+unknown,http://stackoverflow.com/questions/20680088/apache-cpu-100-when-query-db,apache cpu 100 when query db,stackoverflow.com
+unknown,http://dba.stackexchange.com/questions/61041/how-to-maintain-mysql-performance-at-high-concurrency,how to maintain mysql performance at high concurrency,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/14270322/mysql-linux-server-and-my-cnf-optimizations-for-many-rows,mysql linux server and my cnf optimizations for many rows,stackoverflow.com
+4.0.1,http://lists.mysql.com/win32/9203,MySQL Lists: win32: RE: Mysqld-nt still uses 100% of cpu right from startup,mailing_list
+unknown,http://lists.mysql.com/mysql/207277,MySQL Lists: mysql: How to trace statements executed in a procedure called by a client?,mailing_list
+4.0.12,http://lists.mysql.com/mysql/148934,MySQL Lists: mysql: runnaway mysql children processes,mailing_list
+5.1.41,http://serverfault.com/questions/221486/optimizing-mysql-for-small-vps,optimizing mysql for small vps,serverfault.com
+unknown,http://stackoverflow.com/questions/21729832/same-id-error-when-i-try-to-replicate-databases,same id error when i try to replicate databases,stackoverflow.com
+3.23.32,http://lists.mysql.com/mysql/69325,MySQL Lists: mysql: Re: Connection related SIG 11 crash in 3.23,mailing_list
+4.0.1,http://lists.mysql.com/mysql/141986,MySQL Lists: mysql: Please help:  Can not insert binary data larger than 16 megabytes,mailing_list
+3.23.27-beta,http://lists.mysql.com/win32/4362,MySQL Lists: win32: Please help me with MySQL and Windows2000 Pro,mailing_list
+5.0.81,http://lists.mysql.com/mysql/219032,MySQL Lists: mysql: Req. suitable .cnf file for Server used by 2000 users daily,mailing_list
+5.5.x,http://serverfault.com/questions/477656/mariadb-mysql-using-a-lot-of-threads-memory,mariadb mysql using a lot of threads memory,serverfault.com
+unknown,http://stackoverflow.com/questions/6017529/recommended-values-for-my-cnf-vps-2-33ghz-1gb-ram,recommended values for my cnf vps 2 33ghz 1gb ram,stackoverflow.com
+unknown,http://stackoverflow.com/questions/7700565/optimize-mysql-query-reconfigure-my-cnf,optimize mysql query reconfigure my cnf,stackoverflow.com
+4.1.x,http://lists.mysql.com/mysql/186176,MySQL Lists: mysql: mysql won't start anymore ?!?,mailing_list
+5.5.x,http://stackoverflow.com/questions/14121464/mysql-is-slow-with-innodb-during-insert-compared-to-myisam,mysql is slow with innodb during insert compared to myisam,stackoverflow.com
+5.1.37,http://serverfault.com/questions/257366/how-to-determine-whats-causing-my-servers-load-average-to-jump-to-90,how to determine whats causing my servers load average to jump to 90,serverfault.com
+5.5.29,http://serverfault.com/questions/485768/error-2013-lost-connection-to-mysql-server-during-query-when-executing-check-ta,error 2013 lost connection to mysql server during query when executing check ta,serverfault.com
+unknown,http://lists.mysql.com/mysql/146755,MySQL Lists: mysql: Changing error message,mailing_list
+unknown,http://stackoverflow.com/questions/10996684/i-want-to-connect-one-server-database-to-from-another-server,i want to connect one server database to from another server,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/157493,MySQL Lists: mysql: Re: What does this Mean,mailing_list
+5.1.41,http://lists.mysql.com/mysql/223613,MySQL Lists: mysql: need Help - Mysqldump  issue,mailing_list
+4.0.13,http://lists.mysql.com/mysql/145554,MySQL Lists: mysql: need help: cannot connect on localhost (10061),mailing_list
+5.1.x,http://serverfault.com/questions/484518/mysqld-never-gets-to-ready-for-connections,mysqld never gets to ready for connections,serverfault.com
+unknown,http://lists.mysql.com/mysql/152754,MySQL Lists: mysql: mySQL crash,mailing_list
+3.23.53,http://lists.mysql.com/win32/14342,MySQL Lists: win32: Instalation Problem ver.3.23.53,mailing_list
+unknown,http://lists.mysql.com/mysql/82447,MySQL Lists: mysql: problem rpm installation of MySQL,mailing_list
+4.0.16,http://lists.mysql.com/mysql/152913,MySQL Lists: mysql: performance while creating indexes,mailing_list
+3.23.16,http://lists.mysql.com/mysql/39367,"MySQL Lists: mysql: mysql-3.22.32, 3-23.16 dying on openbsd-2.7snap",mailing_list
+3.23.x,http://lists.mysql.com/mysql/113502,MySQL Lists: mysql: efficiency of mysql 2.23,mailing_list
+unknown,http://dba.stackexchange.com/questions/52192/mysql-high-i-o-wrong-configuration,mysql high i o wrong configuration,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/23482,MySQL Lists: mysql: Re: How can I install MySQL other than C: ?,mailing_list
+4.0.20,http://lists.mysql.com/mysql/212593,MySQL Lists: mysql: RE: Starting a 2nd MySQL instance on UNIX,mailing_list
+5.5.x,http://serverfault.com/questions/505374/mysql-5-5-myisam-db-tunning,mysql 5 5 myisam db tunning,serverfault.com
+5.1.x,http://dba.stackexchange.com/questions/53375/tcp-sockets-bottleneck-with-innodb-debian,tcp sockets bottleneck with innodb debian,dba.stackexchange.com
+5.5.33,http://serverfault.com/questions/542757/installing-percona-xtradb-cluster-on-ubuntu-13-04,installing percona xtradb cluster on ubuntu 13 04,serverfault.com
+unknown,http://lists.mysql.com/mysql/116178,MySQL Lists: mysql: Install innodb table type...,mailing_list
+unknown,http://stackoverflow.com/questions/13280400/joomla-database-memory-leak,joomla database memory leak,stackoverflow.com
+5.6.x,http://stackoverflow.com/questions/18594224/mysql-5-6-losing-days-of-data,mysql 5 6 losing days of data,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/225124,MySQL Lists: mysql: Repair Command takes too much time,mailing_list
+unknown,http://lists.mysql.com/win32/9033,"MySQL Lists: win32: New User, see only Red Traffic Light???",mailing_list
+unknown,http://lists.mysql.com/mysql/194863,MySQL Lists: mysql: Installation Issue,mailing_list
+3.23.49,http://lists.mysql.com/mysql/109065,"MySQL Lists: mysql:  LINK2001, I need help",mailing_list
+3.23.41-max,http://lists.mysql.com/mysql/94854,MySQL Lists: mysql: Optimizing mySQL for volume,mailing_list
+5.5.x,http://dba.stackexchange.com/questions/52737/squeezing-maximum-out-of-my-server,squeezing maximum out of my server,dba.stackexchange.com
+3.23.54a,http://lists.mysql.com/mysql/136185,MySQL Lists: mysql: Re: [ mysql for red hat 7.2 ],mailing_list
+4.0.20d,http://lists.mysql.com/win32/15049,MySQL Lists: win32: Problem with 4.0.20d binaries,mailing_list
+5.0.x,http://lists.mysql.com/mysql/218343,MySQL Lists: mysql: best config???,mailing_list
+5.1,http://stackoverflow.com/questions/13376906/faster-innodb-writes,faster innodb writes,stackoverflow.com
+4.1.1-alpha-standard-log,http://lists.mysql.com/mysql/166348,MySQL Lists: mysql: Contention in a parallel app or did MySQL lose its marbles?,mailing_list
+4.1.7,http://lists.mysql.com/win32/15977,MySQL Lists: win32: Re: mysqlimport error,mailing_list
+unknown,http://lists.mysql.com/win32/10854,MySQL Lists: win32: A clean embedded mysql example for VC++ 6.0 please,mailing_list
+4.0.18,http://lists.mysql.com/win32/14596,MySQL Lists: win32: Three MySQL GUIs and DB Tools,mailing_list
+unknown,http://stackoverflow.com/questions/16306697/unable-to-display-polish-characters-in-mysql,unable to display polish characters in mysql,stackoverflow.com
+5.5.21,http://dba.stackexchange.com/questions/14259/innodb-table-select-returns-error-2006-hy000-mysql-server-has-gone-away-afte,innodb table select returns error 2006 hy000 mysql server has gone away afte,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/99953,MySQL Lists: mysql: Help Regarding datadir configuration,mailing_list
+unknown,http://lists.mysql.com/mysql/147881,MySQL Lists: mysql: Re: Running MySQL in RAMDisk,mailing_list
+5.1.x,http://stackoverflow.com/questions/13177894/batch-insertions-using-prepared-statements-in-jdbc-with-mysql-are-very-slow,batch insertions using prepared statements in jdbc with mysql are very slow,stackoverflow.com
+5.1.35,http://serverfault.com/questions/395258/unknown-table-engine-innodb-error,unknown table engine innodb error,serverfault.com
+5.1.x,http://lists.mysql.com/mysql/225573,MySQL Lists: mysql: Re: mysql,mailing_list
+5.0.18,http://lists.mysql.com/mysql/197607,MySQL Lists: mysql: Re: Mysql on Production Servers,mailing_list
+unknown,http://stackoverflow.com/questions/21291866/remote-mysql-connection-returns-system-error-111-or-pdo-error-2002,remote mysql connection returns system error 111 or pdo error 2002,stackoverflow.com
+unknown,http://stackoverflow.com/questions/4135236/order-by-rand-on-a-huge-table-causes-it-to-crash-in-mysql-why,order by rand on a huge table causes it to crash in mysql why,stackoverflow.com
+5.5.x,http://stackoverflow.com/questions/20800457/updating-variables-in-my-cnf,updating variables in my cnf,stackoverflow.com
+5.6.x,http://stackoverflow.com/questions/21327975/enabling-log-in-mysql-5-6-prevents-server-from-starting,enabling log in mysql 5 6 prevents server from starting,stackoverflow.com
+5.1.x,http://serverfault.com/questions/58315/mysql-installation-on-windows-server-2008,mysql installation on windows server 2008,serverfault.com
+3.23.x,http://lists.mysql.com/mysql/212647,MySQL Lists: mysql: innodb disabled,mailing_list
+4.1.9,http://lists.mysql.com/replication/37,MySQL Lists: replication: Replication issue: I/O thread dies immediately after START SLAVE,mailing_list
+unknown,http://lists.mysql.com/mysql/117878,MySQL Lists: mysql: Win XP + InnoDB Install Tutorial,mailing_list
+5.5.33,http://dba.stackexchange.com/questions/51075/mysql-high-delay-in-critical-peak-professional-help-request,mysql high delay in critical peak professional help request,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/214797,MySQL Lists: mysql: Trouble with large data in MySql,mailing_list
+5.6.x,http://serverfault.com/questions/518864/trouble-starting-mysql-community-server-on-windows-7,trouble starting mysql community server on windows 7,serverfault.com
+unknown,http://serverfault.com/questions/550650/i-cant-connect-to-mysql-on-a-remote-server,i cant connect to mysql on a remote server,serverfault.com
+5.5.24,http://serverfault.com/questions/403454/ubuntu-12-04-mysql-5-5-24-crashes-everyday,ubuntu 12 04 mysql 5 5 24 crashes everyday,serverfault.com
+unknown,http://stackoverflow.com/questions/20959866/mysql-binary-logs-will-not-start,mysql binary logs will not start,stackoverflow.com
+4.0.12,http://lists.mysql.com/win32/11115,MySQL Lists: win32: Couldn't access database via network,mailing_list
+5.5.x,http://lists.mysql.com/mysql/223905,MySQL Lists: mysql: 5.5 versus 5.1,mailing_list
+5.0.77,http://dba.stackexchange.com/questions/12695/how-to-update-mysql-my-cnf-without-getting-error,how to update mysql my cnf without getting error,dba.stackexchange.com
+unknown,http://serverfault.com/questions/230295/mysql-cache-question,mysql cache question,serverfault.com
+unknown,http://serverfault.com/questions/368263/mysql-slow-query-log-not-tally-with-mysqladmin,mysql slow query log not tally with mysqladmin,serverfault.com
+unknown,http://stackoverflow.com/questions/5441972/how-to-see-log-files-in-mysql,how to see log files in mysql,stackoverflow.com
+4.0.12,http://lists.mysql.com/mysql/140941,MySQL Lists: mysql: Re: replication  - master and slave on the same computer,mailing_list
+5.1.x,http://dba.stackexchange.com/questions/36774/mysql-max-connections-changed-without-notice,mysql max connections changed without notice,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/217219,MySQL Lists: mysql: Optimizing iowait with tmpdir and tmpfs or ramfs?,mailing_list
+unknown,http://lists.mysql.com/win32/6446,MySQL Lists: win32: Ynt: Win9x Connection problem,mailing_list
+unknown,http://stackoverflow.com/questions/4632567/mysql-with-more-than-600-connections,mysql with more than 600 connections,stackoverflow.com
+5.1.66,http://serverfault.com/questions/487495/why-monit-does-not-work-with-my-mysql-configuration-file,why monit does not work with my mysql configuration file,serverfault.com
+unknown,http://lists.mysql.com/win32/2549,MySQL Lists: win32: Re: confused about global options,mailing_list
+5.1,http://serverfault.com/questions/94287/ubuntu-and-mysql-server-something-isnt-allowing-me-to-connect,ubuntu and mysql server something isnt allowing me to connect,serverfault.com
+5.0.x,http://stackoverflow.com/questions/17815604/very-slow-1-second-connections,very slow 1 second connections,stackoverflow.com
+4.1.9,http://lists.mysql.com/win32/16411,MySQL Lists: win32: InnoDB crashes after 4.1.8 -> 4.1.9 upgrade,mailing_list
+unknown,http://stackoverflow.com/questions/10470037/mysql-start-failed-on-aws-instance,mysql start failed on aws instance,stackoverflow.com
+unknown,http://stackoverflow.com/questions/15982145/mariadb-clients-to-use-utf-8-by-default,mariadb clients to use utf 8 by default,stackoverflow.com
+2.23.39a,http://lists.mysql.com/mysql/78907,"MySQL Lists: mysql: Unable to install mysql version 3.23.39a (min) on a Win2000P work
+	station.",mailing_list
+5.0.x,http://serverfault.com/questions/74968/recovering-a-mysql-database-when-the-mysql-server-will-not-start,recovering a mysql database when the mysql server will not start,serverfault.com
+5.1.x,http://serverfault.com/questions/67911/help-my-server-is-running-out-of-memory-and-locking-up-requiring-a-hard-reboot,help my server is running out of memory and locking up requiring a hard reboot,serverfault.com
+unknown,http://stackoverflow.com/questions/14868253/while-connecting-to-mysql-showing-socket-error,while connecting to mysql showing socket error,stackoverflow.com
+3.23.50,http://lists.mysql.com/mysql/112072,MySQL Lists: mysql: Setting up InnoDB,mailing_list
+unknown,http://serverfault.com/questions/274415/how-to-adjust-mysql-performance,how to adjust mysql performance,serverfault.com
+5.1.73,http://dba.stackexchange.com/questions/58351/mysql-server-wont-start-reason-internal-error,mysql server wont start reason internal error,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/138373,MySQL Lists: mysql: Followup to The InnoDB startup problem,mailing_list
+unknown,http://stackoverflow.com/questions/11218580/cant-connect-to-mysql-client-outside-of-localhost,cant connect to mysql client outside of localhost,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/183504,MySQL Lists: mysql: can't start mysqld,mailing_list
+unknown,http://lists.mysql.com/mysql/213893,MySQL Lists: mysql: MySQL won't start with external bind-adress in my.cnf,mailing_list
+5.6.12,http://serverfault.com/questions/520751/installing-mysql5-6-12-in-ubuntu-12-10-error-etc-mysql-conf-d-is-missing,installing mysql5 6 12 in ubuntu 12 10 error etc mysql conf d is missing,serverfault.com
+4.0.23,http://lists.mysql.com/mysql/200174,"MySQL Lists: mysql: mysql/syslog - 100,000s of log messages on restart",mailing_list
+unknown,http://stackoverflow.com/questions/598635/getting-mysql-to-work-on-centos-5,getting mysql to work on centos 5,stackoverflow.com
+5.1.43,http://serverfault.com/questions/109717/permission-problems-of-mysql-under-debian,permission problems of mysql under debian,serverfault.com
+unknown,http://dba.stackexchange.com/questions/54919/mysql-service-is-not-starting-on-linux,mysql service is not starting on linux,dba.stackexchange.com
+5.1.62,http://serverfault.com/questions/394651/mysql-my-cnf-ignored,mysql my cnf ignored,serverfault.com
+unknown,http://serverfault.com/questions/362549/cannot-connect-to-mysql-server-on-rhel-5-7,cannot connect to mysql server on rhel 5 7,serverfault.com
+4.1.11-2,http://lists.mysql.com/mysql/187655,MySQL Lists: mysql: BLOB FILES ERRORS,mailing_list
+unknown,http://stackoverflow.com/questions/21148291/drupal-too-high-query-time-for-query-in-drupal,drupal too high query time for query in drupal,stackoverflow.com
+3.23.29a,http://lists.mysql.com/mysql/68207,"MySQL Lists: mysql: Re: 2 Problems, Shutdown and BDB (data loss)",mailing_list
+5.1.x,http://serverfault.com/questions/387928/high-mysql-cpu,high mysql cpu,serverfault.com
+5.1.x,http://lists.mysql.com/mysql/215177,MySQL Lists: mysql: RE: Tuning a MySQL desktop database,mailing_list
+5.6.x,http://stackoverflow.com/questions/19656911/logging-apparently-not-working-cant-set-configure-replication,logging apparently not working cant set configure replication,stackoverflow.com
+unknown,http://dba.stackexchange.com/questions/50941/the-best-mysql-settings-for-32gb-ram-on-a-dedicated-server,the best mysql settings for 32gb ram on a dedicated server,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/11918765/cannot-connect-to-local-mysql-server-in-netbeans,cannot connect to local mysql server in netbeans,stackoverflow.com
+5.1.54,http://stackoverflow.com/questions/11985023/mysql-hit-a-max-limit,mysql hit a max limit,stackoverflow.com
+unknown,http://serverfault.com/questions/555438/mariadb-mysql-galera-cluster-nodes-wont-join,mariadb mysql galera cluster nodes wont join,serverfault.com
+4.0.5,http://lists.mysql.com/mysql/127297,MySQL Lists: mysql: pbm on install 3.23.54,mailing_list
+unknown,http://serverfault.com/questions/418556/issue-starting-mysql-daemon,issue starting mysql daemon,serverfault.com
+4.0.23a,http://lists.mysql.com/mysql/182235,MySQL Lists: mysql: Re: Strange behavior,mailing_list
+4.0.1,http://lists.mysql.com/mysql/100174,MySQL Lists: mysql: Re: Re: Foreign keys in InnoDB tables,mailing_list
+unknown,http://lists.mysql.com/mysql/91524,MySQL Lists: mysql: Automatic startup failing,mailing_list
+5.5.29,http://dba.stackexchange.com/questions/35051/mysql-improve-performance-for-one-row-insert-into-table-with-unique-constraint,mysql improve performance for one row insert into table with unique constraint,dba.stackexchange.com
+3.23.40-nt,http://lists.mysql.com/mysql/82836,MySQL Lists: mysql: Replication problem,mailing_list
+unknown,http://lists.mysql.com/mysql/153019,MySQL Lists: mysql: log information in MySQL,mailing_list
+unknown,http://stackoverflow.com/questions/8446320/mysql-insert-damn-slow-after-a-few-fast-inserts,mysql insert damn slow after a few fast inserts,stackoverflow.com
+5.1.61,http://dba.stackexchange.com/questions/18424/tables-dont-exist-after-mysql-restart,tables dont exist after mysql restart,dba.stackexchange.com
+3.32.16,http://lists.mysql.com/mysql/40625,"MySQL Lists: mysql: Re: mysqld - 3.22.32,3.32.16 dying on openbsd 2.7 binary snapshot
+ (latest as found on ftp.openbsd.org)",mailing_list
+unknown,http://stackoverflow.com/questions/10284532/amazon-ec2-mysql-aborting-start-because-innodb-mmap-x-bytes-failed-errno-12,amazon ec2 mysql aborting start because innodb mmap x bytes failed errno 12,stackoverflow.com
+4.1.x,http://lists.mysql.com/mysql/151925,MySQL Lists: mysql: I can't start mysqld,mailing_list
+5.0.54,http://lists.mysql.com/mysql/215367,MySQL Lists: mysql: Make Innodb give memory back?,mailing_list
+5.1.61,http://serverfault.com/questions/441660/mysqld-service-crashes-on-restart-after-importing-mysqldump-innodb,mysqld service crashes on restart after importing mysqldump innodb,serverfault.com
+3.23.x,http://lists.mysql.com/mysql/126555,MySQL Lists: mysql: Slow performance using 3.23 on RH 8.0,mailing_list
+unknown,http://stackoverflow.com/questions/4836015/hibernate-jdbcexceptionreporter-connection-validity-timeout-auto-reconnect,hibernate jdbcexceptionreporter connection validity timeout auto reconnect,stackoverflow.com
+3.23.36,http://lists.mysql.com/mysql/90346,MySQL Lists: mysql: mysql.sock,mailing_list
+5.0.x,http://lists.mysql.com/mysql/220923,MySQL Lists: mysql: Very slow delete for Master / Child tables with millions of rows,mailing_list
+4.1.7,http://lists.mysql.com/mysql/201796,MySQL Lists: mysql: 2 versions of mysql on Unix: problem with the socket,mailing_list
+5.5.28,http://dba.stackexchange.com/questions/29320/innodb-error-clustered-record-for-sec-rec-not-found-mysql-5-5-28,innodb error clustered record for sec rec not found mysql 5 5 28,dba.stackexchange.com
+unknown,http://lists.mysql.com/innodb/18,MySQL Lists: innodb: Innodb Inserts Very Slow,mailing_list
+unknown,http://lists.mysql.com/win32/1788,MySQL Lists: win32: multiple databases again,mailing_list
+5.5.19,http://dba.stackexchange.com/questions/19388/tuning-question,tuning question,dba.stackexchange.com
+5.1.56,http://serverfault.com/questions/254541/running-tar-completely-locks-up-mysql,running tar completely locks up mysql,serverfault.com
+unknown,http://lists.mysql.com/mysql/155833,"MySQL Lists: mysql: Have you use emmbedded mysql in C++Builder?i met a problem,i hope you can help m",mailing_list
+5.5.x,http://dba.stackexchange.com/questions/5713/mysql-trying-to-update-to-5-5,mysql trying to update to 5 5,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/147216,MySQL Lists: mysql: database per user,mailing_list
+5.5.18,http://serverfault.com/questions/408461/mysql-binary-logging,mysql binary logging,serverfault.com
+unknown,http://stackoverflow.com/questions/19859435/mysql-using-memory-limit,mysql using memory limit,stackoverflow.com
+3.23.51,http://lists.mysql.com/mysql/120937,MySQL Lists: mysql: Runaway mysqld,mailing_list
+4.0.20-standard,http://lists.mysql.com/mysql/169473,MySQL Lists: mysql: Tuning MySQL for Large Database,mailing_list
+unknown,http://stackoverflow.com/questions/13479156/cannot-change-the-mysql-connection-limit,cannot change the mysql connection limit,stackoverflow.com
+unknown,http://stackoverflow.com/questions/13155057/load-local-infile-not-allowed-perl-mysql,load local infile not allowed perl mysql,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/92295,MySQL Lists: mysql: F/U @ Re: * reiteration re: (re)starting MySQL,mailing_list
+5.5.16,http://dba.stackexchange.com/questions/7580/mysql-server-has-gone-away-using-sqlyog,mysql server has gone away using sqlyog,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/10905226/mysql-my-cnf-performance-tuning-recommendations,mysql my cnf performance tuning recommendations,stackoverflow.com
+5.5.29,http://stackoverflow.com/questions/16527611/can-not-connect-to-remote-mysql-db-from-django,can not connect to remote mysql db from django,stackoverflow.com
+5.5.35,http://dba.stackexchange.com/questions/60970/how-do-i-tune-mysql-with-results-from-mysqltuner,how do i tune mysql with results from mysqltuner,dba.stackexchange.com
+unknown,http://serverfault.com/questions/398431/how-to-make-mysql-server-connectable-from-the-network,how to make mysql server connectable from the network,serverfault.com
+5.4.3,http://lists.mysql.com/mysql/221199,MySQL Lists: mysql: InnoDB - 16GB Data,mailing_list
+5.6.1,http://stackoverflow.com/questions/16067507/mysql-odbc-update-query-very-slow,mysql odbc update query very slow,stackoverflow.com
+4.0.14b,http://lists.mysql.com/win32/12034,MySQL Lists: win32: Receiveing Error 1067,mailing_list
+5.5.28,http://serverfault.com/questions/449292/mysql-5-5-percona-assertion-failure-log-what-would-cause-this-updated,mysql 5 5 percona assertion failure log what would cause this updated,serverfault.com
+3.23.40-nt,http://lists.mysql.com/win32/7099,MySQL Lists: win32: RE: Host Info: .via named pipe,mailing_list
+unknown,http://dba.stackexchange.com/questions/46428/strange-issue-regarding-my-cnf,strange issue regarding my cnf,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/212022,MySQL Lists: mysql: MySQL MASTER/MASTER REPLICATION,mailing_list
+4.1.12,http://lists.mysql.com/mysql/184223,MySQL Lists: mysql: How to set trabnsaction isoloation in my.ini file,mailing_list
+unknown,http://lists.mysql.com/mysql/110200,MySQL Lists: mysql: Fw: Problem starting server,mailing_list
+4.0.17,http://lists.mysql.com/mysql/158609,MySQL Lists: mysql: Can't connect to MySQL server on 'localhost' (10061)- solution pls,mailing_list
+unknown,http://lists.mysql.com/mysql/84241,MySQL Lists: mysql: cross-updates with replication,mailing_list
+unknown,http://dba.stackexchange.com/questions/57190/unable-to-connect-to-mysql-at-peak-time,unable to connect to mysql at peak time,dba.stackexchange.com
+unknown,http://lists.mysql.com/win32/11441,MySQL Lists: win32: cant connect on local host,mailing_list
+5.1.42,http://serverfault.com/questions/103533/segmentation-fault-on-login-to-mysql,segmentation fault on login to mysql,serverfault.com
+4.0.17,http://lists.mysql.com/mysql/158145,MySQL Lists: mysql: temporary table in 4.0.17 on Windows W2000 and NT4,mailing_list
+5.1.52,http://serverfault.com/questions/335201/cpu-utilization-lamp-stack,cpu utilization lamp stack,serverfault.com
+3.23.25,http://lists.mysql.com/mysql/52579,MySQL Lists: mysql: MySQL 3.23.25 crashing on Irix 6.5.9m,mailing_list
+3.23.35,http://lists.mysql.com/mysql/104349,"MySQL Lists: mysql: Re: Replication Failure (or Bug?): Cannot Connect, but Should?",mailing_list
+4.0.15,http://lists.mysql.com/mysql/159556,MySQL Lists: mysql: Installation issue on SuSE 9.0 Pro box,mailing_list
+unknown,http://stackoverflow.com/questions/18955867/magento-socket-server-and-mage-php-base-class-mysql-server-has-gone-away,magento socket server and mage php base class mysql server has gone away,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/220644,MySQL Lists: mysql: my.cnf settings,mailing_list
+unknown,http://lists.mysql.com/cluster/7815,MySQL Lists: cluster: Re: Very Slow Insert Performance,mailing_list
+5.5.x,http://serverfault.com/questions/408631/mysql-replication-performance,mysql replication performance,serverfault.com
+unknown,http://lists.mysql.com/mysql/114479,MySQL Lists: mysql: Can't open server,mailing_list
+unknown,http://lists.mysql.com/win32/14186,MySQL Lists: win32: Problem (MySQL)(ODBCD 3.51 Driver)Cant't connect to MySQL Server on,mailing_list
+5.1.48,http://dba.stackexchange.com/questions/53201/mysql-creates-temporary-tables-on-disk-how-do-i-stop-it,mysql creates temporary tables on disk how do i stop it,dba.stackexchange.com
+5.6.10,http://dba.stackexchange.com/questions/35717/unable-to-change-engine-to-myisam-in-mysql,unable to change engine to myisam in mysql,dba.stackexchange.com
+5.5.x,http://stackoverflow.com/questions/20845898/how-to-make-mysql-use-default-sock-on-aws,how to make mysql use default sock on aws,stackoverflow.com
+unknown,http://lists.mysql.com/win32/16921,MySQL Lists: win32: Two instances of mysql server.,mailing_list
+3.23.47,http://lists.mysql.com/win32/9160,MySQL Lists: win32: Win NT - service start gives error 1067,mailing_list
+5.5.20,http://dba.stackexchange.com/questions/13529/ubuntu-multiple-mysql-instances-and-apparmor,ubuntu multiple mysql instances and apparmor,dba.stackexchange.com
+4.1.20,http://lists.mysql.com/mysql/204017,MySQL Lists: mysql: no log generated?,mailing_list
+5.5.31,http://serverfault.com/questions/545556/mysql-service-takes-a-lor-of-cpu-780,mysql service takes a lor of cpu 780,serverfault.com
+5.5.x,http://dba.stackexchange.com/questions/60888/mysql-runs-out-of-memory-when-importing-innodb-database,mysql runs out of memory when importing innodb database,dba.stackexchange.com
+4.0.17,http://lists.mysql.com/mysql/159073,MySQL Lists: mysql: myDomain-relay-bin file?,mailing_list
+4.0.12,http://lists.mysql.com/win32/11023,"MySQL Lists: win32: 1067 Error, Redux",mailing_list
+unknown,http://lists.mysql.com/win32/8354,MySQL Lists: win32: Re: beginner's probs starting up in win 2000,mailing_list
+unknown,http://stackoverflow.com/questions/18569672/automatically-deleted-mysql-database-table-when-restart-server,automatically deleted mysql database table when restart server,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/112135,MySQL Lists: mysql: Re: innodb keeps crashing due to out-of-memory errors.,mailing_list
+unknown,http://stackoverflow.com/questions/11725281/mysql-daemon-issue,mysql daemon issue,stackoverflow.com
+3.23.52,http://lists.mysql.com/win32/9834,MySQL Lists: win32: Performance,mailing_list
+3.23.49,http://lists.mysql.com/mysql/117456,MySQL Lists: mysql: Replication and tmp tables,mailing_list
+5.1.x,http://serverfault.com/questions/362388/mysql-5-1-vs-mysql-5-5-5-1-twice-as-fast,mysql 5 1 vs mysql 5 5 5 1 twice as fast,serverfault.com
+unknown,http://lists.mysql.com/mysql/132858,MySQL Lists: mysql: replicate-rewrite-db,mailing_list
+unknown,http://serverfault.com/questions/497672/tuning-mysql-of-1-3-g-db-8gb-ram-high-io-wait,tuning mysql of 1 3 g db 8gb ram high io wait,serverfault.com
+3.23.41,http://lists.mysql.com/mysql/109201,MySQL Lists: mysql: how to turn off query logging for mysql on redhat linux,mailing_list
+unknown,http://stackoverflow.com/questions/8559965/mysql-always-using-maximum-connection,mysql always using maximum connection,stackoverflow.com
+unknown,http://lists.mysql.com/win32/5912,MySQL Lists: win32: FW: History file  on Win32,mailing_list
+4.0.12,http://lists.mysql.com/mysql/135154,MySQL Lists: mysql: Signal 11 shortly after upgrading to 4.0.12,mailing_list
+4.1.14-standard-log,http://lists.mysql.com/mysql/220192,MySQL Lists: mysql: optimize mysql,mailing_list
+unknown,http://lists.mysql.com/mysql/138254,MySQL Lists: mysql: RE: change db-path,mailing_list
+unknown,http://lists.mysql.com/mysql/159677,MySQL Lists: mysql: Massive memory utiliazation,mailing_list
+3.23.36,http://lists.mysql.com/mysql/84712,MySQL Lists: mysql: mysql CPU too high and sleeping process,mailing_list
+unknown,http://lists.mysql.com/mysql/206438,MySQL Lists: mysql: mysql connections - how to stop flooding?,mailing_list
+unknown,http://lists.mysql.com/win32/12343,MySQL Lists: win32: Anyone know why selects and updates are slow ??,mailing_list
+5.0.16,http://lists.mysql.com/win32/17865,MySQL Lists: win32: I can't start mysql from the windows command line,mailing_list
+4.0.14b,http://lists.mysql.com/win32/11849,MySQL Lists: win32: Re: Problems with skip-networking,mailing_list
+5.1.x,http://serverfault.com/questions/328196/innodb-log-sequence-in-the-future-crashing-wont-start,innodb log sequence in the future crashing wont start,serverfault.com
+unknown,http://stackoverflow.com/questions/17818281/mysql-replication-was-working-now-broken,mysql replication was working now broken,stackoverflow.com
+unknown,http://stackoverflow.com/questions/22218738/innodb-performance,innodb performance,stackoverflow.com
+3.23.47,http://lists.mysql.com/mysql/121999,MySQL Lists: mysql: MySQL 3.23.47 Replication - Failed Read,mailing_list
+3.23.39,http://lists.mysql.com/mysql/78970,MySQL Lists: mysql: Innodb does not work with NT Max 3.23.39,mailing_list
+3.23.39a,http://lists.mysql.com/win32/6850,"MySQL Lists: win32: Manuals, innodb & mysqld/mysqld-max failures",mailing_list
+5.1.44,http://lists.mysql.com/mysql/221320,MySQL Lists: mysql: MySQL Partition Problem,mailing_list
+5.5.x,http://serverfault.com/questions/475719/mysql-configuration-on-my-cnf,mysql configuration on my cnf,serverfault.com
+5.1.53,http://stackoverflow.com/questions/4324865/my-cnf-changing-datadir-2days-and-still-no-luck,my cnf changing datadir 2days and still no luck,stackoverflow.com
+unknown,http://serverfault.com/questions/406652/how-to-reset-mysqls-replication-settings-completely-without-reinstalling-it,how to reset mysqls replication settings completely without reinstalling it,serverfault.com
+unknown,http://lists.mysql.com/win32/1897,MySQL Lists: win32: Moving my database files for effective server backup,mailing_list
+5.5.34,http://dba.stackexchange.com/questions/55001/is-this-amount-of-disk-io-expected-with-mysql,is this amount of disk io expected with mysql,dba.stackexchange.com
+5.5.x,http://dba.stackexchange.com/questions/17068/frequently-slow-queries-while-in-the-update-state,frequently slow queries while in the update state,dba.stackexchange.com
+5.0.95,http://dba.stackexchange.com/questions/48766/mysql-performance-issues,mysql performance issues,dba.stackexchange.com
+5.0.x,http://serverfault.com/questions/268107/upgrade-from-mysql-4-to-mysql-5-same-my-cnf-lots-of-random-disconnects,upgrade from mysql 4 to mysql 5 same my cnf lots of random disconnects,serverfault.com
+5.6.x,http://dba.stackexchange.com/questions/61116/migrate-from-innodb-file-per-table-to-off-in-mysql,migrate from innodb file per table to off in mysql,dba.stackexchange.com
+4.0.18,http://lists.mysql.com/mysql/161394,MySQL Lists: mysql: Re[2]: Performance problem with 4.0.18,mailing_list
+unknown,http://lists.mysql.com/win32/12383,MySQL Lists: win32: Re: cannot connect,mailing_list
+3.23 and 4.18a,http://lists.mysql.com/mysql/178270,MySQL Lists: mysql: Re: Trouble w/ mysqldump (images attached),mailing_list
+4.0.23,http://lists.mysql.com/mysql/178336,MySQL Lists: mysql: Tuning MySQL,mailing_list
+3.23.55,http://lists.mysql.com/mysql/131145,MySQL Lists: mysql: Changing the server that is started by entry in Services in Windows XP?,mailing_list
+5.1.69,http://serverfault.com/questions/541443/problems-with-my-cnf-and-php-ini-using-mysql-tuner,problems with my cnf and php ini using mysql tuner,serverfault.com
+5.1.x,http://stackoverflow.com/questions/3603971/coldfusion-problem-with-mysql-binary-logging,coldfusion problem with mysql binary logging,stackoverflow.com
+unknown,http://serverfault.com/questions/287827/mysql-taking-too-much-memories-how-to-solve,mysql taking too much memories how to solve,serverfault.com
+3.23.26,http://lists.mysql.com/mysql/59879,MySQL Lists: mysql: STRANGE: every second connect hangs,mailing_list
+4.0.14b,http://lists.mysql.com/win32/11918,MySQL Lists: win32: Re: Help! The dreaded Access denied error,mailing_list
+5.1.x,http://dba.stackexchange.com/questions/16033/time-executing-inserts-slow-ssh,time executing inserts slow ssh,dba.stackexchange.com
+unknown,http://serverfault.com/questions/300926/access-denied-using-password-no-from-remote-site-login-attempt-via-hostname-w,access denied using password no from remote site login attempt via hostname w,serverfault.com
+5.0.77,http://lists.mysql.com/mysql/217305,"MySQL Lists: mysql: Re: 1135: Can't create a new thread (errno 35); if you are not out of 
+	available memory, you can consult the manual for a possible OS-dependent bug",mailing_list
+5.6.11,http://dba.stackexchange.com/questions/55100/xtrabackup-fails-with-my-cnf-percona-configuration,xtrabackup fails with my cnf percona configuration,dba.stackexchange.com
+5.1.x,http://serverfault.com/questions/421968/mysql-too-many-connections-during-normal-conditions-percona-innodb,mysql too many connections during normal conditions percona innodb,serverfault.com
+3.23.46a,http://lists.mysql.com/mysql/95454,MySQL Lists: mysql: help with innodb my.ini config,mailing_list
+3.23.x,http://lists.mysql.com/win32/10397,MySQL Lists: win32: Re: Starting MySQL on non-standard port,mailing_list
+5.1.67,http://dba.stackexchange.com/questions/37644/mysql-becomes-unresponsive-because-user-reached-its-os-quota,mysql becomes unresponsive because user reached its os quota,dba.stackexchange.com
+5.0.51,http://stackoverflow.com/questions/6244044/how-can-i-avoid-repair-with-keycache-in-mysql,how can i avoid repair with keycache in mysql,stackoverflow.com
+5.5.25,http://dba.stackexchange.com/questions/25165/intermittent-mysql-crashes-with-error-fatal-error-cannot-allocate-memory-for-t,intermittent mysql crashes with error fatal error cannot allocate memory for t,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/19447907/2006-mysql-server-has-gone-away-when-restoring-mysql-dump,2006 mysql server has gone away when restoring mysql dump,stackoverflow.com
+3.23.58,http://lists.mysql.com/win32/16463,MySQL Lists: win32: mysql-nt config issues,mailing_list
+3.23.57,http://lists.mysql.com/win32/12062,MySQL Lists: win32: STRANGE - mySQL forgets working directory!,mailing_list
+3.23.51-nt,http://lists.mysql.com/mysql/116121,MySQL Lists: mysql: various questions about my.ini /or my.cnf,mailing_list
+5.1.66,http://dba.stackexchange.com/questions/43503/how-to-solve-the-table-is-full-with-innodb-file-per-table,how to solve the table is full with innodb file per table,dba.stackexchange.com
+4.1.7,http://lists.mysql.com/mysql/204490,MySQL Lists: mysql: Load Balance on MySql,mailing_list
+unknown,http://lists.mysql.com/mysql/220281,MySQL Lists: mysql: Re: MySQL Replication Delete is not gettting replicated,mailing_list
+3.23.52-log ,http://lists.mysql.com/mysql/129647,"MySQL Lists: mysql: Ram Usage, and processes",mailing_list
+5.1.31,http://serverfault.com/questions/211353/mysqld-crashes-on-any-statement,mysqld crashes on any statement,serverfault.com
+3.23.41,http://lists.mysql.com/mysql/83251,MySQL Lists: mysql: Problems with my.ini in Windows NT,mailing_list
+unknown,http://stackoverflow.com/questions/12501622/how-to-optimise-a-table-for-avg-query,how to optimise a table for avg query,stackoverflow.com
+4.1.20-log,http://lists.mysql.com/mysql/204919,MySQL Lists: mysql: MySQL log_slow_queries Error,mailing_list
+unknown,http://lists.mysql.com/win32/11798,MySQL Lists: win32: Incredibly stupid person pleas for help,mailing_list
+5.1.70,http://serverfault.com/questions/526557/what-will-be-the-best-mysql-settings-for-3gb-server,what will be the best mysql settings for 3gb server,serverfault.com
+5.6.x,http://serverfault.com/questions/488473/reducing-memory-usage-of-mysql,reducing memory usage of mysql,serverfault.com
+5.4.3-beta,http://lists.mysql.com/mysql/219700,MySQL Lists: mysql: Can't initialize mysqld data dir,mailing_list
+unknown,http://lists.mysql.com/mysql/155089,MySQL Lists: mysql: Running Multiple Servers,mailing_list
+5.5.x,http://serverfault.com/questions/419534/how-to-disable-local-infile-in-mysql-5-5-ubuntu-12-04,how to disable local infile in mysql 5 5 ubuntu 12 04,serverfault.com
+5.0.77,http://stackoverflow.com/questions/8917115/mysql-search-table-optimization-for-a-game-website,mysql search table optimization for a game website,stackoverflow.com
+5.5.30,http://dba.stackexchange.com/questions/56062/slow-innodb-insert-update-delete,slow innodb insert update delete,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/8020297/mysql-my-cnf-file-found-option-without-preceding-group,mysql my cnf file found option without preceding group,stackoverflow.com
+5.6.x,http://stackoverflow.com/questions/18806377/setting-the-right-mysql-innodb-log-file-size,setting the right mysql innodb log file size,stackoverflow.com
+5.5.34,http://serverfault.com/questions/562567/best-apache-mysql-config-for-16gb-and-8-cores,best apache mysql config for 16gb and 8 cores,serverfault.com
+5.5.x,http://serverfault.com/questions/529230/mysql-using-all-memory-and-moving-into-swap,mysql using all memory and moving into swap,serverfault.com
+5.1.47,http://dba.stackexchange.com/questions/6983/tons-and-tons-of-relay-logs-on-a-master,tons and tons of relay logs on a master,dba.stackexchange.com
+5.0.7,http://serverfault.com/questions/15073/remote-connection-to-mysql-server-takes-very-long,remote connection to mysql server takes very long,serverfault.com
+unknown,http://stackoverflow.com/questions/7361174/very-slow-delete-on-mysql-base-with-subquery,very slow delete on mysql base with subquery,stackoverflow.com
+4.0.8,http://lists.mysql.com/mysql/129681,MySQL Lists: mysql: RE: Has anyone managed to get 4.0.8 Win32 working properly?,mailing_list
+unknown,http://serverfault.com/questions/437239/run-mysqld-under-a-different-user-linux,run mysqld under a different user linux,serverfault.com
+4.0.18,http://lists.mysql.com/win32/14077,MySQL Lists: win32: Atlast fixed - common problem  :),mailing_list
+unknown,http://lists.mysql.com/mysql/135798,MySQL Lists: mysql: Re: All Tables MyISAM and still InnoDB Datafiles?,mailing_list
+unknown,http://dba.stackexchange.com/questions/37398/linux-32b-mysql-periodically-crashing-with-signal-11-and-oom-errors,linux 32b mysql periodically crashing with signal 11 and oom errors,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/11611340/what-is-wrong-with-my-my-cnf-file,what is wrong with my my cnf file,stackoverflow.com
+4.0.15,http://lists.mysql.com/win32/12198,MySQL Lists: win32: Re: installing MySQL4.0.15 as a service on windows 2000,mailing_list
+3.23.54,http://lists.mysql.com/mysql/133482,MySQL Lists: mysql: UPDATEs Don't Update Binary Log,mailing_list
+4.0.20a-debug,http://lists.mysql.com/win32/15159,MySQL Lists: win32: Problem running MySQL on XP,mailing_list
+4.1.12,http://lists.mysql.com/mysql/192644,"MySQL Lists: mysql: Re: transaction with bdb table gives error ""Lock table is out of
+ available locks""",mailing_list
+unknown,http://lists.mysql.com/mysql/98493,MySQL Lists: mysql: Network drive for datadir,mailing_list
+3.23.49-8.2,http://lists.mysql.com/mysql/133405,MySQL Lists: mysql: tuning problem or bug?,mailing_list
+4.1.12,http://lists.mysql.com/mysql/194299,MySQL Lists: mysql: Re: Performance of MEMORY/HEAP-tables compared to mysql-cluster?,mailing_list
+3.23.58,http://lists.mysql.com/mysql/152791,MySQL Lists: mysql: Enabling more detailed logging,mailing_list
+5.0.77,http://serverfault.com/questions/349606/unable-to-connect-to-any-of-the-specified-mysql-hosts-when-trying-to-connect-my,unable to connect to any of the specified mysql hosts when trying to connect my,serverfault.com
+unknown,http://serverfault.com/questions/288812/allow-connections-from-a-remote-server-in-mysql,allow connections from a remote server in mysql,serverfault.com
+unknown,http://lists.mysql.com/mysql/117304,MySQL Lists: mysql: Replication - binlog problems...,mailing_list
+unknown,http://lists.mysql.com/replication/1754,"MySQL Lists: replication: Master-Master (or circular replication) --> error connecting to 
+	master",mailing_list
+unknown,http://lists.mysql.com/mysql/112769,MySQL Lists: mysql: Re: Hi CPU on FreeBSD,mailing_list
+4.1.12-1,http://lists.mysql.com/mysql/186428,MySQL Lists: mysql: Databases in a different location than the default,mailing_list
+unknown,http://lists.mysql.com/mysql/94575,MySQL Lists: mysql: Can't connect to SERVER MYSQL localhost,mailing_list
+3.23.51-nt,http://lists.mysql.com/win32/15123,MySQL Lists: win32: 2 GB RAM limit,mailing_list
+unknown,http://lists.mysql.com/win32/15096,MySQL Lists: win32: MySQL Installation,mailing_list
+3.23.52,http://lists.mysql.com/mysql/121178,MySQL Lists: mysql: 3.22.52 log rotation crash,mailing_list
+5.1,http://dba.stackexchange.com/questions/18670/ive-got-16gb-of-ram-how-should-i-configure-mysql-server,ive got 16gb of ram how should i configure mysql server,dba.stackexchange.com
+3.23.58,http://lists.mysql.com/mysql/180251,MySQL Lists: mysql: problems,mailing_list
+4.0.20d,http://lists.mysql.com/win32/15222,MySQL Lists: win32: Your friend and mine: port 3306.,mailing_list
+4.0.12,http://lists.mysql.com/win32/11051,MySQL Lists: win32: RE: innodb,mailing_list
+5.0.1,http://lists.mysql.com/mysql/221773,MySQL Lists: mysql: Temporary tables created on disk: 99%,mailing_list
+unknown,http://serverfault.com/questions/445025/nginxmysql5-loadtesting-configuration-strangeness,nginxmysql5 loadtesting configuration strangeness,serverfault.com
+4.0.5,http://lists.mysql.com/win32/10282,MySQL Lists: win32: Re: MySql Problem...,mailing_list
+5.5.x,http://stackoverflow.com/questions/16873118/what-does-mysqld-safe-do-in-my-cng,what does mysqld safe do in my cng,stackoverflow.com
+4.1.x,http://lists.mysql.com/replication/69,MySQL Lists: replication: Slave_IO_Running = NO,mailing_list
+unknown,http://serverfault.com/questions/432107/cant-change-mysql-data-folder-centos-6,cant change mysql data folder centos 6,serverfault.com
+unknown,http://lists.mysql.com/mysql/208480,"MySQL Lists: mysql: Lots of queries doing ""statistics""",mailing_list
+4.01.11,http://lists.mysql.com/mysql/133809,MySQL Lists: mysql: mySQL newbie confusion,mailing_list
+5.5.28,http://dba.stackexchange.com/questions/29086/innodb-mysql-5-5-28-segmentation-signal-11-faults-on-high-load-my-cnf-fi,innodb mysql 5 5 28 segmentation signal 11 faults on high load my cnf fi,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/11491419/problems-running-mysql-on-mamp,problems running mysql on mamp,stackoverflow.com
+3.23.54,http://lists.mysql.com/mysql/129721,MySQL Lists: mysql: Re: Running out of memory - memory leakage?,mailing_list
+5.5.x,http://dba.stackexchange.com/questions/35099/mysql-optimization-help,mysql optimization help,dba.stackexchange.com
+5.1.73,http://dba.stackexchange.com/questions/61130/mysql-max-connection-value,mysql max connection value,dba.stackexchange.com
+5.5.31,http://stackoverflow.com/questions/16265602/mysql-python-cant-connect-to-localhost-server-on-windows-7,mysql python cant connect to localhost server on windows 7,stackoverflow.com
+unknown,http://serverfault.com/questions/152333/mysql-too-many-connections,mysql too many connections,serverfault.com
+unknown,http://serverfault.com/questions/431871/mysqld-always-running-at-90-cpu,mysqld always running at 90 cpu,serverfault.com
+5.0.27,http://lists.mysql.com/mysql/208739,MySQL Lists: mysql: servers full potential / FT searches locking tables,mailing_list
+4.0.4,http://lists.mysql.com/mysql/124038,"MySQL Lists: mysql: folders ibdata, iblogs",mailing_list
+3.23.56,http://lists.mysql.com/mysql/137191,MySQL Lists: mysql: Memory Usage,mailing_list
+5.5.34,http://dba.stackexchange.com/questions/55830/innodb-tokudb-fills-up-ram-then-start-swapping,innodb tokudb fills up ram then start swapping,dba.stackexchange.com
+unknown,http://stackoverflow.com/questions/18165870/connect-to-mysql-database-on-host-that-doesnt-allow-remote-connections,connect to mysql database on host that doesnt allow remote connections,stackoverflow.com
+5.1.x,http://serverfault.com/questions/271973/mysql-binary-log-activated-high-end-server-damn-slow,mysql binary log activated high end server damn slow,serverfault.com
+4.0.17,http://lists.mysql.com/mysql/156203,MySQL Lists: mysql: Very Slow GROUP BY Query,mailing_list
+unknown,http://dba.stackexchange.com/questions/38787/for-a-innodb-only-db-which-of-these-elements-can-be-removed,for a innodb only db which of these elements can be removed,dba.stackexchange.com
+unknown,http://serverfault.com/questions/231873/tuning-up-a-mysql-server,tuning up a mysql server,serverfault.com
+4.0.13,http://lists.mysql.com/mysql/145246,MySQL Lists: mysql: Frequent Table Corruption - Please Help,mailing_list
+unknown,http://lists.mysql.com/mysql/111603,MySQL Lists: mysql: Reg. Host Problem in MYSQL,mailing_list
+3.23.54,http://lists.mysql.com/win32/10896,MySQL Lists: win32: Re: mysql as service - fails with System error 5 has occurred,mailing_list
+5.0.45,http://serverfault.com/questions/67860/mysql-slave-fails-to-resume-from-master-if-master-restarted,mysql slave fails to resume from master if master restarted,serverfault.com
+unknown,http://serverfault.com/questions/76470/low-cpu-usage-in-mysql,low cpu usage in mysql,serverfault.com
+unknown,http://lists.mysql.com/cluster/6997,MySQL Lists: cluster: have problem in filter single DB to slave server,mailing_list
+5.0.45,http://stackoverflow.com/questions/3746616/remove-duplicates-in-large-mysql-table,remove duplicates in large mysql table,stackoverflow.com
+5.1.37,http://stackoverflow.com/questions/4575049/mysql-query-hang-on-production-database-server-but-works-fine-locally,mysql query hang on production database server but works fine locally,stackoverflow.com
+5.5.34,http://stackoverflow.com/questions/20997511/slow-connection-between-ec2-app-to-ec2-mysql-remote,slow connection between ec2 app to ec2 mysql remote,stackoverflow.com
+1.4,http://lists.mysql.com/mysql/128921,MySQL Lists: mysql: Help!,mailing_list
+3.23.52,http://lists.mysql.com/mysql/126374,MySQL Lists: mysql: Moving the location of mysql.sock and mysql_setpermission,mailing_list
+4.0.14-max-debug,http://lists.mysql.com/win32/11626,MySQL Lists: win32: 27 megs of RAM for mysqld-opt,mailing_list
+unknown,http://serverfault.com/questions/503489/cant-connect-to-mysql-server-13-using-php-function,cant connect to mysql server 13 using php function,serverfault.com
+5.1.63,http://serverfault.com/questions/414452/setting-up-php-5-4-with-mysql-to-use-unix-sockets,setting up php 5 4 with mysql to use unix sockets,serverfault.com
+3.23.49,http://lists.mysql.com/mysql/133502,MySQL Lists: mysql: trouble setting key_buffer_size on a debian slave,mailing_list
+5.0.45,http://dba.stackexchange.com/questions/17040/mysql-innodb-corruption,mysql innodb corruption,dba.stackexchange.com
+5.1.22,http://lists.mysql.com/mysql/224387,"MySQL Lists: mysql: Performance issue old server witn mysql 4 vs new server with mysql 5
+ and old server WINS!",mailing_list
+4.1.4,http://lists.mysql.com/mysql/172073,MySQL Lists: mysql: MySQL 4.1.4 RPM Distribution startup problem,mailing_list
+3.23.52,http://lists.mysql.com/mysql/128763,"MySQL Lists: mysql: HELP for ""mysql ended"" error",mailing_list
+4.0.13,http://lists.mysql.com/win32/11577,MySQL Lists: win32: Attempting to re-install MySQL,mailing_list
+unknown,http://lists.mysql.com/mysql/182773,MySQL Lists: mysql: MySQL Query-Cache Reset,mailing_list
+unknown,http://lists.mysql.com/mysql/94576,MySQL Lists: mysql: installation problem,mailing_list
+unknown,http://serverfault.com/questions/374465/mysql-config-for-2gb-ram,mysql config for 2gb ram,serverfault.com
+4.1.1-max-nt,http://lists.mysql.com/win32/13032,MySQL Lists: win32: 4.1.1 Service on XP,mailing_list
+5.5.24,http://stackoverflow.com/questions/16704792/wamp-server-not-working,wamp server not working,stackoverflow.com
+4.1.12,http://lists.mysql.com/mysql/188404,MySQL Lists: mysql:  Re: [Replication] Problem connecting to master,mailing_list
+5.5.23,http://dba.stackexchange.com/questions/44896/mysql-using-too-much-cpu,mysql using too much cpu,dba.stackexchange.com
+4.0.3-beta,http://lists.mysql.com/mysql/119093,MySQL Lists: mysql: can't install mysql-4.0.3 with innodb,mailing_list
+unknown,http://serverfault.com/questions/402670/got-an-error-message-with-mysql-database,got an error message with mysql database,serverfault.com
+5.0.x,http://lists.mysql.com/mysql/160200,"MySQL Lists: mysql: Bug on MYSQL-5.0 in statement ""OPTIMIZE TABLE""",mailing_list
+3.23.49,http://lists.mysql.com/mysql/121650,MySQL Lists: mysql: Performance of a sequence many indexed queries,mailing_list
+unknown,http://stackoverflow.com/questions/13552563/character-set-server-and-mysqls-config-file,character set server and mysqls config file,stackoverflow.com
+5.1.69,http://stackoverflow.com/questions/17137626/solr-dataimport-from-mysql-dies-when-mysq-query-limit-is-removed,solr dataimport from mysql dies when mysq query limit is removed,stackoverflow.com
+5.6.12,http://stackoverflow.com/questions/18709094/mysql-5-6-12-ssd-vista-64-bit-very-slow,mysql 5 6 12 ssd vista 64 bit very slow,stackoverflow.com
+5.1.35,http://lists.mysql.com/mysql/218208,MySQL Lists: mysql: Re: MYSQL 5.1.35 Segmentation fault,mailing_list
+unknown,http://lists.mysql.com/mysql/89740,MySQL Lists: mysql: error starting mysql,mailing_list
+3.23.49,http://lists.mysql.com/mysql/106306,MySQL Lists: mysql: can't init my database for innoDB in mysql,mailing_list
+4.1.21,http://lists.mysql.com/mysql/182037,MySQL Lists: mysql: where is my data?,mailing_list
+4.1.10-standard-log,http://lists.mysql.com/mysql/181351,MySQL Lists: mysql: {Spam?} Cannot start replication - can someone help?,mailing_list
+4.1.22,http://lists.mysql.com/mysql/217501,MySQL Lists: mysql: CentOS 4.4 mysqld crash,mailing_list
+unknown,http://lists.mysql.com/win32/10583,MySQL Lists: win32: Error 2003,mailing_list
+unknown,http://stackoverflow.com/questions/17772572/connect-to-mysql-on-amazon-ec2-from-a-remote-server-error-2003,connect to mysql on amazon ec2 from a remote server error 2003,stackoverflow.com
+5.0.x,http://lists.mysql.com/mysql/192158,MySQL Lists: mysql: Re: MyIsam Vs InnoDB,mailing_list
+unknown,http://lists.mysql.com/mysql/130413,MySQL Lists: mysql: upgrade hiccups,mailing_list
+4.1.8-log,http://lists.mysql.com/mysql/188766,MySQL Lists: mysql: Re: How to optimize fulltext selection?,mailing_list
+unknown,http://stackoverflow.com/questions/15112588/fix-error-mysql-server-has-gone-away,fix error mysql server has gone away,stackoverflow.com
+4.0.18,http://lists.mysql.com/mysql/174533,MySQL Lists: mysql: Sharing databases between win and linux,mailing_list
+unknown,http://stackoverflow.com/questions/15759868/optimizing-my-cnf-file-for-heavy-queries,optimizing my cnf file for heavy queries,stackoverflow.com
+unknown,http://serverfault.com/questions/382945/why-cant-i-get-the-binlog-in-mysql,why cant i get the binlog in mysql,serverfault.com
+unknown,http://lists.mysql.com/win32/12396,MySQL Lists: win32: can start the service,mailing_list
+unknown,http://serverfault.com/questions/463742/mysql-tweaking-for-performance,mysql tweaking for performance,serverfault.com
+5.5.16,http://stackoverflow.com/questions/7731749/configuration-on-wampp-to-accept-innodb-does-not-work,configuration on wampp to accept innodb does not work,stackoverflow.com
+5.1.37,http://stackoverflow.com/questions/7346217/sqlapi-mysql-connection-error-cant-connect-to-mysql-server-on-localhost-1,sqlapi mysql connection error cant connect to mysql server on localhost 1,stackoverflow.com
+unknown,http://stackoverflow.com/questions/20289566/high-cpu-usage-by-mysql-query,high cpu usage by mysql query,stackoverflow.com
+5.1.x,http://dba.stackexchange.com/questions/18211/centos-6-2-mysql-configuration-file-help,centos 6 2 mysql configuration file help,dba.stackexchange.com
+unknown,http://serverfault.com/questions/282457/cannot-log-into-mysql-locally,cannot log into mysql locally,serverfault.com
+4.1.3b-beta,http://lists.mysql.com/mysql/176913,MySQL Lists: mysql: Locking Issue?,mailing_list
+4.1.13,http://lists.mysql.com/mysql/189062,"MySQL Lists: mysql: RE: Major Difference in response times when using Load Infile uti
+	lity",mailing_list
+unknown,http://lists.mysql.com/mysql/163493,MySQL Lists: mysql: Re: Queries per second average,mailing_list
+4.0.15,http://lists.mysql.com/mysql/159643,MySQL Lists: mysql: FW: Installation issue on SuSE 9.0 Pro box,mailing_list
+unknown,http://lists.mysql.com/mysql/157495,MySQL Lists: mysql: Re: ERROR 2003: Can't connect to MySQL server on 'localhost' (10061),mailing_list
+3.23.28,http://lists.mysql.com/mysql/58538,MySQL Lists: mysql: Connect to 3.23.28-gamma (Connection lost),mailing_list
+unknown,http://stackoverflow.com/questions/3417132/unable-to-login-to-mysql-5-remotely,unable to login to mysql 5 remotely,stackoverflow.com
+unknown,http://stackoverflow.com/questions/11891994/php-mysql-innodb-slow-on-insert,php mysql innodb slow on insert,stackoverflow.com
+4.0.24,http://lists.mysql.com/win32/17060,MySQL Lists: win32: Re: Really big resultsets,mailing_list
+unknown,http://lists.mysql.com/mysql/110225,MySQL Lists: mysql: RE: Problem starting server,mailing_list
+5.5.x,http://serverfault.com/questions/310904/cannot-start-mysql-5-5-as-normal-user-fedora-15,cannot start mysql 5 5 as normal user fedora 15,serverfault.com
+unknown,http://serverfault.com/questions/258709/attempted-to-change-database-drive-resulted-in-cant-connect-to-local-mysql-ser,attempted to change database drive resulted in cant connect to local mysql ser,serverfault.com
+unknown,http://lists.mysql.com/mysql/95319,MySQL Lists: mysql: mysql replication,mailing_list
+4.1.2,http://lists.mysql.com/mysql/167227,MySQL Lists: mysql: I: R: R: R: R: query string too long?,mailing_list
+unknown,http://stackoverflow.com/questions/21969122/aws-ec2-instance-with-bitnami-stack-error-connecting-to-php-running-locally-to,aws ec2 instance with bitnami stack error connecting to php running locally to,stackoverflow.com
+unknown,http://lists.mysql.com/mysql/214334,MySQL Lists: mysql: Re: Large Query Question.,mailing_list
+4.0.8,http://lists.mysql.com/mysql/149085,MySQL Lists: mysql: Help with variable tuning in my.cnf,mailing_list
+3.23.47,http://lists.mysql.com/mysql/100414,MySQL Lists: mysql: Error 1058 Win2K Server with MySQL,mailing_list
+unknown,http://stackoverflow.com/questions/3371909/mysql-query-stuck-in-a-queue-become-a-bottleneck,mysql query stuck in a queue become a bottleneck,stackoverflow.com
+4.1.0-alpha-max-nt,http://lists.mysql.com/mysql/155597,MySQL Lists: mysql: large query result caching (using C API),mailing_list
+3.22.33,http://lists.mysql.com/win32/1888,MySQL Lists: win32: Fatal error in ORDER BY crashes Win32 3.22.33,mailing_list
+unknown,http://lists.mysql.com/mysql/180920,MySQL Lists: mysql: permission denied error,mailing_list
+5.1.52,http://serverfault.com/questions/284611/mysql-server-5-1-config-on-win-2008-experts-help-required,mysql server 5 1 config on win 2008 experts help required,serverfault.com
+unknown,http://lists.mysql.com/mysql/162191,MySQL Lists: mysql: FW: local installation on XP,mailing_list
+unknown,http://stackoverflow.com/questions/9954926/configuring-mysql-on-my-windows-server-2003,configuring mysql on my windows server 2003,stackoverflow.com
+5.5.24,http://dba.stackexchange.com/questions/25180/mysql-high-load,mysql high load,dba.stackexchange.com
+unknown,http://lists.mysql.com/mysql/157294,MySQL Lists: mysql: New INstall of MySQL,mailing_list
+3.23.41,http://lists.mysql.com/mysql/84658,MySQL Lists: mysql: MySQL Performance Problem,mailing_list
+5.5.x,http://serverfault.com/questions/559985/server-pid-removed-after-config-cnf,server pid removed after config cnf,serverfault.com
+5.5.21,http://stackoverflow.com/questions/20353402/access-denied-for-user-testlocalhost-using-password-yes-except-root-user,access denied for user testlocalhost using password yes except root user,stackoverflow.com
+4.0.11,http://lists.mysql.com/mysql/134736,MySQL Lists: mysql: Apparent Write caching slowing performance...,mailing_list
+4.1.12,http://lists.mysql.com/mysql/185573,MySQL Lists: mysql: Re: Newbie mysql.sock question,mailing_list
+4.1.12,http://lists.mysql.com/mysql/191796,MySQL Lists: mysql: Newbie Query: Error starting MySQL.,mailing_list
+3.23.37,http://lists.mysql.com/mysql/72417,MySQL Lists: mysql: How to config the client installation,mailing_list
+5.5,http://dba.stackexchange.com/questions/20862/mysql-load-from-infile-stuck-waiting-on-hard-drive,mysql load from infile stuck waiting on hard drive,dba.stackexchange.com
+3.23.52,http://lists.mysql.com/win32/12234,MySQL Lists: win32: query optimization,mailing_list

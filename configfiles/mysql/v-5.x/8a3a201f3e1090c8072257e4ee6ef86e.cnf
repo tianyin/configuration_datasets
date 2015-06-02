@@ -1,0 +1,122 @@
+#-----------------------------------------------------------------------
+# MySQL Server Instance Configuration File
+# ----------------------------------------------------------------------
+
+[client]
+no-beep
+
+port=3306
+
+[mysql]
+
+default-character-set=utf8
+
+server_type=3
+[mysqld]
+
+port=3306
+
+basedir="C:\Program Files\MySQL\MySQL Server 5.6\"
+
+datadir="E:\MySQLData\data\"
+
+character-set-server=utf8
+
+default-storage-engine=INNODB
+
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+
+log-output=FILE
+general-log=0
+general_log_file="SQLSERVER.log"
+slow-query-log=1
+slow_query_log_file="SQLSERVER-slow.log"
+long_query_time=10
+
+log-error="SQLSERVER.err"
+
+max_connections=100
+
+query_cache_size = 20M
+
+table_open_cache=2000
+
+tmp_table_size=502M
+
+thread_cache_size=9
+
+myisam_max_sort_file_size=100G
+
+myisam_sort_buffer_size=1002M
+
+key_buffer_size=8M
+
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+
+sort_buffer_size=256K
+
+innodb_additional_mem_pool_size=32M
+
+innodb_flush_log_at_trx_commit = 1
+
+innodb_log_buffer_size=16M
+
+innodb_buffer_pool_size = 48G
+
+innodb_log_file_size=48M
+
+innodb_thread_concurrency = 0
+
+innodb_autoextend_increment=64M
+
+innodb_buffer_pool_instances=8
+
+innodb_concurrency_tickets=5000
+
+innodb_old_blocks_time=1000
+
+innodb_open_files=2000
+
+innodb_stats_on_metadata=0
+
+innodb_file_per_table=1
+
+innodb_checksum_algorithm=0
+
+back_log=70
+
+flush_time=0
+
+join_buffer_size=256K
+
+max_allowed_packet=4M
+
+max_connect_errors=100
+
+open_files_limit=4110
+
+query_cache_type = 1
+
+sort_buffer_size=256K
+
+table_definition_cache=1400
+
+binlog_row_event_max_size=8K
+
+sync_relay_log=10000
+sync_relay_log_info=10000
+
+tmpdir = "G:/MySQLTemp"
+innodb_write_io_threads = 16
+innodb_doublewrite
+innodb = ON
+innodb_fast_shutdown = 1
+
+query_cache_min_res_unit = 4096
+
+query_cache_limit = 1048576
+
+innodb_data_home_dir = "E:/MySQLData/data"
+
+bulk_insert_buffer_size = 8388608

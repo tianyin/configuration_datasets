@@ -1,0 +1,166 @@
+# The MySQL database server configuration file.
+#
+# You can copy this to one of:
+# - "/etc/mysql/my.cnf" to set global options,
+# - "~/.my.cnf" to set user-specific options.
+# 
+# One can use all long options that the program supports.
+# Run program with --help to get a list of available options and with
+# --print-defaults to see which it would actually understand and use.
+#
+# For explanations see
+# http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html
+#
+# Take care to only add/remove/change a setting if you are comfortable
+# doing so! For Rackspace customers, if you have any questions or
+# concerns, please contact the MySQL Database Services Team. Be aware
+# that some work performed by this team can involve additional billable
+# fees.
+#
+# This file generated for host php-pos-db please modify
+# variables if the server is resized from 1016636kB
+
+[mysqld]
+
+### General
+user                = mysql
+port                = 3306
+datadir                         = /var/lib/mysql
+tmpdir                          = /tmp
+socket                          = /var/lib/mysql/mysql.sock
+skip-external-locking           = 1
+log_error                       = /var/log/mysqld.log
+
+## This prevents using host-based authentication. That means users must be
+## created using an ip-address (ie 'myuser'@'192.168.100.1') or must make
+## use of the % wildcard (ie 'myuser'@'%'). The benefit to not using
+## host-based authentication is that DNS will not impact MySQL performance.
+#skip-name-resolve
+
+## If open-files-limit is set very low, MySQL may increase on its own. Either
+## way, increase this if MySQL gives 'too many open files' errors. Setting
+## this above 65535 could be unwise (MySQL may crash).
+open-files-limit                = 20000
+
+### Cache
+thread-cache-size               = 16
+table-open-cache                = 4096
+table-definition-cache          = 512
+
+## Generally, it is unwise to set the query cache to be larger than 64-128M 
+## as the costs associated with maintaining the cache outweigh the performance
+## gains. A far superior solution would be to implement memcached, though this
+## required modifying the application, among other things.
+query-cache-type                = 1
+query-cache-size                = 32M
+query-cache-limit               = 1M
+
+### Per-thread Buffers
+sort-buffer-size                = 1M
+read-buffer-size                = 1M
+read-rnd-buffer-size            = 2M
+join-buffer-size                = 1M
+
+### Temp Tables
+tmp-table-size                  = 64M 
+max-heap-table-size             = 64M
+
+### Networking
+back-log                        = 100
+max-connections                 = 50
+max-connect-errors              = 10000
+max-allowed-packet              = 16M
+interactive-timeout             = 600
+wait-timeout                    = 180
+net_read_timeout        = 30
+net_write_timeout       = 30
+# This value is the size of the listen queue for incoming TCP/IP connections.
+back_log            = 128
+
+#### Storage Engines
+## Set this to force MySQL to use a particular engine / table-type
+## for new tables. This setting can still be overridden by specifying
+## the engine explicitly in the CREATE TABLE statement.
+default-storage-engine         = InnoDB
+
+## Makes sure MySQL does not start if InnoDB fails to start. This helps
+## prevent ugly silent failures.
+innodb                          = FORCE
+
+### MyISAM
+## Not sure what to set this to?
+## Try running a 'du -sch /var/lib/mysql/*/*.MYI'
+## This will give you a good estimate on the size of all the MyISAM indexes.
+## (The buffer may not need to set that high, however)
+key-buffer-size                 = 2M
+## This setting controls the size of the buffer that is allocated when 
+## sorting MyISAM indexes during a REPAIR TABLE or when creating indexes 
+## with CREATE INDEX or ALTER TABLE.
+myisam-sort-buffer-size         = 2M
+
+### InnoDB
+## Note: While most settings in MySQL can be set at run-time, many InnoDB
+## variables cannot be set at runtime as require restarting MySQL
+###
+## These settings control how much RAM InnoDB will use. Generally, when using
+## mostly InnoDB tables, the innodb-buffer-pool-size should be as large as
+## is possible without swapping or starving other processes of RAM. The other 
+## two settings usually do not need to be changed, but can help for very large 
+## datasets.
+innodb-buffer-pool-size         = 285M
+innodb-log-buffer-size          = 8M
+
+## Be careful when changing these as they require re-generating the 
+## ib-logfile* files, which must be done carefully. Do not change this unless 
+## you are familiar with the procedure.
+innodb-log-file-size           = 128M
+innodb-log-files-in-group      = 2
+
+## This will cause each table to create its own .ibd file
+innodb-file-per-table           = 1
+
+## Setting this to 2 will decrease disk I/O but can cause up to a second of
+## queries to be lost during a hard outage (i.e. power failures)
+# innodb-flush-log-at-trx-commit = 2
+
+### Replication
+## Set this to the Server's instance ID in replication environments
+server-id                       = 1
+
+#log-bin                        = /var/lib/mysql/bin-log
+#relay-log                      = /var/lib/mysql/relay-log
+#relay-log-space-limit          = 4G
+#expire-logs-days               = 5
+
+## This should be enabled on conventional MySQL slaves
+#read-only                      = 1
+
+## This will cause replicated statements on a slave to be written to the slave's binlog
+## Enable this on the middle slave of M->S->S configs
+#log-slave-updates              = 1
+
+#binlog-format                  = STATEMENT
+
+### Logging
+## This option determines the destination for general query log and slow query log output.
+## The option value can be given as one or more of the words TABLE, FILE, or NONE.
+## NOTE: Table logging takes away 50% of performance and thus is not recommended
+##       http://bugs.mysql.com/bug.php?id=30414
+## In addition, you cannot backup the contents of these tables properly
+## (mysqldump skips these tables by default since they cannot be locked)
+#log-output                     = FILE
+slow-query-log                 = 1
+slow-query-log-file            = /var/lib/mysql/slow-log
+long-query-time                = 2
+log-queries-not-using-indexes  = 1
+
+[mysqld-safe]
+log-error                       = /var/log/mysqld.log
+
+[mysqldump]
+max-allowed-packet      = 16M
+
+# * IMPORTANT: Additional settings that can override those from this file!
+#   The files must end with '.cnf', otherwise they'll be ignored.
+#
+!includedir /etc/sysconfig/mysqld-config/

@@ -1,0 +1,25 @@
+[mysqld]
+local-infile=0
+query_cache_type = 1
+query_cache_size = 32M
+
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+
+# Misc vars
+key_buffer_size=32M
+join_buffer_size=512K
+tmp_table_size=32M
+max_heap_table_size=32M
+thread_cache_size=4
+table_cache=300
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+# InnoDB vars
+innodb_buffer_pool_size=96M
+innodb_additional_mem_pool_size=500K
+innodb_log_buffer_size=500K
+innodb_thread_concurrency=2

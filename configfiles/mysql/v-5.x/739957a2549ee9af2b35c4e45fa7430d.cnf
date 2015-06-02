@@ -1,0 +1,82 @@
+# /etc/my.cfg
+
+# The main and only MySQL configuration file on [WEBSITE ADDRESS REDACTED].
+# Last updated 2012-09-23 by Teemu Leisti.
+
+# Most of the memory settings are set to be the same as the example setting file
+# /usr/share/doc/mysql55-server-5.5.25/my-large.cnf, which is meant for systems
+# with 512M of memory.  This server currently has twice that, i.e. 1G of memory,
+# which should make these settings safe.
+
+
+[client]
+default_character_set           = utf8
+port                            = 3306
+socket                          = /var/lib/mysql/mysql.sock
+
+[mysqld]
+character_set_filesystem        = utf8
+character_set_server            = utf8
+datadir                         = /var/lib/mysql
+innodb_additional_mem_pool_size = 20M
+innodb_buffer_pool_size         = 256M 
+# You can set .._buffer_pool_size up to
+# 50..80% of RAM, but beware of setting
+# memory usage too high
+innodb_data_file_path           = ibdata1:10M:autoextend
+innodb_data_home_dir            = /var/lib/mysql
+innodb_flush_log_at_trx_commit  = 1
+innodb_lock_wait_timeout        = 50
+innodb_log_buffer_size          = 8M
+innodb_log_file_size            = 64M 
+# Set .._log_file_size to 25% of buffer
+# pool size
+innodb_log_group_home_dir       = /var/lib/mysql
+interactive_timeout             = 60
+key_buffer_size                 = 256M
+long_query_time                 = 10
+max_allowed_packet              = 1M
+max_connections                 = 30
+port                            = 3306
+query_cache_limit               = 2M 
+# see http://emergent.urbanpug.com/?p=61
+query_cache_size                = 16M
+read_buffer_size                = 1M
+read_rnd_buffer_size            = 4M
+skip_networking                 
+# Only local processes need to use MySQL
+skip_symbolic_links             
+# Disabling symbolic_links is recommended to
+# prevent assorted security risks
+slow_query_log_file             = /var/log/mysql-slow-queries.log
+socket                          = /var/lib/mysql/mysql.sock
+sort_buffer_size                = 1M
+table_open_cache                = 256
+thread_cache_size               = 8
+thread_concurrency              = 2 
+#    = number of CPUs * 2
+user                            = mysql
+wait_timeout                    = 10
+
+[mysqld_safe]
+log_error                       = /var/log/mysqld.log
+open_files_limit                = 4096
+pid_file                        = /var/run/mysqld/mysqld.pid
+
+[mysqldump]
+quick
+max_allowed_packet              = 16M
+
+[mysql]
+no-auto-rehash
+# Remove the next comment character if you are not familiar with SQL
+safe-updates
+
+[myisamchk]
+key_buffer_size                 = 128M
+sort_buffer_size                = 128M
+read_buffer                     = 2M
+write_buffer                    = 2M
+
+[mysqlhotcopy]
+interactive-timeout

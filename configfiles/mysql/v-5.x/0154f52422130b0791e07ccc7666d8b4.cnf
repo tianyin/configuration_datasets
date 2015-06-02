@@ -1,0 +1,70 @@
+
+[client]
+socket          = /db/data/mysql.sock
+port            = 3306
+[mysqld]
+socket          = /db/data/mysql.sock
+datadir         = /db/data
+tmpdir          = /db/tmp
+port            = 3306
+user            = mysql
+max_allowed_packet = 1024M
+lower_case_table_names=0
+log-bin=/db/binlog/tlsgriffin01-bin
+sync_binlog = 1
+expire_logs_days = 14
+log-error=/db/log/tlsgriffin01-err.log
+log-slow-queries=/db/log/tlsgriffin01-slow.log
+long_query_time = 1
+log_warnings=2
+server-id = 101
+skip-slave-start
+sysdate-is-now
+log_bin_trust_function_creators=1
+skip-external-locking
+key_buffer_size = 128M
+query_cache_size = 256M
+table_cache = 4096
+thread_concurrency = 14
+thread_cache_size = 0
+open_files_limit = 10240
+max_connections = 1000
+skip-bdb
+read_buffer_size = 64M
+read_rnd_buffer_size = 64M
+sort_buffer_size = 64M
+tmp_table_size = 512M
+max_heap_table_size = 250M
+myisam_sort_buffer_size = 64M
+myisam_max_sort_file_size = 20G
+innodb_data_home_dir = /db/innodb
+innodb_log_group_home_dir = /db/innodb
+innodb_data_file_path = ibdata1:10M:autoextend:max:4G
+innodb_log_files_in_group = 2
+innodb_log_file_size = 256M
+innodb_file_per_table
+innodb_buffer_pool_size = 400M
+innodb_additional_mem_pool_size = 80M
+transaction-isolation = READ-COMMITTED
+[mysqldump]
+quick
+max_allowed_packet = 16M
+[mysql]
+no-auto-rehash
+[myisamchk]
+key_buffer = 64M
+sort_buffer_size = 16M
+read_buffer = 16M
+write_buffer = 16M
+[mysqlhotcopy]
+interactive-timeout
+[manager]
+socket = /db/log/manager.sock
+pid-file=/db/log/manager.pid
+password-file = /db/data/.mysqlmanager.passwd
+monitoring-interval = 60
+port = 1998
+bind-address = tlsgriffin01
+[mysql.server]
+use-manager
+

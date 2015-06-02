@@ -1,0 +1,81 @@
+# MySQL Server Instance Configuration File
+# ----------------------------------------------------------------------
+
+# CLIENT SECTION
+
+[client]
+
+port=3306
+
+[mysql]
+
+default-character-set=latin1
+
+# SERVER SECTION
+[mysqld]
+log-bin=E:/CRITICAL_MYSQL_LOGGING/AUTOMATED_BINARY_LOGS/MySqlBinLog
+
+# The TCP/IP Port the MySQL Server will listen on
+port=3306
+
+#Path to installation directory. All paths are usually resolved relative to this.
+basedir="C:/Program Files/MySQL/MySQL Server 5.5/"
+
+#Path to the database root
+datadir="C:/Documents and Settings/All Users/Application Data/MySQL/MySQL Server 5.5/Data/"
+
+# The default character set that will be used when a new schema or table is
+# created and no character set is defined
+character-set-server=latin1
+
+# The default storage engine that will be used when create new tables when
+default-storage-engine=INNODB
+
+# Set the SQL mode to strict
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+
+# The maximum amount of concurrent sessions the MySQL server will
+# allow. 
+max_connections=02
+
+# Query cache is used to cache SELECT results and later return them
+# without actual executing the same query once again. 
+query_cache_size=15M
+
+# The number of open tables for all threads. 
+table_cache=256
+
+# Maximum size for internal (in-memory) temporary tables.
+tmp_table_size=9M
+
+# How many threads we should keep in a cache for reuse. When a client
+# disconnects
+thread_cache_size=8
+
+#*** INNODB Specific options ***
+
+innodb_additional_mem_pool_size=20M
+
+innodb_flush_log_at_trx_commit=1
+
+innodb_log_buffer_size=1M
+
+innodb_buffer_pool_size=500M
+
+innodb_log_file_size=10M
+
+innodb_thread_concurrency=8
+
+log-queries-not-using-indexes
+
+log-warnings
+
+log=E:/CRITICAL_MYSQL_LOGGING/QUERY_LOGS/QueryLog
+
+log-error=E:/CRITICAL_MYSQL_LOGGING/ERROR_LOGS/ErrorLog
+
+log-slow-queries=E:/CRITICAL_MYSQL_LOGGING/SLOW_QUERY_LOGS/SlowQueryLog
+
+log-bin-index=E:/CRITICAL_MYSQL_LOGGING/BinLogIndexFile
+
+long_query_time=2

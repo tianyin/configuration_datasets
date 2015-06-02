@@ -1,0 +1,38 @@
+[mysqld]
+bind-address = 127.0.0.1
+skip-networking
+log-slow-queries
+log-slow-admin-statements
+engine-condition-pushdown
+open-files-limit=2048
+max_allowed_packet = 50M
+
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+
+innodb_buffer_pool_size=2048M
+innodb_log_file_size=512M
+innodb_log_buffer_size=4M
+innodb_flush_log_at_trx_commit=2
+innodb_thread_concurrency=8
+innodb_flush_method=O_DIRECT
+innodb_file_per_table
+
+max_connections=30
+table_cache=500
+max_delayed_threads=20
+max_tmp_tables=32
+tmp_table_size=64M
+max_heap_table_size=64M
+
+query-cache-type = 1
+query-cache-size = 20M
+query_cache_limit=8388608
+thread_cache_size=15
+key_buffer_size=512M
+
+long_query_time=1
+join_buffer_size=2M
+low_priority_updates=1
+concurrent_insert=2

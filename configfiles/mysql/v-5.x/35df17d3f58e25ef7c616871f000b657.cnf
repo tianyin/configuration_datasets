@@ -1,0 +1,14 @@
+[mysqld]
+socket = /var/lib/mysql/mysql.sock1
+port = <port>
+bind-address = <ip>
+pid-file = /var/lib/mysql/mysql1.pid1
+datadir = /var/lib/mysql
+user = mysql
+log-error = /var/lib/mysql/err.log
+log-bin=Master-mysql-bin
+server-id       = 1
+ft_min_word_len = 2
+skip-show-database
+innodb_data_home_dir = /var/lib/mysql
+innodb_data_file_path=ibdata1:194.19922M:autoextend

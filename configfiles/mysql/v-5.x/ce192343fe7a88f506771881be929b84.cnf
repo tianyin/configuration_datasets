@@ -1,0 +1,117 @@
+# /usr/local/mysql-<version>/my.cnf
+
+# MySQL server configuration file
+
+# last updated 2006-03-08
+
+# mysql client program configuration file lives in /etc/my.cnf
+
+#---------------------------------------------------------------------------
+# mysqld server configuration options
+#---------------------------------------------------------------------------
+
+[mysqld]
+basedir=/usr/local/mysql-5.0.18
+
+## use for testing multiple instances of mysqld
+## these parameters are normally passed to mysqld
+## from the start-mysql-5.0.18 script
+##
+##basedir=/usr/local/mysql-5.0.18
+##port=7005
+##socket=/usr/local/mysql-5.0.18/data/mysql.sock
+##pid-file=/usr/local/mysql-5.0.18/data/laptop.pid
+##datadir=/usr/local/mysql-5.0.18/data
+##user=mysql
+
+server-id=1
+
+#skip-networking
+skip-name-resolve
+skip-locking
+
+set-variable = key_buffer=16M
+set-variable = max_allowed_packet=1M
+set-variable = table_cache=64
+set-variable = sort_buffer=512K
+set-variable = net_buffer_length=8K
+set-variable = myisam_sort_buffer_size=8M
+
+# logging options
+log=5-0-18.log
+log-bin=laptop-bin
+log-error=5-0-18.error-log
+log-queries-not-using-indexes
+log-slow-admin-statements
+log-slow-queries=5-0-18.slow-log
+log-warnings
+
+#---------------------------------------------------------------------------
+
+# end of mysqld server configuration file
+# /usr/local/mysql-<version>/my.cnf
+
+
+# /etc/my.cnf
+
+# MySQL client program configuration file
+
+# last updated 2006-03-05
+
+# mysqld server configuration file lives in
+# /usr/local/mysql-<version>/my.cnf
+
+#---------------------------------------------------------------------------
+# mysql client program configuration options
+#---------------------------------------------------------------------------
+
+[mysql]
+no-auto-rehash
+
+# needed for security - to stops multiple deletes/updates
+# without a where clause
+safe-updates
+
+#---------------------------------------------------------------------------
+
+# The following options will be passed to all MySQL clients
+
+[client]
+socket = /var/lib/mysql/mysql.sock
+port = 3333
+
+#---------------------------------------------------------------------------
+
+[myisamchk]
+set-variable = key_buffer=20M
+set-variable = sort_buffer=20M
+set-variable = read_buffer=2M
+set-variable = write_buffer=2M
+
+#---------------------------------------------------------------------------
+
+[mysqldump]
+quick
+set-variable = max_allowed_packet=16M
+
+#---------------------------------------------------------------------------
+
+# available programs/scripts are:
+
+#my_print_defaults                   mysqladmin
+#myisamchk                           mysqlbinlog
+#myisamlog                           mysqlbug - n/a
+#myisampack                          mysqlcheck
+#mysql                               mysqld
+#mysql_convert_table_format - .pl    mysqld_multi
+#mysql_find_rows                     mysqldump
+#mysql_fix_privilege_tables  n/a     mysqlhotcopy - .pl
+#mysql_install_db                    mysqlimport
+#mysql_setpermission - .pl           mysqlshow
+#mysql_zap                           mysqltest
+#mysqlaccess - .pl                   safe_mysqld
+
+#---------------------------------------------------------------------------
+
+# end of mysql client program configurations
+# /etc/my.cnf

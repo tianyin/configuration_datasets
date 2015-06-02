@@ -1,0 +1,47 @@
+[client]
+port            = 3306
+socket          = /var/run/mysql/mysql.sock
+[mysqld]
+port            = 3306
+socket          = /var/run/mysql/mysql.sock
+datadir                 = /vu/mysql/dados
+skip-external-locking
+key_buffer_size         = 256M
+max_allowed_packet      = 1M
+table_open_cache        = 256
+sort_buffer_size        = 1M
+net_buffer_length       = 8K
+read_buffer_size        = 1M
+read_rnd_buffer_size    = 4M
+myisam_sort_buffer_size = 64M
+thread_cache_size = 8
+query_cache_size= 16M
+thread_concurrency = 8
+log-bin=mysql-bin
+binlog_format=mixed
+max_binlog_size=10485760
+expire_logs_days=3
+innodb_flush_log_at_trx_commit=0
+server-id       = 1
+innodb_buffer_pool_size = 256M
+innodb_additional_mem_pool_size = 2M
+[safe_mysqld]
+log-error       = /var/log/mysql/mysqld.log
+socket          = /var/run/mysql/mysql.sock
+[mysqldump]
+socket          = /var/run/mysql/mysql.sock
+quick
+max_allowed_packet = 16M
+[mysql]
+no-auto-rehash
+[myisamchk]
+key_buffer_size     = 128M
+sort_buffer_size    = 128M
+read_buffer         = 2M
+write_buffer        = 2M
+[mysqlhotcopy]
+interactive-timeout
+[mysqld_multi]
+mysqld              = /usr/bin/mysqld_safe
+mysqladmin          = /usr/bin/mysqladmin
+log                 = /var/log/mysqld_multi.log

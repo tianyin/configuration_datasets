@@ -1,0 +1,312 @@
+VERSION,LINK,DESC,SOURCE
+2.0.40,http://mail-archives.apache.org/mod_mbox/httpd-users/200304.mbox/%3CNGBBLGNMLJPKEPIFPKLHEEKHFDAA.tfletcher@netfactoriel.com%3E,[users@httpd] apache not accessible from the internet!,mailing_list
+2.0.52,http://mail-archives.apache.org/mod_mbox/httpd-users/200501.mbox/%3C23ADBF4236843B469BE57F05F135897602E74355@srvntexc2.swfr%3E,Reverse Proxy for OWA and OMA on a HTTP-Exchange 2003,mailing_list
+2.2.6,http://mail-archives.apache.org/mod_mbox/httpd-users/200903.mbox/%3C9aef75b10903261200j1dc3e1c4y93f2a6ad88322bc5@mail.gmail.com%3E,[users@httpd] mod_vhost_alias and DOCUMENT_ROOT,mailing_list
+unknown,http://stackoverflow.com/questions/21007783/how-to-synchronize-multiple-django-settings-to-the-db,how to synchronize multiple django settings to the db,stackoverflow.com
+unknown,http://stackoverflow.com/questions/16773654/multiple-sites-under-one-django-instance-sites-serve-wrong-content-sometimes,multiple sites under one django instance sites serve wrong content sometimes,stackoverflow.com
+2.0.x,http://serverfault.com/questions/563241/iptables-multiple-ips-only-one-is-ip-prerouting-correctly,iptables multiple ips only one is ip prerouting correctly,serverfault.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200209.mbox/%3C005901c251bd$2835abb0$0500a8c0@hb%3E,[users@httpd] apache very slow to respond to first request,mailing_list
+1.3.12,http://mail-archives.apache.org/mod_mbox/httpd-users/200306.mbox/%3CDOGDIEOKECMLFDAA@whowhere.com%3E,[users@httpd] Page could not be displayed error thru SSL,mailing_list
+2.2,http://stackoverflow.com/questions/13884004/mac-osx-lion-apache-rewrite-module-not-working-with-virtual-host-and-htaccess-fi,mac osx lion apache rewrite module not working with virtual host and htaccess fi,stackoverflow.com
+2.2,http://stackoverflow.com/questions/19138850/setup-multiple-ssl-certificates-on-amazon-vpc,setup multiple ssl certificates on amazon vpc,stackoverflow.com
+unknown,http://stackoverflow.com/questions/12719992/apache-ip-virtual-hosts,apache ip virtual hosts,stackoverflow.com
+2.0.55,http://mail-archives.apache.org/mod_mbox/httpd-users/200512.mbox/%3C438FC1EB.7010403@p6m7g8.com%3E,[users@httpd] SVN and httpd w/ SSL,mailing_list
+2.0.x,http://grokbase.com/t/apache/users/043s893bng/httpd-followsymlinks-in-2-0,[users@httpd] FollowSymLinks in 2.0,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200204.mbox/%3C003201c1dae8$161b24b0$e263063e@shaunthesheep%3E,apache and php not connecting......,mailing_list
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/201109.mbox/%3C9F03860C-86EC-4CAD-AB1C-C36B04D6214B@normanfournier.com%3E,[users@httpd] Errors in httpd.conf,mailing_list
+unknown,http://stackoverflow.com/questions/12452037/symlinked-folder-on-subdomain-gives-403-forbidden,symlinked folder on subdomain gives 403 forbidden,stackoverflow.com
+2.2,http://serverfault.com/questions/446702/lampp-1-7-7-got-error-with-virtualhost,lampp 1 7 7 got error with virtualhost,serverfault.com
+2.4.4,http://serverfault.com/questions/514478/php-5-4-apache-5-4-4-installation-error-in-windows,php 5 4 apache 5 4 4 installation error in windows,serverfault.com
+2.2.6,http://stackoverflow.com/questions/7188301/cant-get-symfony-to-show-images,cant get symfony to show images,stackoverflow.com
+2.4,http://stackoverflow.com/questions/13096660/localhost-you-do-not-have-permission,localhost you do not have permission,stackoverflow.com
+2.2.17,http://mail-archives.apache.org/mod_mbox/httpd-users/201109.mbox/%3C09AEF1A65F8E8C459D8A81C1BFAC5F34046BE469@TAIS-ML-P01.na.toshiba-dpg.local%3E,[users@httpd] help: apache 2.2.17 creating zombies that are increasing server load,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200208.mbox/%3CC4A1C30D4E65F949817239A698DCD50D347AE9@TYGRRA01-XCS00.telkom.co.za%3E,RE: mod-ssl and authz modules,mailing_list
+2.2.21,http://stackoverflow.com/questions/9939362/php-refuses-to-output-data-from-var-dump-print-etc,php refuses to output data from var dump print etc,stackoverflow.com
+2.4.4,http://stackoverflow.com/questions/22075630/issue-with-wamp-on-windows-vista,issue with wamp on windows vista,stackoverflow.com
+2.2,http://serverfault.com/questions/223581/installing-linux-apache-unable-to-connect,installing linux apache unable to connect,serverfault.com
+ 2.2.14,http://serverfault.com/questions/95970/apache-connection-intermittantly-times-out-on-lan,apache connection intermittantly times out on lan,serverfault.com
+2.2.17,http://mail-archives.apache.org/mod_mbox/httpd-users/201012.mbox/%3C201101011641.22121.david@vizion2000.net%3E,[users@httpd] Apache22 not starting - is this a SSL from ports bug?,mailing_list
+2.2,http://serverfault.com/questions/219999/apache-wont-accept-external-requests,apache wont accept external requests,serverfault.com
+2.2.3,http://serverfault.com/questions/438538/issues-with-apache-redirect-to-www-prefixed-url,issues with apache redirect to www prefixed url,serverfault.com
+1.3.33,http://mail-archives.apache.org/mod_mbox/httpd-users/200504.mbox/%3C20050427155050.21492.qmail@web51601.mail.yahoo.com%3E,RE: [users@httpd] apache + mod_ssl + openssl + solaris 9/64bit,mailing_list
+ 2.0.48,http://marc.info/?l=apache-httpd-users&m=107631299425173&w=2,Re: [users@httpd] Apache 2.0.48 and SSL,mailing_list
+2.2.15,http://stackoverflow.com/questions/21959611/when-i-change-allowoverride-to-all-in-httpd-conf-apache-will-no-longer-parse-php,when i change allowoverride to all in httpd conf apache will no longer parse php,stackoverflow.com
+2.4.4,http://stackoverflow.com/questions/17848477/cannot-execute-python-script-in-apache-although-permissions-seem-fine,cannot execute python script in apache although permissions seem fine,stackoverflow.com
+1.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200112.mbox/%3C014101c17dcb$cf1d1fb0$4f02030a@k7tpro%3E,Help with Name Based Virtual Hosting needed please. Thanks in advance!!,mailing_list
+1.3.9,http://mail-archives.apache.org/mod_mbox/httpd-users/200204.mbox/%3C004a01c1e234$ec8db050$50821b18@nwadm%3E,HTTPS: on apache ~advice on overall file config,mailing_list
+2.2.8,http://mail-archives.apache.org/mod_mbox/httpd-users/200905.mbox/%3C3733A9C3AB40C64A8E0A141E0768A50523BCAE303A@mail1.impetus.co.in%3E,[users@httpd] FW: Thread related configuration in APACHE(2.2.8) httpd.conf,mailing_list
+2.2,http://stackoverflow.com/questions/8892934/apache-configuration-performance-for-django,apache configuration performance for django,stackoverflow.com
+2.2,http://stackoverflow.com/questions/14177926/xampp-not-responding-when-starting-apache,xampp not responding when starting apache,stackoverflow.com
+2.2,http://marc.info/?l=apache-httpd-users&m=121386702023792,Re: [users@httpd] how to make apache http server accessible to,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200403.mbox/%3C20040301215907.59072.qmail@web80408.mail.yahoo.com%3E,RE: need help configuring,mailing_list
+2.4.4,http://serverfault.com/questions/497128/long-tcp-ip-connect-time-20-40s-with-apache-2-4-mod-proxy-ajp-tomcat-7-0-39,long tcp ip connect time 20 40s with apache 2 4 mod proxy ajp tomcat 7 0 39,serverfault.com
+2.4.6,http://stackoverflow.com/questions/18022906/cgi-bin-printenv-doesnt-execute-outputs-the-script-itself,cgi bin printenv doesnt execute outputs the script itself,stackoverflow.com
+1.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200210.mbox/%3COF35219608.AAB463F4-ON88256C4F.006EECC4@worldvision.org%3E,[users@httpd] Problem with Apache Configuration,mailing_list
+2.2.22,http://mail-archives.apache.org/mod_mbox/httpd-users/201209.mbox/%3C361F495FA40ABD4D8506D1F31F403E1901A1AB@WKUTLMSGHMCP06.wkglobal.com%3E,"[users@httpd] httpd 2.2.22, mod_jk, open_ssl, does not appear to be running secure",mailing_list
+2.4,http://stackoverflow.com/questions/18158394/xampp-not-connecting-external-ip,xampp not connecting external ip,stackoverflow.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200812.mbox/%3CBLU119-DS5F06BFC7DDAE313C2DC17EBF40@phx.gbl%3E,RE: syntax error,mailing_list
+2.2.17,http://stackoverflow.com/questions/5953803/wamp-server-available-over-wireless-network,wamp server available over wireless network,stackoverflow.com
+2.2.21,http://serverfault.com/questions/339503/virtual-hosts-not-working,virtual hosts not working,serverfault.com
+unknown,http://stackoverflow.com/questions/6703850/cant-get-pyramid-to-work-with-mod-wsgi,cant get pyramid to work with mod wsgi,stackoverflow.com
+2.2,http://stackoverflow.com/questions/14226066/ubd-process-interfering-with-mamp-at-port-80,ubd process interfering with mamp at port 80,stackoverflow.com
+2.2,http://stackoverflow.com/questions/10524004/why-is-my-cpu-high-when-using-many-curl-requests-which-are-waiting-for-response,why is my cpu high when using many curl requests which are waiting for response,stackoverflow.com
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200404.mbox/%3C005f01c427b9$e684c370$0300a8c0@max2%3E,Re: [users@httpd] statically compiled ssl requires parameters?,mailing_list
+2.4.3,http://stackoverflow.com/questions/16305231/apache-server-importerror-no-module-named-site,apache server importerror no module named site,stackoverflow.com
+2.2,http://serverfault.com/questions/489954/parallels-apache-stopped-loading-virtual-host-config-files,parallels apache stopped loading virtual host config files,serverfault.com
+2.2.21,http://stackoverflow.com/questions/11537539/suddenly-wamp-server-has-stopped-working-with-error-403,suddenly wamp server has stopped working with error 403,stackoverflow.com
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200212.mbox/%3C200212030254.TAA31855@dqsoft.com%3E,[users@httpd] Apache2 httpd.conf file ignored? SSI/htaccess problems,mailing_list
+1.3,http://marc.info/?l=apache-httpd-users&m=102499266009993&w=2,Re: Advice,mailing_list
+2.2,http://stackoverflow.com/questions/20863416/cant-connect-to-apache-from-anywhere-but-local-host,cant connect to apache from anywhere but local host,stackoverflow.com
+1.3.27,http://grokbase.com/t/apache/users/0348qeb01y/httpd-apache-cannot-start-anymore,[users@httpd] Apache cannot start anymore,mailing_list
+2.2.13,http://serverfault.com/questions/118027/cant-get-ssl-to-work-with-svn-apache2-on-windows-xp,cant get ssl to work with svn apache2 on windows xp,serverfault.com
+2.2.22,http://serverfault.com/questions/504893/mongrel-over-mod-proxy-unacceptably-slow,mongrel over mod proxy unacceptably slow,serverfault.com
+2.2,http://serverfault.com/questions/322328/how-to-solve-403-forbidden-on-centos6-with-selinux-disabled,how to solve 403 forbidden on centos6 with selinux disabled,serverfault.com
+2.2.17,http://serverfault.com/questions/253643/apachehome-server-and-no-page-loading,apachehome server and no page loading,serverfault.com
+2.2,http://serverfault.com/questions/292990/apache-mod-wsgi-python-django-error-405-on-form-submission,apache mod wsgi python django error 405 on form submission,serverfault.com
+2.2,http://stackoverflow.com/questions/13812177/wordpress-localhost-admin-saving-the-requested-url-was-not-found-on-this-serv,wordpress localhost admin saving the requested url was not found on this serv,stackoverflow.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/201011.mbox/%3C3191B900F51A704A905B2DFA379F28E429A96F@tvd.trumanvandyke.local%3E,"[users@httpd] Rails via mongrel, always getting 404",mailing_list
+2.2,http://serverfault.com/questions/540628/cant-access-my-external-ip-address-outside-of-my-lan-apache-server-on-os-x,cant access my external ip address outside of my lan apache server on os x,serverfault.com
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200502.mbox/%3C02b001c50eef$e40f0790$5600a8c0@sysadmin%3E,Re: [users@httpd] httpd could not start,mailing_list
+2.0.35,http://mail-archives.apache.org/mod_mbox/httpd-users/200206.mbox/%3C003301c2108e$ac546e10$7f00000a@dgaddypc%3E,apache 2.0.35 with win2kpro - php module issue - please help asap!!!,mailing_list
+2.2,http://stackoverflow.com/questions/7102544/symbolic-link-not-allowed-or-link-target-not-accessible-on-fresh-installed-xam,symbolic link not allowed or link target not accessible on fresh installed xam,stackoverflow.com
+2.2,http://stackoverflow.com/questions/11584723/sslengine-on-causing-apache-server-failure,sslengine on causing apache server failure,stackoverflow.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200811.mbox/%3C20699058.post@talk.nabble.com%3E,Re: [users@httpd] Need help regarding rewrite error,mailing_list
+2.2.0,http://mail-archives.apache.org/mod_mbox/httpd-users/200603.mbox/%3C20060303150922.cbab25ad.nick@nickwithers.com%3E,[users@httpd] <Location (...)> Directive Under HTTPS,mailing_list
+2.4,http://stackoverflow.com/questions/19361520/xampp-on-win-server-2008-r2,xampp on win server 2008 r2,stackoverflow.com
+2.2,http://stackoverflow.com/questions/13839680/1-is-not-a-valid-win32-application-on-apache-server,1 is not a valid win32 application on apache server,stackoverflow.com
+2.2.15,http://serverfault.com/questions/473521/httpd-server-slows-down-then-goes-unresponsive,httpd server slows down then goes unresponsive,serverfault.com
+2.2.3,http://stackoverflow.com/questions/18867319/curl-35-unknown-ssl-protocol-error-in-connection-to-aduroid-adu-edu-tr443,curl 35 unknown ssl protocol error in connection to aduroid adu edu tr443,stackoverflow.com
+2.2.22,http://stackoverflow.com/questions/15146042/silex-setup-fails-with-mamp-because-mod-access-so-is-not-found,silex setup fails with mamp because mod access so is not found,stackoverflow.com
+2.2,http://stackoverflow.com/questions/14516740/clean-urls-issue-using-htaccess-in-php-laravel-project,clean urls issue using htaccess in php laravel project,stackoverflow.com
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200604.mbox/%3C00de01c65f06$19bfcac0$4b00a8c0@vliz.be%3E,RE: [users@httpd] Documentroot does not redirect...,mailing_list
+1.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200301.mbox/%3Cfreemail.20030018121455.68620@fm11.freemail.hu%3E,RE: [users@httpd] Userdir,mailing_list
+2.4,http://stackoverflow.com/questions/18215094/xampp-how-to-activate-the-put-method,xampp how to activate the put method,stackoverflow.com
+unknown,http://stackoverflow.com/questions/22130727/importerror-could-not-import-settings-health-tweets-settings-no-module-named,importerror could not import settings health tweets settings no module named,stackoverflow.com
+2.2,http://stackoverflow.com/questions/20642367/struggling-with-django-hierarchy-not-serving-admin-css,struggling with django hierarchy not serving admin css,stackoverflow.com
+2.2.22,http://serverfault.com/questions/441722/apache-2-2-on-mountain-lion-ignoring-proxypass-and-sending-request-to-documentro,apache 2 2 on mountain lion ignoring proxypass and sending request to documentro,serverfault.com
+2.2.8,http://serverfault.com/questions/430677/git-apache-unable-to-push-via-http,git apache unable to push via http,serverfault.com
+2.2,http://serverfault.com/questions/431089/how-do-i-set-up-ssl-in-zend-server,how do i set up ssl in zend server,serverfault.com
+2.0.54,http://mail-archives.apache.org/mod_mbox/httpd-users/200506.mbox/%3C20050607063330.GB30736@hank.org%3E,[users@httpd] Why sub-requests for <docroot>/<extra path>?,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200207.mbox/%3COF8942C6A2.D07BA8DD-ONC1256BEA.004E28BB@actuera.nl%3E,Re: Strange things with virutal hosts,mailing_list
+2.2,http://serverfault.com/questions/236402/enable-shibboleth-for-single-ssl-virtual-host-on-server-with-many-vhosts,enable shibboleth for single ssl virtual host on server with many vhosts,serverfault.com
+2.2.11,http://stackoverflow.com/questions/2330416/cakephp-httpd-conf-issues-on-windows-based-apache-server-wamp,cakephp httpd conf issues on windows based apache server wamp,stackoverflow.com
+2.4,http://stackoverflow.com/questions/17483967/mamp-dropbox-fixing-403-errors,mamp dropbox fixing 403 errors,stackoverflow.com
+unknown,http://stackoverflow.com/questions/9692089/why-gevent-on-a-flask-app-with-apache-mod-wsgi-is-raising-notimplementederror,why gevent on a flask app with apache mod wsgi is raising notimplementederror,stackoverflow.com
+2.0.44,http://mail-archives.apache.org/mod_mbox/httpd-users/200303.mbox/%3C20030327065533.52337.qmail@web41012.mail.yahoo.com%3E,[users@httpd] Can't Access CGI-BIN,mailing_list
+1.3.24,http://mail-archives.apache.org/mod_mbox/httpd-users/200301.mbox/%3CLDEELOMLPDCIKJIHHIKDGEBACEAA.mtheroux@sonicsoftware.com%3E,[users@httpd] Keepalive utilizing HTTP 1.0 via mod_proxy,mailing_list
+2.2,http://stackoverflow.com/questions/21770951/how-to-add-virtual-directores-and-allow-access-to-pages-in-apache-server,how to add virtual directores and allow access to pages in apache server,stackoverflow.com
+2.2.17,http://mail-archives.apache.org/mod_mbox/httpd-users/201108.mbox/%3CCAKhN_m6gAh_rRp=ZAQusmWXJcP8=Z-OqmRs68QfxZnsFmgk-pg@mail.gmail.com%3E,[users@httpd] mod_proxy SSL forward proxy,mailing_list
+1.3.12,http://mail-archives.apache.org/mod_mbox/httpd-users/200201.mbox/%3C000501c197a1$11f1c270$cc81cfc8@cisiodon%3E,Re: VHOSTS,mailing_list
+2.0.x,http://stackoverflow.com/questions/5894106/apache-authentication-on-root-but-not-on-index-html,apache authentication on root but not on index html,stackoverflow.com
+2.2.15,http://stackoverflow.com/questions/22013375/how-to-perl-cgi-script-in-apache-web-sever,how to perl cgi script in apache web sever,stackoverflow.com
+2.2.11,http://mail-archives.apache.org/mod_mbox/httpd-users/200903.mbox/%3CDC608F183CF75842ABC379082B6AF3CD20EA6CD1@uk-site1-ex00.net.satemail.com%3E,[users@httpd] Error updating cache on Windows,mailing_list
+2.2,http://stackoverflow.com/questions/3352051/tomcat6-behind-apache2-2-proxy-with-ssl,tomcat6 behind apache2 2 proxy with ssl,stackoverflow.com
+2.2.4,http://mail-archives.apache.org/mod_mbox/httpd-users/200703.mbox/%3COF439E8A33.204F71EE-ON8825729C.005D2B1D-8825729C.007CD33C@cob.org%3E,[users@httpd] Reverse proxying errors,mailing_list
+2.0.39,http://marc.info/?l=apache-httpd-users&m=103522433227352&w=2,[users@httpd] Bottleneck at 120 users with Apache2.0-39 + WebLogic7.0,mailing_list
+2.2,http://serverfault.com/questions/340356/apache-shows-it-works-whats-wrong-with-my-virtual-host-definition,apache shows it works whats wrong with my virtual host definition,serverfault.com
+2.2,http://serverfault.com/questions/493094/how-to-reverse-proxy-specific-ports-to-a-different-server-behind-a-firewall-usin,how to reverse proxy specific ports to a different server behind a firewall usin,serverfault.com
+2.0.x,http://marc.info/?l=apache-httpd-users&m=102016305121903&q=p3,Weird vhost problem = now i'm really going nuts       :-),mailing_list
+2.2.16,http://markmail.org/message/kig63e3hnnii6e5k#query:+page:1+mid:hsratj5zlprsrnbm+state:results,[users@httpd] Looking for a superminimalist configuration for serving static pages only.,mailing_list
+2.2,http://stackoverflow.com/questions/10873295/error-message-forbidden-you-dont-have-permission-to-access-on-this-server,error message forbidden you dont have permission to access on this server,stackoverflow.com
+1.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200112.mbox/%3C003801c182c9$5ac3bfe0$2e0da8c0@Kevin%3E,No data show up on client browser,mailing_list
+2.2.10,http://mail-archives.apache.org/mod_mbox/httpd-users/200810.mbox/%3C48FCB103.7010607@teksavvy.com%3E,[users@httpd] startup problem: httpd-2.2.10 and undefined symbol: dav_push_error,mailing_list
+unknown,http://serverfault.com/questions/487412/centos-6-4-server-installation-and-setup,centos 6 4 server installation and setup,serverfault.com
+2.2,http://serverfault.com/questions/218260/configure-apache-to-reverse-proxy-for-specific-name,configure apache to reverse proxy for specific name,serverfault.com
+2.0.x,http://stackoverflow.com/questions/8947231/trouble-commiting-to-subversion-server-using-apache,trouble commiting to subversion server using apache,stackoverflow.com
+1.3.27,http://mail-archives.apache.org/mod_mbox/httpd-users/200210.mbox/%3C55CEF4356E66EE44AB6BBBED6EEB5D1104533D@epsilon.corp.hcst.com%3E,[users@httpd] apache 1.3.27,mailing_list
+2.2,http://stackoverflow.com/questions/8736533/apache2-htaccess-is-being-ignored,apache2 htaccess is being ignored,stackoverflow.com
+2.2,http://marc.info/?l=apache-httpd-users&m=118506571114941&w=2,"[users@httpd] ""AddDefaultCharset not allowed here"" Error",mailing_list
+2.2.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200810.mbox/%3Cf40bef050809301732g3cfb7dedqbfd99373d01ba274@mail.gmail.com%3E,[users@httpd] Proxy to Tomcat AJP,mailing_list
+unknown,http://stackoverflow.com/questions/11829116/unable-to-load-revisions-error-in-xcode-organizer-when-connecting-to-svn-using,unable to load revisions error in xcode organizer when connecting to svn using,stackoverflow.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200409.mbox/%3C4150351E.4060406@fidei.co.uk%3E,Re: [users@httpd] Virtual Hosts and Document Root,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200506.mbox/%3C1118445696.22433.37.camel@localhost%3E,[users@httpd] apache-ssl authentication trouble after switch to debian sarge,mailing_list
+2.2.4,http://mail-archives.apache.org/mod_mbox/httpd-users/200705.mbox/%3C10351375.post@talk.nabble.com%3E,[users@httpd] Config help: PHP as FASTcgi on Windows2003 OS,mailing_list
+2.2,http://serverfault.com/questions/304746/apache2-on-slackware-virtualhost-config-connection-refused-on-port-8080,apache2 on slackware virtualhost config connection refused on port 8080,serverfault.com
+2.0.39,http://mail-archives.apache.org/mod_mbox/httpd-users/200207.mbox/%3C008401c22e80$dc8524c0$0200a8c0@pacbell.net%3E,Slow Response Time Using Proxies,mailing_list
+2.2,http://serverfault.com/questions/315075/setting-up-mono-asp-net-4-0-on-apache2-ubuntu-virtual-hosts,setting up mono asp net 4 0 on apache2 ubuntu virtual hosts,serverfault.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/201203.mbox/%3CCAHP4M8Xb9ZdRF8jNVimCGoG+=O4RaHLajhc4ve3FYpM6L4pgUg@mail.gmail.com%3E,"[users@httpd] Problems in setting up a ""HTTPS"" based WebDAV server",mailing_list
+2.2,http://stackoverflow.com/questions/21388978/apache-not-returning-index-php-as-default,apache not returning index php as default,stackoverflow.com
+2.4,http://stackoverflow.com/questions/20805246/cannot-access-apache-web-server-via-external-ip,cannot access apache web server via external ip,stackoverflow.com
+2.4.3,http://stackoverflow.com/questions/12256641/pci-scan-failure-due-to-webdav,pci scan failure due to webdav,stackoverflow.com
+2.2,http://serverfault.com/questions/447740/apache-httpd-conf-error,apache httpd conf error,serverfault.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200204.mbox/%3COCEFJJLBBFLGFIAOJEDJGELJCBAA.jshoberg@cbd.net%3E,Conf - htaccess - AddType not allowed here ?,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200402.mbox/%3C39BF7240F609D6119A9A00508B5E0719033EDD76@hansel.ushacomm.co.in%3E,[users@httpd] ssi not working,mailing_list
+2.2,http://stackoverflow.com/questions/10061765/passenger-showing-index-of-folder-rather-than-rendering-site-with-rails,passenger showing index of folder rather than rendering site with rails,stackoverflow.com
+2.2.0,http://mail-archives.apache.org/mod_mbox/httpd-users/200605.mbox/%3C32771.24.4.172.119.1147445706.squirrel@www.hornetsystems.net%3E,[users@httpd] Web Server Performace Issues,mailing_list
+unknown,http://stackoverflow.com/questions/5181466/apache-headername-directive-of-mod-autoindex-does-not-take-effect,apache headername directive of mod autoindex does not take effect,stackoverflow.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200207.mbox/%3C3D2D7108.7030703@acris.co.uk%3E,Strange logging problem,mailing_list
+2.2.17,http://serverfault.com/questions/438241/http-conf-setup-to-simplify-using-localhost81,http conf setup to simplify using localhost81,serverfault.com
+2.0.45,http://marc.info/?l=apache-httpd-users&m=112628537907844&w=2, Re: [users@httpd] Proper configuration of FollowSymLinks in 2.0.54,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200503.mbox/%3C8fc3badf050329070557a65e6d@mail.gmail.com%3E,[users@httpd] Directory Listing Problem,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200201.mbox/%3C000201c1978f$ad554a50$d60e48ce@1OF3%3E,RE: simple question,mailing_list
+2.2,http://serverfault.com/questions/308129/directory-index-forbidden-by-options-directive-var-www-html,directory index forbidden by options directive var www html,serverfault.com
+2.2,http://stackoverflow.com/questions/20225253/mod-mono-server-doesnt-host-the-webpages-placed-in-var-www-html-and-displays-a,mod mono server doesnt host the webpages placed in var www html and displays a,stackoverflow.com
+2.2.22,http://mail-archives.apache.org/mod_mbox/httpd-users/201211.mbox/%3C53CC2A8E-DB0E-40C2-9AB3-DD4607465667@filemaker.com%3E,[users@httpd] Error in accessing the home page,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200201.mbox/%3C3476221FE4EC4554088C226844C806DA@apache.law.com%3E,Virtual Host Problems Pulling Hair Out,mailing_list
+1.3.24,http://mail-archives.apache.org/mod_mbox/httpd-users/200204.mbox/%3C20020405063716.13657.cpmta@c000.lhr.cp.net%3E,Obj.: RE: cant get apache and php talking FAO Jim,mailing_list
+unknown,http://stackoverflow.com/questions/19604856/django-and-php-together-in-server-with-single-ip-and-port-only,django and php together in server with single ip and port only,stackoverflow.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/201301.mbox/%3CCAN+-h2zfp9wpQz3R+ae86=gRQQpa1iTcDhm=14ns57em8=tJDA@mail.gmail.com%3E,"[users@httpd] Conflict between Alias, <Directory>, and RewriteRule hides local directory from Apache httpd?",mailing_list
+2.2,http://serverfault.com/questions/50416/problem-with-svnapache-ssl-sspi-and-large-commits-imports,problem with svnapache ssl sspi and large commits imports,serverfault.com
+2.2,http://stackoverflow.com/questions/17677140/configuration-apache,configuration apache,stackoverflow.com
+2.2,http://stackoverflow.com/questions/10291592/strip-cache-control-with-an-apache-proxy,strip cache control with an apache proxy,stackoverflow.com
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200704.mbox/%3C5EBE57594E74E84DB1DC6BA8E279389D01C721D3@SOS-MAILSRV.ascindia.com%3E,[users@httpd] Blocking direct access to *.jsp pages through Apache2,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200204.mbox/%3C00cd01c1ef97$fa890b30$cf02410a@INFO207%3E,Re: apache + win2k,mailing_list
+2.2,http://stackoverflow.com/questions/15440182/ive-followed-a-few-guides-and-my-local-drupal-7-multisite-is-still-not-working,ive followed a few guides and my local drupal 7 multisite is still not working,stackoverflow.com
+2.2.9,http://mail-archives.apache.org/mod_mbox/httpd-users/200809.mbox/%3C48C3C34C.1040807@ita.org.mo%3E,Re: [users@httpd] HTTP Server 2.2.9 - Unable to view the files from IE,mailing_list
+2.2,http://serverfault.com/questions/204954/apache-process-count-spike-bringing-vm-to-its-knees,apache process count spike bringing vm to its knees,serverfault.com
+2.2,http://stackoverflow.com/questions/7157119/my-localhost-apache-server-isnt-showing-my-index-html,my localhost apache server isnt showing my index html,stackoverflow.com
+2.0.52,http://mail-archives.apache.org/mod_mbox/httpd-users/200512.mbox/%3C439EF9E5.2070501@bull.net%3E,[users@httpd] httpd 2.0.52 : Connection reset by peer in the log file,mailing_list
+2.0.43,http://mail-archives.apache.org/mod_mbox/httpd-users/200301.mbox/%3C008b01c2c8e2$c6688d60$0302a8c0@mike%3E,[users@httpd] Apache2 not starting/working,mailing_list
+2.2.10,http://mail-archives.apache.org/mod_mbox/httpd-users/201007.mbox/%3CAANLkTi=YOkqs4zX2a5ipHffr802mC4uZAiqMODnLiRig@mail.gmail.com%3E,[users@httpd] apache 2.2.10 can't use virtualhost with ssl,mailing_list
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200607.mbox/%3C44C5156B.4020408@firebadger.net%3E,Re: [users@httpd] Apache 2 SSL - Install Question (httpd.conf included [cutdown]),mailing_list
+1.3.23,http://mail-archives.apache.org/mod_mbox/httpd-users/200205.mbox/%3C001601c20336$711df060$3c0410ac@d0128%3E,405 Method not Allowed,mailing_list
+2.2,http://serverfault.com/questions/251546/wordpress-pretty-permalinks-not-working,wordpress pretty permalinks not working,serverfault.com
+unknown,http://stackoverflow.com/questions/7241875/rewrite-rules-not-working-directory-list-returned-instead-of-redirect,rewrite rules not working directory list returned instead of redirect,stackoverflow.com
+2.2.26,http://stackoverflow.com/questions/20807248/apache-error-libphp5-so-undefined-symbol-php-output-write,apache error libphp5 so undefined symbol php output write,stackoverflow.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200312.mbox/%3Csfe969ee.049@GWGATE1.ahm.com%3E,Re: [users@httpd] Getting on the internet.,mailing_list
+2.0.x,http://marc.info/?l=apache-httpd-users&m=110633725404097,[users@httpd] Mod_mem_cache,mailing_list
+2.2.19,http://serverfault.com/questions/276814/apache-main-site-keeps-redirecting-to-virtualhost,apache main site keeps redirecting to virtualhost,serverfault.com
+2.2,http://stackoverflow.com/questions/8791405/apacherubyredmine-i-cant-access-redmine-remotely-only-localhost,apacherubyredmine i cant access redmine remotely only localhost,stackoverflow.com
+2.2.12,http://stackoverflow.com/questions/2443115/apache-mod-rewrite-tomcat-encoding-26-and,apache mod rewrite tomcat encoding 26 and,stackoverflow.com
+2.4,http://stackoverflow.com/questions/20607334/url-rewriting-in-htaccess-for-php-get,url rewriting in htaccess for php get,stackoverflow.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/201109.mbox/%3Cf24d4310-ca1b-4b4e-a647-47b4023da13a@li289-212%3E,[users@httpd] Directory index forbidden by Options directive,mailing_list
+2.2.21,http://serverfault.com/questions/366622/wamp-2-2-loads-index-file-on-host-machine-through-ip-but-not-on-network-machi,wamp 2 2 loads index file on host machine through ip but not on network machi,serverfault.com
+2.2,http://serverfault.com/questions/419462/vhost-file-not-bring-recognised-by-apache,vhost file not bring recognised by apache,serverfault.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200907.mbox/%3C200907150331.34945.fakessh@fakessh.eu%3E,Re: [users@httpd] problem with cgi perl,mailing_list
+"unknown, from trunk",http://stackoverflow.com/questions/17012477/apache-on-fedora-running-lampp,apache on fedora running lampp,stackoverflow.com
+2.2.11,http://mail-archives.apache.org/mod_mbox/httpd-users/200903.mbox/%3CA6052D36-D2CE-488F-844C-826B30097D4D@octopart.com%3E,Re: [users@httpd] SSL ERRORS,mailing_list
+2.2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200608.mbox/%3COF3D6C68E0.1F8D8F3D-ON802571D8.00745340@uk.ibm.com%3E,[users@httpd] Unable to start Apache/2.2.2 - http: bad user name daemon,mailing_list
+2.2.22,http://serverfault.com/questions/490324/wamp-different-sites-on-different-ports-accessible-on-lan,wamp different sites on different ports accessible on lan,serverfault.com
+1.3.26-0,http://mail-archives.apache.org/mod_mbox/httpd-users/200504.mbox/%3C4267F75D.3010601@kavi.com%3E,"[users@httpd] runaway apache 1.3.26-0 processes, please help",mailing_list
+2.4,http://serverfault.com/questions/548883/apache-virtual-hosts-not-working-after-ubuntu-upgrade,apache virtual hosts not working after ubuntu upgrade,serverfault.com
+2.4,http://stackoverflow.com/questions/18566198/apache-server-failing-to-start-when-secfilter-engine-is-on,apache server failing to start when secfilter engine is on,stackoverflow.com
+1.3.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200207.mbox/%3CHLEEIGHMHOIHFJAMGBKDEEKBCEAA.kompukit@naisp.net%3E,"RE: Virtual hosts (was RE: .pl .cgi / cgi-scripts, handlers)",mailing_list
+2.2.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200609.mbox/%3C6286370.post@talk.nabble.com%3E,[users@httpd] More Virtual Host problems,mailing_list
+2.2.21,http://serverfault.com/questions/340366/htaccess-isnt-working-on-win-xp,htaccess isnt working on win xp,serverfault.com
+2.4.7,http://stackoverflow.com/questions/20736106/php-5-5-5-not-working-with-apache-2-4-7,php 5 5 5 not working with apache 2 4 7,stackoverflow.com
+2.2.6,http://mail-archives.apache.org/mod_mbox/httpd-users/200904.mbox/%3C802236.87477.qm@web54603.mail.re2.yahoo.com%3E,Re: [users@httpd] HTTP misconfiguration?,mailing_list
+2.2,http://serverfault.com/questions/503795/apache-httpd-conf-subdomain-setting-cause-500,apache httpd conf subdomain setting cause 500,serverfault.com
+2.0.43,http://marc.info/?l=apache-httpd-users&m=103939146907955&w=2,Re: [users@httpd] Apache 2.0.43 on OpenBSD 3.0 freezes or behaves,mailing_list
+2.2,http://serverfault.com/questions/280790/large-concurrent-user-performance-issues-for-apache-mod-jk-glassfish-v3-1-cl,large concurrent user performance issues for apache mod jk glassfish v3 1 cl,serverfault.com
+unknown,http://stackoverflow.com/questions/14660125/how-to-enable-php-in-apache-on-linux-fedora,how to enable php in apache on linux fedora,stackoverflow.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/201302.mbox/%3CCAB_02HMKcd-xE1kNMWstep10zAF4Rz_rA3KUd2qpKAKr9xUpyg@mail.gmail.com%3E,[users@httpd] 403 error for subsite using htaccess,mailing_list
+2.2,http://serverfault.com/questions/300367/too-much-apache2-processes-that-make-webserver-stop-responding,too much apache2 processes that make webserver stop responding,serverfault.com
+1.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200501.mbox/%3C41E83A42.7000002@ispi.net%3E,[users@httpd] No http just HTTPs,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200701.mbox/%3C56EB36BD1E4888418D7DD6A233F989A001680F@acs-exchange2.AD.UCSD.EDU%3E,RE: [users@httpd] Forbidden web pages,mailing_list
+2.0.47,http://mail-archives.apache.org/mod_mbox/httpd-users/200403.mbox/%3C20040302151313.99465.qmail@web80403.mail.yahoo.com%3E,[users@httpd] Apache 2.0.47 and WebSphere 5.1,mailing_list
+2.2.17,http://stackoverflow.com/questions/6443369/mod-rewrite-not-working-for-apache-2-2-on-windows-7,mod rewrite not working for apache 2 2 on windows 7,stackoverflow.com
+2.2,http://serverfault.com/questions/156581/very-slow-apache-on-windows-7,very slow apache on windows 7,serverfault.com
+1.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200201.mbox/%3C000201c19c77$3c23b960$daa82104@vz.dsl.genuity.net%3E,RE: Errors with PHP on Apache (Windows version),mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200301.mbox/%3C000201c2b768$4a353d00$6500a8c0@jeff%3E,RE: [users@httpd] HELP! I got another problem,mailing_list
+2.2.9,http://marc.info/?l=apache-httpd-users&m=126339231606404,[users@httpd] TAG <Location> and ldap_auth,mailing_list
+2.2,http://serverfault.com/questions/505726/centos-apache-tomcat-ssl-using-mod-jk,centos apache tomcat ssl using mod jk,serverfault.com
+2.2,http://stackoverflow.com/questions/19805488/httpd-ssl-conf-not-working-php,httpd ssl conf not working php,stackoverflow.com
+2.2,http://serverfault.com/questions/502631/apache-reverse-proxy-causing-40-second-delay-on-first-access-after-idle,apache reverse proxy causing 40 second delay on first access after idle,serverfault.com
+2.2,http://serverfault.com/questions/444629/getting-403-on-apache-with-php-on-fedora-17,getting 403 on apache with php on fedora 17,serverfault.com
+2.2,http://serverfault.com/questions/113853/getting-mod-rewrite-working-on-os-x-snow-leopard,getting mod rewrite working on os x snow leopard,serverfault.com
+2.0.46,http://grokbase.com/t/apache/users/04538cac15/httpd-virtual-hosts-and-webalizer,[users@httpd] Virtual Hosts and Webalizer,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200310.mbox/%3C006d01c3902a$de41db70$0700a8c0@nick%3E,Re: [users@httpd] Server Root Question,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200502.mbox/%3C420118F2.3060207@monroehosp.org%3E,[users@httpd] What is wrong with this httpd.conf.,mailing_list
+2.2,http://serverfault.com/questions/456789/svn-active-directory-authentication-with-proxypass-redirect-in-the-mix,svn active directory authentication with proxypass redirect in the mix,serverfault.com
+2.4.4,http://stackoverflow.com/questions/18042059/accessing-apache-server-remotely-fine-with-local-ip-error-with-global,accessing apache server remotely fine with local ip error with global,stackoverflow.com
+2.2.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200910.mbox/%3COFE20ED3C1.B18D5FAF-ON80257648.002C42F1-80257648.002FF5BA@cardifpinnacle.com%3E,[users@httpd] apache ldap binding issue,mailing_list
+2.2.6,http://mail-archives.apache.org/mod_mbox/httpd-users/201003.mbox/%3Ca60f25fc1003301350n781325a8udb14725aabe86815@mail.gmail.com%3E,[users@httpd] apache2 failing to start,mailing_list
+2.2,http://serverfault.com/questions/389920/apache-wont-start-unable-to-find-ipv4-address-of-none,apache wont start unable to find ipv4 address of none,serverfault.com
+2.2.10,http://mail-archives.apache.org/mod_mbox/httpd-users/200903.mbox/%3C75240970903060958q5f614f5cjbded7cc58a6eebed@mail.gmail.com%3E,Re: [users@httpd] Apache 2.2.10 web server issue with HPUX,mailing_list
+2.2,http://stackoverflow.com/questions/20164133/routing-with-htaccess-and-laravel,routing with htaccess and laravel,stackoverflow.com
+1.3.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200508.mbox/%3C42F03431.4CD7A42F@cox.net%3E,[users@httpd] Possible Problem with priority/ordering in httpd.conf?,mailing_list
+2.2.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200804.mbox/%3C47F1A570.8090101@gmail.com%3E,[users@httpd] Apache 2.2.3 - Delayed response,mailing_list
+2.0.43,http://mail-archives.apache.org/mod_mbox/httpd-users/200301.mbox/%3C000001c2c634$cdf0bae0$ed25bd42@HPPAV%3E,[users@httpd] No referer in logs - combined format (& 500 error with authentication - digest),mailing_list
+2.2,http://serverfault.com/questions/292749/apache-2-virtual-hosts-no-working-on-osx-10-6,apache 2 virtual hosts no working on osx 10 6,serverfault.com
+1.3.20,http://mail-archives.apache.org/mod_mbox/httpd-users/200205.mbox/%3C20020523111602.F23441@xiliang.2y.net%3E,HELP! Apache can not excute CGI scripts in user's home directory,mailing_list
+2.0.x,http://marc.info/?l=apache-httpd-users&m=111936838100721&w=2,[users@httpd] DAV Problem,mailing_list
+2.2.3,http://mail-archives.apache.org/mod_mbox/httpd-users/200904.mbox/%3Cb620380c0904021312p4fc9d814xa90cb94bde2a28db@mail.gmail.com%3E,[users@httpd] Memory Leak (configuration problem),mailing_list
+2.2.17,http://stackoverflow.com/questions/5792295/problems-with-getting-mod-wsgi-to-work-with-apache,problems with getting mod wsgi to work with apache,stackoverflow.com
+2.2.15,http://mail-archives.apache.org/mod_mbox/httpd-users/201005.mbox/%3C4CC620A59F405B4A8FA2C2A554AA26752FE5A042@XCH-SW-02V.sw.nos.boeing.com%3E,[users@httpd] Trouble w/ password protecting cgi-bin dir after upgrading from Apache 2.0.55 to 2.2.15,mailing_list
+2.2,http://serverfault.com/questions/560113/nagios-not-found-error,nagios not found error,serverfault.com
+2.2,http://stackoverflow.com/questions/18914454/mod-rewrite-to-index-php-fails,mod rewrite to index php fails,stackoverflow.com
+2.4.4,http://mail-archives.apache.org/mod_mbox/httpd-users/201307.mbox/%3C51ED1585.2080803@hiramoto.org%3E,[users@httpd] dav_fs: DSO load failed: AH00576: The DBM driver could not be loaded,mailing_list
+2.2.8,http://marc.info/?l=apache-httpd-users&m=122695150518243&w=2,[users@httpd] httpd 2.2.8 not responding to client requests,mailing_list
+2.4,http://serverfault.com/questions/444315/apache-keeps-adding-8080-port-by-itself-while-im-telling-it-to-use-80-only,apache keeps adding 8080 port by itself while im telling it to use 80 only,serverfault.com
+2.0.39,http://mail-archives.apache.org/mod_mbox/httpd-users/200206.mbox/%3C755A45B6C4D9B9428CCC845B272E8D968F21@ns1.centernix.net%3E,Apache <virtualhost> configuration concerning PHP Help :-),mailing_list
+2.2.24,http://serverfault.com/questions/512450/upgrading-to-apache-2-4-scriptalias-action-dont-work,upgrading to apache 2 4 scriptalias action dont work,serverfault.com
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200604.mbox/%3C11b141710604191421l692904d7g5d4f3030cdf461e1@mail.gmail.com%3E,Re: [users@httpd] mod rewrite not working,mailing_list
+2.0.x,http://stackoverflow.com/questions/20461100/php-forbidden-with-post-requests-apache,php forbidden with post requests apache,stackoverflow.com
+2.2.x,http://mail-archives.apache.org/mod_mbox/httpd-users/201106.mbox/%3CBANLkTik8AE5UH69+AhygD0YfmGsoMtsa9w@mail.gmail.com%3E,[users@httpd] apache 403 no error information provided,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200408.mbox/raw/%3C4112C7F7.9020101@gibbons.com%3E/3,[users@httpd] https config,mailing_list
+1.3.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200512.mbox/%3C1135014386.1507.16.camel@wbedllfs.xtra-net.be%3E,[users@httpd] Apache as a Rsync HTTP proxy,mailing_list
+2.0.39,http://mail-archives.apache.org/mod_mbox/httpd-users/200206.mbox/%3C000f01c21d50$a3acdf80$e2a505cf@mshome.net%3E,Apache 2.0.39 configured with PHP 4.2.1 Sapi not CGI question,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200312.mbox/%3C002101c3c591$544f7890$2001a8c0@MLARA%3E,[users@httpd] Please really crazzy,mailing_list
+2.4.6,http://stackoverflow.com/questions/20739350/phpmyadmin-displays-code-not-web-page,phpmyadmin displays code not web page,stackoverflow.com
+ 2.2.22,http://stackoverflow.com/questions/14943888/apache2-zendserver-php-controller-url-request-gives-404-not-found,apache2 zendserver php controller url request gives 404 not found,stackoverflow.com
+2.2,http://serverfault.com/questions/162777/nginx-apache-subdomain-redirection-fault,nginx apache subdomain redirection fault,serverfault.com
+2.0.54,http://mail-archives.apache.org/mod_mbox/httpd-users/200601.mbox/%3C43C9607A.2000705@yahoo.com%3E,[users@httpd] Help with Data Miner and cgi-bin setup,mailing_list
+unknown,http://stackoverflow.com/questions/11812390/httpd-conf-alias-does-not-work-for-www-version-of-site,httpd conf alias does not work for www version of site,stackoverflow.com
+2.2,http://serverfault.com/questions/557188/httpd-13-permission-denied-access-to-denied,httpd 13 permission denied access to denied,serverfault.com
+2.2,http://serverfault.com/questions/285964/apache2-400-bad-request-with-rewrite-rules-nothing-in-error-log,apache2 400 bad request with rewrite rules nothing in error log,serverfault.com
+2.2.21,http://stackoverflow.com/questions/10392741/images-css-and-other-links-not-working-on-wamp-virtual-host,images css and other links not working on wamp virtual host,stackoverflow.com
+2.2.21,http://stackoverflow.com/questions/9395187/403-500-error-on-apache-server-when-using-htaccess,403 500 error on apache server when using htaccess,stackoverflow.com
+2.2.9,http://stackoverflow.com/questions/766802/apache-refusing-connections,apache refusing connections,stackoverflow.com
+2.2,http://serverfault.com/questions/543526/apache-thread-bottleneck-how-to-improve,apache thread bottleneck how to improve,serverfault.com
+2.2.24,http://stackoverflow.com/questions/21385818/apache-authtype-not-set-internal-500-error,apache authtype not set internal 500 error,stackoverflow.com
+unknown,http://stackoverflow.com/questions/11991891/daemon-process-cannot-be-accessed-by-this-wsgi-application-mod-wsgi,daemon process cannot be accessed by this wsgi application mod wsgi,stackoverflow.com
+1.3.22,http://grokbase.com/t/apache/users/02cgxkm0r1/httpd-readmename-readme-listing-problems,[users@httpd] ReadmeName README listing problems,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200301.mbox/%3C024101c2b76a$1862f4f0$6401a8c0@personaloq83g9%3E,Re: [users@httpd] HELP! I got another problem,mailing_list
+ 2.0.49,http://mail-archives.apache.org/mod_mbox/httpd-users/200406.mbox/%3C5.2.1.1.2.20040622150950.0360e5d0@eon.pobox.stanford.edu%3E,Re: [users@httpd] segmentation fault,mailing_list
+2.2,http://stackoverflow.com/questions/12993858/setting-up-python-in-ampps-internal-server-error,setting up python in ampps internal server error,stackoverflow.com
+2.2,http://serverfault.com/questions/310165/fine-tuning-django-apache-mod-wsgi,fine tuning django apache mod wsgi,serverfault.com
+2.0.48,http://grokbase.com/t/apache/users/04213xwyk6/httpd-security-problem-with-mod-proxy,[users@httpd] Security problem with mod_proxy,mailing_list
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200703.mbox/%3C8d38ca0a0703252008m1173d347o682449e374d73c8f@mail.gmail.com%3E,[users@httpd] help needed with reverse proxies setup,mailing_list
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200612.mbox/%3C20061223010616.rhdh0uplkcg4cwk0@mail.orbitel.bg%3E,[users@httpd] Cannot download files from Apache2.2 webserver.,mailing_list
+2.2.21,http://serverfault.com/questions/413388/showing-outdated-information-when-using-wamp-as-local-server,showing outdated information when using wamp as local server,serverfault.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200203.mbox/%3CDDE9CCF1DFBFD41191170008C7B1E8C9020D732C@wch1xp02.cna.com%3E,what gives?,mailing_list
+2.2.4,http://mail-archives.apache.org/mod_mbox/httpd-users/200702.mbox/%3C45CCF6B3.4070204@enabled.com%3E,[users@httpd] starting apache results an error,mailing_list
+2.0.x,http://mail-archives.apache.org/mod_mbox/httpd-users/200207.mbox/%3C3D3657BB.3080608@india.adventnet.com%3E,Jsp Page is not getting invoked when given in DirectoryIndex,mailing_list
+2.0.43,http://mail-archives.apache.org/mod_mbox/httpd-users/200501.mbox/%3C8C53AAFA2050EE40BDCDB9455DA7D6340149589E@sw720ex020.visa.com%3E,RE: [users@httpd] RE: Reverse proxy using https not working,mailing_list
+1.3.23,http://mail-archives.apache.org/mod_mbox/httpd-users/200205.mbox/%3CB5747F3DB39FD411884B00B0D07808CCB6C123@server10%3E,RE: FW: access forbidden !!!!!! AAAAAAAAAAAAAAAAH !!,mailing_list
+2.2.14,http://mail-archives.apache.org/mod_mbox/httpd-users/201001.mbox/%3C8b7257c51001270422i2c1d3db6r829c4fddbdb1def2@mail.gmail.com%3E,Re: [users@httpd] Runaway Apache Process,mailing_list
+2.2,http://stackoverflow.com/questions/18900951/wordpress-throws-403-forbidden-error-on-wamp-apache-when-enabled-permalink,wordpress throws 403 forbidden error on wamp apache when enabled permalink,stackoverflow.com
+1.3,http://grokbase.com/t/apache/users/025jj7708k/where-to-put-directory/025j8cwcym#025j8cwcym,[Apache] Where to put <directory>,mailing_list
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/201106.mbox/%3C00a301cc2555$dc65aac0$95310040$@com%3E,[users@httpd] Apache 2.2 connections full,mailing_list
+2.2,http://stackoverflow.com/questions/18588157/apachemod-wsgi-stopped-working-remotely,apachemod wsgi stopped working remotely,stackoverflow.com
+2.2,http://stackoverflow.com/questions/7584876/apache-2-the-requested-url-was-not-found-on-this-server,apache 2 the requested url was not found on this server,stackoverflow.com
+2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200901.mbox/%3C1231179687.22456.4.camel@your-ab6cd29f8e.home%3E,Re: [users@httpd] help I do not understand,mailing_list
+2.2,http://static-173-79-223-25.washdc.fios.verizon.net/?l=apache-httpd-users&m=117248729910270&w=4, [users@httpd] Apache 2.2 utilize more physical  memory than apache 1.3,mailing_list
+2.2,http://serverfault.com/questions/188475/can-anyone-help-me-make-my-reverse-proxy-actually-cache,can anyone help me make my reverse proxy actually cache,serverfault.com
+2.2.17,http://stackoverflow.com/questions/5346479/need-help-setting-up-apache-on-centos-5-5-getting-403,need help setting up apache on centos 5 5 getting 403,stackoverflow.com
+2.2,http://serverfault.com/questions/130529/files-deleted-what-could-have-happened,files deleted what could have happened,serverfault.com
+2.2,http://serverfault.com/questions/560116/missing-modules-in-apache-2-2,missing modules in apache 2 2,serverfault.com
+2.2,http://serverfault.com/questions/406970/need-help-running-cgi-scripts-on-mac-os-x-apache,need help running cgi scripts on mac os x apache,serverfault.com
+2.2,http://serverfault.com/questions/151261/problems-with-apache-on-snow-leopard,problems with apache on snow leopard,serverfault.com
+2.2,http://serverfault.com/questions/280362/kloxo-apache-problems,kloxo apache problems,serverfault.com
+unknown,http://marc.info/?l=apache-httpd-users&m=106237898828701&w=2,Re: [users@httpd] httpd problem,mailing_list
+1.3.27,http://mail-archives.apache.org/mod_mbox/httpd-users/200302.mbox/%3CBAY1-F78YAPNXRPmcar000187f0@hotmail.com%3E,[users@httpd] mod_gzip _ help needed (o;,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200506.mbox/%3C42B021B3.2020309@csr.com%3E,Re: [users@httpd] RewriteRule problems,mailing_list
+2.0.50,http://mail-archives.apache.org/mod_mbox/httpd-users/200703.mbox/%3C7213f53d0703191558i7a09d20s682d4471e5c60a6@mail.gmail.com%3E,Re: [users@httpd] Apache problem with MSIE,mailing_list
+2.2,http://stackoverflow.com/questions/21345541/mod-rewrites-not-working-even-though-they-are-loaded,mod rewrites not working even though they are loaded,stackoverflow.com
+2.2,http://serverfault.com/questions/299101/fine-tune-httpd-conf-server-crashing-after-100-concurrent-connections,fine tune httpd conf server crashing after 100 concurrent connections,serverfault.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200709.mbox/%3C46E51FA6.2080008@sun.com%3E,[users@httpd] Query regarding the httpd.conf,mailing_list
+unknown,http://stackoverflow.com/questions/21390637/invalid-command-wsgiscriptalias-perhaps-misspelled-or-defined-by-a-module-not,invalid command wsgiscriptalias perhaps misspelled or defined by a module not,stackoverflow.com
+2.2,http://serverfault.com/questions/38937/httpd-conf-for-case-insensitive-file-serving,httpd conf for case insensitive file serving,serverfault.com
+2.2,http://stackoverflow.com/questions/18883243/apache2-do-not-get-right-path,apache2 do not get right path,stackoverflow.com
+2.2,http://stackoverflow.com/questions/21663309/cannot-access-localhost-to-run-my-php-projects,cannot access localhost to run my php projects,stackoverflow.com
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200201.mbox/%3C3C3DA155.9050106@meome-ag.de%3E,Re: httpd.conf problem - help diagnose,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200210.mbox/%3C5.1.1.6.0.20021025013234.00bc9510@mail.wingfoot.org%3E,RE: [users@httpd] Something from my httpd-error.log,mailing_list
+2.2,http://serverfault.com/questions/548088/https-and-http-issue-on-server-with-ssl,https and http issue on server with ssl,serverfault.com
+2.2.2,http://mail-archives.apache.org/mod_mbox/httpd-users/200605.mbox/%3CBAY103-F8BC3C200562756425F911B2A30@phx.gbl%3E,[users@httpd] proxy: error reading status line from remote server,mailing_list
+1.3.19,http://mail-archives.apache.org/mod_mbox/httpd-users/200206.mbox/%3C5.1.0.14.0.20020618192453.01ebf670@leviathan.irelands-web.ie%3E,Can't get Apache running with name-based vhosts,mailing_list
+unknown,http://mail-archives.apache.org/mod_mbox/httpd-users/200702.mbox/%3CCE67133097F05C4B938A5482E32525E20250B061@segotn647.vcn.ds.volvo.net%3E,[users@httpd] Trying to limit connections per virtual host with mod_cband,mailing_list
+2.2.6,http://mail-archives.apache.org/mod_mbox/httpd-users/200711.mbox/%3C473069AA.7090103@homechoice.co.uk%3E,[users@httpd] Newbie Alert! Apache 2.2.6 crash on start,mailing_list
+1.3.29,http://mail-archives.apache.org/mod_mbox/httpd-users/200503.mbox/%3C39302.193.178.209.193.1110882593.squirrel@193.178.209.193%3E,[users@httpd] reverse proxy configuration.,mailing_list
+1.3.20,http://mail-archives.apache.org/mod_mbox/httpd-users/200207.mbox/%3CNGBBIBEHOLIFMBEJMOEHCEKOCCAA.jcf@grucon.ufsc.br%3E,SSI is not working under Windows 98,mailing_list
+2.2,http://serverfault.com/questions/228892/what-is-wrong-with-this-vhost-setting,what is wrong with this vhost setting,serverfault.com
+1.3.22,http://mail-archives.apache.org/mod_mbox/httpd-users/200305.mbox/%3C3EB9A429.1030904@kynesoft.com%3E,"[users@httpd] Very strange problem with apache, please help me !",mailing_list
+1.3,http://marc.info/?l=apache-httpd-users&m=105088092529512&w=2,[users@httpd] httpd.conf -- addition of SSI and other minor changes on FreeBSD breaks basic HTTP,mailing_list
+2.0.58,http://mail-archives.apache.org/mod_mbox/httpd-users/200606.mbox/%3C001801c68f92$33a77ed0$521412ac@chencc%3E,Re: [users@httpd] Pease help with mod_deflate configuration,mailing_list
+2.2.22,http://stackoverflow.com/questions/15229873/django-with-apache-mod-wsgi-configuration,django with apache mod wsgi configuration,stackoverflow.com
+1.3.26,http://mail-archives.apache.org/mod_mbox/httpd-users/200310.mbox/%3C009801c39277$4b0b6f70$0a01a8c0@w2k30g%3E,"[users@httpd] CGI script runs under http, but browser tries to download under https",mailing_list
+2.0.43,http://mail-archives.apache.org/mod_mbox/httpd-users/200210.mbox/%3C20021030212842.GC431@localhost%3E,[users@httpd] DirectoryIndex Circumvents -FollowSymLinks?,mailing_list
+2.4,http://stackoverflow.com/questions/21951194/how-to-connect-localhost-site-using-mobile,how to connect localhost site using mobile,stackoverflow.com
+2.0.52,http://mail-archives.apache.org/mod_mbox/httpd-users/200510.mbox/%3CD268D9E5-6B5E-4D80-B994-C66E04B46152@mac.com%3E,[users@httpd] only 64k per file downloading from my webserver,mailing_list
+2.2,http://serverfault.com/questions/373193/virtual-host-setup-cant-access-wordpress-site-without-www,virtual host setup cant access wordpress site without www,serverfault.com
+2.4.6,http://serverfault.com/questions/551257/apache-misbehaving-returning-404s,apache misbehaving returning 404s,serverfault.com

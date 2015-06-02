@@ -1,0 +1,26 @@
+ [mysqld]
+#bind-address=127.0.0.1
+#skip-bdb
+local-infile=0
+max_connections=90
+open_files_limit=2050
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+query_cache_limit = 1M
+query_cache_size = 15M
+join_buffer_size = 512K
+read_buffer_size = 1M
+tmp_table_size = 3024M
+thread_cache_size = 8
+table_cache = 450
+innodb_buffer_pool_size = 540M
+key_buffer_size = 32M
+table_definition_cache = 4024
+max_allowed_packet = 35M
+max_heap_table_size = 3024M
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

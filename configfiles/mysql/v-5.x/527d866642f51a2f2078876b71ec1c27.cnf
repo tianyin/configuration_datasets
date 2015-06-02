@@ -1,0 +1,43 @@
+[mysqld]
+ 
+# SLLLLOOOWWWW Queries
+log_slow_queries        = /var/log/mysql/mysql-slow.log
+long_query_time = 2
+log-queries-not-using-indexes
+ 
+wait_timeout=60
+ 
+ 
+connect_timeout=10    #Increase connect_timeout from 5 to 10
+ 
+interactive_timeout=120   #Decrease interactive_timeout from 28800 to 100
+ 
+innodb_buffer_pool_size = 32M
+ 
+join_buffer_size=16M   #Increase join_buffer_size from 131072 to 1M
+ 
+key_buffer_size = 64M
+ 
+low_priority_updates=1 #If you have long running SELECT's against MyISAM tables and perform frequent updates consider setting
+ 
+max_allowed_packet=16M    #Increase max allowed packet size from 1M to 16M
+ 
+myisam_sort_buffer_size = 64M
+ 
+query_cache_size=128M   #Increase query_cache_size from 0 to 128M
+query_cache_limit=2M    #Increase query cache limit from 1048576 to 2M
+ 
+read_buffer_size=2M     #Increase read buffer size from 1M
+read_rnd_buffer_size=4M     #Increase read_rnd_buffer_size to 4M
+ 
+sort_buffer_size=2M   #Increase sort buffer size from 1M
+ 
+table_cache=1024    #Increase table cache cache from 256 to 1024
+table_definition_cache = 1024
+table_open_cache = 1024
+ 
+thread_cache_size = 8
+thread_concurrency = 4  # Try number of CPU's*2 for thread_concurrency
+ 
+tmp_table_size = 32M
+max_heap_table_size = 32M

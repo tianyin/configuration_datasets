@@ -1,0 +1,98 @@
+SOFTWARE,LINK,TYPE,SUBTYPE,DESC
+Apache httpd,http://serverfault.com/questions/265179/apache-redirect-problem-www-domain-com-redirects-to-domain-com-automatically,DIFFICULTY,FINDING KNOBS,apache redirect problem www domain com redirects to domain com automatically
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201308.mbox/%3CCAFZbZqM9+0yb80m3=hOfw=Md14wsr7698v26AJosX3oZqCtibA@mail.gmail.com%3E,DIFFICULTY,FINDING KNOBS,ProxyPassReverse not changing the protocol part (https to http) of the redirect url
+Apache httpd,http://serverfault.com/questions/490793/setting-up-mod-proxy-in-apache,DIFFICULTY,FINDING KNOBS,setting up mod proxy in apache
+Apache httpd,http://serverfault.com/questions/200207/how-to-configure-apache-so-that-it-can-listen-on-another-host,DIFFICULTY,FINDING KNOBS,how to configure apache so that it can listen on another host
+Apache httpd,http://serverfault.com/questions/324219/apache-htaccess-rewriterule-to-remove-trailing-slash-infinite-loop,DIFFICULTY,FINDING KNOBS,apache htaccess rewriterule to remove trailing slash infinite loop
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201304.mbox/%3C797C30F3EC4D3F4C96C2A97CCBE16E8AA99462441D@NDMSSCC06.ndc.nasa.gov%3E,DIFFICULTY,FINDING KNOBS,file extensions for CGI
+Apache httpd,http://serverfault.com/questions/71020/mod-rewrite-how-do-i-check-the-http-referers-query-string,DIFFICULTY,FINDING KNOBS,mod rewrite how do i check the http referers query string
+Apache httpd,http://serverfault.com/questions/123917/how-do-i-disable-medium-and-weak-low-strength-ciphers-in-apache-mod-ssl,DIFFICULTY,FINDING KNOBS,how do i disable medium and weak low strength ciphers in apache mod ssl
+Apache httpd,http://serverfault.com/questions/408534/tunnel-http-through-https-using-apache,DIFFICULTY,FINDING KNOBS,tunnel http through https using apache
+Apache httpd,http://serverfault.com/questions/69812/wildcards-in-virtual-hosts-with-dynamic-logs,DIFFICULTY,FINDING KNOBS,wildcards in virtual hosts with dynamic logs
+Apache httpd,http://serverfault.com/questions/541150/http-to-https-redirection-with-page-reload-in-apache-2-hd-web-hosting,DIFFICULTY,FINDING KNOBS,http to https redirection with page reload in apache 2 hd web hosting
+Apache httpd,http://serverfault.com/questions/515059/forward-apache-500-status-to-404,DIFFICULTY,FINDING KNOBS,forward apache 500 status to 404
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201304.mbox/%3CCAPpMyBFWo25+r0v-zGot4OzL_TOAQ0uT1yB=uEe3VaiHH4DgDQ@mail.gmail.com%3E,DIFFICULTY,FINDING KNOBS,Apache on CentOS 6 -- lots of reading requests
+Apache httpd,http://serverfault.com/questions/89399/https-timeout-while-http-works,DIFFICULTY,FINDING KNOBS,https timeout while http works
+Apache httpd,http://serverfault.com/questions/520054/configure-new-server-for-htaccess,DIFFICULTY,FINDING KNOBS,configure new server for htaccess
+Apache httpd,http://serverfault.com/questions/100519/how-can-i-prevent-users-from-seeing-my-php-source-code,DIFFICULTY,FINDING KNOBS,how can i prevent users from seeing my php source code
+Apache httpd,http://serverfault.com/questions/163412/seperate-server-logs,DIFFICULTY,FINDING KNOBS,seperate server logs
+Apache httpd,http://serverfault.com/questions/248918/how-can-i-enable-logging-for-requests-going-through-mod-proxy,DIFFICULTY,FINDING KNOBS,how can i enable logging for requests going through mod proxy
+Apache httpd,http://serverfault.com/questions/115371/rewrite-url-path-index-php-to-url-path,DIFFICULTY,FINDING KNOBS,rewrite url path index php to url path
+Apache httpd,http://serverfault.com/questions/413665/plesk-11-centos-6-how-to-configure-what-is-recorded-in-the-apache-access-log,DIFFICULTY,FINDING KNOBS,plesk 11 centos 6 how to configure what is recorded in the apache access log
+Apache httpd,http://serverfault.com/questions/554700/how-do-i-redirect-rewrite-to-the-fqdn-url-without-setting-servername,DIFFICULTY,FINDING KNOBS,how do i redirect rewrite to the fqdn url without setting servername
+Apache httpd,http://serverfault.com/questions/512190/howto-serve-different-local-index-page-with-multiple-virtualhosts,DIFFICULTY,FINDING KNOBS,howto serve different local index page with multiple virtualhosts
+Apache httpd,http://serverfault.com/questions/245127/apache2-on-windows-virtualhost-seems-to-not-work-properly,DIFFICULTY,FINDING KNOBS,apache2 on windows virtualhost seems to not work properly
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201303.mbox/%3CBAY002-W11E3346B402745C90EED92F7F90@phx.gbl%3E,DIFFICULTY,FINDING KNOBS,Where are error logs created on windows?
+Apache httpd,http://serverfault.com/questions/131286/redirect-http-requests-based-on-subdomain-address-without-changing-accessed-url,DIFFICULTY,FINDING KNOBS,redirect http requests based on subdomain address without changing accessed url
+Apache httpd,http://serverfault.com/questions/539118/is-there-an-apache2-directive-to-explicitly-set-directory-listings-403-forbidden,DIFFICULTY,FINDING KNOBS,is there an apache2 directive to explicitly set directory listings 403 forbidden
+Apache httpd,http://serverfault.com/questions/74614/how-to-add-multiple-domains-to-my-dedicated-server,DIFFICULTY,FINDING KNOBS,how to add multiple domains to my dedicated server
+Apache httpd,http://serverfault.com/questions/141234/is-it-possible-to-alias-a-url-in-apache-without-using-hosts,DIFFICULTY,FINDING KNOBS,is it possible to alias a url in apache without using hosts
+Apache httpd,http://serverfault.com/questions/499531/how-to-make-apaches-error-log-show-more-information,DIFFICULTY,FINDING KNOBS,how to make apaches error log show more information
+Apache httpd,http://serverfault.com/questions/213424/how-to-stop-mod-deflate-from-logging-to-my-php-error-log,DIFFICULTY,FINDING KNOBS,how to stop mod deflate from logging to my php error log
+Apache httpd,http://serverfault.com/questions/188986/apache-vhost-host-vs-ip,DIFFICULTY,FINDING KNOBS,apache vhost host vs ip
+Apache httpd,http://serverfault.com/questions/63190/passing-a-url-as-a-varible-via-mod-rewrite,DIFFICULTY,FINDING KNOBS,passing a url as a varible via mod rewrite
+Apache httpd,http://serverfault.com/questions/78286/can-i-get-apache-to-log-only-a-sample-of-the-requests,DIFFICULTY,FINDING KNOBS,can i get apache to log only a sample of the requests
+Apache httpd,http://serverfault.com/questions/213668/ignore-heartbeat-in-apache-access-logs,DIFFICULTY,FINDING KNOBS,ignore heartbeat in apache access logs
+Apache httpd,http://serverfault.com/questions/64986/different-authentication-for-same-site-with-apache2,DIFFICULTY,FINDING KNOBS,different authentication for same site with apache2
+Apache httpd,http://serverfault.com/questions/518209/apache-domain-names-are-case-sensitive,DIFFICULTY,FINDING KNOBS,apache domain names are case sensitive
+Apache httpd,http://serverfault.com/questions/207774/enabling-apache-options-based-on-a-request-header,DIFFICULTY,FINDING KNOBS,enabling apache options based on a request header
+Apache httpd,http://serverfault.com/questions/138165/is-it-possible-to-write-an-htpasswd-file-that-redirects-certain-users-to-certain,DIFFICULTY,FINDING KNOBS,is it possible to write an htpasswd file that redirects certain users to certain
+Apache httpd,http://serverfault.com/questions/56204/apache-2-redirect-subdomains-in-given-list,DIFFICULTY,FINDING KNOBS,apache 2 redirect subdomains in given list
+Apache httpd,http://serverfault.com/questions/131551/apache-how-to-serve-pages-with-users-other-than-www-data,DIFFICULTY,FINDING KNOBS,apache how to serve pages with users other than www data
+Apache httpd,http://serverfault.com/questions/486711/how-to-give-the-apache-group-write-access-to-log-files-and-an-ftp-user-read-onl,DIFFICULTY,FINDING KNOBS,how to give the apache group write access to log files and an ftp user read onl
+Apache httpd,http://serverfault.com/questions/89153/apache-dont-deliver-website-by-ip-address,DIFFICULTY,FINDING KNOBS,apache dont deliver website by ip address
+Apache httpd,http://serverfault.com/questions/503965/installing-ssl-certs-on-apache-what-certs-to-use,DIFFICULTY,SETTING KNOBS,installing ssl certs on apache what certs to use
+Apache httpd,http://serverfault.com/questions/217143/how-do-you-redirect-from-one-directory-to-another-and-maintain-the-proper-basepa,DIFFICULTY,SETTING KNOBS,how do you redirect from one directory to another and maintain the proper basepa
+Apache httpd,http://serverfault.com/questions/357211/configure-apache-to-load-special-folder-for-specific-port,DIFFICULTY,SETTING KNOBS,configure apache to load special folder for specific port
+Apache httpd,http://serverfault.com/questions/228796/what-is-the-simplest-possible-configuration-of-apache2-mod-proxy,DIFFICULTY,SETTING KNOBS,what is the simplest possible configuration of apache2 mod proxy
+Apache httpd,http://serverfault.com/questions/303902/wildcard-vhost-subdomains-with-301-redirect,DIFFICULTY,SETTING KNOBS,wildcard vhost subdomains with 301 redirect
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201303.mbox/%3C8D3BB60638C63742A7E719B6CE4ACF5B022FB267@SERVER01.main.juniperbridge.com%3E,ERROR,DIAGNOSING ERRORS,PHP script not executing with empty POST when using chunked encoding
+Apache httpd,http://serverfault.com/questions/422159/wsgi-cannot-access-a-file-but-permissions-are-correct,ERROR,DIAGNOSING ERRORS,wsgi cannot access a file but permissions are correct
+Apache httpd,http://serverfault.com/questions/500941/ssl-error-107-apache2-ssl-config,ERROR,DIAGNOSING ERRORS,ssl error 107 apache2 ssl config
+Apache httpd,http://serverfault.com/questions/115183/ubuntu-server-mod-chroot-apache2-problem,ERROR,DIAGNOSING ERRORS,ubuntu server mod chroot apache2 problem
+Apache httpd,http://serverfault.com/questions/356391/setting-up-virtualhost-on-osx-10-7-lion,ERROR,DIAGNOSING ERRORS,setting up virtualhost on osx 10 7 lion
+Apache httpd,http://serverfault.com/questions/367970/virtual-domain-redirection-working-only-partially-with-apache-2-2,ERROR,DIAGNOSING ERRORS,virtual domain redirection working only partially with apache 2 2
+Apache httpd,http://serverfault.com/questions/407875/how-to-diagnose-dns-virtual-domain-404s,ERROR,DIAGNOSING ERRORS,how to diagnose dns virtual domain 404s
+Apache httpd,http://serverfault.com/questions/404162/ec2-apache-server-giving-some-old-browsers-a-self-signed-certificate,ERROR,DIAGNOSING ERRORS,ec2 apache server giving some old browsers a self signed certificate
+Apache httpd,http://serverfault.com/questions/563544/apache-point-virtualhost-dynamic-domains-and-subdomains-to-different-folders,ERROR,DIAGNOSING ERRORS,apache point virtualhost dynamic domains and subdomains to different folders
+Apache httpd,http://serverfault.com/questions/362182/changing-the-default-apache-port-doesnt-work,ERROR,DIAGNOSING ERRORS,changing the default apache port doesnt work
+Apache httpd,http://serverfault.com/questions/562100/ubuntu-12-04-vhost-page-not-found,ERROR,DIAGNOSING ERRORS,ubuntu 12 04 vhost page not found
+Apache httpd,http://serverfault.com/questions/427396/htaccess-does-not-ask-the-password,ERROR,DIAGNOSING ERRORS,htaccess does not ask the password
+Apache httpd,http://serverfault.com/questions/216771/apache-named-virtual-hosts-and-https,ERROR,DIAGNOSING ERRORS,apache named virtual hosts and https
+Apache httpd,http://serverfault.com/questions/105670/xampp-apache-server-not-working-on-internal-network,ERROR,DIAGNOSING ERRORS,xampp apache server not working on internal network
+Apache httpd,http://serverfault.com/questions/218961/mindtouch-broke-my-apache2-virtual-host-configuration,ERROR,DIAGNOSING ERRORS,mindtouch broke my apache2 virtual host configuration
+Apache httpd,http://serverfault.com/questions/438726/apache-permission-denied-on-fedora-17-ec2-instance,ERROR,DIAGNOSING ERRORS,apache permission denied on fedora 17 ec2 instance
+Apache httpd,http://serverfault.com/questions/117085/how-to-check-and-change-permissions-of-files-and-folders-for-web-server-in-windo,ERROR,DIAGNOSING ERRORS,how to check and change permissions of files and folders for web server in windo
+Apache httpd,http://serverfault.com/questions/432932/how-to-debug-apache-timeouts,ERROR,DIAGNOSING ERRORS,how to debug apache timeouts
+Apache httpd,http://serverfault.com/questions/278815/apache2-ip-rendering-vhost-when-i-dont-want-it-to,ERROR,DIAGNOSING ERRORS,apache2 ip rendering vhost when i dont want it to
+Apache httpd,http://serverfault.com/questions/212071/serveralias-not-working,ERROR,DIAGNOSING ERRORS,serveralias not working
+Apache httpd,http://serverfault.com/questions/76222/apache-not-letting-me-into-a-folder,ERROR,DIAGNOSING ERRORS,apache not letting me into a folder
+Apache httpd,http://serverfault.com/questions/287669/dealing-with-development-subdomains,ERROR,DIAGNOSING ERRORS,dealing with development subdomains
+Apache httpd,http://serverfault.com/questions/456304/disable-htaccess-from-apache-allowoverride-none-still-reads-htaccess-files,ERROR,DIAGNOSING ERRORS,disable htaccess from apache allowoverride none still reads htaccess files
+Apache httpd,http://serverfault.com/questions/554777/apache-redirect-path-to-root,ERROR,FIXING ERRORS,apache redirect path to root
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201302.mbox/%3C51193BCB.6030301@indietorrent.org%3E,ERROR,FIXING ERRORS,Apache Module mod_authn_socache: AuthnCacheSOCache not allowed here (and other problems)
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201310.mbox/%3CCABQ4iYiPXwUiyXk5doxto1NHNLDEMAYGhb1zvzFM1RKOVYxnrQ@mail.gmail.com%3E,ERROR,FIXING ERRORS,Virtual Hosts Possible for SSL ?
+Apache httpd,http://serverfault.com/questions/219202/9000-different-subdomains-301-to-main-domain-htacess-apache,ERROR,FIXING ERRORS,9000 different subdomains 301 to main domain htacess apache
+Apache httpd,http://serverfault.com/questions/116666/setting-up-ssl-virtual-hosts-in-apache,ERROR,FIXING ERRORS,setting up ssl virtual hosts in apache
+Apache httpd,http://serverfault.com/questions/525861/apache-as-a-proxy-for-nexus-jenkins-and-foreman-several-virtualhosts-on-same-d,ERROR,FIXING ERRORS,apache as a proxy for nexus jenkins and foreman several virtualhosts on same d
+Apache httpd,http://serverfault.com/questions/155825/starting-apache-2-at-boot-on-mac-os-x-server-10-6,ERROR,FIXING ERRORS,starting apache 2 at boot on mac os x server 10 6
+Apache httpd,http://serverfault.com/questions/120511/apache-permission-errors,ERROR,FIXING ERRORS,apache permission errors
+Apache httpd,http://serverfault.com/questions/147547/apache-http-redirects-not-keeping-post-parameters,ERROR,FIXING ERRORS,apache http redirects not keeping post parameters
+Apache httpd,http://serverfault.com/questions/511615/why-does-my-rewritecond-match-even-though-the-pattern-clearly-doesnt-match,ERROR,FIXING ERRORS,why does my rewritecond match even though the pattern clearly doesnt match
+Apache httpd,http://serverfault.com/questions/399298/applying-mod-cband-before-mod-rewrite,ERROR,FIXING ERRORS,applying mod cband before mod rewrite
+Apache httpd,http://serverfault.com/questions/548056/htaccess-filesmatch-exclusion,ERROR,FIXING ERRORS,htaccess filesmatch exclusion
+Apache httpd,http://serverfault.com/questions/376466/apache-virtualhost-entry-with-windows-hostname,ERROR,FIXING ERRORS,apache virtualhost entry with windows hostname
+Apache httpd,http://serverfault.com/questions/67378/subdomain-with-windows-7-apache-cakephp,ERROR,FIXING ERRORS,subdomain with windows 7 apache cakephp
+Apache httpd,http://serverfault.com/questions/73712/configure-name-based-virtual-hosts-on-linode,ERROR,FIXING ERRORS,configure name based virtual hosts on linode
+Apache httpd,http://serverfault.com/questions/352148/apache-virtualhost-answering-when-i-browse-to-ip-address,ERROR,FIXING ERRORS,apache virtualhost answering when i browse to ip address
+Apache httpd,http://serverfault.com/questions/561862/apache-security-config-ubuntu-12,ERROR,FIXING ERRORS,apache security config ubuntu 12
+Apache httpd,http://serverfault.com/questions/342322/why-isnt-excluding-a-folder-in-mod-rewrite-not-taken-in-account,ERROR,FIXING ERRORS,why isnt excluding a folder in mod rewrite not taken in account
+Apache httpd,http://serverfault.com/questions/112361/limit-apache-2-memory-usage,ERROR,FIXING ERRORS,limit apache 2 memory usage
+Apache httpd,http://serverfault.com/questions/390093/configure-apache-mass-virtual-hosts-to-different-directories,ERROR,FIXING ERRORS,configure apache mass virtual hosts to different directories
+Apache httpd,http://serverfault.com/questions/142180/how-to-troubleshoot-excess-time-from-connect-to-first-byte,OTHER,PRACTICES,how to troubleshoot excess time from connect to first byte
+Apache httpd,http://serverfault.com/questions/316931/what-is-the-best-practice-for-adding-apache-mod-unique-id-to-php-error-logs,OTHER,PRACTICES,what is the best practice for adding apache mod unique id to php error logs
+Apache httpd,http://serverfault.com/questions/169188/apache-remote-logging,OTHER,PRACTICES,apache remote logging
+Apache httpd,http://mail-archives.apache.org/mod_mbox/httpd-users/201306.mbox/%3CCAN+jjTHiT3E+Ms1F+8O29gACmQgjWhv1dCDCotUsN9WcG9ErgA@mail.gmail.com%3E,OTHER,LEARNING/TRAINING,Want to replace 503 Maintenance page with custom page on Apache 2.2.23
+Apache httpd,http://serverfault.com/questions/111426/whats-different-when-documentroot-and-directory-is-in-outside-virtualhost-in-ap,OTHER,LEARNING/TRAINING,whats different when documentroot and directory is in outside virtualhost in ap
+Apache httpd,http://serverfault.com/questions/387749/apache-alias-isnt-in-directory-listing,OTHER,LEARNING/TRAINING,apache alias isnt in directory listing
+Apache httpd,http://serverfault.com/questions/449221/location-directive-in-a-virtualhost,OTHER,LEARNING/TRAINING,location directive in a virtualhost

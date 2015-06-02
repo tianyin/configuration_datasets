@@ -1,0 +1,24 @@
+[mysqld]
+datadir=/var/www/data
+socket=/var/www/data/mysql.sock
+user=mysql
+    symbolic-links=0
+query_cache_size=128M
+    max_connections=512
+key_buffer=512M 
+back_log=200
+max_allowed_packet=256M
+table_cache=512  
+sort_buffer_size=4M
+myisam_sort_buffer_size=64M
+thread_cache=128
+wait_timeout=300
+    thread_concurrency=4
+log_output=FILE 
+slow-query-log=1
+    slow-query-log-file=/var/www/logs/log-slow-query.log
+long_query_time=1
+
+[mysqld_safe]
+log-error=/var/www/logs/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

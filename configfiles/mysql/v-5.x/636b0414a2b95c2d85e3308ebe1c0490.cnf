@@ -1,0 +1,17 @@
+[mysqld]
+innodb_file_per_table
+datadir          = /elastidb/lib/mysql
+#log-bin          = /elastiblockdb/log/mysql/mysql-bin.log
+
+general_log      = true
+log = /elastiblockdb/log/mysql/mysql_general.log
+
+log-error        = /elastiblockdb/log/mysql/mysql_error.log
+max_binlog_size  = 1000M
+log-slow-queries = /elastiblockdb/log/mysql/mysql-slow.log
+long_query_time  = 10
+innodb_buffer_pool_size = 4500M
+innodb_additional_mem_pool_size = 200M
+innodb_log_file_size = 64M
+innodb_log_buffer_size = 8M
+innodb_flush_log_at_trx_commit = 2

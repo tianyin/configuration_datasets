@@ -1,0 +1,48 @@
+[mysqld]
+server-id=71
+datadir=/data_fio/mysqldata
+socket=/var/lib/mysql/mysql.sock
+tmpdir=/data_fio/mysqltmp
+
+log-error = /data/logs/mysql/error.log
+log-slow-queries = /data/logs/mysql/stats03-slowquery.log
+long_query_time = 2
+port=3306
+
+log-bin=/data_fio/mysqlbinlog/mysql-bin.log
+binlog-format=STATEMENT
+replicate-ignore-db=mysql
+
+log-slave-updates = true
+
+# Performance Tuning
+max_allowed_packet=16M
+max_connections=500
+table_open_cache = 2048
+max_connect_errors=1000
+open-files-limit=5000
+
+# mem = key_buffer + ( sort_buffer_size + read_buffer_size ) * max_connections
+key_buffer=4G
+max_heap_table_size = 1G
+tmp_table_size = 4G
+myisam_sort_buffer_size = 256M
+sort_buffer_size=4M
+read_buffer_size=2M
+query_cache_size=16M
+query_cache_type=2
+thread_concurrency=32
+
+user=mysql
+
+symbolic-links=0
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+
+[mysql]
+socket=/var/lib/mysql/mysql.sock
+
+[client]
+socket=/var/lib/mysql/mysql.sock

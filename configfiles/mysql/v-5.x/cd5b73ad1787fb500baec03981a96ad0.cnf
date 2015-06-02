@@ -1,0 +1,19 @@
+# The MySQL server
+[mysqld]
+port            = 3306
+socket          = /tmp/mysql.sock
+skip-locking
+key_buffer = 16M
+max_allowed_packet = 1M
+table_cache = 64
+sort_buffer_size = 512K
+net_buffer_length = 8K
+read_buffer_size = 256K
+read_rnd_buffer_size = 512K
+myisam_sort_buffer_size = 8M
+datadir = /app/mysql/data
+#data_file_path = /app/mysql/data
+general_log = 1
+general_log_file = /app/mysql/log/
+socket = /app/mysql/var/mysql.sock
+log-error = /app/mysql/log/error.log

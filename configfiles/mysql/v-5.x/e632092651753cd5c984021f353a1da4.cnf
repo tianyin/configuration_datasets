@@ -1,0 +1,8 @@
+[mysqld]
+bind-address           = 0.0.0.0   
+max_connections        = 600 
+server-id               = 1
+log_bin                 = /media/mysql-ebs/log_bin/mysql-bin.log
+binlog_do_db            = database1
+binlog_do_db            = database2
+datadir = /media/mysql-ebs/datadir

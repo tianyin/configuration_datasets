@@ -1,0 +1,15 @@
+[mysqld]
+local-infile=0
+max_allowed_packet=128M
+#set-variable=local-infile=0
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Default to using old password format for compatibility with mysql 3.x
+# clients (those using the mysqlclient10 compatibility package).
+# Forced OLD_PASSWORD format is turned OFF by Plesk
+#old_passwords=1
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

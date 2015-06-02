@@ -1,0 +1,77 @@
+[client]
+port        = 3306
+socket      = /var/run/mysqld/mysqld.sock
+
+[mysqld_safe]
+socket      = /var/run/mysqld/mysqld.sock
+nice        = 0
+
+[mysqld]
+user        = mysql
+socket      = /var/run/mysqld/mysqld.sock
+port        = 3306
+basedir     = /usr
+datadir     = /var/lib/mysql
+tmpdir      = /tmp
+skip-external-locking
+tmp_table_size = 128MB
+
+key_buffer              = 75M
+max_allowed_packet  = 1000M
+
+thread_stack        = 192K
+thread_cache_size       = 8
+
+myisam-recover         = BACKUP
+max_connections        = 500
+
+query_cache_limit   = 3M
+query_cache_size    = 150M
+
+log_error                = /var/log/mysql/error.log
+
+log_slow_queries    = /var/log/mysql/mysql-slow.log
+long_query_time = 30
+log-queries-not-using-indexes
+
+expire_logs_days    = 1
+max_binlog_size         = 500M
+
+innodb_buffer_pool_size = 4G
+innodb_log_file_size = 100M
+innodb_log_buffer_size = 128M
+
+
+innodb_data_home_dir = /var/lib/mysql
+innodb_data_file_path = ibdata1:10M:autoextend
+innodb_mirrored_log_groups = 1
+innodb_log_group_home_dir = /var/lib/mysql
+innodb_log_files_in_group = 2
+
+innodb_stats_on_metadata=0
+
+innodb_file_per_table
+innodb_flush_method=O_DIRECT
+
+innodb_write_io_threads = 8
+innodb_read_io_threads = 8
+
+innodb_flush_log_at_trx_commit = 2
+innodb_max_dirty_pages_pct = 90
+
+
+[mysqldump]
+quick
+quote-names
+max_allowed_packet  = 24M
+
+[isamchk]
+key_buffer      = 120M
+
+[myisamchk]
+key_buffer                                      = 120M
+sort_buffer_size                        = 20M
+read_buffer                             = 20M
+write_buffer                            = 20M
+
+tokudb_cache_size = 5G

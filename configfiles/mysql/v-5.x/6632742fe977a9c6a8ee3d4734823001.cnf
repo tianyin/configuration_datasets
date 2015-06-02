@@ -1,0 +1,35 @@
+[mysqld]
+
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+lower_case_table_names = 1
+default-storage-engine=InnoDB
+innodb_buffer_pool_size=5G
+innodb_log_file_size=512M
+query_cache_size=512M
+table_cache=64
+innodb_flush_method=O_DIRECT
+
+#Replication 
+
+log-bin=mysql-bin
+server-id=1
+sync_binlog=1
+innodb_flush_log_at_trx_commit=1
+
+binlog-do-db=test_db1
+binlog-do-db=test_db2
+
+# Default to using old password format for compatibility with mysql 3.x
+# clients (those using the mysqlclient10 compatibility package).
+old_passwords=1
+
+# Disabling symbolic-links is recommended to prevent assorted security risks;
+# to do so, uncomment this line:
+# symbolic-links=0
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+
+pid-file=/var/run/mysqld/mysqld.pid

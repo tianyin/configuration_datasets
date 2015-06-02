@@ -1,0 +1,105 @@
+
+#
+# The MySQL database server configuration file.
+#
+# You can copy this to one of:
+# - "/etc/mysql/my.cnf" to set global options,
+# - "/var/lib/mysql/my.cnf" to set server-specific options or
+# - "~/.my.cnf" to set user-specific options.
+# 
+# One can use all long options that the program supports.
+# Run program with --help to get a list of available options and with
+# --print-defaults to see which it would actually understand and use.
+#
+
+# This will be passed to all mysql clients
+# It has been reported that passwords should be enclosed with ticks/quotes
+# escpecially if they contain "#" chars...
+[client]
+#password	= my_password
+port		= 3306
+socket		= /var/run/mysqld/mysqld.sock
+
+# Here is entries for some specific programs
+# The following values assume you have at least 32M ram
+
+# This was formally known as [safe_mysqld]. Both versions are currently parsed.
+[mysqld_safe]
+socket		= /var/run/mysqld/mysqld.sock
+nice		= 0
+
+[mysqld]
+user		= mysql
+pid-file	= /var/run/mysqld/mysqld.pid
+socket		= /var/run/mysqld/mysqld.sock
+port		= 3306
+# Both location gets rotated by the cronjob.
+log-error		= /var/log/mysql/mysql.err
+#log		= /var/log/mysql.log
+#log		= /var/log/mysql/mysql.log
+basedir		= /usr
+datadir		= /var/lib/mysql/mysql-standard-5.0.17-linux-x86_64-glibc23/data
+tmpdir		= /var/lib/mysql/tmp
+language	= /var/lib/mysql/mysql-standard-5.0.17-linux-x86_64-glibc23/share/mysql/english
+skip-external-locking
+#
+# The skip-networking option will no longer be set via debconf menu.
+# You have to manually change it if you want networking i.e. the server
+# listening on port 3306. The default is "disable" - for security reasons.
+#skip-networking
+
+key_buffer		= 512M
+tmp_table_size		= 1024M
+max_connections		= 2000
+max_connect_errors	= 999999999
+table_cache		= 1024
+myisam_max_sort_file_size=2048M
+myisam_sort_buffer_size	=512M
+join_buffer_size	=512M
+sort_buffer		=512M
+#low-priority-updates    =TRUE
+
+max_allowed_packet	= 16M
+thread_stack		= 128K
+
+#
+# Query Cache Configuration
+#
+query_cache_limit	= 1M
+query_cache_size        = 256M
+query_cache_type        = 1
+
+#
+# Here you can see queries with especially long duration
+log-slow-queries	= /var/log/mysql/mysql-slow.log
+#
+# The following can be used as easy to replay backup logs or for replication
+#server-id		= 1
+#log-bin		= /var/log/mysql/mysql-bin.log
+#binlog-do-db		= include_database_name
+#binlog-ignore-db	= include_database_name
+#
+# Read the manual if you want to enable InnoDB!
+skip-innodb
+#
+# Read the manual, too, if you want chroot!
+# chroot = /var/lib/mysql/
+#
+# If you want to enable SSL support (recommended) read the manual or my
+# HOWTO in /usr/share/doc/mysql-server/SSL-MINI-HOWTO.txt
+# ssl-ca=/etc/mysql/cacert.pem
+# ssl-cert=/etc/mysql/server-cert.pem
+# ssl-key=/etc/mysql/server-key.pem
+
+
+
+[mysqldump]
+quick
+quote-names
+max_allowed_packet	= 16M
+
+[mysql]
+#no-auto-rehash	# faster start of mysql but no tab completition
+
+[isamchk]
+key_buffer		= 16M

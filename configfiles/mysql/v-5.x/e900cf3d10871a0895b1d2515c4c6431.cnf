@@ -1,0 +1,48 @@
+[mysqld]
+user=mysql
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+#innodb
+#innodb_log_file_size = 256M
+#innodb_log_buffer_size = 8M
+innodb_flush_log_at_trx_commit = 2
+innodb_lock_wait_timeout=50
+innodb_file_per_table
+innodb_buffer_pool_size=16G
+innodb_buffer_pool_instances=4
+#eliminating double buffering
+innodb_flush_method = O_DIRECT
+flush_time=86400
+
+skip-name-resolve
+query_cache_limit=4M
+query_cache_size=256M
+sort_buffer_size=8M
+read_rnd_buffer_size=1M
+max_connections=5000
+interactive_timeout=60
+wait_timeout=300
+connect_timeout=30
+thread_cache_size=32
+key_buffer=124M
+tmp_table_size=4096M
+max_heap_table_size=256M
+join_buffer=16M
+max_connect_errors=2000
+table_cache=2048
+thread_concurrency=12
+long_query_time=5
+log-slow-queries=/var/log/mysql-slow.log
+#table_definition_cache=384
+max_allowed_packet=1024M
+#server-id=20
+#log-bin=mysql-bin
+#expire_logs_days=10
+
+event_scheduler=ON
+
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

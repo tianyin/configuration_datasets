@@ -1,0 +1,76 @@
+[mysqld]
+
+# Settings user and group are ignored when systemd is used (fedora >= 15).
+# If you need to run mysqld under different user or group,
+# customize your systemd unit file for mysqld according to the
+# instructions in http://fedoraproject.org/wiki/Systemd
+user=mysql
+#skip-innodb
+
+#ignore-builtin-innodb
+#default-storage-engine = myisam
+#log-queries-not-using-indexes
+
+#key_buffer              = 6M
+key_buffer_size         = 1024M
+max_allowed_packet      = 64M
+thread_stack            = 256K
+thread_cache_size       = 200
+max_connections         = 200
+table_cache             = 128K
+tmp_table_size          = 24M
+max_heap_table_size     = 24M
+join_buffer_size        = 1M
+query_cache_limit       = 32M
+query_cache_size        = 8M
+read_buffer_size        = 1M
+# concurrent_insert       = ALWAYS
+
+general_log = 0
+general_log_file = /var/log/mysql/general.log
+
+low_priority_updates=1
+
+log_warnings=2
+#log_error=/var/log/mysql/mysql_error.log
+slow-query-log                  = 1
+slow-query-log-file = /var/log/mysql/mysql-slow.log
+long_query_time=1
+
+wait_timeout=15
+interactive_timeout=15
+
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+
+# InnoDB Settings
+innodb_buffer_pool_size = 768M
+innodb_log_file_size = 100M
+innodb-file-per-table          = 1
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+# Semisynchronous Replication
+# http://dev.mysql.com/doc/refman/5.5/en/replication-semisync.html
+# uncomment next line on MASTER
+#;plugin-load=rpl_semi_sync_master=semisync_master.so
+# uncomment next line on SLAVE
+#;plugin-load=rpl_semi_sync_slave=semisync_slave.so
+
+# Others options for Semisynchronous Replication
+#;rpl_semi_sync_master_enabled=1
+#;rpl_semi_sync_master_timeout=10
+#;rpl_semi_sync_slave_enabled=1
+
+# http://dev.mysql.com/doc/refman/5.5/en/performance-schema.html
+#;performance_schema
+
+#log-queries-not-using-indexes
+
+default-storage-engine=MyISAM
+#log-queries-not-using-indexes
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

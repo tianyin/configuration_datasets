@@ -1,0 +1,35 @@
+[mysqld]
+
+log-error=/var/log/mysqld.log
+log_warnings = 1
+user=mysql
+back_log = 75
+max_connections = 50000
+interactive_timeout=1000
+skip_innodb
+key_buffer_size = 384M
+myisam_sort_buffer_size = 1028M
+join_buffer_size = 1M
+read_buffer_size = 2M
+sort_buffer_size = 2M
+table_cache = 1028
+thread_cache_size = 32
+wait_timeout = 7200
+connect_timeout = 40
+tmp_table_size = 768M
+max_heap_table_size = 768M
+max_allowed_packet = 1024M
+max_connect_errors = 5000
+read_rnd_buffer_size = 1024M
+bulk_insert_buffer_size = 160M
+query_cache_limit = 8098M
+query_cache_size =8048M
+query_cache_type = 1
+query_prealloc_size = 65536
+query_alloc_block_size = 131072
+default-storage-engine = MyISAM
+symbolic-links=0
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+thread_concurrency = 128
+net_read_timeout=2400

@@ -1,0 +1,54 @@
+[mysqld]
+user            = mysql
+socket          = /var/run/mysqld/mysqld.sock
+port            = 3306
+basedir         = /usr
+datadir         = /var/lib/mysql
+tmpdir          = /tmp
+skip-external-locking
+max_allowed_packet      = 16M
+
+log_slave_updates = 1
+relay_log = mysql-relay-bin
+relay-log-purge=1
+skip-slave-start
+character_set_server = utf8
+character_set_client = utf8
+bind-address =  0.0.0.0
+log_error   = /var/log/mysql/error.log
+skip-name-resolve
+skip-locking
+max_connections = 150
+open-files-limit = 10240
+tmpdir = /dev/shm
+query_cache_size = 128M
+table_cache = 2048
+tmp_table_size = 64M
+max_heap_table_size = 64M
+thread_stack = 192K
+thread_cache_size = 60
+join_buffer_size = 64M
+query_cache_limit=2M
+key_buffer = 50M
+read_buffer_size = 2M
+read_rnd_buffer_size = 2M
+myisam_sort_buffer_size = 64M
+thread_concurrency = 8
+long_query_time = 10
+log-slow-queries = /var/log/mysql/slow.log
+binlog-format = ROW
+log-bin         = /home/backup/data/mysql-updates/
+expire_logs_days = 14
+max_binlog_size = 1024M
+innodb_file_per_table
+innodb_buffer_pool_size = 6G
+innodb_additional_mem_pool_size = 20M
+innodb_data_file_path = ibdata1:10M:autoextend
+innodb_log_file_size = 256M
+innodb_log_buffer_size = 16M
+innodb_flush_log_at_trx_commit = 0
+innodb_flush_method=O_DIRECT
+innodb_doublewrite=0
+innodb_lock_wait_timeout = 50
+innodb_support_xa=0
+transaction-isolation = READ-COMMITTED

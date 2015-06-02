@@ -1,0 +1,23 @@
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+symbolic-links=0
+
+plugin-load=archive=ha_archive.so;blackhole=ha_blackhole.so
+
+#Replication
+old_passwords=1
+log-bin=/var/lib/mysql/mysql-bin
+expire_logs_days=3
+binlog-do-db=roomserv
+binlog-do-db=asterisk
+binlog-ignore-db=mysql
+binlog-ignore-db=information_schema
+server-id=1
+auto_increment_increment= 2
+auto_increment_offset   = 1
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

@@ -1,0 +1,25 @@
+
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+wait_timeout=60
+default-character-set=utf8
+max_allowed_packet = 3000M
+max_connections = 5000
+ft_min_word_len=3
+
+server-id=1
+log-error = /var/log/mysql/error.log
+expire_logs_days = 3
+
+
+# Default to using old password format for compatibility with mysql 3.x
+# clients (those using the mysqlclient10 compatibility package).
+old_passwords=0
+
+[mysql.server]
+user=mysql
+
+[mysqld_safe]
+err-log=/var/log/mysql/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

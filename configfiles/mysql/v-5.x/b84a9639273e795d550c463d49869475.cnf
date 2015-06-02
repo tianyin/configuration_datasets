@@ -1,0 +1,63 @@
+
+[mysqld]
+# General
+datadir             = /home/mysql
+tmpdir                          = /var/lib/mysqltmp
+socket                          = /var/lib/mysql/mysql.sock
+skip-external-locking           = 1
+skip-name-resolve
+open-files-limit                = 20000
+# Cache
+thread-cache-size               = 16
+table-open-cache                = 2048
+table-definition-cache          = 512
+query-cache-size                = 32M 
+query-cache-limit               = 1M
+# Per-thread Buffers
+sort-buffer-size                = 1M
+read-buffer-size                = 1M
+read-rnd-buffer-size            = 8M
+join-buffer-size                = 1M
+# Temp Tables
+tmp-table-size                  = 64M 
+max-heap-table-size             = 64M 
+# Networking
+back-log                        = 100
+max-connections                 = 200
+max-connect-errors              = 10000
+max-allowed-packet              = 16M
+interactive-timeout             = 600
+wait-timeout                    = 600
+#Storage Engines
+innodb                          = FORCE
+# MyISAM
+key-buffer-size                 = 64M 
+myisam-sort-buffer-size         = 128M
+# InnoDB
+innodb-buffer-pool-size         = 16M
+innodb_log_files_in_group       = 2
+innodb-log-buffer-size          = 4M
+# Replication
+server-id                       = 1
+bind-address            = XX.XX.XXX.XXX
+log-bin                        = /var/lib/mysqllogs/bin-log
+binlog-do-db            = rewards1
+binlog-ignore-db        = mysql
+relay-log-index=master-relay-bin.index
+relay-log                      = /var/lib/mysqllogs/relay-log
+#Logging
+slow-query-log                 = 1
+slow-query-log-file            = /var/log/slow-log
+#MysqlTuner
+skip-innodb
+max_connections = 200
+wait_timeout = 500
+interactive_timeout = 500
+query_cache_size = 64M
+join_buffer_size = 5M
+tmp_table_size = 256M
+max_heap_table_size = 256M
+table_cache = 4096
+key_buffer_size = 2048M
+[mysqld_safe]
+log-error                       = /var/log/mysqld.log

@@ -1,0 +1,39 @@
+[mysqld]
+core-file
+default-storage-engine=MyISAM
+max_connections = 5000
+max_user_connections = 5000
+key_buffer = 1024MB
+myisam_sort_buffer_size = 512M
+join_buffer_size = 256M
+read_buffer_size = 256M
+sort_buffer_size = 256M
+read_rnd_buffer_size = 256M
+table_cache = 1024
+thread_cache_size = 16K
+wait_timeout = 30
+connect_timeout = 15
+tmp_table_size = 512M
+max_heap_table_size = 512M
+max_allowed_packet = 512M
+max_connect_errors = 10
+query_cache_limit = 1M
+query_cache_size = 128M
+query_cache_type = 1
+low_priority_updates=1
+concurrent_insert=ALWAYS
+log-error=/var/log/mysql/error.log
+myisam_repair_threads=16
+[mysqld_safe]
+open_files_limit = 8192
+log-error=/var/log/mysql/error.log
+
+[mysqldump]
+quick
+max_allowed_packet = 512M
+
+[myisamchk]
+key_buffer = 64M
+sort_buffer = 64M
+read_buffer = 16M
+write_buffer = 16M

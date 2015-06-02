@@ -1,0 +1,66 @@
+[mysqld]
+character_set_server = utf8
+
+max_connections=200
+max_user_connections=160
+max_connect_errors=10000
+
+userstat_running = 1
+
+log_warnings
+slow_query_log=1
+slow_query_log_file=/var/log/mysql/mysql-slow.log
+long_query_time=2
+
+
+innodb_file_per_table
+
+innodb_open_files=2048
+
+innodb_additional_mem_pool_size=1M
+
+innodb_buffer_pool_size=512M
+
+innodb_log_buffer_size=1M
+
+innodb_log_file_size=128M
+
+innodb_autoextend_increment=16
+
+
+innodb_flush_method=O_DIRECT
+
+
+datadir=/var/lib/mysql/
+
+
+tmpdir=/var/lib/mysql_ramdisk
+
+
+server-id=2
+
+log-bin = /var/log/mysql/mysql-bin
+log-bin-index = /var/log/mysql/mysql.index
+
+key_buffer_size = 800M
+
+preload_buffer_size = 256K
+
+max_allowed_packet = 8M
+table_cache = 512
+sort_buffer_size = 8M
+join_buffer_size = 8M
+
+read_buffer_size = 2M
+read_rnd_buffer_size = 2M
+thread_cache_size = 32
+query_cache_size = 32M
+query_cache_limit = 16M
+
+
+myisam_sort_buffer_size = 2000M
+
+
+tmp_table_size = 64M
+max_heap_table_size = 64M
+

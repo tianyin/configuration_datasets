@@ -1,0 +1,57 @@
+[mysqld]
+port                            = 3306
+user                            = mysql
+socket                          = /var/lib/mysql/mysql.sock
+pid-file                        = /mysql/mysqld.pid
+log-error                       = /var/log/mysql/mysqld.err
+basedir                         = /usr/
+datadir                         = /mysql
+skip-bdb
+
+back_log                        = 50
+max_connections                 = 500
+max_connect_errors              = 9999999
+table_cache                     = 150000
+max_allowed_packet              = 16M
+binlog_cache_size               = 1M
+max_heap_table_size             = 32M
+join_buffer_size                = 500K
+thread_cache_size               = 100
+thread_concurrency              = 12
+sort_buffer_size                = 2M
+read_buffer_size                = 2M
+read_rnd_buffer_size            = 2M
+query_cache_size                = 512M
+query_cache_limit               = 8M
+query_cache_min_res_unit        = 2K
+thread_stack                    = 192K
+#transaction_isolation           = READ-COMMITED
+tmp_table_size                  = 32M
+#log_slow_queries
+long_query_time                 = 2
+#log_long_format
+tmpdir                          = /dev/shm
+memlock
+
+# *** INNODB Specific options ***
+
+innodb_additional_mem_pool_size = 80M
+innodb_buffer_pool_size         = 2G
+#innodb_data_file_path           = ibdata1:643M:autoextend
+innodb_flush_method             = O_DIRECT
+innodb_file_io_threads          = 6
+innodb_thread_concurrency       = 12
+innodb_flush_log_at_trx_commit  = 0
+innodb_log_buffer_size          = 20M
+#innodb_log_file_size            = 800M
+innodb_log_files_in_group       = 3
+innodb_max_dirty_pages_pct      = 90
+innodb_lock_wait_timeout        = 120
+innodb_file_per_table           = 1
+
+# *** MyIsam Specific Options ***
+myisam_sort_buffer_size         = 64M
+
+
+[client]
+socket                          = /var/lib/mysql/mysql.sock

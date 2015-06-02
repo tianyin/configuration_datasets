@@ -1,0 +1,22 @@
+[client]
+pipe
+socket=mysql
+[mysql]
+default-character-set=latin1
+[mysqld]
+skip-networking
+enable-named-pipe
+socket=mysql
+basedir="C:/Program Files/MySQL/MySQL Server 5.5/"
+datadir="C:/ProgramData/MySQL/MySQL Server 5.5/Data/"
+character-set-server=latin1
+default-storage-engine=MYISAM
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+max_connections=100
+query_cache_size=189M
+table_cache=256
+tmp_table_size=192M
+key_buffer_size=594M
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+sort_buffer_size=256K

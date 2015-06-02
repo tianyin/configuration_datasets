@@ -1,0 +1,17 @@
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+wait_timeout=66600
+net_read_timeout=66600
+interactive_timeout=666666
+max_allowed_packet=50G
+max_connect_errors=666666
+innodb_buffer_pool_size=22GB
+innodb_flush_log_at_trx_commit = 2
+thread_cache_size=4
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

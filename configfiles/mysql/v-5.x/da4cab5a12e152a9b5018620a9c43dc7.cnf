@@ -1,0 +1,55 @@
+[client]
+port		= 3306
+socket		= /var/run/mysqld/mysqld.sock
+
+[mysqld_safe]
+socket		= /var/run/mysqld/mysqld.sock
+nice		= 0
+
+[mysqld]
+user		= mysql
+pid-file	= /var/run/mysqld/mysqld.pid
+socket		= /var/run/mysqld/mysqld.sock
+port		= 3306
+basedir		= /usr
+datadir		= /var/lib/mysql
+tmpdir		= /tmp
+language	= /usr/share/mysql/english
+skip-external-locking
+skip-name-resolve
+thread_cache_size = 612
+table_cache = 30000
+key_buffer = 20M
+max_allowed_packet = 16M
+max_connect_errors = 10
+tmp_table_size=16M
+max_heap_table_size=16M
+query_cache_size=0
+query_cache_type=0
+query_cache_limit=0
+max_connections=1500
+interactive_timeout=38000
+wait_timeout=5
+innodb_buffer_pool_size = 13100M
+innodb_additional_mem_pool_size = 8M
+innodb_flush_log_at_trx_commit = 2
+innodb_support_xa = 0
+innodb_lock_wait_timeout = 10
+innodb_flush_method=O_DIRECT
+innodb_log_files_in_group = 2
+innodb_log_file_size = 250M
+innodb_log_buffer_size = 10M
+innodb_thread_concurrency = 0
+#log		= /var/log/mysql/mysql.log
+log_slow_queries	= /var/log/mysql/mysql-slow.log
+long_query_time = 0.1
+skip-log-warnings
+log-queries-not-using-indexes
+max_binlog_size         = 100M
+[mysqldump]
+quick
+quote-names
+max_allowed_packet	= 16M
+
+[mysqlhotcopy]
+interactive-timeout

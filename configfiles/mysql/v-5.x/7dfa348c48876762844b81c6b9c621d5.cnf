@@ -1,0 +1,43 @@
+[mysqladmin]
+user=username
+
+[mysqld]
+basedir=/opt/bitnami/mysql
+datadir=/opt/bitnami/mysql/data
+port=3306
+socket=/opt/bitnami/mysql/tmp/mysql.sock
+tmpdir=/opt/bitnami/mysql/tmp
+
+character-set-server=UTF8
+collation-server=utf8_general_ci
+
+max_allowed_packet=16M
+wait_timeout = 120
+long_query_time = 1
+log_slow_queries
+log_queries_not_using_indexes
+query_cache_limit=2M
+query_cache_type=1
+query_cache_size=8M
+innodb_additional_mem_pool_size=8M
+innodb_buffer_pool_size=16M
+#innodb_log_file_size=128M
+#tmp_table_size=64M
+#max_connections = 2500
+#max_user_connections = 2500
+#innodb_flush_method=O_DIRECT
+#key_buffer_size=64M
+
+[mysqld_safe]
+mysqld=mysqld.bin
+
+[client]
+default-character-set=UTF8
+port=3306
+socket=/opt/bitnami/mysql/tmp/mysql.sock
+
+[manager]
+port=3306
+socket=/opt/bitnami/mysql/tmp/mysql.sock
+pid-file=/opt/bitnami/mysql/tmp/manager.pid
+default-mysqld-path=/opt/bitnami/mysql/bin/mysqld.bin

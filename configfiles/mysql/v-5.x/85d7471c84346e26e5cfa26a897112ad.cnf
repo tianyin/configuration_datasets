@@ -1,0 +1,28 @@
+
+[mysqld]
+datadir=/data/mysql/
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+transaction-isolation = READ-COMMITTED
+skip-locking
+innodb_file_per_table = 1
+# Default to using old password format for compatibility with mysql 3.x
+# clients (those using the mysqlclient10 compatibility package).
+old_passwords=1
+#binlog-format=MIXED
+log-bin=smart-bin
+relay-log=smart2-relay-bin
+server-id = 1
+binlog-do-db=smart
+innodb_buffer_pool_size = 1024M
+innodb_log_file_size = 256M
+#innodb_log_buffer_size = 8M
+innodb_additional_mem_pool_size = 20M
+innodb_flush_log_at_trx_commit = 0
+innodb_support_xa = 0
+innodb_lock_wait_timeout = 20
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+

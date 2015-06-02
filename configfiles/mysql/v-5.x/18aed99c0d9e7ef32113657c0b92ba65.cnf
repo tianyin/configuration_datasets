@@ -1,0 +1,20 @@
+[mysqld]
+port        = 3306
+socket      = /tmp/mysql.sock
+skip-external-locking
+key_buffer_size = 128M
+max_allowed_packet = 20M
+table_open_cache = 256
+max_heap_table_size = 128M
+tmp_table_size = 512M
+sort_buffer_size = 512M
+read_buffer_size = 32M
+read_rnd_buffer_size = 16M
+myisam_sort_buffer_size = 128M
+thread_cache_size = 8
+query_cache_size= 64M
+basedir=c:/wamp/bin/mysql/mysql5.5.24
+log-error=c:/wamp/logs/mysql.log
+datadir=c:/wamp/bin/mysql/mysql5.5.24/data
+# Try number of CPU's*2 for thread_concurrency
+thread_concurrency = 8

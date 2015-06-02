@@ -1,0 +1,215 @@
+
+#####################
+###### my.cnf #######
+#####################
+#
+# The MySQL database server configuration file.
+#
+# You can copy this to one of:
+# - "/etc/mysql/my.cnf" to set global options,
+# - "~/.my.cnf" to set user-specific options.
+#
+# One can use all long options that the program supports.
+# Run program with --help to get a list of available options and with
+# --print-defaults to see which it would actually understand and use.
+#
+# For explanations see
+# http://dev.mysql.com/doc/mysql/en/server-system-variables.html
+# This will be passed to all mysql clients
+# It has been reported that passwords should be enclosed with ticks/quotes
+# escpecially if they contain "#" chars...
+# Remember to edit /etc/mysql/debian.cnf when changing the socket location.
+[client]
+port = 3306
+socket = /var/run/mysqld/mysqld.sock
+# Here is entries for some specific programs
+# The following values assume you have at least 32M ram
+# This was formally known as [safe_mysqld]. Both versions are currently parsed.
+[mysqld_safe]
+socket = /var/run/mysqld/mysqld.sock
+nice = -18
+[mysqld]
+#
+# * Basic Settings
+#
+user = mysql
+pid-file = /var/run/mysqld/mysqld.pid
+socket = /var/run/mysqld/mysqld.sock
+port = 3306
+basedir = /usr
+datadir = /var/lib/mysql
+tmpdir = /tmp
+language = /usr/share/mysql/english
+skip-external-locking
+#
+# For compatibility to other Debian packages that still use
+# libmysqlclient10 and libmysqlclient12.
+#old_passwords = 1
+#
+# Instead of skip-networking the default is now to listen only on
+# localhost which is more compatible and is not less secure.
+#bind-address = 127.0.0.1
+#
+# * Fine Tuning do MY.CNF #
+#The size of the buffer used for index blocks. Increase this to get better index handling (for all reads and multiple writes) to as much as you can afford; 64M on a 256M machine that mainly runs MySQL is quite common.
+#key_buffer_size=1500M alterado no dia da divisao dos servidores
+key_buffer_size=2000M
+#Each thread that needs to do a sort allocates a buffer of this size.
+#sort_buffer_size=700M alterado no dia da divisao dos servidores
+sort_buffer_size=1000M
+
+#If no specific storage engine/table type is defined in an SQL-Create statement the default type will be used.
+default-storage-engine=innodb
+#Used to help MySQL to decide when to use the slow but safe key cache index create method.
+myisam_max_extra_sort_file_size=300k
+#Don't use the fast sort index method to created index if the temporary file would get bigger than this.
+myisam_max_sort_file_size=2M
+#The buffer that is allocated when sorting the index when doing a REPAIR or when creating indexes with CREATE INDEX or ALTER TABLE.
+myisam_sort_buffer_size=100M
+#The bigger you set this the less disk I/O is needed to access data in tables. On a dedicated database server you may set this parameter up to 80% of the machine physical memory size. Do not set it too large, though, because competition of the physical memory may cause paging in the operating system.
+innodb_buffer_pool_size=6000M
+#Size of a memory pool InnoDB uses to store data dictionary information and other internal data structures. A sensible value for this might be 2M, but the more tables you have in your application the more you will need to allocate here. If InnoDB runs out of memory in this pool, it will start to allocate memory from the operating system, and write warning messages to the MySQL error log.
+innodb_additional_mem_pool_size=400M
+#Size of each log file in a log group in megabytes. Sensible values range from 1M to 1/n-th of the size of the buffer pool specified below, where n is the number of log files in the group. The larger the value, the less checkpoint flush activity is needed in the buffer pool, saving disk I/O. But larger log files also mean that recovery will be slower in case of a crash. The combined size of log files must be less than 4 GB on 32-bit computers. The default is 5M.
+innodb_log_file_size=214M
+#The size of the buffer which InnoDB uses to write log to the log files on disk. Sensible values range from 1M to 8M. A big log buffer allows large transactions to run without a need to write the log to disk until the transaction commit. Thus, if you have big transactions, making the log buffer big will save disk I/O.
+innodb_log_buffer_size=300M
+#Specifies when log files are flushed to disk.
+innodb_flush_log_at_trx_commit=1
+#Number of file I/O threads in InnoDB. Normally, this should be 4, but on Windows disk I/O may benefit from a larger number.
+innodb_file_io_threads=5
+#Helps in performance tuning in heavily concurrent environments.
+innodb_thread_concurrency=18
+#Avoid double buffering and reduce swap pressure, in most cases this setting improves performance.
+innodb_flush_method=O_DIRECT
+
+#The memory allocated to store results from old queries.
+query_cache_size=1000M
+#antigo valor 500M alterado para teste de carga
+#antigo valor 800M -> 1000 alterado para teste de carga
+
+#The number of seconds the mysqld server is waiting for a connect packet before responding with 'Bad handshake'
+connect_timeout=10
+#The number of segonds the mysqld server will close the connection after 5 seconds sleep
+wait_timeout=5
+#The number of simultaneous clients allowed.
+max_connections=200
+#antigo valor 100 alterado para teste de carga
+#The maximum number of active connections for a single user (0 = no limit).
+max_user_connections=400
+#antigo valor 700 alterado para teste de carga
+#Set the default character set.
+default-character-set=utf8
+#Permits the application to give the threads system a hint for the desired number of threads that should be run at the same time
+thread_concurrency=18
+#antigo valor 14 alterado para teste de carga
+#How many threads we should keep in a cache for reuse.
+thread_cache_size=70
+#antigo valor 70 alterado para teste de carga
+#The stack size for each thread.
+thread_stack=256k
+#antigo valor 256k alterado para teste de carga
+#Each thread that does a sequential scan allocates a buffer of this size for each table it scans. If you do many sequential scans, you may want to increase this value.
+read_buffer_size=256k
+#antigo valor 256k alterado para teste de carga
+#Syntax: sql-mode=option[,option[,option...]] where option can be one of: REAL_AS_FLOAT, PIPES_AS_CONCAT,ANSI_QUOTES, IGNORE_SPACE, ONLY_FULL_GROUP_BY,NO_UNSIGNED_SUBTRACTION. 
+#transaction-isolation=READ-COMMITTED
+sql-mode=STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+#When reading rows in sorted order after a sort, the rows are read through this buffer to avoid a disk seeks. If not set, then it's set to the value of record_buffer.
+read_rnd_buffer_size=270M
+#read_rnd_buffer_size=200M valor alterado apos a divisao dos servidores
+
+#The number of open tables for all threads.
+table_cache=512
+#If an in-memory temporary table exceeds this size, MySQL will automatically convert it to an on-disk MyISAM table.
+tmp_table_size=500M
+#tmp_table_size=400M valor alterado apos a divisao dos servidores
+
+#Maximum number of temporary tables a client can keep open at a time.
+max_tmp_tables=90
+#antigo valor 90 alterado para teste de carga
+#
+#key_buffer = 16M
+#max_allowed_packet = 128M
+#thread_stack = 128K
+#thread_cache_size = 8
+# This replaces the startup script and checks MyISAM tables if needed
+# the first time they are touched
+myisam-recover = BACKUP
+#max_connections = 100
+#table_cache = 64
+#thread_concurrency = 10
+#
+# * Query Cache Configuration
+#
+#query_cache_limit = 1M
+#
+#
+# * Logging and Replication
+#
+# Both location gets rotated by the cronjob.
+# Be aware that this log type is a performance killer.
+#log = /var/log/mysql/mysql.log
+#
+# Error logging goes to syslog. This is a Debian improvement :)
+#
+# Here you can see queries with especially long duration
+#log_slow_queries = /var/log/mysql/mysql-slow.log
+#long_query_time = 2
+#log-queries-not-using-indexes
+#
+# The following can be used as easy to replay backup logs or for replication.
+# note: if you are setting up a replication slave, see README.Debian about
+# other settings you may need to change.
+#server-id = 1
+#log_bin = /var/log/mysql/mysql-bin.log
+expire_logs_days = 10
+max_binlog_size = 100M
+#binlog_do_db = include_database_name
+#binlog_ignore_db = include_database_name
+#
+# * InnoDB
+#
+# InnoDB is enabled by default with a 10MB datafile in /var/lib/mysql/.
+# Read the manual for more InnoDB related options. There are many!
+#
+# * Security Features
+#
+# Read the manual, too, if you want chroot!
+# chroot = /var/lib/mysql/
+#
+# For generating SSL certificates I recommend the OpenSSL GUI "tinyca".
+#
+# ssl-ca=/etc/mysql/cacert.pem
+# ssl-cert=/etc/mysql/server-cert.pem
+# ssl-key=/etc/mysql/server-key.pem
+
+
+[mysqldump]
+quick
+quote-names
+#max_allowed_packet = 16M
+[mysql]
+#no-auto-rehash # faster start of mysql but no tab completition
+[isamchk]
+key_buffer = 16M
+#
+# * NDB Cluster
+#
+# See /usr/share/doc/mysql-server-*/README.Debian for more information.
+#
+# The following configuration is read by the NDB Data Nodes (ndbd processes)
+# not from the NDB Management Nodes (ndb_mgmd processes).
+#
+# [MYSQL_CLUSTER]
+# ndb-connectstring=127.0.0.1
+
+#
+# * IMPORTANT: Additional settings that can override those from this file!
+# The files must end with '.cnf', otherwise they'll be ignored.
+#
+!includedir /etc/mysql/conf.d
+#
+########################
+##### end of my.cnf ####
+########################

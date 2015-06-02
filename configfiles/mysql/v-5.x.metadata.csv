@@ -1,0 +1,264 @@
+FILENAME,VERSION,LINK,DESC,SOURCE
+033a424b6e572286075be955d23665f3.cnf,5.1.26,http://stackoverflow.com/questions/19531109/128mb-ram-for-mysql-from-mediatemple-my-cnf-tweaks,128mb ram for mysql from mediatemple my cnf tweaks,stackoverflow.com
+d502adc46ef3cb33944ce83996441060.cnf,5.0.x,http://lists.mysql.com/mysql/160200,"MySQL Lists: mysql: Bug on MYSQL-5.0 in statement ""OPTIMIZE TABLE""",mailing_list
+6c5fd99ec0d64b4bedb14c1c1f3fa526.cnf,5.0.0,http://lists.mysql.com/mysql/171690,MySQL Lists: mysql: bug report!!,mailing_list
+f815794017939d82b292ca65568efcb4.cnf,5.0.1,http://lists.mysql.com/mysql/174844,MySQL Lists: mysql: Replication Issue,mailing_list
+de305084c7e06ebd5da4f84ed4e6af38.cnf,5.0.16,http://lists.mysql.com/win32/17865,MySQL Lists: win32: I can't start mysql from the windows command line,mailing_list
+8da63686ffa301eaac31e1b7daa7f4d5.cnf,5.5.28,http://lists.mysql.com/win32/19175,MySQL Lists: win32: mysql threads too high,mailing_list
+762388ab335eadf6ab6fab10f3705c08.cnf,5.0.16,http://lists.mysql.com/mysql/192066,MySQL Lists: mysql: Re: chroot in MySQL 5.0,mailing_list
+8b3b330695ab795d8c723c506a8c9be9.cnf,5.0.x,http://lists.mysql.com/mysql/192158,MySQL Lists: mysql: Re: MyIsam Vs InnoDB,mailing_list
+6602ce227a21fcfe6e91c50cc42a5bbf.cnf,5.0.18,http://lists.mysql.com/mysql/193465,MySQL Lists: mysql: Help...I am desparate,mailing_list
+31903ca8bb70be8dc50a389556aea486.cnf,5.0.x,http://lists.mysql.com/mysql/193564,MySQL Lists: mysql: ~75% performance drop upgrading from Mysql 4.0 to 5.0,mailing_list
+993af96aa93a8fed584d9230f4098dcc.cnf,5.0.x,http://lists.mysql.com/mysql/194165,MySQL Lists: mysql: Troubles installing MySQL5 via Darwin Ports,mailing_list
+ce192343fe7a88f506771881be929b84.cnf,5.0.18,http://lists.mysql.com/mysql/197607,MySQL Lists: mysql: Re: Mysql on Production Servers,mailing_list
+b27c8010e2ddb3d20d3fd086a09703ec.cnf,5.1.30,http://stackoverflow.com/questions/1980004/2006-mysql-server-has-gone-away-error-in-wamp,2006 mysql server has gone away error in wamp,stackoverflow.com
+32747d512caee7e00760cbc7a6378eb8.cnf,5.0.x,http://lists.mysql.com/mysql/200764,MySQL Lists: mysql: query logging is making me mental!,mailing_list
+710a8b2dc9fc55147b00dccdd6dd0e42.cnf,5.0.24,http://lists.mysql.com/mysql/201584,MySQL Lists: mysql: mysql_upgrade script problems on MySQL 5.0.24,mailing_list
+e88d7dc568573853819ba769e6af44a9.cnf,5.0.x,http://lists.mysql.com/mysql/204496,MySQL Lists: mysql: Re: Strange InnoDB Deadlock Behavior,mailing_list
+b626002ae715345bb4ffbd4c7ddb99e5.cnf,5.0.26-pro-log,http://lists.mysql.com/mysql/205833,MySQL Lists: mysql: HPUX out of memory errors - kernel tuning?,mailing_list
+9fd55db094dabf43c7a45208edb6d4a9.cnf,5.0.37,http://lists.mysql.com/mysql/207526,MySQL Lists: mysql: mysqldump problem with large innodb tables...,mailing_list
+28b54a724cd295488e6918b8f91d7496.cnf,5.0.27,http://lists.mysql.com/mysql/208739,MySQL Lists: mysql: servers full potential / FT searches locking tables,mailing_list
+2125d4da2b73c5cc3b82869c1143f743.cnf,5.0.45,http://lists.mysql.com/mysql/211529,MySQL Lists: mysql: /tmp/mysql.sock dissapears,mailing_list
+ddb5c815cc8866be289f3476caa7bf97.cnf,5.1.x,http://lists.mysql.com/mysql/215177,MySQL Lists: mysql: RE: Tuning a MySQL desktop database,mailing_list
+b84a9639273e795d550c463d49869475.cnf,5.1.57,http://dba.stackexchange.com/questions/61495/mysql-high-cpu-usage-myisam-tables,mysql high cpu usage myisam tables,dba.stackexchange.com
+b8eb14f2f4d669ded4c0b3b853da4dc7.cnf,5.5.33,http://dba.stackexchange.com/questions/51075/mysql-high-delay-in-critical-peak-professional-help-request,mysql high delay in critical peak professional help request,dba.stackexchange.com
+c91eeef6ebc84fc23a11be7871efbd04.cnf,5.5.24,http://dba.stackexchange.com/questions/25180/mysql-high-load,mysql high load,dba.stackexchange.com
+5914161f767eb967a13ec03872adab08.cnf,5.1.54,http://stackoverflow.com/questions/11985023/mysql-hit-a-max-limit,mysql hit a max limit,stackoverflow.com
+3369f78742e295a5633fc58d46ed34c8.cnf,5.5.29,http://dba.stackexchange.com/questions/35051/mysql-improve-performance-for-one-row-insert-into-table-with-unique-constraint,mysql improve performance for one row insert into table with unique constraint,dba.stackexchange.com
+4f9e8ce35e2eb720aa485e3cfa97732f.cnf,5.0.45,http://dba.stackexchange.com/questions/17040/mysql-innodb-corruption,mysql innodb corruption,dba.stackexchange.com
+344d08a8e9776672196aa568d48941dc.cnf,5.5.30,http://dba.stackexchange.com/questions/41475/mysql-innodb-does-not-return-the-last-row-on-select-with-desc-order,mysql innodb does not return the last row on select with desc order,dba.stackexchange.com
+b75e577b07c129082c44ae6cdd1e26d4.cnf,5.1.x,http://serverfault.com/questions/58315/mysql-installation-on-windows-server-2008,mysql installation on windows server 2008,serverfault.com
+97d1022f2ad15801e24ed2a6273e678f.cnf,5.0.96,http://dba.stackexchange.com/questions/42096/mysql-is-running-but-not-working,mysql is running but not working,dba.stackexchange.com
+4db953e7ff76ccfd4b646abd007277f6.cnf,5.1.69,http://serverfault.com/questions/518747/mysql-is-running-very-slow-on-centos-6x-not-5x,mysql is running very slow on centos 6x not 5x,serverfault.com
+f8f4f7304d1d7070618701a2f52a0c34.cnf,5.5.x,http://stackoverflow.com/questions/14121464/mysql-is-slow-with-innodb-during-insert-compared-to-myisam,mysql is slow with innodb during insert compared to myisam,stackoverflow.com
+72740c83b169d933d275351b3857be40.cnf,5.5,http://dba.stackexchange.com/questions/20862/mysql-load-from-infile-stuck-waiting-on-hard-drive,mysql load from infile stuck waiting on hard drive,dba.stackexchange.com
+6ba00b9425dd75b4a534998e9c5657fa.cnf,5.5.28,http://dba.stackexchange.com/questions/39692/mysql-loses-connection,mysql loses connection,dba.stackexchange.com
+e6b0941c354ecdb4e1832efc8f2a1805.cnf,5.1.69,http://dba.stackexchange.com/questions/49119/how-to-configure-mysql-master-slave-to-backup-master-to-slave,how to configure mysql master slave to backup master to slave,dba.stackexchange.com
+527d866642f51a2f2078876b71ec1c27.cnf,5.1.37,http://serverfault.com/questions/257366/how-to-determine-whats-causing-my-servers-load-average-to-jump-to-90,how to determine whats causing my servers load average to jump to 90,serverfault.com
+13cc89ed523577c0ca8e8cc4a26f4618.cnf,5.5.x,http://serverfault.com/questions/419534/how-to-disable-local-infile-in-mysql-5-5-ubuntu-12-04,how to disable local infile in mysql 5 5 ubuntu 12 04,serverfault.com
+3181d2c677306da5f7eb0e9911a1e55b.cnf,5.5.15,http://serverfault.com/questions/309853/how-to-enable-the-mysql-slow-query-log-5-5-15,how to enable the mysql slow query log 5 5 15,serverfault.com
+2e51f35b81b994c5d70cb27ccdf9b591.cnf,5.1.x,http://serverfault.com/questions/53266/how-to-fine-tune-our-mysql-server,how to fine tune our mysql server,serverfault.com
+80c2ca756c71af0a722d7fd9b2e92bbd.cnf,5.0.95,http://dba.stackexchange.com/questions/15004/how-to-initiate-mysql-on-mac-os-x-10-6-8,how to initiate mysql on mac os x 10 6 8,dba.stackexchange.com
+9d9868ea5f9c911b136103e66281007a.cnf,5.5.x,http://stackoverflow.com/questions/20845898/how-to-make-mysql-use-default-sock-on-aws,how to make mysql use default sock on aws,stackoverflow.com
+85a5e866ac88702fa7d52429fc91a2c6.cnf,5.0.45,http://serverfault.com/questions/231514/how-to-set-up-mysql-server-to-utilize-more-memory,how to set up mysql server to utilize more memory,serverfault.com
+949ae2ec7260cf09182ba490ce67340d.cnf,5.1.66,http://dba.stackexchange.com/questions/43503/how-to-solve-the-table-is-full-with-innodb-file-per-table,how to solve the table is full with innodb file per table,dba.stackexchange.com
+2cf3e078ef21e7f222d860e6c074901a.cnf,5.0.77,http://dba.stackexchange.com/questions/12695/how-to-update-mysql-my-cnf-without-getting-error,how to update mysql my cnf without getting error,dba.stackexchange.com
+f60a37d9925b87fd77405430d14d8856.cnf,5.5.28,http://dba.stackexchange.com/questions/29320/innodb-error-clustered-record-for-sec-rec-not-found-mysql-5-5-28,innodb error clustered record for sec rec not found mysql 5 5 28,dba.stackexchange.com
+0caaa85e79f3ba26548516651e2d7669.cnf,5.0.54,http://lists.mysql.com/mysql/215367,MySQL Lists: mysql: Make Innodb give memory back?,mailing_list
+98e6d7356746bb5b052d10053112bffb.cnf,5.1.49,http://lists.mysql.com/mysql/227151,MySQL Lists: mysql: Re: Remote mysql too slow,mailing_list
+a1e8d4460568bfb85a31a90ee6e906eb.cnf,5.1.x,http://stackoverflow.com/questions/3603971/coldfusion-problem-with-mysql-binary-logging,coldfusion problem with mysql binary logging,stackoverflow.com
+ba6dfd52971eb8e5d97857dfde41d415.cnf,5.5.x,http://stackoverflow.com/questions/11112691/freebsd-mysql-5-5-high-i-o-usage,freebsd mysql 5 5 high i o usage,stackoverflow.com
+fdb71c67a14f12a29a0fabdc3b003e44.cnf,5.5.x,http://dba.stackexchange.com/questions/61523/how-should-i-config-the-my-inior-my-cnf-file-for-mysql,how should i config the my inior my cnf file for mysql,dba.stackexchange.com
+62a04201e7f0f1b725b7273869ddb2c7.cnf,5.1.x,http://serverfault.com/questions/328196/innodb-log-sequence-in-the-future-crashing-wont-start,innodb log sequence in the future crashing wont start,serverfault.com
+857e66151709c54a63e44ca1cc6f86bc.cnf,5.6.x,http://serverfault.com/questions/530215/modifying-the-mysql-default-data-location,modifying the mysql default data location,serverfault.com
+b47b455adff21445ac4c141059b648e9.cnf,5.1.61,http://stackoverflow.com/questions/10447009/mysql-blocked-in-preparing-statement-with-really-strange-behavior,mysql blocked in preparing statement with really strange behavior,stackoverflow.com
+459f246424a34a2a9908406104cb8334.cnf,5.1.68,http://dba.stackexchange.com/questions/40180/mysql-hangs-after-every-restart-corrupted-tables-every-now-and-then-5-1-6,mysql hangs after every restart corrupted tables every now and then 5 1 6,dba.stackexchange.com
+d35933c1a1b4a28b637e43963dca438f.cnf,5.1.73,http://dba.stackexchange.com/questions/61130/mysql-max-connection-value,mysql max connection value,dba.stackexchange.com
+fce1c03942b194dcb4f7ef280b19e491.cnf,5.1.37,http://stackoverflow.com/questions/4575049/mysql-query-hang-on-production-database-server-but-works-fine-locally,mysql query hang on production database server but works fine locally,stackoverflow.com
+fbc8d35f9115a79c257dcb690029d917.cnf,5.5.28,http://serverfault.com/questions/463075/nginx-php-fpm-mysql-high-cpu-low-ram,nginx php fpm mysql high cpu low ram,serverfault.com
+616e8cc28e1068e81c5900093b8c7041.cnf,5.5.x,http://serverfault.com/questions/559985/server-pid-removed-after-config-cnf,server pid removed after config cnf,serverfault.com
+2656fd3b4a66dc75f68ff0b117375209.cnf,5.1.x,http://dba.stackexchange.com/questions/16033/time-executing-inserts-slow-ssh,time executing inserts slow ssh,dba.stackexchange.com
+1c281b559eb43457c0e04419e67757f4.cnf,5.1.x,http://serverfault.com/questions/87705/very-slow-mysql,very slow mysql,serverfault.com
+015c69fcac9642fd6ccedb035445eda2.cnf,5.0.22,http://stackoverflow.com/questions/9300600/no-results-after-removing-mysql-ft-stopword-file,no results after removing mysql ft stopword file,stackoverflow.com
+a16042386fe4be927152d1862a220713.cnf,5.1.41,http://serverfault.com/questions/221486/optimizing-mysql-for-small-vps,optimizing mysql for small vps,serverfault.com
+9ee831b543ce5fb94f16a90005a968ae.cnf,5.1.61,http://serverfault.com/questions/453729/periodic-mysql-lockup-when-wordpress-is-under-heavy-load,periodic mysql lockup when wordpress is under heavy load,serverfault.com
+8c6f18de5d234252816b318284b2313b.cnf,5.1.43,http://serverfault.com/questions/109717/permission-problems-of-mysql-under-debian,permission problems of mysql under debian,serverfault.com
+c194e559589371465c627b3e1bd088de.cnf,5.5.x,http://stackoverflow.com/questions/5906478/please-help-me-with-table-nested-join-optimization-way-too-slow,please help me with table nested join optimization way too slow,stackoverflow.com
+01946f56ee0ee3fe27c281bcfd97734d.cnf,5.1.49,http://serverfault.com/questions/259912/problem-with-wireshark-mysql-sniffing,problem with wireshark mysql sniffing,serverfault.com
+443782b9f9d195ecb3d2e0d105720e4b.cnf,5.1.69,http://serverfault.com/questions/541443/problems-with-my-cnf-and-php-ini-using-mysql-tuner,problems with my cnf and php ini using mysql tuner,serverfault.com
+2c995ed39f0846a46652e49c01ab9206.cnf,5.6.14,http://dba.stackexchange.com/questions/53715/random-mysql-cannot-connect-to-master-errors,random mysql cannot connect to master errors,dba.stackexchange.com
+5141ce64837552d6eb7463912add7010.cnf,5.0.x,http://serverfault.com/questions/74968/recovering-a-mysql-database-when-the-mysql-server-will-not-start,recovering a mysql database when the mysql server will not start,serverfault.com
+0700f8556bfa82b829425cd3fcc0c296.cnf,5.6.x,http://serverfault.com/questions/488473/reducing-memory-usage-of-mysql,reducing memory usage of mysql,serverfault.com
+2eab95c92ac280cb7f0b4364d32f7be4.cnf,5.0.7,http://serverfault.com/questions/15073/remote-connection-to-mysql-server-takes-very-long,remote connection to mysql server takes very long,serverfault.com
+549198601bbd422d05108c7268ff51e0.cnf,5.0.45,http://stackoverflow.com/questions/3746616/remove-duplicates-in-large-mysql-table,remove duplicates in large mysql table,stackoverflow.com
+7a82f7219e2b3db282641d9eef7d271a.cnf,5.1.x,http://dba.stackexchange.com/questions/16296/repair-with-keycache-in-mysql-runs-every-time-cant-even-log-why-its-happening,repair with keycache in mysql runs every time cant even log why its happening,dba.stackexchange.com
+bc87ddd0b032084cecf5b1ead2e5fb20.cnf,5.5.33,http://stackoverflow.com/questions/21677968/replication-of-mysql-slave-is-very-slow-its-increasing-second-behind-master,replication of mysql slave is very slow its increasing second behind master,stackoverflow.com
+2350ff27cc7b94b358aa6103b44f9535.cnf,5.5.x,http://serverfault.com/questions/328443/replication-stops,replication stops,serverfault.com
+442bae677a2767af5844037428f9f51c.cnf,5.1.56,http://serverfault.com/questions/254541/running-tar-completely-locks-up-mysql,running tar completely locks up mysql,serverfault.com
+81e3c00dbe99c7233c709dcc3ec4b7d4.cnf,5.1.42,http://serverfault.com/questions/103533/segmentation-fault-on-login-to-mysql,segmentation fault on login to mysql,serverfault.com
+796a48157627c8495a01ba2e6f986100.cnf,5.1.52,http://lists.mysql.com/mysql/228299,MySQL Lists: mysql: BINLOG data,mailing_list
+9506017d813abd17fecce38856a7ff6b.cnf,5.5.28,http://lists.mysql.com/mysql/228673,"MySQL Lists: mysql: Innodb, MySQL 5.5.28 - Would an incorrect setting in my.cnf cause
+ mysqld to randomly crash on high load?",mailing_list
+4d9bec22697c21490f15344048502b3b.cnf,5.1.52,http://lists.mysql.com/mysql/229549,MySQL Lists: mysql: Re: help: innodb database cannot recover,mailing_list
+2e03a9adfd9ccf9409e423fa43fda92f.cnf,5.5.x,http://lists.mysql.com/mysql/229787,MySQL Lists: mysql: mysql 5.5 crashed on Debian 6 after server crash,mailing_list
+d822d1d46ff0485364618b2f7bc9c92d.cnf,5.1.61,http://lists.mysql.com/mysql/229874,MySQL Lists: mysql: Lost  connection to MySQL server - need help.,mailing_list
+23454ced41b616d7b8608e144fa06fdf.cnf,5.1.66,http://lists.mysql.com/mysql/230090,MySQL Lists: mysql: DBA: please review my.cnf [for Java Hibernate application] and give suggestions,mailing_list
+83012bd6129a262c625238e48a08680d.cnf,5.5.x,http://stackoverflow.com/questions/20523297/24-cores-and-mysql-is-using-1-on-insert,24 cores and mysql is using 1 on insert,stackoverflow.com
+3e730ba148d2eb4c26e35cc8ae90f34c.cnf,5.1.22,http://lists.mysql.com/cluster/5432,MySQL Lists: cluster: Mysqld daemon still dumping,mailing_list
+add045ad7d31884ee89b817fffb8cbd2.cnf,5.0.45-Debian_1,http://lists.mysql.com/cluster/5517,"MySQL Lists: cluster: INSERT not working, error 879 (?)",mailing_list
+509077251834140ae8fefaa0e6256cd7.cnf,5.1.30,http://lists.mysql.com/cluster/6449,MySQL Lists: cluster: mysql crashing with query_cache enabled,mailing_list
+7090404692f7b2ec63fd7d5f82a470fc.cnf,5.5.21,http://stackoverflow.com/questions/20353402/access-denied-for-user-testlocalhost-using-password-yes-except-root-user,access denied for user testlocalhost using password yes except root user,stackoverflow.com
+208ad361e650021c396f7fafe90d3dcc.cnf,5.6.12,http://serverfault.com/questions/516934/after-installing-mysql-5-6-the-server-cant-start,after installing mysql 5 6 the server cant start,serverfault.com
+e632092651753cd5c984021f353a1da4.cnf,5.1.41,http://serverfault.com/questions/248033/any-problems-with-my-mysql-replication-setup-command,any problems with my mysql replication setup command,serverfault.com
+58ee5534a23f13d0742bbb5396817794.cnf,5.1.x,http://stackoverflow.com/questions/13177894/batch-insertions-using-prepared-statements-in-jdbc-with-mysql-are-very-slow,batch insertions using prepared statements in jdbc with mysql are very slow,stackoverflow.com
+a6fb76165a959f61516c80f1c11097e3.cnf,5.5.34,http://serverfault.com/questions/562567/best-apache-mysql-config-for-16gb-and-8-cores,best apache mysql config for 16gb and 8 cores,serverfault.com
+bfa814b11e34823fe07227b8bda0d303.cnf,5.5.x,http://dba.stackexchange.com/questions/30295/bin-logs-with-high-i-o,bin logs with high i o,dba.stackexchange.com
+1232b72201e1e418e899e81e1a45fb3e.cnf,5.5.29,http://stackoverflow.com/questions/16527611/can-not-connect-to-remote-mysql-db-from-django,can not connect to remote mysql db from django,stackoverflow.com
+65a9c1a5aca2e9a19d8faf7c7aa2ab67.cnf,5.0.77,http://serverfault.com/questions/280644/cannot-enlarge-mysql-innodb-buffer-size-causes-mysql-to-crash,cannot enlarge mysql innodb buffer size causes mysql to crash,serverfault.com
+8850590a562cbefb8d9c347d13fff9b2.cnf,5.5.22,http://stackoverflow.com/questions/10059948/cannot-install-mysql-server-in-windows-xp,cannot install mysql server in windows xp,stackoverflow.com
+c76cd4f57997cb3ef875925466ab89a6.cnf,5.5.x,http://serverfault.com/questions/310904/cannot-start-mysql-5-5-as-normal-user-fedora-15,cannot start mysql 5 5 as normal user fedora 15,serverfault.com
+673ea6476a741f5280dcf0a2aef90c62.cnf,5.5.x,http://serverfault.com/questions/520412/cant-ssh-tunnel-to-access-a-remote-mysql-server,cant ssh tunnel to access a remote mysql server,serverfault.com
+b0a88e6b6d2f599a5b8ec9ffc12d1994.cnf,5.1.x,http://dba.stackexchange.com/questions/18211/centos-6-2-mysql-configuration-file-help,centos 6 2 mysql configuration file help,dba.stackexchange.com
+636b0414a2b95c2d85e3308ebe1c0490.cnf,5.1.x,http://serverfault.com/questions/81341/moving-a-mysql-innodb-data-partition-from-one-computer-to-the-other,moving a mysql innodb data partition from one computer to the other,serverfault.com
+bd4bab13219e32f75c31e52e3e9dc00b.cnf,5.1.53,http://stackoverflow.com/questions/4324865/my-cnf-changing-datadir-2days-and-still-no-luck,my cnf changing datadir 2days and still no luck,stackoverflow.com
+fea4c75bc0b1933e846d15f0ef5384f5.cnf,5.1.69,http://dba.stackexchange.com/questions/50377/my-cnf-configuration-for-1and1-xl8-server-8-core-cpu-and-8gig-ram,my cnf configuration for 1and1 xl8 server 8 core cpu and 8gig ram,dba.stackexchange.com
+b354d20559fac1867c3a063298ce83df.cnf,5.1.69,http://serverfault.com/questions/538652/mysql-5-1-69-at-centos-6-4-doesnt-know-enable-named-pipe,mysql 5 1 69 at centos 6 4 doesnt know enable named pipe,serverfault.com
+35d69c4ec344645e065a20e416c87af4.cnf,5.1.x,http://serverfault.com/questions/362388/mysql-5-1-vs-mysql-5-5-5-1-twice-as-fast,mysql 5 1 vs mysql 5 5 5 1 twice as fast,serverfault.com
+55e31121d244bc398f2ca8823d8723a5.cnf,5.5.x,http://serverfault.com/questions/505374/mysql-5-5-myisam-db-tunning,mysql 5 5 myisam db tunning,serverfault.com
+23ee1a0c10cf288e3a7149945e48fc1a.cnf,5.5.28,http://serverfault.com/questions/449292/mysql-5-5-percona-assertion-failure-log-what-would-cause-this-updated,mysql 5 5 percona assertion failure log what would cause this updated,serverfault.com
+1ec1957a5221834d35a27a055161cb89.cnf,5.6.12,http://stackoverflow.com/questions/18709094/mysql-5-6-12-ssd-vista-64-bit-very-slow,mysql 5 6 12 ssd vista 64 bit very slow,stackoverflow.com
+6a1675bc3b46737f18d1fb3360c948a7.cnf,5.6.x,http://stackoverflow.com/questions/18594224/mysql-5-6-losing-days-of-data,mysql 5 6 losing days of data,stackoverflow.com
+8db023322c6d29eb47f8188c38ed4415.cnf,5.6.10,http://stackoverflow.com/questions/15765168/mysql-access-denied-for-user-rootlocalhost,mysql access denied for user rootlocalhost,stackoverflow.com
+2416439c8c88a96feff80130f8cec779.cnf,5.1.67,http://dba.stackexchange.com/questions/37644/mysql-becomes-unresponsive-because-user-reached-its-os-quota,mysql becomes unresponsive because user reached its os quota,dba.stackexchange.com
+f93e980fa250aa382f6620e361186b59.cnf,5.1.x,http://serverfault.com/questions/271973/mysql-binary-log-activated-high-end-server-damn-slow,mysql binary log activated high end server damn slow,serverfault.com
+1efb38c1f5bf0b7b4bcd5d6729f5406c.cnf,5.5.18,http://serverfault.com/questions/408461/mysql-binary-logging,mysql binary logging,serverfault.com
+d0b52df07198965933c998c38b35344c.cnf,5.5.24,http://serverfault.com/questions/431597/mysql-binlogs-seems-incomplete,mysql binlogs seems incomplete,serverfault.com
+f7b664dc37bebae7d3e43371200f874c.cnf,5.5.16,http://stackoverflow.com/questions/7731749/configuration-on-wampp-to-accept-innodb-does-not-work,configuration on wampp to accept innodb does not work,stackoverflow.com
+983d11671a378c03c43355828bf71e8e.cnf,5.1.56,http://serverfault.com/questions/420694/connecting-to-mqsql-database-externally-on-windows,connecting to mqsql database externally on windows,serverfault.com
+a8b08743fcaf3a61f581172e69cf9242.cnf,5.5.x,http://serverfault.com/questions/329298/could-not-start-the-service-mysql-error0-how-to-get-mysql-5-5-server-running,could not start the service mysql error0 how to get mysql 5 5 server running,serverfault.com
+36655ab464d87a7833deaac8fd21dd1d.cnf,5.1.52,http://serverfault.com/questions/335201/cpu-utilization-lamp-stack,cpu utilization lamp stack,serverfault.com
+6c025e1b2925c8092ce7a37853bf7025.cnf,5.6.13,http://stackoverflow.com/questions/21370960/creating-a-large-mysql-index-1b-rows-fails-with-lost-connection-to-mysql-serv,creating a large mysql index 1b rows fails with lost connection to mysql serv,stackoverflow.com
+c69bc3ddaef991e9a564f9eb5d1c6ed5.cnf,5.5.33,http://stackoverflow.com/questions/19383815/deadlock-when-dropping-and-creating-temporary-table-on-percona-xtradb-cluster-5,deadlock when dropping and creating temporary table on percona xtradb cluster 5,stackoverflow.com
+e50dd2f651de9833baaa41da85234e7c.cnf,5.5.8,http://stackoverflow.com/questions/6783538/difficulties-with-mysql-connection-in-visual-basic-2010-express,difficulties with mysql connection in visual basic 2010 express,stackoverflow.com
+18aed99c0d9e7ef32113657c0b92ba65.cnf,5.5.24,http://stackoverflow.com/questions/14389907/does-it-make-sense-to-alter-this-db-schema-with-indexed-columns-for-binary-filte,does it make sense to alter this db schema with indexed columns for binary filte,stackoverflow.com
+620622e943ad2e892a4dcf2add5c9124.cnf,5.6.x,http://stackoverflow.com/questions/21327975/enabling-log-in-mysql-5-6-prevents-server-from-starting,enabling log in mysql 5 6 prevents server from starting,stackoverflow.com
+de5870624261b00934d4810001923b32.cnf,5.5.22,http://dba.stackexchange.com/questions/39807/error-1034-hy000-wrong-aligned-block-while-importing-in-mysql,error 1034 hy000 wrong aligned block while importing in mysql,dba.stackexchange.com
+1f5de3ca01bdefb65f2acd1d6165bee0.cnf,5.5.29,http://serverfault.com/questions/485768/error-2013-lost-connection-to-mysql-server-during-query-when-executing-check-ta,error 2013 lost connection to mysql server during query when executing check ta,serverfault.com
+7fe7ab406374577ee9ad7c7f5434037c.cnf,5.5.30,http://dba.stackexchange.com/questions/42477/errors-while-creating-multiple-mysql-5-5-instances,errors while creating multiple mysql 5 5 instances,dba.stackexchange.com
+98b418d65731f96b374125915c7cedb9.cnf,5.1,http://stackoverflow.com/questions/13376906/faster-innodb-writes,faster innodb writes,stackoverflow.com
+01d83d2aaec5b1991746c1e727f980f7.cnf,5.5.33,http://dba.stackexchange.com/questions/48659/finding-swap-causes-of-mysql,finding swap causes of mysql,dba.stackexchange.com
+e384ee4960fb60c2d130cc79e63b57f0.cnf,5.5.14,http://dba.stackexchange.com/questions/6134/fixing-mysql-errors-recorded-in-error-logs,fixing mysql errors recorded in error logs,dba.stackexchange.com
+44ce1df4d92460e3d53fd5b2b118bb28.cnf,5.0.51,http://serverfault.com/questions/106323/fixing-mysql-server-has-gone-away-error,fixing mysql server has gone away error,serverfault.com
+aeee97b9c71d057e04206a128c6739f4.cnf,5.1.47,http://dba.stackexchange.com/questions/6983/tons-and-tons-of-relay-logs-on-a-master,tons and tons of relay logs on a master,dba.stackexchange.com
+f3421c434a7771f43ba01c801aa9244c.cnf,5.6.x,http://serverfault.com/questions/518864/trouble-starting-mysql-community-server-on-windows-7,trouble starting mysql community server on windows 7,serverfault.com
+2ec53612711815e6b93c092ddc36afe6.cnf,5.5.19,http://dba.stackexchange.com/questions/19388/tuning-question,tuning question,dba.stackexchange.com
+caa12fe752a4c2c607877ec5dd4f1f45.cnf,5.5.24,http://serverfault.com/questions/403454/ubuntu-12-04-mysql-5-5-24-crashes-everyday,ubuntu 12 04 mysql 5 5 24 crashes everyday,serverfault.com
+7baf21a1029f60ea67a8bcadb687b638.cnf,5.1,http://serverfault.com/questions/94287/ubuntu-and-mysql-server-something-isnt-allowing-me-to-connect,ubuntu and mysql server something isnt allowing me to connect,serverfault.com
+5d011bb59057e5639559dd8b325c6d52.cnf,5.5.20,http://dba.stackexchange.com/questions/13529/ubuntu-multiple-mysql-instances-and-apparmor,ubuntu multiple mysql instances and apparmor,dba.stackexchange.com
+325380a39a79102227c0b96c66fc3c15.cnf,5.6.10,http://dba.stackexchange.com/questions/35717/unable-to-change-engine-to-myisam-in-mysql,unable to change engine to myisam in mysql,dba.stackexchange.com
+61d224f325ce3ee53bbcea9321230f83.cnf,5.0.77,http://serverfault.com/questions/349606/unable-to-connect-to-any-of-the-specified-mysql-hosts-when-trying-to-connect-my,unable to connect to any of the specified mysql hosts when trying to connect my,serverfault.com
+650817358d3554c0c048146eedecbae8.cnf,5.5,http://dba.stackexchange.com/questions/52761/understanding-indexes-and-using-them-better,understanding indexes and using them better,dba.stackexchange.com
+35df17d3f58e25ef7c616871f000b657.cnf,5.1.35,http://serverfault.com/questions/395258/unknown-table-engine-innodb-error,unknown table engine innodb error,serverfault.com
+14ca8b9501445ccb174ba0e2acce0b05.cnf,5.5.x,http://stackoverflow.com/questions/20800457/updating-variables-in-my-cnf,updating variables in my cnf,stackoverflow.com
+8977b72959b6b2ce75a204671ce8c799.cnf,5.0.x,http://serverfault.com/questions/268107/upgrade-from-mysql-4-to-mysql-5-same-my-cnf-lots-of-random-disconnects,upgrade from mysql 4 to mysql 5 same my cnf lots of random disconnects,serverfault.com
+89f91b0be90f09b1a9a8fbff8b9c0b2e.cnf,5.0.x,http://stackoverflow.com/questions/17815604/very-slow-1-second-connections,very slow 1 second connections,stackoverflow.com
+43b31ee19f050090c0b2d2ab8297a8e9.cnf,5.0.77,http://serverfault.com/questions/242150/mysql-replicating-the-mysql-database,mysql replicating the mysql database,serverfault.com
+749645bdd680596da71a139cfb0e000a.cnf,5.5.x,http://serverfault.com/questions/408631/mysql-replication-performance,mysql replication performance,serverfault.com
+a0820258bc6b4f90fa106d7216d1d54b.cnf,5.5.x,http://dba.stackexchange.com/questions/60888/mysql-runs-out-of-memory-when-importing-innodb-database,mysql runs out of memory when importing innodb database,dba.stackexchange.com
+daae1d98343c1183b195fafa5d1dfca3.cnf,5.0.77,http://stackoverflow.com/questions/8917115/mysql-search-table-optimization-for-a-game-website,mysql search table optimization for a game website,stackoverflow.com
+520711acee2d5f9e136ac35a4eff30d2.cnf,5.1.52,http://serverfault.com/questions/284611/mysql-server-5-1-config-on-win-2008-experts-help-required,mysql server 5 1 config on win 2008 experts help required,serverfault.com
+678716ee721a94679326f0261340af23.cnf,5.5.16,http://dba.stackexchange.com/questions/7580/mysql-server-has-gone-away-using-sqlyog,mysql server has gone away using sqlyog,dba.stackexchange.com
+da4cab5a12e152a9b5018620a9c43dc7.cnf,5.1.63,http://dba.stackexchange.com/questions/30856/mysql-server-optimization-tips-needed-innodb,mysql server optimization tips needed innodb,dba.stackexchange.com
+808d6ece34b89be9792d3cc14568953c.cnf,5.1.73,http://dba.stackexchange.com/questions/58351/mysql-server-wont-start-reason-internal-error,mysql server wont start reason internal error,dba.stackexchange.com
+8e86dec00741645a3aefa1848d7512f1.cnf,5.5.31,http://serverfault.com/questions/545556/mysql-service-takes-a-lor-of-cpu-780,mysql service takes a lor of cpu 780,serverfault.com
+133449a93117f018dfe5a58534cee40a.cnf,5.0.45,http://serverfault.com/questions/67860/mysql-slave-fails-to-resume-from-master-if-master-restarted,mysql slave fails to resume from master if master restarted,serverfault.com
+561980fefdb2bab5353e8d40cb2424ab.cnf,5.5.28,http://dba.stackexchange.com/questions/31182/mysql-slowly-uses-memory-until-it-starts-to-use-swap,mysql slowly uses memory until it starts to use swap,dba.stackexchange.com
+205d181d85f71fbf0cd8e97294418e7b.cnf,5.1.x,http://serverfault.com/questions/421968/mysql-too-many-connections-during-normal-conditions-percona-innodb,mysql too many connections during normal conditions percona innodb,serverfault.com
+36517fcad728674ebebd7c4e8c24928d.cnf,5.1.69,http://dba.stackexchange.com/questions/45809/mysql-tried-to-restart-itself-3-or-more-times-but-it-failed-finally,mysql tried to restart itself 3 or more times but it failed finally,dba.stackexchange.com
+98e5519181a1a42e79ca0987acd8a698.cnf,5.5.x,http://dba.stackexchange.com/questions/5713/mysql-trying-to-update-to-5-5,mysql trying to update to 5 5,dba.stackexchange.com
+e5253913f4fdb6e136ff362cea470904.cnf,5.5.x,http://serverfault.com/questions/529230/mysql-using-all-memory-and-moving-into-swap,mysql using all memory and moving into swap,serverfault.com
+d8ca1b2060de8c1762b3e0813b3ae2fc.cnf,5.5.22,http://serverfault.com/questions/400020/mysql-using-high-virt-memory-and-res-is-compartively,mysql using high virt memory and res is compartively,serverfault.com
+e900cf3d10871a0895b1d2515c4c6431.cnf,5.5.23,http://dba.stackexchange.com/questions/44896/mysql-using-too-much-cpu,mysql using too much cpu,dba.stackexchange.com
+53565476d2fd3198f36e59ae6ec115a0.cnf,5.5.23,http://stackoverflow.com/questions/11538705/mysql-with-innodb-table-keep-crashing,mysql with innodb table keep crashing,stackoverflow.com
+bc51c2bda547b3d8f43d7fc973bfdf97.cnf,5.1.31,http://serverfault.com/questions/211353/mysqld-crashes-on-any-statement,mysqld crashes on any statement,serverfault.com
+24d6fef9ac96ca2fff9bae35759b6013.cnf,5.1.47,http://dba.stackexchange.com/questions/41694/mysqld-dead-but-subsys-locked,mysqld dead but subsys locked,dba.stackexchange.com
+494cc7e7504f039bac3b84073228caf3.cnf,5.1.41,http://stackoverflow.com/questions/7708092/mysqld-intermittent-restarts-under-load,mysqld intermittent restarts under load,stackoverflow.com
+6f4b274d42d4e42b9067f3d0bc64e8fb.cnf,5.1.x,http://serverfault.com/questions/484518/mysqld-never-gets-to-ready-for-connections,mysqld never gets to ready for connections,serverfault.com
+d4aab82f8a04685a7c5b541af24cd68d.cnf,5.1.61,http://serverfault.com/questions/441660/mysqld-service-crashes-on-restart-after-importing-mysqldump-innodb,mysqld service crashes on restart after importing mysqldump innodb,serverfault.com
+0b25642536cb2dbb49317e3668cd8154.cnf,5.1.61,http://dba.stackexchange.com/questions/27892/innodb-master-master-replication-goes-inconsistant-after-power-failure-tests,innodb master master replication goes inconsistant after power failure tests,dba.stackexchange.com
+89b1569f8ea672b08226ef827a2bcb32.cnf,5.5.28,http://dba.stackexchange.com/questions/29086/innodb-mysql-5-5-28-segmentation-signal-11-faults-on-high-load-my-cnf-fi,innodb mysql 5 5 28 segmentation signal 11 faults on high load my cnf fi,dba.stackexchange.com
+9e5ec8d1766572aa1577a8d6e1ad5a86.cnf,5.5.21,http://dba.stackexchange.com/questions/14259/innodb-table-select-returns-error-2006-hy000-mysql-server-has-gone-away-afte,innodb table select returns error 2006 hy000 mysql server has gone away afte,dba.stackexchange.com
+20792b1cc45af9b0f2362cf1e44e1ee6.cnf,5.5.34,http://dba.stackexchange.com/questions/55830/innodb-tokudb-fills-up-ram-then-start-swapping,innodb tokudb fills up ram then start swapping,dba.stackexchange.com
+9ee5f2497434cdaf1adaa61a0a3b316c.cnf,5.0.x,http://dba.stackexchange.com/questions/14006/innodb-update-performance,innodb update performance,dba.stackexchange.com
+5e8812104f87635a2abe0f43198abbf6.cnf,5.6.x,http://serverfault.com/questions/351257/installing-mysql-5-6-on-ubuntu,installing mysql 5 6 on ubuntu,serverfault.com
+1fc8b5a56b8d92c8176921de9efcbaf6.cnf,5.6.12,http://serverfault.com/questions/520751/installing-mysql5-6-12-in-ubuntu-12-10-error-etc-mysql-conf-d-is-missing,installing mysql5 6 12 in ubuntu 12 10 error etc mysql conf d is missing,serverfault.com
+95f50bc3ddc4e833488278444d778d94.cnf,5.5.33,http://serverfault.com/questions/542757/installing-percona-xtradb-cluster-on-ubuntu-13-04,installing percona xtradb cluster on ubuntu 13 04,serverfault.com
+739957a2549ee9af2b35c4e45fa7430d.cnf,5.5.25,http://dba.stackexchange.com/questions/25165/intermittent-mysql-crashes-with-error-fatal-error-cannot-allocate-memory-for-t,intermittent mysql crashes with error fatal error cannot allocate memory for t,dba.stackexchange.com
+6632742fe977a9c6a8ee3d4734823001.cnf,5.0.95,http://dba.stackexchange.com/questions/50467/invalidating-query-cache-entrieskey,invalidating query cache entrieskey,dba.stackexchange.com
+4604181bf088247cb3d49ac1c87fa86f.cnf,5.5.29,http://dba.stackexchange.com/questions/36465/is-my-cnf-for-mysql-5-5-is-suitable-and-well-tuned-for-below-hardware-spec,is my cnf for mysql 5 5 is suitable and well tuned for below hardware spec,dba.stackexchange.com
+f4e04d02024975f7b3296bc88a6fb93b.cnf,5.5.34,http://dba.stackexchange.com/questions/55001/is-this-amount-of-disk-io-expected-with-mysql,is this amount of disk io expected with mysql,dba.stackexchange.com
+38eae89b1ed91a0fef4db0f0f83c7410.cnf,5.1,http://dba.stackexchange.com/questions/18670/ive-got-16gb-of-ram-how-should-i-configure-mysql-server,ive got 16gb of ram how should i configure mysql server,dba.stackexchange.com
+4d6211003c0030959b784aee200baa4e.cnf,5.6.x,http://stackoverflow.com/questions/19656911/logging-apparently-not-working-cant-set-configure-replication,logging apparently not working cant set configure replication,stackoverflow.com
+53e010c4462d906ef607253145ab1212.cnf,5.1.x,http://stackoverflow.com/questions/2252243/lots-of-mysql-sleep-processes,lots of mysql sleep processes,stackoverflow.com
+f2923b3ca4d53cc0dcded513d801a72a.cnf,5.5.x,http://serverfault.com/questions/477656/mariadb-mysql-using-a-lot-of-threads-memory,mariadb mysql using a lot of threads memory,serverfault.com
+26abd9df0d1e5200455aa7a211a9304c.cnf,5.6.x,http://dba.stackexchange.com/questions/61116/migrate-from-innodb-file-per-table-to-off-in-mysql,migrate from innodb file per table to off in mysql,dba.stackexchange.com
+307fc81e9b132d419be6d0fbc25f9157.cnf,5.6.x,http://stackoverflow.com/questions/18806377/setting-the-right-mysql-innodb-log-file-size,setting the right mysql innodb log file size,stackoverflow.com
+9d80e493537b05d41e5578b6064e50e6.cnf,5.1.63,http://serverfault.com/questions/414452/setting-up-php-5-4-with-mysql-to-use-unix-sockets,setting up php 5 4 with mysql to use unix sockets,serverfault.com
+cc525692edd4e1b4e98fa588af2cddbf.cnf, 5.0.77,http://serverfault.com/questions/238155/severe-mysqldump-performance-degradation-using-centos-linux-8gb-pae-and-mysql-5,severe mysqldump performance degradation using centos linux 8gb pae and mysql 5,serverfault.com
+cc83514f30dafbc60aa0c25dabd0f178.cnf,5.5.x,http://dba.stackexchange.com/questions/25463/slow-backup-and-extremely-slow-restores,slow backup and extremely slow restores,dba.stackexchange.com
+e164cd9f8bb5eafec86a92313b92ec2e.cnf,5.5.34,http://stackoverflow.com/questions/20997511/slow-connection-between-ec2-app-to-ec2-mysql-remote,slow connection between ec2 app to ec2 mysql remote,stackoverflow.com
+8132609ac9b32287add41700e5bffdd0.cnf,5.5.30,http://dba.stackexchange.com/questions/56062/slow-innodb-insert-update-delete,slow innodb insert update delete,dba.stackexchange.com
+e10bce05b26bdc4946f47bf11b033706.cnf,5.1.69,http://stackoverflow.com/questions/17137626/solr-dataimport-from-mysql-dies-when-mysq-query-limit-is-removed,solr dataimport from mysql dies when mysq query limit is removed,stackoverflow.com
+c23f897787ff70db9bd6e1e757043d98.cnf,5.1.66,http://serverfault.com/questions/470993/solving-mysql-2003-error,solving mysql 2003 error,serverfault.com
+2795e649e5fa0a88fd2187d29bd3085e.cnf,5.1.37,http://stackoverflow.com/questions/7346217/sqlapi-mysql-connection-error-cant-connect-to-mysql-server-on-localhost-1,sqlapi mysql connection error cant connect to mysql server on localhost 1,stackoverflow.com
+5940d23956aba0cf090350430d9e5ff1.cnf,5.5.x,http://dba.stackexchange.com/questions/52737/squeezing-maximum-out-of-my-server,squeezing maximum out of my server,dba.stackexchange.com
+85f863bf572b18cb5f8fc7d253817c4d.cnf,5.5.33,http://stackoverflow.com/questions/21658687/ssl-setup-error-error-2026-hy000failed-to-set-ciphers-to-use,ssl setup error error 2026 hy000failed to set ciphers to use,stackoverflow.com
+6dc31db0855869ec442e7930a77d243d.cnf,5.1.61,http://dba.stackexchange.com/questions/18424/tables-dont-exist-after-mysql-restart,tables dont exist after mysql restart,dba.stackexchange.com
+d89ac0dcd1cb0d260fe3991867aa5e27.cnf,5.1.x,http://dba.stackexchange.com/questions/53375/tcp-sockets-bottleneck-with-innodb-debian,tcp sockets bottleneck with innodb debian,dba.stackexchange.com
+20694fba306759b6d501297488c42104.cnf,5.1.59,http://serverfault.com/questions/323470/terrible-mysqld-performance-after-system-upgrade,terrible mysqld performance after system upgrade,serverfault.com
+724eb75ac63132d631be7cbce0407ae7.cnf,5.5.x,http://dba.stackexchange.com/questions/27473/the-best-mysql-configuration-for-my-server,the best mysql configuration for my server,dba.stackexchange.com
+1fd590240e383f2ab3dc501feecec57e.cnf,5.5.24,http://stackoverflow.com/questions/16704792/wamp-server-not-working,wamp server not working,stackoverflow.com
+d1e9982aa421a92df44652b91a77a90a.cnf,5.5.24,http://stackoverflow.com/questions/20022537/wampserver-error-2003-hy000-cant-connect-to-mysql-server-on-localhost-1,wampserver error 2003 hy000 cant connect to mysql server on localhost 1,stackoverflow.com
+dc0e15b5c80ff6ee21c74f1b20a2cb89.cnf,5.5.x,http://serverfault.com/questions/375490/what-am-i-doing-wrong-in-my-config-for-mysql,what am i doing wrong in my config for mysql,serverfault.com
+597ce35462a0ff54f42dba47e3a1b985.cnf,5.5.24,http://stackoverflow.com/questions/17387299/what-are-huge-files-0-000001-and-0-000002-files-and-so-on-in-mysql-data-folder,what are huge files 0 000001 and 0 000002 files and so on in mysql data folder,stackoverflow.com
+2549bd18d46fe0417f795648cd430e63.cnf,5.5.x,http://stackoverflow.com/questions/16873118/what-does-mysqld-safe-do-in-my-cng,what does mysqld safe do in my cng,stackoverflow.com
+1079f674b5eadc7ef4ad16d2b44a3101.cnf,5.5.x,http://dba.stackexchange.com/questions/58256/what-is-best-configuration-for-50gb-database-for-mysql-server-5-5,what is best configuration for 50gb database for mysql server 5 5,dba.stackexchange.com
+9a1509307f27f2bf67388ad1ba2a6539.cnf,5.1.70,http://serverfault.com/questions/526557/what-will-be-the-best-mysql-settings-for-3gb-server,what will be the best mysql settings for 3gb server,serverfault.com
+e72c3cab173ab36c56315989de620690.cnf,5.5.x,http://dba.stackexchange.com/questions/1927/why-does-mysql-say-im-out-of-memory,why does mysql say im out of memory,dba.stackexchange.com
+3e5fb7948651949008bf6cca4dc276b5.cnf,5.0.67,http://stackoverflow.com/questions/2194914/why-is-mysql-innodb-so-much-slower-at-full-table-scans-than-myisam,why is mysql innodb so much slower at full table scans than myisam,stackoverflow.com
+7dfa348c48876762844b81c6b9c621d5.cnf,5.1.61,http://stackoverflow.com/questions/13224177/why-is-this-mysql-query-so-slow-in-mysql-5-1-56,why is this mysql query so slow in mysql 5 1 56,stackoverflow.com
+c1040f2e32a66812871720cb54f47db5.cnf,5.1.66,http://serverfault.com/questions/487495/why-monit-does-not-work-with-my-mysql-configuration-file,why monit does not work with my mysql configuration file,serverfault.com
+8c7e54eefd60996e99078d20a1dc083b.cnf,5.6.11,http://dba.stackexchange.com/questions/55100/xtrabackup-fails-with-my-cnf-percona-configuration,xtrabackup fails with my cnf percona configuration,dba.stackexchange.com
+d1e2ee7425795dff65cec3866632bc0a.cnf,5.0.x,http://lists.mysql.com/mysql/215626,MySQL Lists: mysql: Partial Replication,mailing_list
+cd5b73ad1787fb500baec03981a96ad0.cnf,5.1.31,http://lists.mysql.com/mysql/216281,MySQL Lists: mysql: Install problem: log file issue,mailing_list
+0154f52422130b0791e07ccc7666d8b4.cnf,5.0.22,http://lists.mysql.com/mysql/216391,MySQL Lists: mysql: Re: Resend: enabling storage engine with RPM install,mailing_list
+eeb8aa7c01994d2ec778fd2cba71d3bd.cnf,5.1.32-0.dotdeb.1,http://lists.mysql.com/mysql/216957,MySQL Lists: mysql: Mysql High load CPU,mailing_list
+63d5204bba8e3901642959b924268635.cnf,5.0.77,http://lists.mysql.com/mysql/217305,"MySQL Lists: mysql: Re: 1135: Can't create a new thread (errno 35); if you are not out of 
+	available memory, you can consult the manual for a possible OS-dependent bug",mailing_list
+c8980502caed997153008377b27e7d90.cnf,5.1.30,http://lists.mysql.com/mysql/218125,MySQL Lists: mysql: Re: XAMMP-MySQL crashing,mailing_list
+965f97766ad719750e53f3ebc841b956.cnf,5.0.x,http://lists.mysql.com/mysql/218162,"MySQL Lists: mysql: Copy 70GB ibdata, etc. and server won't start now",mailing_list
+b38901cb1a751d2506d41eaf72ee457a.cnf,5.1.35,http://lists.mysql.com/mysql/218208,MySQL Lists: mysql: Re: MYSQL 5.1.35 Segmentation fault,mailing_list
+be013bc66c28280483d55e6f1c83242e.cnf,5.0.x,http://lists.mysql.com/mysql/218343,MySQL Lists: mysql: best config???,mailing_list
+8b898b96795aeca7e166eb8ca55d680f.cnf,5.0.81,http://lists.mysql.com/mysql/219032,MySQL Lists: mysql: Req. suitable .cnf file for Server used by 2000 users daily,mailing_list
+bb8f488f2faceff49e0091df00183a0e.cnf,5.4.3-beta,http://lists.mysql.com/mysql/219700,MySQL Lists: mysql: Can't initialize mysqld data dir,mailing_list
+7fdec71c33fed06f5753f49af59f4e8b.cnf,5.0.x,http://lists.mysql.com/mysql/220923,MySQL Lists: mysql: Very slow delete for Master / Child tables with millions of rows,mailing_list
+d1e8b1dcca3e9e44ec0737f07fb73a7e.cnf,5.0.77,http://lists.mysql.com/mysql/221042,MySQL Lists: mysql: Re: Best Configuration on Production Server,mailing_list
+8e3e8ae6127629928362cec796f7b997.cnf,5.4.3,http://lists.mysql.com/mysql/221199,MySQL Lists: mysql: InnoDB - 16GB Data,mailing_list
+85d7471c84346e26e5cfa26a897112ad.cnf,5.1.44,http://lists.mysql.com/mysql/221320,MySQL Lists: mysql: MySQL Partition Problem,mailing_list
+65bec7b52fe4463616f434a727fc910b.cnf,5.0.1,http://lists.mysql.com/mysql/221773,MySQL Lists: mysql: Temporary tables created on disk: 99%,mailing_list
+1b4038975c994197f3c15ecf31651629.cnf,5.1.41,http://lists.mysql.com/mysql/223613,MySQL Lists: mysql: need Help - Mysqldump  issue,mailing_list
+b167f29edc9912734f8f6aa9865b0509.cnf,5.5.x,http://lists.mysql.com/mysql/223905,MySQL Lists: mysql: 5.5 versus 5.1,mailing_list
+1e216e04aaa1e7288b7a329fb639b8a7.cnf,5.1.22,http://lists.mysql.com/mysql/224387,"MySQL Lists: mysql: Performance issue old server witn mysql 4 vs new server with mysql 5
+ and old server WINS!",mailing_list
+2cfb42df2f40d3e5a623223c798e67a2.cnf,5.1.x,http://lists.mysql.com/mysql/225573,MySQL Lists: mysql: Re: mysql,mailing_list
+6b7f891f0139b0b92c407034e2c59fbc.cnf,5.1.x,http://dba.stackexchange.com/questions/36774/mysql-max-connections-changed-without-notice,mysql max connections changed without notice,dba.stackexchange.com
+e8304b4dd0eba7c3f4e969090012da16.cnf,5.5.30,http://dba.stackexchange.com/questions/46893/mysql-memory-grows-over-time,mysql memory grows over time,dba.stackexchange.com
+ddbe2bc071c206d361e49916b9700542.cnf,5.1.62,http://serverfault.com/questions/394651/mysql-my-cnf-ignored,mysql my cnf ignored,serverfault.com
+ddd1453ee772c811811ba5d1c83d8561.cnf,5.5.10,http://stackoverflow.com/questions/6051983/mysql-need-help-for-rapidly-growing-table-and-decreasing-speed-4mio-rows,mysql need help for rapidly growing table and decreasing speed 4mio rows,stackoverflow.com
+506c53c035bbeeb6c0d48bebfce85285.cnf,5.1.39,http://serverfault.com/questions/287907/mysql-not-using-specified-ram-anymore,mysql not using specified ram anymore,serverfault.com
+8a3a201f3e1090c8072257e4ee6ef86e.cnf,5.6.1,http://stackoverflow.com/questions/16067507/mysql-odbc-update-query-very-slow,mysql odbc update query very slow,stackoverflow.com
+299d9d85ae68503a52d0e247cb00a9ab.cnf,5.5.x,http://dba.stackexchange.com/questions/35099/mysql-optimization-help,mysql optimization help,dba.stackexchange.com
+128bdd6ac548328fb7dbff2fd1699194.cnf,5.0.50,http://stackoverflow.com/questions/17939730/mysql-out-of-memory-needed-xxxxxxx-bytes,mysql out of memory needed xxxxxxx bytes,stackoverflow.com
+d726c35b64afbec497e8aa4a60de0ad1.cnf,5.0.95,http://dba.stackexchange.com/questions/48766/mysql-performance-issues,mysql performance issues,dba.stackexchange.com
+82143cf88ed4d52476e509cf32f7528c.cnf,5.5.x,http://stackoverflow.com/questions/19950760/mysql-performance-tuning-myisam-using-my-cnf,mysql performance tuning myisam using my cnf,stackoverflow.com
+11b9fa75593f39219532d16270c0d5d5.cnf,5.5.31,http://stackoverflow.com/questions/16265602/mysql-python-cant-connect-to-localhost-server-on-windows-7,mysql python cant connect to localhost server on windows 7,stackoverflow.com
+26a52a141efd5f88a4b390fcbb621a46.cnf,5.5.x,http://dba.stackexchange.com/questions/17068/frequently-slow-queries-while-in-the-update-state,frequently slow queries while in the update state,dba.stackexchange.com
+bdfd0e8d84775284c33abd0e379d4d38.cnf,5.0.45,http://serverfault.com/questions/351062/general-logging-wont-work-in-mysql,general logging wont work in mysql,serverfault.com
+4b757ce76cbeac3e59364d1de99fb04c.cnf,5.1.x,http://stackoverflow.com/questions/10883031/getting-error-cant-connect-to-mysql-server-on-server-ip-99,getting error cant connect to mysql server on server ip 99,stackoverflow.com
+41a027c0fa466846c51b89831750bbc4.cnf,5.5.x,http://stackoverflow.com/questions/6633785/glassfish-nested-connection-pool-error,glassfish nested connection pool error,stackoverflow.com
+386361eb358750394c96a8c535e5fc9a.cnf,5.1.x,http://serverfault.com/questions/67911/help-my-server-is-running-out-of-memory-and-locking-up-requiring-a-hard-reboot,help my server is running out of memory and locking up requiring a hard reboot,serverfault.com
+219ca12e14aa624fce2f6115a77b465e.cnf,5.1.52,http://serverfault.com/questions/351926/high-iowait-on-amazon-ec2-mysql-instance-with-ebs-volume,high iowait on amazon ec2 mysql instance with ebs volume,serverfault.com
+feced8fe12d5f68b8ebd392d558d711c.cnf,5.1.x,http://serverfault.com/questions/387928/high-mysql-cpu,high mysql cpu,serverfault.com
+98f87092930ca946da7505521788a398.cnf,5.0.51,http://stackoverflow.com/questions/6244044/how-can-i-avoid-repair-with-keycache-in-mysql,how can i avoid repair with keycache in mysql,stackoverflow.com
+be4adf779b80c0d8abba6179672a58a8.cnf,5.5.x,http://stackoverflow.com/questions/16321847/how-can-wait-timeout-interactive-timeout-be-ignored,how can wait timeout interactive timeout be ignored,stackoverflow.com
+bf5654e8de083b81d222a0c7a968a09e.cnf,5.5.35,http://dba.stackexchange.com/questions/60970/how-do-i-tune-mysql-with-results-from-mysqltuner,how do i tune mysql with results from mysqltuner,dba.stackexchange.com
+06bab24bce5365204651f33e13cacef1.cnf,5.5.30,http://dba.stackexchange.com/questions/35284/mysql-cant-create-test-file-1067-error,mysql cant create test file 1067 error,dba.stackexchange.com
+dca31315f8b53e32d22fab79ac842aa0.cnf,5.1.45,http://stackoverflow.com/questions/2883465/mysql-config-file-for-large-system,mysql config file for large system,stackoverflow.com
+8d7d3ddfa86b8795899903879c0b23f6.cnf,5.1.45,http://serverfault.com/questions/144206/mysql-config-on-large-machine,mysql config on large machine,serverfault.com
+e22c094947c1505032c19a8f5ce6093e.cnf,5.5.x,http://serverfault.com/questions/475719/mysql-configuration-on-my-cnf,mysql configuration on my cnf,serverfault.com
+e172d18cf39a96ea63947afca4009d2d.cnf,5.5.32,http://stackoverflow.com/questions/18694188/mysql-connection-taking-too-much-time,mysql connection taking too much time,stackoverflow.com
+7512adcb8bd0cf274b51448e985fc8f1.cnf,5.5.24,http://serverfault.com/questions/441783/mysql-crashes-when-connecting-from-localhost-with-tcp-unix-sockets-work,mysql crashes when connecting from localhost with tcp unix sockets work,serverfault.com
+7eb73da5ba2a88332ff79cb0764eb13a.cnf,5.1.48,http://dba.stackexchange.com/questions/53201/mysql-creates-temporary-tables-on-disk-how-do-i-stop-it,mysql creates temporary tables on disk how do i stop it,dba.stackexchange.com
+c5d6e005091b27c9e18b9a3044ae8c9f.cnf,5.5.21,http://serverfault.com/questions/488489/mysql-database-config-optimization,mysql database config optimization,serverfault.com
+5cff6b4c043c78cd98fee8bb209f9f22.cnf,5.1.26,http://serverfault.com/questions/387275/mysql-errors-with-drupal-and-mediatemple,mysql errors with drupal and mediatemple,serverfault.com
+216192b0ab9f034596f7f90582f74862.cnf,5.1.41,http://serverfault.com/questions/331940/mysql-filled-all-ram-on-the-system,mysql filled all ram on the system,serverfault.com

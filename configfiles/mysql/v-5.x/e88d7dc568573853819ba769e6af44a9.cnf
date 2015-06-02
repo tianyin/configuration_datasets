@@ -1,0 +1,218 @@
+
+[client]
+#password	= [your_password]
+port		= 3306
+socket		= /tmp/mysql.sock
+
+# *** Application-specific options follow here ***
+
+#
+# The MySQL server
+#
+[mysqld]
+
+# generic configuration options
+port		= 3306
+socket		= /tmp/mysql.sock
+datadir		= /node1_css_mysql
+basedir		= /opt/mysql-5.0.27
+# back_log is the number of connections the operating system can keep in
+# the listen queue, before the MySQL connection manager thread has
+# processed them. If you have a very high connection rate and experience
+# "connection refused" errors, you might need to increase this value.
+# Check your OS documentation for the maximum value of this parameter.
+# Attempting to set back_log higher than your operating system limit
+# will have no effect.
+back_log = 50
+
+# Don't listen on a TCP/IP port at all. This can be a security
+# enhancement, if all processes that need to connect to mysqld run
+# on the same host.  All interaction with mysqld must be made via Unix
+# sockets or named pipes.
+# Note that using this option without enabling named pipes on Windows
+# (via the "enable-named-pipe" option) will render mysqld useless!
+#skip-networking
+
+# The maximum amount of concurrent sessions the MySQL server will
+# allow. One of these connections will be reserved for a user with
+# SUPER privileges to allow the administrator to login even if the
+# connection limit has been reached.
+
+# Modified by Juan
+max_connections = 256
+skip_name_resolve
+
+# Maximum amount of errors allowed per host. If this limit is reached,
+# the host will be blocked from connecting to the MySQL server until
+# "FLUSH HOSTS" has been run or the server was restarted. Invalid
+# passwords and other errors during the connect phase result in
+# increasing this value. See the "Aborted_connects" status variable for
+# global counter.
+max_connect_errors = 10
+
+# The number of open tables for all threads. Increasing this value
+# increases the number of file descriptors that mysqld requires.
+# Therefore you have to make sure to set the amount of open files
+# allowed to at least 4096 in the variable "open-files-limit" in
+# section [mysqld_safe]
+
+# Modified by Juan
+table_cache = 256
+
+# Enable external file level locking. Enabled file locking will have a
+# negative impact on performance, so only use it in case you have
+# multiple database instances running on the same files (note some
+# restrictions still apply!) or if you use other software relying on
+# locking MyISAM tables on file level.
+#external-locking
+
+# The maximum size of a query packet the server can handle as well as
+# maximum query size server can process (Important when working with
+# large BLOBs).  enlarged dynamically, for each connection.
+
+# Modified by Juan
+max_allowed_packet = 32M
+
+# The size of the cache to hold the SQL statements for the binary log
+# during a transaction. If you often use big, multi-statement
+# transactions you can increase this value to get more performance. All
+# statements from transactions are buffered in the binary log cache and
+# are being written to the binary log at once after the COMMIT.  If the
+# transaction is larger than this value, temporary file on disk is used
+# instead.  This buffer is allocated per connection on first update
+# statement in transaction
+
+# Modified by Juan
+#binlog_cache_size = 1M
+max_binlog_size= 100000000
+
+# Maximum allowed size for a single HEAP (in memory) table. This option
+# is a protection against the accidential creation of a very large HEAP
+# table which could otherwise use up all memory resources.
+max_heap_table_size = 64M
+
+# Sort buffer is used to perform sorts for some ORDER BY and GROUP BY
+# queries. If sorted data does not fit into the sort buffer, a disk
+# based merge sort is used instead - See the "Sort_merge_passes"
+# status variable. Allocated per thread if sort is needed.
+
+# Modified by Juan
+sort_buffer_size = 1M
+
+# This buffer is used for the optimization of full JOINs (JOINs without
+# indexes). Such JOINs are very bad for performance in most cases
+# anyway, but setting this variable to a large value reduces the
+# performance impact. See the "Select_full_join" status variable for a
+# count of full JOINs. Allocated per thread if full join is found
+join_buffer_size = 2M
+
+# How many threads we should keep in a cache for reuse. When a client
+# disconnects, the client's threads are put in the cache if there aren't
+# more than thread_cache_size threads from before.  This greatly reduces
+# the amount of thread creations needed if you have a lot of new
+# connections. (Normally this doesn't give a notable performance
+# improvement if you have a good thread implementation.)
+thread_cache_size = 16
+
+# This permits the application to give the threads system a hint for the
+# desired number of threads that should be run at the same time.  This
+# value only makes sense on systems that support the thread_concurrency()
+# function call (Sun Solaris, for example).
+# You should try [number of CPUs]*(2..4) for thread_concurrency
+thread_concurrency = 8
+
+# Query cache is used to cache SELECT results and later return them
+# without actual executing the same query once again. Having the query
+# cache enabled may result in significant speed improvements, if your
+# have a lot of identical queries and rarely changing tables. See the
+# "Qcache_lowmem_prunes" status variable to check if the current value
+# is high enough for your load.
+# Note: In case your tables change very often or if your queries are
+# textually different every time, the query cache may result in a
+# slowdown instead of a performance improvement.
+
+# Modified by Juan
+query_cache_size = 16M
+
+# Only cache result sets that are smaller than this limit. This is to
+# protect the query cache of a very large result set overwriting all
+# other query results.
+query_cache_limit = 2M
+
+# Minimum word length to be indexed by the full text search index.
+# You might wish to decrease it if you need to search for shorter words.
+# Note that you need to rebuild your FULLTEXT index, after you have
+# modified this value.
+ft_min_word_len = 4
+
+# If your system supports the memlock() function call, you might want to
+# enable this option while running MySQL to keep it locked in memory and
+# to avoid potential swapping out in case of high memory pressure. Good
+# for performance.
+#memlock
+
+# Table type which is used by default when creating new tables, if not
+# specified differently during the CREATE TABLE statement.
+
+# Modified by Juan
+# Is much beeter by Innodb ;) ???.. Please check.
+default_table_type = MYISAM
+
+# Thread stack size to use. This amount of memory is always reserved at
+# connection time. MySQL itself usually needs no more than 64K of
+# memory, while if you use your own stack hungry UDF functions or your
+# OS requires more stack for some operations, you might need to set this
+# to a higher value.
+thread_stack = 192K
+
+# Set the default transaction isolation level. Levels available are:
+# READ-UNCOMMITTED, READ-COMMITTED, REPEATABLE-READ, SERIALIZABLE
+
+# Modified by Juan
+transaction_isolation=READ-COMMITTED
+
+# Maximum size for internal (in-memory) temporary tables. If a table
+# grows larger than this value, it is automatically converted to disk
+# based table This limitation is for a single table. There can be many
+# of them.
+
+# Modified by Juan
+tmp_table_size=70331648
+
+# Enable binary logging. This is required for acting as a MASTER in a
+# replication configuration. You also need the binary log if you need
+# the ability to do point in time recovery from your latest backup.
+skip-locking
+log-bin=/node1_css_mysql_logs/mysql-bin
+#skip-concurrent-insert
+
+# If you're using replication with chained slaves (A->B->C), you need to
+# enable this option on server B. It enables logging of updates done by
+# the slave thread into the slave's binary log.
+#log_slave_updates
+
+# Enable the full query log. Every query (even ones with incorrect
+# syntax) that the server receives will be logged. This is useful for
+# debugging, it is usually disabled in production use.
+#log
+
+# Print warnings to the error log file.  If you have any problem with
+# MySQL you should enable logging of warnings and examine the error log
+# for possible explanations. 
+#log_warnings
+
+# Modified by Juan
+# For example queries with more than 2 minutes
+long_query_time = 120
+#log-long-format
+#log-slow-queries=/mysql/data/slowqueries.log
+
+# The directory used by MySQL for storing temporary files. For example,
+# it is used to perform disk based large sorts, as well as for internal
+# and explicit temporary tables. It might be good to put it on a
+# swapfs/tmpfs filesystem, if you do not create very large temporary
+# files. Alternatively you can put it on dedicated disk. You can
+# specify multiple paths here by separating them by ";" - they will then
+# be used in a round-robin fashion.
+#tmpdir = /tmp
+

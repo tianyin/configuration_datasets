@@ -1,0 +1,16 @@
+[mysqld]
+datadir=/opt/pprd/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+max_allowed_packet=10M
+query_cache_size = 8388608
+table_open_cache=256
+tmp_table_size=67108864
+log_bin             = /opt/pprd/log/mysql-bin.log
+log_bin_index       = /opt/pprd/log/mysql-bin.index
+expire_logs_days    = 5
+max_binlog_size     = 100M
+binlog_format       = row
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

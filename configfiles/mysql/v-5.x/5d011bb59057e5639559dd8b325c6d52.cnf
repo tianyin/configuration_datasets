@@ -1,0 +1,17 @@
+[client]
+port        = 3307
+socket      = /var/run/mysqld/mysqld-5-5-20.sock
+
+[mysqld_safe]
+socket      = /var/run/mysqld/mysqld-5-5-20.sock
+nice        = 0
+
+[mysqld]
+user        = mysql
+socket      = /var/run/mysqld/mysqld-5-5-20.sock
+port        = 3307
+basedir     = /usr
+datadir     = /usr/local/mysql-5.5.20/data
+tmpdir      = /usr/local/mysql-5.5.20/tmp
+
+log_error   = /usr/local/mysql-5.5.20/log/error.log

@@ -1,0 +1,22 @@
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+symbolic-links=0
+sync_binlog=1
+
+# REPLICATION SETTINGS
+server_id = 2
+replicate-same-server-id = 0
+auto-increment-increment = 2
+auto-increment-offset = 2
+replicate-do-db = test
+binlog-ignore-db = mysql
+
+log-bin=db2-mysql-bin
+relay-log=db2-relay-log
+relay-log-index=relay-log-index
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

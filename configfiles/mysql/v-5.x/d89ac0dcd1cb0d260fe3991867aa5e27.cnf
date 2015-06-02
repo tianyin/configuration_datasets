@@ -1,0 +1,185 @@
+# Example MySQL config file for very large systems.
+#
+# This is for a large system with memory of 1G-2G where the system runs mainly
+# MySQL.
+#
+# You can copy this file to
+# /etc/my.cnf to set global options,
+# mysql-data-dir/my.cnf to set server-specific options (in this
+# installation this directory is @localstatedir@) or
+# ~/.my.cnf to set user-specific options.
+#
+
+# In this file, you can use all long options that a program supports.
+# If you want to know which options a program supports, run the program
+# with the "--help" option.
+
+# The following options will be passed to all MySQL clients
+[client]
+#password       = your_password
+port            = 3306
+socket          = /var/run/mysqld/mysqld.sock
+
+# The MySQL server
+[mysqld]
+skip-name-resolve
+skip-federated
+default_time_zone       = 'Europe/Paris'
+innodb_locks_unsafe_for_binlog = 1
+transaction-isolation=READ-UNCOMMITTED
+#innodb_force_recovery =  4
+#skip-grant-tables
+#skip-networking
+#replicate-ignore-db    = mysql
+user            = mysql
+port            = 3306
+old_passwords       = false
+max_connect_errors  = 10000
+socket          = /var/run/mysqld/mysqld.sock
+pid-file        = /var/run/mysqld/mysqld.pid
+datadir         = /var/lib/mysql/prod
+#basedir        = /usr
+tmpdir          = /var/tmp
+#skip-locking
+# LC 28-06-2012 Passage a 300M apres calcul des index des table MyISAM :
+# select sum(INDEX_LENGTH/1024/1024) from information_schema.tables where engine="MyISAM";
+key_buffer      = 300M
+max_allowed_packet  = 128M
+# Modif LC 28-06-2012 car pas assez de tables cachees 80000 -> 160000 -> 40000 -> 20000 -> 1000
+# Ajout de table_open_cache le nouveau nom du parametre
+#table_cache        = 6000 
+table_open_cache    = 24000 # max_connections * 18 ( 18 tables used in targeting query ) + delta
+table_definition_cache  = 512
+sort_buffer_size    = 32M
+read_buffer_size    = 10M
+read_rnd_buffer_size    = 3M
+myisam_sort_buffer_size = 1M
+thread_cache_size   = 64
+query_cache_type    = 1
+query_cache_limit   = 128M
+query_cache_size    = 512M
+query_cache_min_res_unit = 8K
+join_buffer_size    = 4M
+max_connections     = 200   
+low_priority_updates    = 1 # JBN : On the slave, updates are more important than reads
+concurrent_insert   = 2
+wait_timeout        = 300 
+# Try number of CPU's*2 for thread_concurrency
+thread_concurrency  = 48
+#thread_concurrency = 24
+
+#
+#Temporary tables
+#
+# Modif LC 11-06-2012 car trop de tables temporaires 1024 -> 8192
+#tmp_table_size          = 1024M
+#max_heap_table_size     = 1024M
+tmp_table_size          = 8192M
+max_heap_table_size     = 8192M
+max_tmp_tables      = 64
+
+#
+# log paths
+#
+log-error       = /var/log/mysql/error.log
+slow_query_log_file = /var/log/mysql/mysql-slow.log
+slow_query_log      = 1
+long_query_time     = 1 
+log-queries-not-using-indexes
+
+# This is a master server in a master/slave replication (id=1 + binlogging)
+server-id       = 1
+
+#log_bin                 = /var/lib/mysql/mysql-bin.log
+expire_logs_days        = 1
+max_binlog_size         = 1G
+#binlog_do_db           = include_database_name
+#binlog_ignore_db       = include_database_name
+#relay_log              = mysql-relay
+#relay_log_space_limit  = 50G
+
+# Fulltext search
+ft_min_word_len     = 3
+
+
+#
+# Language variables
+#
+character-set-server    = utf8
+collation-server    = utf8_general_ci
+language        = /usr/share/mysql/english
+
+#
+# InnoDB parameter
+#
+
+ignore_builtin_innodb
+plugin-load=innodb=ha_innodb_plugin.so;innodb_trx=ha_innodb_plugin.so;innodb_locks=ha_innodb_plugin.so;innodb_lock_waits=ha_innodb_plugin.so;innodb_cmp=ha_innodb_plugin.so;innodb_cmp_reset=ha_innodb_plugin.so;innodb_cmpmem=ha_innodb_plugin.so;innodb_cmpmem_reset=ha_innodb_plugin.so
+innodb_file_format=barracuda
+
+# Uncomment the following if you are using InnoDB tables
+#innodb_data_home_dir = @localstatedir@/
+
+innodb_data_file_path       = ibdata1:512M:autoextend
+innodb_table_locks      = OFF
+innodb_support_xa       = 0
+innodb_autoinc_lock_mode    = 2             # WARNING : binlog-format = ROW IS MANDATORY
+# binlog_format                   = row
+innodb_flush_log_at_trx_commit  = 2
+
+#innodb_log_group_home_dir = @localstatedir@/
+#innodb_log_arch_dir = @localstatedir@/
+# You can set .._buffer_pool_size up to 50 - 80 %
+# of RAM but beware of setting memory usage too high
+
+# LC 28-06-2012 innodb_buffer_pool_size 12G -> 24G -> 18G
+# KHA 29-06-2012 -> 12G ( 18G too big ) 
+innodb_buffer_pool_size         = 48G
+innodb_additional_mem_pool_size = 32M
+
+innodb_log_file_size        = 128M
+innodb_log_buffer_size      = 8M
+#innodb_flush_log_at_trx_commit = 1
+innodb_lock_wait_timeout    = 250
+innodb_file_per_table
+# LC 12-06-2012 innodb_thread_concurrency 64-> 24
+innodb_thread_concurrency   = 12
+#innodb_thread_concurrency  = 64
+
+# LC 17-06-2012 Ajout innodb_flush_method=O_DIRECT pour voir l'impact perf au niveau RAID hardware
+# A tester
+innodb_flush_method=O_DIRECT
+
+[mysqldump]
+quick
+max_allowed_packet      = 16M
+
+# Language variables needed for backup / restores
+default-character-set   = utf8
+
+[mysql]
+no-auto-rehash
+# Remove the next comment character if you are not familiar with SQL
+#safe-updates
+
+# Language variables needed for backup / restores
+default-character-set   = utf8
+
+[isamchk]
+key_buffer = 256M
+sort_buffer_size = 256M
+read_buffer = 2M
+write_buffer = 2M
+
+[myisamchk]
+key_buffer = 256M
+sort_buffer_size = 256M
+read_buffer = 2M
+write_buffer = 2M
+
+[mysqlhotcopy]
+interactive-timeout
+
+# Cyb tuning
+[mysqld]
+log-warnings=2 # logs more information to log-error

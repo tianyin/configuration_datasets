@@ -1,0 +1,45 @@
+# cat /etc/my.cnf
+[client]
+port            = ****
+socket          = /var/lib/mysql/mysql.sock
+
+[mysqld]
+datadir=/mnt/persistent/mysql
+port=****
+socket=/var/lib/mysql/mysql.sock
+key_buffer = 512M
+max_allowed_packet = 64M
+table_cache = 1024
+sort_buffer_size = 8M
+read_buffer_size = 4M
+read_rnd_buffer_size = 2M
+myisam_sort_buffer_size = 64M
+thread_cache_size = 128M
+tmp_table_size = 128M
+join_buffer_size = 1M
+query_cache_limit = 2M
+query_cache_size= 64M
+query_cache_type = 1
+max_connections = 1000
+thread_stack = 128K
+thread_concurrency = 48
+log-bin=mysql-bin
+server-id       = 1
+wait_timeout = 300
+innodb_data_home_dir = /mnt/persistent/mysql/
+innodb_data_file_path = ibdata1:10M:autoextend
+innodb_buffer_pool_size = 20G
+innodb_additional_mem_pool_size = 20M
+innodb_log_file_size = 64M
+innodb_log_buffer_size = 8M
+innodb_flush_log_at_trx_commit = 1
+innodb_lock_wait_timeout = 50
+innodb_thread_concurrency = 48
+ft_min_word_len=3
+
+[myisamchk]
+ft_min_word_len=3
+key_buffer = 128M
+sort_buffer_size = 128M
+read_buffer = 2M
+write_buffer = 2M

@@ -1,0 +1,17 @@
+[mysqld]
+innodb_log_buffer_size=8M
+innodb_flush_log_at_trx_commit=1
+innodb_file_io_threads=4
+max_binlog_size=20M
+max_allowed_packet=16M
+max_connections=500
+log_bin=logFile.log
+binlog-do-db=test
+server-id=1
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+binlog-format=ROW
+log_warnings=1
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0

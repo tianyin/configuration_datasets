@@ -1,0 +1,27 @@
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+long_query_time=1
+key_buffer = 64M
+thread_cache_size = 30
+table_cache = 1024
+table_definition_cache = 512
+query_cache_type = 1
+query_cache_size = 64M
+tmp_table_size = 64M
+max_heap_table_size = 64M
+innodb_buffer_pool_size = 512M
+old_passwords=1
+max_connections=400
+wait_timeout=30
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+
+[ndbd]
+connect-string="nodeid=2;host=localhost:1186"
+
+[ndb_mgm]
+connect-string="host=localhost:1186"

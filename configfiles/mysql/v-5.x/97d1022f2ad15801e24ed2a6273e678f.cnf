@@ -1,0 +1,39 @@
+[mysqld]
+#datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+#pid-file=/var/lib/mysql/mysqld.pid
+#skip-bdb
+#skip-innodb
+#err-log=/var/log/mysql.log
+#bind-address = server.escalehost.com
+log-bin = /var/lib/mysql/log-bin
+
+
+#innodb_buffer_pool_size=2M
+#innodb_additional_mem_pool_size=500K
+#innodb_log_buffer_size=500K
+#innodb_thread_concurrency=2
+#max_connections=125
+#table_cache=2500
+#thread_cache_size=100
+#thread_stack=250K
+#wait_timeout=10
+#join_buffer=5M
+#myisam_sort_buffer_size=15M
+#query_cache_size=15M
+#read_rnd_buffer_size=5M
+max_allowed_packet = 64M
+#open_files_limit=8602
+
+#[client]
+#port           = 3306
+#socket=/var/lib/mysql/mysql.sock
+
+#[mysql.server]
+#user=mysql
+#basedir=/var/lib
+
+[mysqld_safe]
+#socket=/var/lib/mysql/mysql.sock
+#err-log=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid

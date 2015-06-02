@@ -1,0 +1,55 @@
+[client]
+
+port=3306
+
+[mysql]
+
+default-character-set=latin1
+
+[mysqld]
+
+#The TCP/IP Port the MySQL Server will listen on
+port=3306
+
+basedir="C:/Program Files/MySQL/MySQL Server 5.5/"
+
+datadir="C:/ProgramData/MySQL/MySQL Server 5.5/data/"
+
+character-set-server=latin1
+
+default-storage-engine=INNODB
+
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+
+max_connections=100
+
+query_cache_size=0
+
+table_cache=256
+
+tmp_table_size=192M
+
+thread_cache_size=8
+
+myisam_max_sort_file_size=100G
+
+myisam_sort_buffer_size=384M
+
+key_buffer_size=332M
+
+read_buffer_size=64K read_rnd_buffer_size=256K
+
+sort_buffer_size=256K
+
+#* INNODB Specific options *
+innodb_additional_mem_pool_size=14M
+
+innodb_flush_log_at_trx_commit=1
+
+innodb_log_buffer_size=7M
+
+innodb_buffer_pool_size=643M
+
+innodb_log_file_size=65M
+
+innodb_thread_concurrency=8

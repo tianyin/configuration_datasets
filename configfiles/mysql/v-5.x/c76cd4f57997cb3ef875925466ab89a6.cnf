@@ -1,0 +1,19 @@
+[client]
+#password       = your_password
+port            = 3306
+socket         = /var/lib/mysql/mysql.sock
+
+[mysqld]
+user            = mysql
+port            = 3306
+basedir         = /usr
+log_warnings    = 1
+datadir         = /home/mysql/prod
+socket          = /var/lib/mysql/mysql.sock
+log-error       = /var/log/mysql.log
+
+
+innodb_data_home_dir = /home/mysql/prod
+innodb_data_file_path = ibdata1:10M:autoextend
+#innodb_doublewrite = on
+#innodb_log_group_home_dir = /home/mysql/prod

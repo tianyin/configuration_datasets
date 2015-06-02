@@ -1,0 +1,29 @@
+[mysqld]
+basedir=c:/mysql5
+datadir=c:/mysql5/data
+bind-address=172.16.110.21
+port=3306
+local-infile=1
+log=office_full.log
+;log-slow-queries=office_slow.err
+enable-external-locking
+;log-bin=../logs/binary_logs
+;log-bin-index=../logs/binary_logs
+key_buffer_size=4M
+server-id=21
+skip-bdb
+query_cache_size=4096000
+innodb_data_home_dir=
+innodb_data_file_path= ../innodb/innodata:20M:autoextend:max:100M
+innodb_log_group_home_dir = ../innodb
+innodb_log_arch_dir = ../innodb/innodb_arch_logs
+innodb_log_archive=0
+innodb_log_file_size=3M
+innodb_log_buffer_size=4M
+innodb_log_files_in_group=3
+innodb_buffer_pool_size=16M
+innodb_additional_mem_pool_size=8M
+innodb_flush_log_at_trx_commit=1
+innodb_file_io_threads=4
+transaction-isolation =READ-COMMITTED
+

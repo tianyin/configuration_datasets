@@ -1,0 +1,27 @@
+[mysqld]
+datadir=/var/lib/mysql
+tmpdir=/var/lib/mysql/tmp
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+skip-external-locking
+long_query_time=3
+slow_query_log
+slow_query_log_file=/var/log/log-slow-queries.log
+log-bin=mysql-bin
+log-error=/var/log/mysqld.log
+log-warnings=5
+server-id= 1
+myisam_max_sort_file_size=900G
+myisam_sort_buffer_size=300M
+myisam_repair_threads=1
+skip-innodb
+key_buffer_size=128M
+bulk_insert_buffer_size=512M
+
+
+[mysqld_safe]
+log-error=/var/log/mysqld_safe.log
+pid-file=/var/run/mysqld/mysqld.pid
+myisam_recover_options

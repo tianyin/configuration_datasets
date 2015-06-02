@@ -1,0 +1,33 @@
+[client]
+default-character-set=utf8
+
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+max_allowed_packet = 16M
+default-character-set=utf8
+default-collation=utf8_unicode_ci
+character-set-server=utf8
+collation-server=utf8_unicode_ci
+default-storage-engine = InnoDB
+innodb_data_home_dir = /var/lib/mysql 
+innodb_log_group_home_dir = /var/lib/mysql
+innodb_data_file_path = ibdata1:10M:autoextend
+innodb_additional_mem_pool_size = 2M
+innodb_log_file_size = 5M 
+innodb_log_buffer_size = 8M
+innodb_lock_wait_timeout = 50
+innodb_flush_log_at_trx_commit = 1
+
+innodb_buffer_pool_size = 700M
+table_cache = 300
+thread_cache_size = 4
+query_cache_size = 200m
+query_cache_limit = 10m
+
+[mysqld_safe] 
+log-error=/var/log/mysqld.log 
+pid-file=/var/run/mysqld/mysqld.pid

@@ -1,0 +1,36 @@
+[client]
+no-beep
+port=3306
+[mysql]
+default-character-set=utf8
+[mysqld]
+port=3306
+basedir="C:\Program Files\MySQL\MySQL Server 5.5\"
+datadir="C:\ProgramData\MySQL\MySQL Server 5.5\data\"
+character-set-server=utf8
+default-storage-engine=INNODB
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+log-output=NONE
+general-log=0
+general_log_file="CM999-SV510.log"
+slow-query-log=0
+slow_query_log_file="CM999-SV510-slow.log"
+long_query_time=10
+log-error="CM999-SV510.err"
+max_connections=100
+query_cache_size=0
+table_cache=256
+tmp_table_size=22M
+thread_cache_size=8
+myisam_max_sort_file_size=100G
+myisam_sort_buffer_size=43M
+key_buffer_size=8M
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+sort_buffer_size=256K
+innodb_additional_mem_pool_size=4M
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=2M
+innodb_buffer_pool_size=124M
+innodb_log_file_size=63M
+innodb_thread_concurrency=9

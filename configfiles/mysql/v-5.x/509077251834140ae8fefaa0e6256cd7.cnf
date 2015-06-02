@@ -1,0 +1,163 @@
+
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+#tmpdir=/var/lib/mysqltmp
+#old_passwords=1
+skip-locking
+skip-name-resolve
+key_buffer = 64M
+max_allowed_packet = 16M
+table_cache = 2048
+sort_buffer_size = 8M
+read_buffer_size = 2M
+#key_buffer_size = 32M
+key_buffer_size = 512M
+read_rnd_buffer_size = 16M
+
+thread_cache_size = 16
+thread_concurrency = 8
+query_cache_size = 32M   # Doesn't seem to matter how big or small I make this
+
+# Maximum size for internal (in-memory) temporary tables. If a table
+# grows larger than this value, it is automatically converted to disk
+# based table This limitation is for a single table. There can be many
+# of them.
+tmp_table_size=64M
+
+max_heap_table_size=64M
+back_log = 100
+max_connect_errors = 10000
+join_buffer_size=8M
+open-files = 20000
+
+interactive_timeout = 600
+wait_timeout = 600
+
+# Thread stack size to use. This amount of memory is always reserved at
+# connection time. MySQL itself usually needs no more than 64K of
+# memory, while if you use your own stack hungry UDF functions or your
+# OS requires more stack for some operations, you might need to set this
+# to a higher value.
+thread_stack = 192K
+
+# Set the default transaction isolation level. Levels available are:
+# READ-UNCOMMITTED, READ-COMMITTED, REPEATABLE-READ, SERIALIZABLE
+transaction_isolation = REPEATABLE-READ
+
+max_connections=500
+
+# The size of the cache to hold the SQL statements for the binary log
+# during a transaction. If you often use big, multi-statement
+# transactions you can increase this value to get more performance. All
+# statements from transactions are buffered in the binary log cache and
+# are being written to the binary log at once after the COMMIT.  If the
+# transaction is larger than this value, temporary file on disk is used
+# instead.  This buffer is allocated per connection on first update
+# statement in transaction
+binlog_cache_size = 1M
+
+
+# The following directives should be commented out
+# but included as they are things that get added
+# very frequently on tickets. These are more in a
+# need-this-feature basis.
+
+log-slow-queries=/var/lib/mysql/slow-log
+log=/var/lib/mysql/mysql-log
+long_query_time=10
+log_long_format
+
+
+log-queries-not-using-indexes
+
+#log-bin=/var/lib/mysqllogs/bin-log
+#log-slave-updates
+#expire_logs_days = 14
+
+# enable ndbcluster storage engine, and provide connectstring for
+# management server host (default port is 1186)
+ndbcluster
+ndb-connectstring=192.168.10.22
+default-table-type=NDBCLUSTER
+
+# Turn on batching
+# transaction_allow_batching = on
+ndb_force_send = off
+
+#Connection pools
+ndb-cluster-connection-pool=50
+
+skip-innodb
+
+[mysql_cluster]
+ndb-connectstring=192.168.10.22
+
+[mysql.server]
+user=mysql
+#basedir=/var/lib
+
+[mysqld_safe]
+err-log=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+open_files_limit=65536
+
+[NDBD DEFAULT]
+NoOfReplicas=2
+DataMemory=6144M
+IndexMemory=1024M
+
+# Default MaxNoOfAttributes = 1000
+MaxNoOfAttributes=10000
+NoOfFragmentLogFiles=128
+UndoIndexBuffer=32M
+RedoBuffer=32M
+MaxNoOfConcurrentTransactions=4096  # This is the default
+MaxNoOfConcurrentOperations=500000 # Default is 32768
+MaxNoOfOrderedIndexes=1024  # Default is 128
+
+DataDir=/var/lib/mysql-cluster
+
+#Checkpointing...
+Diskcheckpointspeed=10M
+Diskcheckpointspeedinrestart=100M
+TimeBetweenGlobalCheckpoints=1000
+#the default value for TimeBetweenLocalCheckpoints is very good
+TimeBetweenLocalCheckpoints=20
+
+# Lock ndbd daemon to cpu core 4
+RealtimeScheduler=1
+LockExecuteThreadToCPU=4
+LockMaintThreadsToCPU=4
+SchedulerExecutionTimer=80 # (ms)
+SchedulerSpinTimer=400 # (ms)
+TransactionDeadlockDetectionTimeout=5000  # default is 3000 ms
+
+StopOnError=0
+ODirect=1
+
+[MYSQLD DEFAULT]
+
+[NDB_MGMD DEFAULT]
+
+[TCP DEFAULT]
+ReceiveBufferMemory=1M
+SendBufferMemory=2M
+
+# Managment Server
+[NDB_MGMD]
+HostName=192.168.10.22
+id=1
+
+[NDBD]
+HostName=192.168.10.16
+
+# Storage Engines
+#[NDBD]
+#HostName=192.168.100.16
+
+#[NDBD]
+#HostName=192.168.100.23
+
+[NDBD]
+HostName=192.168.10.23

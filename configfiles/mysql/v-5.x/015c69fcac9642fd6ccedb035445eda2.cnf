@@ -1,0 +1,36 @@
+[mysqld]
+query-cache-type = 1
+query-cache-size = 8M
+max_allowed_packet=500M
+ft_min_word_len=2
+ft_stopword_file = ""
+
+[myisamchk]
+ft_min_word_len=2
+
+set-variable=local-infile=0
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+# Default to using old password format for compatibility with mysql 3.x
+# clients (those using the mysqlclient10 compatibility package).
+# old_passwords=1
+
+skip-bdb
+
+set-variable = innodb_buffer_pool_size=2M
+set-variable = innodb_additional_mem_pool_size=500K
+set-variable = innodb_log_buffer_size=500K
+set-variable = innodb_thread_concurrency=2
+[mysql.server]
+user=mysql
+basedir=/var/lib
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+skip-bdb
+
+set-variable = innodb_buffer_pool_size=2M
+set-variable = innodb_additional_mem_pool_size=500K
+set-variable = innodb_log_buffer_size=500K
+set-variable = innodb_thread_concurrency=2

@@ -1,0 +1,5 @@
+
+[mysqld]
+port=3307
+datadir=./data-mysql
+basedir=mysql

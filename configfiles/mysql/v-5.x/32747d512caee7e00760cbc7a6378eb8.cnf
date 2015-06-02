@@ -1,0 +1,49 @@
+
+#This File was made using the WinMySQLAdmin 1.4 Tool
+
+#8/8/2006 9:28:51 AM
+
+ 
+
+#Uncomment or Add only the keys that you know how works.
+
+#Read the MySQL Manual for instructions
+
+ 
+
+[mysqld]
+
+basedir=C:/apachefriends/xampp/mysql
+
+#bind-address=192.168.1.75
+
+datadir=C:/apachefriends/xampp/mysql/data
+
+#language=C:/apachefriends/xampp/mysql/share/your language directory
+
+#slow query log#=
+
+#tmpdir#=
+
+#port=3306
+
+#set-variable=key_buffer=16M
+
+log=hostname.log
+
+[WinMySQLadmin]
+
+Server=C:/apachefriends/xampp/mysql/bin/mysqld.exe
+
+user=xxxxx
+
+password=xxxxxxxxxxxxxxxx
+
+log =                                             OFF
+
+log_bin =                                      OFF
+
+log_bin_trust_function_creators =   OFF
+
+log_error                        =             .\HomeDesktop-24.err
+

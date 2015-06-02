@@ -1,0 +1,11 @@
+[mysqld]
+federated
+basedir         = /backup/mysql-cbt
+datadir         = /backup/mysql-cbt/data
+log-error       = /backup/mysql-cbt/cbt-instance.err
+pid-file        = /backup/mysql-cbt/cbt-instance.pid
+#socket         = /tmp/mysql.sock
+socket          = /backup/mysql-cbt/mysql.sock
+port            = 3310
+user            = mysql
+tmpdir          = /backup/mysql-cbt/tmpdir

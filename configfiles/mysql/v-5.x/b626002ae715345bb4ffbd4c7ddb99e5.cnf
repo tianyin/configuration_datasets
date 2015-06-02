@@ -1,0 +1,12 @@
+
+[client]
+port=3306
+socket=/tmp/mysql.sock
+
+[mysqld]
+port=3306
+socket=/tmp/mysql.sock
+set-variable = key_buffer_size=400M
+set-variable = max_allowed_packet=15M
+default-table-type=InnoDB
+datadir=/data/mysql

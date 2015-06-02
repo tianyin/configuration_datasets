@@ -1,0 +1,53 @@
+port=3306
+
+[mysql]
+
+default-character-set=utf8
+
+[mysqld]
+log-bin = "E:\MySQLBinaryLogger\mysql-bin.log"
+binlog-do-db = cv_lms_live
+binlog_format=ROW
+server-id = 1
+port=3306
+basedir="C:/Program Files/MySQL/MySQL Server 5.5/"
+
+# Path to the database root
+datadir="C:/ProgramData/MySQL/MySQL Server 5.5/Data/"
+
+# The default character set that will be used when a new schema or table is
+# created and no character set is defined
+character-set-server=utf8
+
+# The default storage engine that will be used when create new tables when
+default-storage-engine=INNODB
+
+# Set the SQL mode to strict
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+
+max_connections=1200
+query_cache_size=50M
+table_cache=1520
+tmp_table_size=750M
+thread_cache_size=8
+myisam_max_sort_file_size=100G
+myisam_sort_buffer_size=125M
+key_buffer_size=2192M
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+sort_buffer_size=75M
+innodb_data_home_dir="E:/MySQL Datafiles/"
+innodb_additional_mem_pool_size=32M
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=16M
+innodb_buffer_pool_size=12288M
+innodb_log_file_size=622M
+innodb_thread_concurrency=15
+innodb_buffer_pool_instances=5
+innodb_rollback_on_timeout=ON
+connect_timeout=25
+performance_schema=OFF
+interactive_timeout=14400
+wait_timeout=14400
+slave_load_tmpdir=E:\MySql\Temp
+tmpdir=E:\MySQL Datafiles\Temp

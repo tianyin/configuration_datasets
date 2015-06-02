@@ -1,0 +1,28 @@
+[client]
+port=3306
+[mysql]
+default-character-set=latin1
+[mysqld]
+port=3306
+basedir="C:/Program Files/MySQL/MySQL Server 5.1/"
+datadir="C:/ProgramData/MySQL/MySQL Server 5.1/Data/"
+character-set-server=latin1
+default-storage-engine=INNODB
+sql-mode="STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+max_connections=100
+query_cache_size=0
+table_cache=256
+tmp_table_size=205M
+thread_cache_size=8
+myisam_max_sort_file_size=100G
+myisam_sort_buffer_size=410M
+key_buffer_size=354M
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+sort_buffer_size=256K
+innodb_additional_mem_pool_size=15M
+innodb_flush_log_at_trx_commit=1
+innodb_log_buffer_size=7M
+innodb_buffer_pool_size=686M
+innodb_log_file_size=343M
+innodb_thread_concurrency=10

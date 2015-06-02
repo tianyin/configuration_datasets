@@ -1,0 +1,66 @@
+[mysql]
+# CLIENT #
+port                           = 3306
+socket                         = /var/run/mysqld/mysqld.sock
+[mysqld]
+# GENERAL #
+user                           = mysql
+default_storage_engine         = InnoDB
+socket                         = /var/run/mysqld/mysqld.sock
+pid_file                       = /var/run/mysqld/mysql.pid
+# MyISAM #
+key_buffer_size                = 32M
+myisam_recover                 = FORCE,BACKUP
+# SAFETY #
+max_allowed_packet             = 1G
+max_connect_errors             = 1000000
+innodb                         = FORCE
+# DATA STORAGE #
+datadir                        = /var/lib/mysql/
+# BASIC SETTINGS #
+basedir                = /usr
+tmpdir                 = /tmp
+# BINARY LOGGING #
+log_bin                        = /var/log/mysql/mysql-bin
+expire_logs_days               = 4
+sync_binlog                    = 1
+# CACHES AND LIMITS #
+tmp_table_size                 = 32M
+max_heap_table_size            = 32M
+query_cache_type               = 0
+query_cache_size               = 0
+max_connections                = 500
+thread_cache_size              = 50
+open_files_limit               = 65535
+table_definition_cache         = 4096
+table_open_cache               = 1024
+# INNODB #
+innodb_flush_method            = O_DIRECT
+innodb_log_files_in_group      = 2
+innodb_log_file_size           = 256M
+innodb_flush_log_at_trx_commit = 1
+innodb_file_per_table          = 1
+innodb_buffer_pool_size        = 12G
+# LOGGING #
+log_error                      = /var/log/mysql/error.log
+log_queries_not_using_indexes  = 0
+long_query_time                = 5
+slow_query_log                 = 1
+slow_query_log_file            = /var/log/mysql/mysql-slow.log
+# REPLICATION RELATED #
+server-id              = 1
+log-slave-updates
+auto_increment_increment       = 10
+auto_increment_offset          = 1
+relay_log              = /var/log/mysql/mysql-relay
+sync_binlog            = 1
+innodb_support_xa          = 1
+sync_master_info           = 1
+sync_relay_log             = 1
+sync_relay_log_info        = 1
+#replicate-ignore-db           = mysql
+binlog-format              = ROW
+[mysqldump]
+quick
+quote-names
+max_allowed_packet  = 16M

@@ -1,0 +1,70 @@
+[mysqld]
+server-id       = 1
+port            = 3306
+socket          = /tmp/mysql.sock
+default-storage-engine=MyISAM
+ignore-builtin-innodb
+skip-external-locking
+skip-networking
+skip-name-resolve
+event_scheduler = 1
+
+sql-mode = NO_UNSIGNED_SUBTRACTION
+
+max_allowed_packet = 2M
+max_connections = 768
+max_connect_errors = 1844674407370954751
+
+slow_launch_time=2
+general-log=0
+slow_query_log=1
+slow-query-log-file=/web/log/slowquery.log
+long_query_time=2
+wait_timeout = 10
+connect_timeout = 10
+interactive_timeout = 10
+
+tmp_table_size=32M
+max_heap_table_size=32M
+key_buffer_size = 512M
+join_buffer_size = 3M
+read_buffer_size = 2M
+read_rnd_buffer_size = 8M
+sort_buffer_size = 2M
+myisam_sort_buffer_size = 64M
+table_open_cache = 4096
+
+query_cache_type = 0
+query_cache_limit = 2M
+query_cache_size = 0
+#query_cache_size = 32M
+#query_cache_size = 256M
+query_cache_min_res_unit = 4K
+query_alloc_block_size = 1024
+query_prealloc_size = 8192
+
+thread_concurrency = 48
+thread_cache_size = 512
+
+open-files-limit=10240
+
+low-priority-updates=1
+concurrent_insert=ALWAYS
+
+[mysqldump]
+quick
+max_allowed_packet = 32M
+
+[mysql]
+no-auto-rehash
+# Remove the next comment character if you are not familiar with SQL
+#safe-updates
+
+[myisamchk]
+key_buffer_size = 256M
+sort_buffer_size = 256M
+read_buffer = 64M
+write_buffer = 64M
+
+[mysqlhotcopy]
+interactive-timeout

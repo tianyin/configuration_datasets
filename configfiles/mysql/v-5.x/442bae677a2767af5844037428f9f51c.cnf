@@ -1,0 +1,32 @@
+[mysqld]
+server-id        = 100
+datadir          = /var/lib/mysql
+port             = 3306
+socket           = /var/lib/mysql/mysql.sock
+log-error        = /var/log/mysql/mysql.err
+log-bin          = /var/log/mysql/mysql-bin
+log-bin-index    = /var/log/mysql/mysql-bin.index
+
+expire_logs_days = 2
+sync_binlog      = 1
+
+skip-external-locking
+skip-innodb
+
+slow_query_log           = 1
+slow_query_log_file      = /var/log/mysql/slow_query.log
+long_query_time          = 10
+
+max_connections          = 768
+key_buffer               = 6G
+table_cache              = 15360
+read_buffer_size         = 2M
+read_rnd_buffer_size     = 2M
+sort_buffer_size         = 1M
+tmp_table_size           = 128M
+max_heap_table_size      = 128M
+max_allowed_packet       = 16M
+bulk_insert_buffer_size  = 16M
+myisam_sort_buffer_size  = 128M
+thread_cache_size        = 64
+join_buffer_size         = 1M

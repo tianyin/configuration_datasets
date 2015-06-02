@@ -1,0 +1,34 @@
+[mysqld]
+port=3307
+socket=/tmp/mysql_live.sock
+wait_timeout=31536000
+interactive_timeout=31536000
+datadir=/var/mysql/live/data
+user=mysql
+max_connections = 200
+max_allowed_packet = 64M
+table_cache = 2048
+binlog_cache_size = 128K
+max_heap_table_size = 32M
+sort_buffer_size = 2M
+join_buffer_size = 2M
+lower_case_table_names = 1
+
+innodb_data_file_path = ibdata1:10M:autoextend
+innodb_buffer_pool_size=1G
+innodb_log_file_size=300M
+innodb_log_buffer_size=8M
+innodb_flush_log_at_trx_commit=1
+innodb_file_per_table
+
+[mysqldump]
+# Do not buffer the whole result set in memory before writing it to
+# file. Required for dumping very large tables
+quick
+max_allowed_packet = 64M
+
+[mysqld_safe]
+# Increase the amount of open files allowed per process. Warning: Make
+# sure you have set the global system limit high enough! The high value
+# is required for a large number of opened tables
+open-files-limit = 8192

@@ -1,0 +1,163 @@
+# /etc/mysql/my.cnf: The global mysql configuration file.
+# $Header: /var/cvsroot/gentoo-x86/dev-db/mysql/files/my.cnf-4.1,v 1.3 2006/05/05 19:51:40 chtekk Exp $
+
+# The following options will be passed to all MySQL clients
+[client]
+port                = 3306
+
+[mysql]
+character-sets-dir=/usr/share/mysql/charsets
+default-character-set=utf8
+
+[mysqladmin]
+character-sets-dir=/usr/share/mysql/charsets
+default-character-set=utf8
+
+[mysqlcheck]
+character-sets-dir=/usr/share/mysql/charsets
+default-character-set=utf8
+
+[mysqldump]
+character-sets-dir=/usr/share/mysql/charsets
+default-character-set=utf8
+
+[mysqlimport]
+character-sets-dir=/usr/share/mysql/charsets
+default-character-set=utf8
+
+[mysqlshow]
+character-sets-dir=/usr/share/mysql/charsets
+default-character-set=utf8
+
+[myisamchk]
+character-sets-dir=/usr/share/mysql/charsets
+
+[myisampack]
+character-sets-dir=/usr/share/mysql/charsets
+
+
+[mysqld_safe]
+err-log             = /db/mysql/log/mysql.err
+
+# To allow table cache to be raised
+open-file-limit = 4096
+
+[mysqld]
+max_connections         = 300
+innodb_file_per_table       = 1
+
+log-slow-queries        = /db/mysql/log/slow_query.log
+long_query_time         = 2000000
+ft_min_word_len         = 3
+
+max_heap_table_size         = 64M
+tmp_table_size          = 64M
+
+server-id           = 1
+log-bin             = /db/mysql/master-bin
+log-bin-index           = /db/mysql/master-bin.index
+# END master/slave configuration
+
+character-set-server        = utf8
+default-character-set       = utf8
+user                = mysql
+port                = 3306
+socket                  = /var/run/mysqld/mysqld.sock
+pid-file            = /var/run/mysqld/mysqld.pid
+log-error           = /db/mysql/log/mysqld.err
+basedir             = /usr
+datadir             = /db/mysql
+
+key_buffer          = 32M
+max_allowed_packet      = 32M
+table_cache         = 1024
+thread_cache            = 512
+sort_buffer_size        = 100M
+net_buffer_length       = 64K
+read_buffer_size        = 1M
+read_rnd_buffer_size        = 1M
+myisam_sort_buffer_size     = 100M
+myisam_max_sort_file_size   = 2G
+myisam_repair_threads           = 1
+language            = /usr/share/mysql/english
+
+# security:
+# using "localhost" in connects uses sockets by default
+# skip-networking
+# bind-address          = 127.0.0.1
+
+# point the following paths to different dedicated disks
+tmpdir              = /mnt/mysql/tmp
+# log-update            = /path-to-dedicated-directory/hostname
+
+# you need the debug USE flag enabled to use the following directives,
+# if needed, uncomment them, start the server and issue 
+# #tail -f /tmp/mysqld.sql /tmp/mysqld.trace
+# this will show you *exactly* what's happening in your server ;)
+
+#log                = /tmp/mysqld.sql
+#gdb
+#debug              = d:t:i:o,/tmp/mysqld.trace
+#one-thread
+
+
+# the rest of the innodb config follows:
+# don't eat too much memory, we're trying to be safe on 64Mb boxes
+# you might want to bump this up a bit on boxes with more RAM
+innodb_buffer_pool_size     = 1275M
+# this is the default, increase it if you have lots of tables
+innodb_additional_mem_pool_size = 16M
+#
+# i'd like to use /var/lib/mysql/innodb, but that is seen as a database :-(
+# and upstream wants things to be under /var/lib/mysql/, so that's the route
+# we have to take for the moment
+#innodb_data_home_dir       = /var/lib/mysql/
+#innodb_log_arch_dir        = /var/lib/mysql/
+#innodb_log_group_home_dir  = /var/lib/mysql/
+# you may wish to change this size to be more suitable for your system
+# the max is there to avoid run-away growth on your machine
+innodb_data_file_path       = ibdata1:20M:autoextend
+
+# we keep this at around 25% of of innodb_buffer_pool_size
+# sensible values range from 1MB to (1/innodb_log_files_in_group*innodb_buffer_pool_size)
+innodb_log_file_size        = 96M
+
+# this is the default, increase it if you have very large transactions going on
+innodb_log_buffer_size      = 8M
+
+# this is the default and won't hurt you
+# you shouldn't need to tweak it
+innodb_log_files_in_group   = 2
+
+# see the innodb config docs, the other options are not always safe
+# This is not good for performance when used with bin_sync.  Disabling.
+innodb_flush_log_at_trx_commit  = 2
+innodb_flush_method     = O_DIRECT
+innodb_lock_wait_timeout    = 50
+
+query_cache_size        = 16M
+query_cache_type        = 1
+
+[mysqldump]
+quick
+max_allowed_packet      = 16M
+
+[mysql]
+# uncomment the next directive if you are not familiar with SQL
+#safe-updates
+
+[isamchk]
+key_buffer          = 20M
+sort_buffer_size        = 20M
+read_buffer         = 2M
+write_buffer            = 2M
+
+[myisamchk]
+key_buffer          = 20M
+sort_buffer_size        = 20M
+read_buffer         = 2M
+write_buffer            = 2M
+ft_min_word_len         = 3
+
+[mysqlhotcopy]
+interactive-timeout

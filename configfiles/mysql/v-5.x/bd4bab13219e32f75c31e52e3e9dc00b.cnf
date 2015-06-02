@@ -1,0 +1,30 @@
+# Example MySQL config file for very large systems. 
+# 
+# This is for a large system with memory of 1G-2G where the system runs mainly 
+# MySQL. 
+# 
+# You can copy this file to 
+# /etc/my.cnf to set global options, 
+# mysql-data-dir/my.cnf to set server-specific options (in this 
+# installation this directory is /usr/local/mysql/data) or 
+# ~/.my.cnf to set user-specific options. 
+# 
+# In this file, you can use all long options that a program supports. 
+# If you want to know which options a program supports, run the program 
+# with the "--help" option. 
+
+# The following options will be passed to all MySQL clients 
+[client] 
+#password = your_password 
+port = 3306 
+socket = /tmp/mysql.sock 
+
+# Here follows entries for some specific programs 
+
+# The MySQL server 
+[mysqld]
+datadir = /Volumes/Elements/database 
+port = 3306 
+socket = /tmp/mysql.sock 
+skip-locking 
+key_buffer_size = 384M 

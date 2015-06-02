@@ -1,0 +1,52 @@
+[mysqld]
+innodb_file_per_table
+datadir=/var/lib/mysql
+tmpdir=/var/lib/mysqltmp
+socket=/var/lib/mysql/mysql.sock
+skip-locking
+skip-name-resolve
+table_cache=1024
+table_definition_cache = 1024
+thread_cache_size=16
+back_log=100
+max_connect_errors=10000
+open-files-limit=20000
+interactive_timeout=30
+wait_timeout=60
+max_connections=50
+skip-name-resolve
+
+# Slow Query Log Settings
+log-slow-queries=/var/lib/mysqllogs/slow-log
+long_query_time=5
+log-queries-not-using-indexes
+
+# Global, Non Engine-Specific Buffers
+max_allowed_packet=16M
+tmp_table_size=1768M
+max_heap_table_size=1768M
+query_cache_size=32M
+
+# Per-Thread Buffers
+sort_buffer_size=1M
+read_buffer_size=1M
+read_rnd_buffer_size=8M
+join_buffer_size=32M
+
+# MyISAM
+key_buffer_size=64M
+myisam_sort_buffer_size=64M
+
+# InnoDB
+innodb_log_file_size=100M
+innodb_buffer_pool_size=1512M
+
+[mysql.server]
+user=mysql
+#basedir=/var/lib
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+open-files-limit=65535
+
