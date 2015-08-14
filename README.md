@@ -75,7 +75,7 @@ Believe or not, we crawled/downloaded the entire mailing list archives and onlin
 
 The issue dataset was collected from the same sources. We used a rolling-based sampling methods to get the datasets, which means we didn't look at all the mail threads/posts (which is not possible).
 
-#How can You use the datasets?
+#How can you use the datasets?
 The instruction of the file format and layout can be found in the README in the dataset folders.
 
 #Warning
