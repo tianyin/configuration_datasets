@@ -2,7 +2,7 @@
 
 We release the datasets we used to study the configuration practices and issues of real-world users. Some of the findings are summarized in the paper,
 
-T. Xu, L. Jin, X. Fan, Y. Zhou, S. Pasupathy, and R. Talwadker, Hey, You Have Given Me Too Many Knobs! ---Understanding and Dealing with Over-Designed Configuration in System Software, Proceedings of the 10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE'15), Oct. 31-Sep. 4, 2015, Bergamo, Italy. 
+T. Xu, L. Jin, X. Fan, Y. Zhou, S. Pasupathy, and R. Talwadker, Hey, You Have Given Me Too Many Knobs! ---Understanding and Dealing with Over-Designed Configuration in System Software, Proceedings of the 10th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (ESEC/FSE'15), Oct. 31-Sep. 4, 2015, Bergamo, Italy. [[Download] (http://cseweb.ucsd.edu/~tixu/papers/fse15.pdf)]
 
 Please cite the paper if you use the datasets :-)
 
@@ -30,7 +30,7 @@ In our study, we only used specific versions of httpd and MySQL, i.e., httpd-2.2
 | mysqld        | all       | 823       |
 | mysqld        | 5.x       | 260       |
 
-Only the files we studied (httpd-2.2.x and mysqld-5.x) are included in the datasets. For the rest, we provide you the link so you can download them directly if you needed.
+Only the files we studied (httpd-2.2.x and mysqld-5.x) are included in the datasets. For the rest, we provide you with the link so you can download them directly if you needed.
 
 ##configissues
 The `configissues` dataset contains the issues of three software projects, Apache HTTP server (http://httpd.apache.org/), MySQL (https://www.mysql.com/), and Hadoop (https://hadoop.apache.org/).
@@ -43,7 +43,7 @@ The `configissues` dataset contains the issues of three software projects, Apach
 
 Note that we do not consider version in this datasets, which means an issue could be from any version of the software.
 
-#How did you collect the datasets?
+#How did we collect the datasets?
 
 Please refer to the paper. Basically, all the files are collected from the web, including Q&A forums and the official mailing lists of the software, including
 
@@ -75,7 +75,7 @@ Believe or not, we crawled/downloaded the entire mailing list archives and onlin
 
 The issue dataset was collected from the same sources. We used a rolling-based sampling methods to get the datasets, which means we didn't look at all the mail threads/posts (which is not possible).
 
-#How can I use the datasets?
+#How can You use the datasets?
 The instruction of the file format and layout can be found in the README in the dataset folders.
 
 #Warning
