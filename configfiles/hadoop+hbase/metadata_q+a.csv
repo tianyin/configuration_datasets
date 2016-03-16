@@ -1,0 +1,816 @@
+FILENAME,THREAD,MAIL ARCHIVAL,DATE
+16faa37b050fa8db5f6d09b0ca5c61ea,Working with Capacity Scheduler,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+3c1eb0202b0ad9e761b81d08fbe17f26,issue with defaut yarn.application.classpath value from,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+e7dae2b85fdb8ffc9d2ab80878cc2849,Child JVM memory allocation / Usage,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+327fbd48482dfe53b0db3bcaa613d8b6,Moving a file to HDFS,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+1f012f43e2279eaaca16394769f7732b,hadoop 2.0.5 datanode heartbeat issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+95db66b10eb50f3e340b2c786bd3dd85,"updated to 1.2.1, map completed percentage keeps oscillating",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+1b6a7f6931e23b263381368d140afd01,test lzo problem in hadoop,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+11a4648af4eaecbf1016d6240107931a,Yarn MapReduce Job Issue - AM Container launch error in Hadoop 2.3.0,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+f2bbd0997accf7ad4d2a65a35b410434,org.apache.hadoop.io.compress.SnappyCodec not found,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+b2398b9c675309ccc7ef763eefad4662,name node can't startup,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201212
+dc22799f5a063cb587db729e34a58002,error running terasort,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+fc14bea58019e56b4dc484e888a89533,number of reducers,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+c5027f4e040e39ec2606e4c44f239b64,about replication,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+e2c25f31eb9282320dd8ad30d79b6970,Datanodes shutdown and HBase's regionservers not working,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+e70d91170a8d37a483415c9dd89c8f18,IOException when using MultipleSequenceFileOutputFormat,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+2b04409d28fc9f08c1319520b9d1f035,Jobtracker fair scheduler,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+e0f863d0d107814e99d0f57a15995d1b,How to overwrite container-log4j.properties file,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+83eaf8c3d758919f553caaea34545a23,Parameter 'yarn.nodemanager.resource.cpu-cores' does not work,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+68c54a1ea7c64c0e176284ba65ccaef4,"How to set ""hadoop.tmp.dir"" if I have multiple disks per node?",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+726acccf76a3728a4ff8e3f82f42f8c4,Problems Starting NameNode on hadoop-2.2.0,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201406
+74b5c2762d7fa3c93a08b9401dce89fe,umount bad disk,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201402
+b765defe5aa64d345ea53e8ab49a0f1b,NFS Gateway readonly issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+d9d2458dcb71746058f9c40120b6ae67,Hadoop failover doesn't take effect automatically when one namenode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201501
+a3591c59580a756ab680cf31e4900784,Error when running examples,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+e9f62aa5610884d838f878aca61a1212,Secondary Name Node Issue CDH4.1.2,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+2f02ded40d43a0fd34d129ce2aa16570,fair scheduler not working as intended,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+a7f0f32014af0fe1ffd8a8052cdaf5fc,Pipes Property Not Passed In,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+6a9be3a4dfc4b3d2c804e2e97d40426c,Help. Strange thing. It's block me 1 week....,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+a6ad527f374b288d9e287cdccb061542,issue about run MR job use system user in CDH5,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+50e247f4e61919a6d8e081d715596f5e,org.apache.hadoop.hdfs.server.protocol.DisallowedDatanodeException,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+02b2461d80ce38b020b17390b477da34,Integrating hadoop with java UI application deployed on tomcat,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+087f1e41f6ffd6ac52bb977c3ad1c31e,YCSB on hbase fails with java.io.EOFException,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+661d06a5211c536dea07266ca32d5398,=?gb2312?B?tPC4tDogQ2FuJ3QgZmluZCB0aGUgSm9iIFN0YXR1cyBpbiBXRUIgVUk=?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+725486893f4b7bc8d1a1ce5d407a5eee,expressing job anti-affinity in Yarn.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+6e1ed2f540e132bded770a64d97e4e2d,hdfs over http error,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201406
+32d5c08a0eef8416aa4cb426f847478a,How to balance reduce job,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+5c9dc57769637e45ed75a9f4d252da8a,Installed Hadoop on Linux server - not able to see web UI,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+c68f6e524b8f935413b6f9157a628140,Failed to active namenode when config HA,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+427130ddea4e77129858ac4d0f65b224,Automatically mapping a job submitted by a particular user to a,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+bde322ac82cf01f57089ac745ca5d253,While Inserting data into hive Why I colud not able to query ?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+fcdde0868c4f6335cda742a6092f4a30,About connection to NameNode in NameNode-HA,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+09481b88dfdcfe5c4e2c67a32c0693ad,Can't initialize cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+8e7348585528ecf01e7775141f3e1814,Container errors running Terasort,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201511
+da85f130870dc1f13f6912cd45ced6a3,Hadoop Mapreduce fails with permission management enabled,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+b3c20c0289ed92092f7809c5e4f3587d,Adding new name node location,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+8df9af616afdadc5807cf045f99e9102,teragen terasort fais for more than 5GB of data,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201506
+de16473d8a44e2a12553cfb0bbf92e6f,Is there any possible way to use hostname variable in mapred-site.xml,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+da760f215c860db52cae3a236ba51802,Securing the Secondary Name Node,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+938cc2da07c2e0db9e2e194fe496e763,default capacity scheduler only one job in running status,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+a1c75cc406eb270e42bceaf84ca7cc3e,Hadoop 2.2 Built-in Counters,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+bcad7ed6beaa4a44601c71402ac950ad,HDFS Startup Failure due to dfs.namenode.rpc-address and Shared,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+06dc26ce36c4debab0b943d45faa23c7,AvatarNode configuration,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+9172ee0d153382fe4f222452ca66de27,yarn-site.xml and aux-services,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+9888048c9a548d6a7f77e433c7c87cc5,no _SUCCESS file in MR output directory.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+ba71f185580cd7319f4d16ac099d921b,Access on HDFS,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+883deb8f93eb05c608337337cf5e76cc,error while running reduce,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+4f4800d1793e16978530041cfacd223f,mapred.tasktracker.map.tasks.maximum,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+769940dcb617cf9846f66f4bc34e5b8c,Time until a datanode is marked as dead,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201501
+75e8c04cfa3ff2c1bd20364b52a1a8c7,How to check what is the log directory for container logs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+0dbb639f514ae1907545e600d51cebc7,how to delete logs automatically from hadoop yarn,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+bb569249fe7a63378d56042af81a7b56,problem about starting datanode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+cfb6b246aeac9c571a7777a684eb4cd9,Yarn JobHistory service,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+e32c579874c3f8a2f0d86c1c1543e3aa,"mapred job pending at ""Starting scan to move intermediate done files""",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201410
+9bf5f458ffcb15e81735e637e18366d6,"Long running Spark job on YARN throws ""No AMRMToken""",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201602
+0773bef4c554f84589e8f6b9b9d69de7,Error could only be replicated to 0 nodes instead of minReplication,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+5ee3138c4d84ea4ff5717d620d15760d,maximum capacity of queue is not effecting beyond its capacity,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+9606077c5f9db5cc4392cbe3bb065333,namenode instantiation error,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+28252537d36a431d969fc457e5cbefaa,Hadoop failing jobs non zero exit status 7,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+c449d1935a0be93cb1dc34a66f8d1c69,MapReduce jobs start only on the PC they are typed on,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201410
+818e08f99badcb75da85d5965d40b1f3,"about ""yarn.application.classpath""",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+e1970ee92ec370cf8ae56a83e2ea8c85,Map Reduce slot,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+575dea6e1844c136514a87d56d23d466,running map task in remote node,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+31550ca821654349f8e468034f0d33b6,Question on configuring Hadoop 2.6.0 with a different filesystem,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+bda23f76c84e001d7719085e6d516b8d,Need help for hadoop,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+658acce035399ae44ce9621d6f9ecbe3,"Hive partitioning , drop ,",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201601
+a1e7d8b29ec03a2703805251b4ca5db5,format NameNode after reboot,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+fc040c44cbf4988ede9b092d6581a12d,How to make the setting changes works,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+59f51f49e07a4c7b090f0747b3e5bb79,C++ code with pipes and CLapack Libraries,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+8e1e705b8d570bc0a2b4bb3ec67bcd23,lzo issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+7e49af28a31fb5b1c982bb9066aab97d,Unable to create a directory in federated hdfs.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+3a78856605e1468955ceed8dbc72c4f1,Issue when clicking on BrowseFileSystem,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+0735f3713d92a1f460fe7c82e0dd069d,Hadoop 2.0.2 -- warnings,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+d96d1cbc4ae1f3aa10ce415001ca9774,how to check hdfs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+f5a681be5577830c398fa9c94f0080e8,Node manager contributing to one queue's resources,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201502
+b3bccc4f3f040076a42ed00a0e71184b,Rack-awareness in Hadoop-2.0.3-alpha,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+7874498d8a17ef421b26bfc1fca78f62,Error after upgrading from CDH3 to CDH4,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+1d6b3d277c17e20b08abcbfd80025ad2,How to limit MRJob's stdout/stderr size(yarn2.3),http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+b3a2a3b7c6e61472906d1f14e43beb8e,Datanode not allowed to connect to the Namenode in Hadoop 2.3.0,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+3ff99b31e115bfe999d01253d925e73c,Can't find map or reduce logs when a job ends.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+2334ddb353fa5dca98593440e1683b5b,default config tweaks for a better out-of-the-box experience,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+888ff9c11f07e2e82888f50b11c3cb18,=?gb2312?B?tPC4tDogR0Mgb3ZlcmhlYWQgbGltaXQgZXhjZWVkZWQ=?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+dfdf9ec74d428d288ecc25017ef28152,YARN ignores host-specific resource requests,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+6b87311134e31bb590b9f525df11e786,Reduce fails always,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201410
+7e5f9bf69c510761963997b854bdc071,=?windows-1252?Q?Re=3A_=93hadoop_namenode_-format=94_formats_wro?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+71efc59d233e70fae1126b71efa8a8b1,How do I run ZKFC on a different node that is not the name node?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201512
+3968677ed4f0d0a2fa942118f55b588b,MapReduce Tutorial tweak,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+73da2a6aa244976f5f8a34fef5203aa6,Redefine yarn.application.classpath value,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201601
+7a923cf96324f39dcb1fa7c7ec91547c,Namenode doesn't accurately know datanodes free-space,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+4a4071d2e4cc74e5a41c23d631d34cfb,org.apache.hadoop.hdfs.server.protocol.DisallowedDatanodeExceptio,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+4ecaabf25e3381539fcc81694faae9ce,hadoop not using whole disk for HDFS,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201511
+4d7a251e63da4a3a0d966630307b327a,Hadoop on Safe Mode because Resources are low on NameNode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+b4bc604ea623ebbc995a5e169d40ff5b,adding another namenode to an existing hadoop instance,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201502
+85f42099f9e67e663cb2aa4a8ff242fd,Configure Rack Numbers,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+ce8519d6a14248cd3789b2f838d549fc,Permission issues with HDFS NFS gateway,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201412
+32771926ff8908a5b382f011b672f959,Oozie apparent concurrency deadlocking,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+2c815975000264abfed408ccae050ce8,S3 with Hadoop 2.5.0 - Not working,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+3eec8d66efb7058d71f47ceeb389a8cd,Unable to connect Hive using JDBC program,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201405
+51ace929413b637d7444059f1d374fc6,Hadoop 2.4 + Hive 0.14 + Hbase 0.98.3 + snappy not working,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201412
+9c28d2dd22bc278f3ff985f91905a836,Problem accessing HDFS from a remote machine,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+11eb1515d9b0c03b0743eebe4931c14d,Many Standby NameNodes for QJM HA,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+b6b61da83653efc230e465ce7f6872ed,Can not start HA namenode with security enabled,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201502
+e2dbb9f0cfd2bc8350401e8090820f9d,Capacity Scheduler Issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+b370e967adadd7c0149b18a0d152df84,Hadoop 0.23.3 and Amazon S3,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+ee8e1db2cacd0778a7ce6f22d66657db,How to find Replication factor for one perticular folder in HDFS,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+a0e6bd76be62cdcc0f63e1f2b1f49a4f,Failed To Start  SecondaryNameNode in Secure Mode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+03898e330bd031c1d772eebf5219d0c4,Passing parameters to MapReduce through Oozie,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+38c1e9a9f5e6f444bdc00c3705482f7a,hftp in Hadoop 0.20.2,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+bd961bd5264b9cdd3d73773ebff9a25f,Long running Yarn Applications on a secured HA cluster?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201601
+4a14cab63f38e9c7588925ab15a1d876,Grant privileges on / of hdfs file system,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201507
+a22a40aa8d44452033d66b3967523c1c,Decomssion datanode - no response,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+291c8c5e6a453869ebc43a35edb00850,Which replication value will be used,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+ab5aab43d1cc09b52b06bedae5cec334,set default queue for user,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201502
+ac093b75393a26da60e69128bc839c27,using yarn.nodemanager.container-monitor.resource-calculator.class,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+6663189ecf463c2b5d79c28c4d80a24f,issue with permissions of mapred.system.dir,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+94a96da008ea35ca66ebda2e50a23bec,auto-failover does not work,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+b6cd7a40986fdfffa4f8b09371b0717d,JobCache directory cleanup,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+de1d6a6c2d949b542fddf4768e7af658,HDFS-NFS Windows,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+0dd89a425bd0799c90eb387ddcf0cfe6,HDFS to a different location other than HADOOP HOME,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+01503c0409c7b2ea1294a7776f91560f,Maven Cloudera Configuration problem,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+6949edac8fcd1ddd3fef9969be966090,Help troubleshooting multi-cluster setup,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201509
+d88405792f9721292980f8d8df61518e,Why my tests shows Yarn is worse than MRv1 for terasort?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+fac235ec15ccbf125bf03105a1fe505c,task is still running on node has no disk space,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+0c8e1d6448ae6595706f5fdd4bdf4c0a,Hadoop 2.4.1 Snappy Smoke Test failed,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+487a60c5b957459be61cf926a8e9671d,SNN not writing data fs.checkpoint.dir location,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+164222493c231cdf4ea121e8d5ab18f4,keberos issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+bae45aef9202ffb6ccc9e24d77dcde3b,hadoop cares about /etc/hosts ?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+67a59f48b883edb10cf2594e4680db8d,Bugs while installing apache hadoop 2.4.0,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+d235c55cc34eac11bc527605b53728a4,hadoop cluster not working,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+bb55da85ac98974cf57859f28896ce3b,Hadoop 2.4 failed to launch job on aws s3n,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+59c3df9d1fc07ae544efb3cb0a36abd9,hadoop current properties,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+9e94e57bdd37c1178036c54246ee46f5,Hadoop Jobtracker heap size calculation and OOME,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+3a09e8ef10582b8b5af79ce95e51d865,Hive tmp logs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+b97d4382382d52d7788f655a7d3eadb5,org.apache.hadoop.yarn.exceptions.InvalidResourceRequestException,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+56349721919fdec62414e8e25f6d3bd7,Can't run hadoop examples with YARN Single node cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201601
+45f8ccc3edd276262b15825baee464de,hadoop on diskless cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201406
+059273274c576e32acfde55275862958,running map tasks in remote node,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+389f8b14f0aec285a385cf12b6931d01,How to restrict ephemral ports used by Yarn App Master,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+13ed7c4c87aac40fd37fa7a63407bebd,Pig 0.14.0 on Hadoop 2.6.0 deprecation errors,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+afaa75d476c05f7c5c2089eacf959f02,"Yarn HDFS and Yarn Exceptions when processing ""larger"" datasets.",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+901137c557b3333d41834521efdb1e94,Datanode doesn't connect to Namenode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+4d3f50bc1eefdd65e2c8993b212dabb7,Hadoop Debian Package,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+56d33cca8d2432f20a642d372abfbf29,Authentication for hdfs web interface,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201511
+36abfa06bcfa12f057df53e8bec5877f,How to set heartbeat ?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201402
+3368ac19df4a8a2f9e57d1d22ed04320,Problem with RPC encryption over wire,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+5a3980c89f78d36092b057c6d20266d3,"Install Pig -0,40,0",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+0b67d2ad2ca188452902246ab0c18c1c,"When running Hadoop in pseudo-distributed mode, what directory should",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+503ce595af13e5deac60ab25cb4b6656,using environment variables in XML conf files,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+c94c6ef401bd1fd92fb268ef21ced205,mapred Configuration Vs mapReduce configuration in Ooozie,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+e839d40b5106de1f7648a3dc5afe0e3b,how to create symbolic link in hdfs with c++ code or webhdfs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+56b9a527efed9b17b75163d897191b08,XmlInputFormat Hadoop -Mapreduce,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+8130132741f4c6adb8692283db49118c,New hadoop 1.2 single node installation giving problems,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+8f967cc784e280a4b60332c8be0d3122,HDFS group permissions,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+c48954937e1c9e5ded70eb2195d6d783,Hadoop cluster setup - could not see second datanode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+f2b8f51cdb9f6a71fbe0cbc88d49498c,can't submit a job,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+479479c4aa561885318300f5a53eb35a,HTTPFS without impersonation,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201506
+a95774aff2816e13148e19836114be01,Hadoop 2.6 issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+bd5b6e038abd43c184a456c480126fa2,"Datanode not starting on slaves, no error issue",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+5019029d5a3d186d40013417bf407854,"How to use docker in Hadoop, with patch of YARN-1964?",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+ab1ecf98035ace8cecc37359b5224180,No space when running a hadoop job,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+cb4bed9e7d94cf16610915d777d10726,Cannot start Data Node and Node Manager in Hadoop 2.2.0,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+07d4ab2635dd76d03b23b1f857081b33,Failed to start datanode due to bind exception,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201502
+7033a6cf3736fc79996c2257acccf3c6,not able to run map reduce job example on aws machine,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+b923b54b2e544502040ba9d6da86a9f3,File is not written on HDFS after running libhdfs C API,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+5014511a4f4be80339dbb353a7ddd63d,Configure ResourceManager to accept remote jobs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+94ccb0e2696392a6c45c7e3964f3f37e,HDFS Namenode Format Question.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+53f9c168673ee48e11ad48378ea15799,Removing Dead Nodes from Cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+709b84afe322dcf50f06156c5364cd41,Can't see logs of a finished job.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+7f09e9533270fec0ebdcacfa8cf2f94b,Mapper and Reducer takes longer than usual for a HBase table,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+14ab4f77fefe332ef324b082a77f5e31,dfs.namenode.edits.dir and dfs.namenode.shared.edits.dir,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+197b898196d1aaf552d918a91faea92f,block replication,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+719637c8474285d064722674b22077e2,File Permissions on s3 FileSystem,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+961cecf7064c16f033b80afc44c65e85,java.net.ConnectException when using Httpfs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+b6467999cbf42d6f8ecd571ffe0cc0e1,Hello and request some advice.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+215c5a60f3c160bf7e9fb1ad3250590c,Namenode shutting down while creating cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+80939b521be46842a4a59b7aa3353d50,DataNode not starting in slave machine,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+2de90fbcaa21e21cb6b6c09860842366,Adding extra commands to MR AM,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+0e20534d6bf617ddb904d36a2e8fcb68,datanode can not start,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+7a514156f89b37ef20269f0637cc66a0,Datanodes not connecting to the cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201509
+d7b831b6310c2513cfb22b6fb049f6a9,kerberos principal don't replace _HTTP to their own host name,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+358c6e78b52de983b4dbfbd698b6ac3e,println in MapReduce job,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201509
+6d507b88e928bedfda7bf6ec5268b190,Problem when configure the security in hadoop,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201507
+179970f0631deda330a1314baa652b82,rack topology data update,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+4fb6ddd80d9fe45c4af6865ba8db6f8b,dfs.client.domain.socket.data.traffic,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+ad9d51e36c63adbc1dbe78b35804424c,cannot submit a job via java client in hadoop- 2.0.5-alpha,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+5590b4d7e7aa95895f0dece8612b5991,final the dfs.replication and fsck,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+bbff446e68407027c3bc585c602e3557,Hadoop / HBase hotspotting / overloading specific nodes,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201410
+c7b98b4281c4c6239824555b0326bfcb,Default address configuration of Yarn HA cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201506
+98a003e7b490fc18100ce398c825f39a,Error while writing to HDFS NFS from windows,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+b9c26406d86596da0af058157a1bafa5,=?GB2312?Q?Re=3A_=B4=F0=B8=B4=3A_Decomssion_datanode_=2D_no_response?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+dce9d851e8da369eb23fd2a1705d71a4,QJM for federation,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+aef3d9d355ab2df2e985dbc79e876174,JobToken not Found when Integrating Hadoop/Lustre,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201212
+4dc73cc2ec50d3b991a0758cad6dd909,webhdfs kerberos checksum failed,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+067950c18dcec7d26393e149cdadd16f,YarnChild didn't be killed after running mapreduce,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201410
+e861961d986cc6a33fdc938206d05b7b,Datanode could not work for the ip is not the same as specified in,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+59737b69812113eba118f9a67ded6441,MR job fails with too many mappers,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+fd0905eeaa3b21710dd19c904b1a7654,"issue of ""Log aggregation has not completed or is not enabled.""",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+1a59f0de5870518d9a7609bc1fe9feb9,why i can not track the job which i submitted in yarn?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+881f9bfb12a14df2259f3f7fa3510a64,Why is Hadoop always running just 4 tasks?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+c4b669a680080b1215a007d981eb84dd,Problem in Submitting a Map-Reduce Job to Remote Hadoop Cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+3ca54dba3e01579c995f31d9c3ab0764,Errors come out when starting Balancer,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+ebeae081c2c8cecdee8ab2f9fdd4bca0,Finished Jobs web UI,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201510
+f912a29dcc83a13b787b8ba47712f212,Terasort's performance anomaly,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+b16ba997315a311e5bf79299cc01899d,Can't find the Job Status in WEB UI,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+863cf137561f92e3e95a57634e0d8edd,task tracker fails to start in one of the slave node,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+787f3fc3b597b0aa267e2ef00ebce9fe,Getting hostname (or any environment variable) into *-site.xml files,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+9a7ce4fe721ac4c2f46917b454803ea4,How to use Hadoop2 HA's logical name URL?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+27e5c4b0ca56c66f541d9f1086d9be68,Hadoop 2 Namenode HA not working properly,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+8365d2a578ef67fc6cca9345aac24a7e,Classic(MapReduce 1) cluster in Hadoop 0.23 just won't listen,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+e2c3f76cb189bd01bd32101cee2b595d,Aggregation service start,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201402
+9e590d8260bf2a521389e9cecbfae115,getimage failed in Name Node Log,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+a817da9440aac2c20a026e776ae6c3f6,temporary folders for YARN tasks,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+1851acb07be5bdf4579e805e3ecbb285,ApplicationMaster link on cluster web page does not work,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+4e226007d466ebc830068d47b5a425ab,DataNode Timeout exceptions.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+64b157d3e68d23fa99cc876023ca2cc7,Erro running pi programm,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+6e6b5e8abb915d402bccca7f4aff2708,How to best decide mapper output/reducer input for a huge string?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+ef319e65370395f8ec05e35a43e0e665,How to connect to hadoop through ssh tunnel and kerberos,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+8c6d78361391806b05b72d28a40bed4b,setting hdfs balancer bandwidth doesn't work,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+eddfeb72798fb7fcb37edb58c1cde8ce,How to configure nodemanager.health-checker.script.path,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+9e1a4d77aa17088d432aebe5ebcf1786,cannot start tasktracker because java.lang.NullPointerException,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+b91f8edd5cdaf6896271260d9817e92d,Commissioning Task tracker,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+bb1a1474a5a291f7f7dc71fa89b39a7f,Monitor network traffic in hadoop,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+c4a195c14e7e5b76a6c25cf8991042a3,Permission Denied,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+50f8852e7bf28adb905efdcb0a118e3a,Cannot fine profiling log file,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+dde1a202a4c49facce1b6ba602bb0b61,In Yarn how to increase the number of concurrent applications for a,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201409
+c0f8172a3eb0275fab883c7fac637b45,How can I add a new hard disk in an existing HDFS cluster?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+a756296fb5adaf33fe83bfa17c984191,Another 1/1 local-dirs are bad,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+72c483f6068719461168e527830b841a,Compression codec com.hadoop.compression.lzo.LzoCodec not found,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201402
+14f9c0a1aea8a296f4b25bf0019d54f3,Switch and configure single node and cluster XML configuration,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+0478a44b4cfa6631b06c59410e0f8823,"""Hive Metastore DB Issue ( Cloudera CDH4.1.2 MRv1 with",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+61f7406435180b10aec454ab3590e310,Error while configuring HDFS fedration,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+0c84b8894b56c5547369d9e9a354b29b,mapreduce.jobtracker.expire.trackers.interval no effect,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+047c7b2131b514fc65362745bec23a3b,job not shown in job history server,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+a6f7a3a3cab3cc79c74b47c8d93ffa94,=?GB2312?Q?Re=3A_=A1=BEdfs=2Enamenode=2Eshared=2Eedits=2Edir_can_support_dif?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+f9ea1b20052e132eaf1002c3d06e46b8,Block placement Policy,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+f5564790c4e3f40eb311ab3d12190b66,Error importing hbase table on new system,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201509
+23bfc641a7f6a28570c94e6f253edea5,dfs.permissions.superusergroup not working,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201507
+990b5e44ae8902e32dd2051fb6c2a513,understanding federation and mount points,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201212
+d051536b27bcb9822b6bf4b761017af1,Setting up HTTP authentication,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+76f0a11b3ef20df3a9263f90d22e96b5,Node manager health checker opts,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+521974f26535a5e0f49909decf751874,issue about remove yarn jobs history logs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201405
+86b4cc88a6d70a62058f540b23687a7a,history server for 2 clusters,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201402
+72811e2a049e520ad4269eeac3e40f66,Name node starting intermittently,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+461d25d9f70de8de261318d1e3e83272,I am about to lose all my data please help,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+9083250857d1baeb51ccf40dadc9ed0a,built hadoop! please help with next steps?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+07fb6e62a53e0708d0c5a17c425ac612,"Still ""No groups available for user"". How to set groups in mapreduce",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+1d9f5dd189c38b959537bdb18b8b2a78,Distributing the code to multiple nodes,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+7500ba38b9cb497f11f960e233337ee9,Hadoop configs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+f090ab56a133d262fff7bd5a32a6242b,Run mr example wordcount error on hadoop-2.0.1 alpha HA,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+0c63bbeee6985083114f4a162ad2e7f6,=?UTF-8?Q?Re=3A_=E3=80=90dfs=2Enamenode=2Eshared=2Eedits=2Edir_can_support_dif?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+237b9ff596272060a28e5d630a8ef914,Where the output of mappers are saved ?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201412
+5083a8f4141dc7eecf16b69088aab1dd,Permissions issue with launching MR job from Oozie shell,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+b5d7cbb6be842af6386d2c0d6d765286,Hadoop-2.0.3 HA and federation configure,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+22051a1eb92fdc115d760f57d3c2897e,can't copy between hdfs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+794dee43992f4db331ba68faf2af8960,Unable to use ./hdfs dfsadmin -report with HDFS Federation,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201508
+eb1012d18d7e7e9a051b53cc4879df32,changing split size in Hadoop configuration,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+30e6c3e68268ae5b02b93f48f8a90517,Not able to place enough replicas in Reduce,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201209
+e63177d0fd1524d61c51f0773d8a598d,Map succeeds but reduce hangs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+110576c66daa8486450c531cccd69999,Java heap space error,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+8af31913a3e61fd1013c9aeebe040972,Submit a Hadoop 1.1.1 job remotely to a Hadoop 2 cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+29d961d560595a0662b0b50f93f2cc58,Apache Hadoop 2.2 - Job execution error,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201501
+569e6123c6b92d3b8d0898cefe33a23f,Yarn job stuck with no application master being assigned,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+21bac61e8494928adb53cd881e83257a,hadoop web UI security,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+cdd08c7379d1f03470eac7f273ea8ec3,a question about dfs.replication,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+a8fb6bbe24f9d491bc146f651d8f4cd3,high availability,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+81ceefaa6df93fdcb05fa3764e845e16,"using ""-libjars"" in Hadoop 2.2.1",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+943174f44293e2551926925a65d28351,question about hadoop dfs,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+66a4fb43813d1f0aba29528b577e7a44,namenode not starting,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+aa1a31866bc3c7a5e472781b39ee6767,LDAP GroupMapping configuration,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201506
+c6f1f21517f7e10817e047e95219ef6d,Exception while appending to an existing file in HDFS,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201510
+01a9a008de1365baedc99eb1b8cc310a,CheckPoint Node,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+2fabea36a03d1772aca83d572b94667e,"Solving ""heap size error""",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+76fc9fac86b477870160adaaa8948528,unable to access using webhdfs in 0.23.3,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+20f05cf0aa4fbd3f85787546b968ba11,=?UTF-8?Q?Re=3A_=E2=80=9Chadoop_namenode_=2Dformat=E2=80=9D_formats_wrong_dire?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+d61840a17b7430bc2ea7f0a6dcd9f80e,=?utf-8?Q?Re=3A_after__QJM_failover=EF=BC=8Chbase__can_not__writ?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+95ae572f6d83f67e2104badec3534a2b,Environment variable representing classpath for AM launch,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+ad8f2382120a466a7f5f22d55cbc322d,Does Hadoop Require Public IP address to create a cluster.,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+58f00e3e6053e1c519d5ab2995020059,mapred.tasktacker.reduce.tasks.maximum issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+7883f18e546824a87d54ca0b2575660e,issue about run MR job use system user,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+41e44c98cbe2f7647588ed0cde9a9864,Rack Aware Hadoop cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+347550734536ea7dba90887f75ac2459,DataNodes fail to send heartbeat to HA-enabled NameNode,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201210
+493bca52ed180b8ccd39f706738cb4dc,Snappy Configuration in Hadoop2.5.2,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+b0104d8f6a83f74c35448125724ea165,How does one make a hadoop task attempt to fail after too many data,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+4ae29ec8974668814361cd96e90bf911,DFS Permissions on Hadoop 2.x,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+a367f3ceeeb40bc3fd96906b3bcd6df7,access Permission issure,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+8142acd3b92250f0d80df70a89991abe,ipc.client RetryUpToMaximumCountWithFixedSleep,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+d6d217bdebe946c408c776c72befaec9,can't submit remote job,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+ac9a4a8bb43bc81a95ebaf8b63f691de,Thanks!!,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+35716b7c5c42624c8139d36a5f5cd7e1,Using distcp with Hadoop HA,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+dfe7c4b061c38f79b1534ebcb216bb22,namenode is failing,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+dd1d5c61ea813c2d54080b7d049186b2,YARN timelineserver process taking 600% CPU,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201509
+06d99a7d149f8353c8a70a0cbaaa187b,GC overhead limit exceeded,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+01a2d40f8d804bb480d5f05361fef7fa,Problem viewing a job in hadoop v2 web UI,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+9add9d32c947c590083a5424226fc5f9,Unable to Find S3N Filesystem Hadoop 2.6,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+6dc8f25731b164dba904f28b515fc5ca,change cache path,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201304
+9574e7ccaa1bd8aa2d456b96a34828ea,config ... answer for Visioner Sadak,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+b18c8f83fd2a938ff320e51bdc74b2e4,Yarn AM is abending job when submitting a remote job to cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201502
+49792e93c52a25e76d0b3c7f7fd61ad9,HBASE Region server failing to start after Kerberos is enabled,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201506
+592aa2271690287e43b70a90d6d7f711,Submit Hive MR jobs to a remote Hadoop 2.4 cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+fb97eb067d2c4cbe45401a10b7e64add,Now give .gz file as input to the MAP,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+86f048fdde7083ff61a70bbe4414ef6d,Can not generate a result,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+094031e413914715c424d857e0d2b68d,Incorrect configuration issue,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201507
+2680754c270e18add7224b9271d31e6c,Problems in running spark on Yarn,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201509
+f9a2411c5f408c9f8232c784bef66781,Help with Kerberos,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201505
+6df90448aca4cc9900e0d9c902738ff2,Map Reduce Error,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201404
+cc7d29addf8bb9a1bbb21bb15bde4c6b,why my terasort job become a local job?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+d356ae31d570e5b8b21dbc4b08243c67,Issue with third party library,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201212
+6b25cc3b0377c491f26f33f31de822d9,=?windows-1252?Q?Re=3A_=93hadoop_namenode_=2Dformat=94_formats_wrong_dire?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+59a14ce376079dc1e295784c2c224aee,Point Resource Manager to Node Manager in YARN,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201501
+56516e53fcd8bd117145b87b8201ce3a,Strange error on Datanodes,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+3df15295b3be16f446a8a465273f8bc9,Wrapping around BitSet with the Writable interface,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+ce2fb7e071383056f2f1e6bb386ed67b,submitting a mapreduce job to remote cluster,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201211
+44d35a34feac87f3255753d5f37438aa,Why is my output directory owned by yarn?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201310
+8026fcd3fa9d1410e538b999070fd753,Change the blocksize in 2.5.1,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201411
+3740eea605a042bcace9389501660a30,"hadoop multinode, only master node doing the work",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201407
+1e3a58d034b3405dc17555bfc1edf9fa,=?gb2312?B?tPC4tDogRGVjb21zc2lvbiBkYXRhbm9kZSAtIG5vIHJlc3BvbnNl?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+c56373dfae1a75bc8b84775c89b13167,number of mapred slots,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201212
+059ee74907691d65c70f37fbafff0b0d,Something about the Snappy Compression Tool,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201503
+e49fa200b7a53d5fa734600a29cfd53b,HBase client with security,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+eb5e1aa0e52acf0e51460ec7c2e61d7a,=?GB2312?B?UmU6ILTwuLQ6ILTwuLQ6IGEgcXVlc3Rpb24gYWJvdXQgZGZzLnJlcGxpY2F0aW9u?=,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+432cab3fe2ed8db3a95af80bf92fd6da,pipes(pydoop) and hbase classpath,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+b4edf4e9b3bf7413414236e2a3c032b7,Application errors with one disk on datanode getting filled up to 100%,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201306
+c2a59dda1489042c4f1fa9779f0f62fc,about hadoop upgrade,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201405
+ccaab9f6060c5d4cf965d7b827c67e99,cygwin hadoop permissions problems,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201301
+0d5befb0a8341df7a5ac5a4e91a4a17d,"Hadoop 2.6.0, How to add/remove node to/from running cluster",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201504
+a90bfe287e3835844f6800f6f45fb0d0,Container exited with a non-zero exit code,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201507
+4eb7a7252d9f1e788b667a41f514eddd,nodes different hardware,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201506
+5f359b82b003612aca3f70945009c0ff,Can not auto-failover when unplug network interface,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201312
+ee407b9aed3789c6c1bc800eea39da71,get the hadoop working dir using the bash commands?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201507
+071d247b00de7039aee47478bc53d3e6,Please help me with heartbeat storm,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201305
+2b651619f4007f9d43b90480073cae0f,Need help to understand hadoop.tmp.dir,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201403
+b341a9ea5e2b7bd6fa17dbe44432f8a2,What makes a map to fail?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201401
+c09ec542796f1856e6ba4cf4488c425a,YARN with local filesystem,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201308
+4650e448c8dd6623ab597561fd63d5cd,DataNode and Tasttracker communication,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201208
+d6be0a3e22c8e29137d77f177a250773,Allocating Containers on a particular Node in Yarn,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201311
+7fc7e685f1daf7c74cfb7750e9b1c2a1,How to make hadoop use all nodes?,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+77b3129b410dad637a48bb4da9c17d02,"copy files from ftp to hdfs in parallel, distcp failed",http://mail-archives.apache.org/mod_mbox/hadoop-user/,201307
+3ee71831378381ebc525f304c699e6dc,Help running Hadoop 2.0.5 with Snappy compression,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201309
+46aa1ef8588d986c63bd5356437ff69c,map-reduce job submit acl problem,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201303
+a549c6fe7daef7f6a22c691f2fd62226,Running terasort with 1 map task,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201302
+c56590a2e326897ef0146fcc528b8560,Problems with the Fedarated name node configuration,http://mail-archives.apache.org/mod_mbox/hadoop-user/,201408
+f2ac984b308ce67a4114f08abb2cd838,Improving HBase scanner,http://mail-archives.apache.org/mod_mbox/hbase-user/,201005
+46248f18d44e582c4b161e90ff85c9ba,blocked when creating HTable,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+77658c6ac059a37638589ba45f1289ca,HBase looks for hadoop-common.jar in Hdfs,http://mail-archives.apache.org/mod_mbox/hbase-user/,201403
+b3a46bb1dac17c8d42a1dbd24c725753,Problems with hbase.hregion.max.filesize,http://mail-archives.apache.org/mod_mbox/hbase-user/,201312
+8369a518b37a1b02bd505cf0d9efd9c2,"single RegionServer stuck, causing cluster to hang",http://mail-archives.apache.org/mod_mbox/hbase-user/,201408
+4dc1c51ae2928b735062526d8c93bd1a,cannot build a fully distributed mode hbase instance.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+2754569e77c8b296ec831f61fd4c7449,NoSuchElementException while executing MapReduce-job,http://mail-archives.apache.org/mod_mbox/hbase-user/,201408
+e56c3becf5519db2b6aa6069a15a0a1c,major hdfs issues,http://mail-archives.apache.org/mod_mbox/hbase-user/,201103
+1017ef369616359596ca6db4c5179593,adding column family to hbase table,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+120a448c3dfc0c75f73225b692851a93,About HBase Memstore Flushes,http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+38e0928bff4019a3e08e2b2bb9e9dfd6,Connecting from Tomcat to remote HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+d53b699834c5f8b46f158a4dbd343a53,Hbase stops working,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+58381a364f4e5842de4eae9c7df90e86,Hbase Unusable after auto split to 1024 regions,http://mail-archives.apache.org/mod_mbox/hbase-user/,201411
+2e07c5259a0c87eae1aba6bd1aa8a24c,OutOfOrderScannerNextException,http://mail-archives.apache.org/mod_mbox/hbase-user/,201509
+1db569c5bd4f3e08c8597e64acdb2391,Out Of Memory on region servers upon bulk import,http://mail-archives.apache.org/mod_mbox/hbase-user/,201008
+2c6a5e60458ff7e0f8d0d6208904c3b6,data loss due to regionserver going down,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+4360f7bc7fba8b9e81b9b4a2c2d5c2a8,Fresh setup hadoop 1.0 and hbase 0.90.5 unable to start master,http://mail-archives.apache.org/mod_mbox/hbase-user/,201201
+7113973acbbf24a75ccc1fc5b7ae5cca,snapshot timeout problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+b8b90c6312970e5047db8f058b0a7e66,NoClassDefFoundError while executing java hbase client programme,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+8638ea1c2a16fb73f0f24c293a95ad78,"HBase file encryption, inconsistencies observed and data loss",http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+f27fac61400888899aa3c5355990b4bc,Version issue,http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+ede845919a9cd2172a118b5e76484d1b,region servers crashing,http://mail-archives.apache.org/mod_mbox/hbase-user/,201008
+a34647f3a5f75b04bd65a8d2efa42aff,where my file stored.... what is the use of hbase.rootdir,http://mail-archives.apache.org/mod_mbox/hbase-user/,201402
+389285f2d55c950721882312a42e240a,Region server not able to access H-base,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+2ce300e2ee3f7aa543ec14fc90079162,Problem with hbase master,http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+194448375367f15804a6f6f2cb82dbef,HBase failure causes dual NIC ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201011
+3c36b6a267ab4dc04d92dda9ce616f5d,issure about name node HA configuration,http://mail-archives.apache.org/mod_mbox/hbase-user/,201307
+65702f9fa480ac6d0049ada108353e59,Master shuts down during log splitting on restart,http://mail-archives.apache.org/mod_mbox/hbase-user/,201409
+5f9f84195842955d295f03ffa99be9f6,Java client problem w/ zookeeper,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+acefdfe5dde859deb54dd790020fd22d,=?GB2312?Q?Re=3A_=B4=F0=B8=B4=3A_=B4=F0=B8=B4=3A_Should_we_set_the_property_=22hbas?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201312
+12ad94ad334958904c119bb41912f627,Compaction problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,201303
+d973e1cb7210959fb20a827d0c038762,HBase - Performance issue,http://mail-archives.apache.org/mod_mbox/hbase-user/,201304
+6c4d6a9839e03219384111742da98251,Unable to load Coprocessor jar file in HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201505
+4fdb5103efdfd5089bf34f41b0948c05,Regions offlined..,http://mail-archives.apache.org/mod_mbox/hbase-user/,201008
+1aab7a09fa2d8150d008be212eb48894,problem regarding hadoop,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+cf6c30daa3952b52ba583c91eb309429,HBase recovery failuer problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+60aed756f6c47aa5988b5f48d13f67c4,HBase client - reduce client retries when connect fail,http://mail-archives.apache.org/mod_mbox/hbase-user/,201102
+74abc1bd0a39c988a46ebba2c423c779,Best practices for loading data into hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201305
+3ee7848abeb4ce789870769f5c88c4c3,question about RS to DN timeouts,http://mail-archives.apache.org/mod_mbox/hbase-user/,201104
+a4f1d4e746cedb55e91b4e8aa1db79e9,failure after importing 42million rows,http://mail-archives.apache.org/mod_mbox/hbase-user/,200807
+6fd151a3c35f040220d517437fb0c20c,hbase connection issue,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+790dd56255ff734f969f4a0062f8614d,Problem Accessing Hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200807
+9513b12811ed40c2fd1851edcca6bc67,Running hBase in a different user account from hadoop,http://mail-archives.apache.org/mod_mbox/hbase-user/,200805
+eb2dabcb4afb775ce47f4dc6c120c7d0,HBase with HDFS - Basic setup problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200808
+0ce6b3773a486b3a7ce940ff56f85637,hbase-master-server slept,http://mail-archives.apache.org/mod_mbox/hbase-user/,201302
+a77fea2f93d8cd2894cd262811d2271a,"how config multi regionserver, or what is wrong?",http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+1895c5817db01c76017fd712169f881b,Bulk loading disadvantages,http://mail-archives.apache.org/mod_mbox/hbase-user/,201207
+a8cd1b69fbc29e74c3341c871862ad4a,secure bulkload hfiles Failed 0.94.15,http://mail-archives.apache.org/mod_mbox/hbase-user/,201406
+f802f22123912268c1033ea3751106d7,Region Server lost response when doing BatchUpdate,http://mail-archives.apache.org/mod_mbox/hbase-user/,200904
+42e1f7f8eef1c953adaf0fc09f8c75c0,Odd WARN in hbase 0.94.2,http://mail-archives.apache.org/mod_mbox/hbase-user/,201303
+9c04df5bb903361850146a756b8f80ee,Problems with write performance (25kb rows),http://mail-archives.apache.org/mod_mbox/hbase-user/,200912
+e8af013fd66b616f266af2f5635b02cc,Additional disk space required for Hbase compactions..,http://mail-archives.apache.org/mod_mbox/hbase-user/,201005
+00669f8cc19ab008b4cb03f4e74bce0a,Multiwal performance with HBase 1.x,http://mail-archives.apache.org/mod_mbox/hbase-user/,201509
+7dcf71840b7f053277a9714367da9bb9,connection loss for /hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201106
+2f9390569bd3d920078a967342f4bc38,can't start hbase in distributed mode in a single machine,http://mail-archives.apache.org/mod_mbox/hbase-user/,201406
+e8dd1a7dd871b751b9db2e16fda40ad1,HBase dies shortly after starting.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201206
+f5216afd65f1d13bbc2d6416791b4460,hql error,http://mail-archives.apache.org/mod_mbox/hbase-user/,200805
+8b6a7c3b4e399a39f861eb89c3dc2726,Hadoop 0.19.1 with -d64 option on Solaris 5.10 and java6 doesn't,http://mail-archives.apache.org/mod_mbox/hbase-user/,200905
+787ec7c9e51992d6563894386c6287da,Hbase Installation,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+95635c22aa714faf62a88fe475d31cc3,hbase-0.94.7 doesn't support HDFS QJM HA,http://mail-archives.apache.org/mod_mbox/hbase-user/,201305
+b906652fc0d11bee8e10b6615c4bff6e,Needed to restart HBase. Now Master won't start,http://mail-archives.apache.org/mod_mbox/hbase-user/,201309
+53f07f43608a5651a56f8a4223b603fa,Java Client hangs after around 2 min,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+08e438489e3da25055bbc1a7dfc9069b,Region splits even when max Hstorefile is less then default value,http://mail-archives.apache.org/mod_mbox/hbase-user/,201403
+b7db36a659e36a0701ac2fda1ff4f9f8,HBase High Availability,http://mail-archives.apache.org/mod_mbox/hbase-user/,200911
+e7888d8b524c2294868ee48bff724510,HBase with HDFS - Setup problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200808
+e49fa200b7a53d5fa734600a29cfd53b,HBase client with security,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+2743b3eac56b91df790bbcbc08b5ac7c,"possible resolution for ""unable to start hbase-0.20 rc2 due to",http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+e51416dbe0cbdfefe24c94283489325b,HBase process not starting and uses a lot of CPU,http://mail-archives.apache.org/mod_mbox/hbase-user/,201512
+b1d593776105774631b931088dc783f6,Region servers down when inserting with hbase0.20.0 rc,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+bb6b8a03666e61fdb221e6508219c414,regionserver not starting,http://mail-archives.apache.org/mod_mbox/hbase-user/,201204
+76d18625fc0cdd4d89e22af21e4305dc,HBase backups,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+107c03dbf4eb0b278a2b2d828acafe98,Hbase Read/Write throughput measure,http://mail-archives.apache.org/mod_mbox/hbase-user/,201302
+dccd9b30408c0830a2d2f6e3c4a98ced,Region server is getting disconnected and becomes unreachable.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+b724479a63ac7a98f1c40d06e6749adb,Hbase copytable and export/import,http://mail-archives.apache.org/mod_mbox/hbase-user/,201108
+2defb4962266c7ecea22286a216f02a3,What version of HDFS is compatible with HBase?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+7b036393ea22c8ef5ed20eb57572f686,HBase is able to connect to ZooKeeper but the connection closes,http://mail-archives.apache.org/mod_mbox/hbase-user/,201206
+8ffacd1336ea76910ad2407f57af78c2,Zookeeper hostname lookup,http://mail-archives.apache.org/mod_mbox/hbase-user/,200912
+cb9a7e0c654c421c32e3efa7b8115af2,hbase/zookeeper,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+892125699ddf5f8f0f816a053bd6405f,Regionserver fails to serve region,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+dc417e0449b2b0beb02171ad435cd282,region max filesize,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+29060f70a8ed6647669336f2e98c551b,Problems Loading RegionObserver Coprocessor,http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+e7692f55c97637ed51c03ab1f1077a64,Problem with starting HBase Master,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+6aa0b2e1ab2aa32759105cec730dbc7d,Issues on disabling compaction in HBase 0.94.2,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+d0840eff78542f606ccf1cf6fbdc3a3d,Hbase 0.98 not able to connect to Hadoop 2.4 running on VM,http://mail-archives.apache.org/mod_mbox/hbase-user/,201409
+a1f77eeb385945c610c6b230bc9faa7e,Hbase installation.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201207
+96a1257e765b2603df8e558e3fbb4df2,is my hbase cluster overloaded?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201404
+aefd2a7f7385dcd6140a1622ed9e24a7,Merging regions,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+981990854d26753b19195fcc2c9f45d6,Cluster crash,http://mail-archives.apache.org/mod_mbox/hbase-user/,201104
+b1105a0367627eee788d6201dc845b8a,How to install Snappy?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+ac5e8e7bad7c5be8e2fdfaa939ae3bbe,Hbase setup on a single windows machine - running commands throws,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+c1edd9d87bca825a3ffb1be9ff53ca70,problem starting master with hbase 0.2.0,http://mail-archives.apache.org/mod_mbox/hbase-user/,200807
+584d623942fa0a56f24e89be80e66e95,Remote Connection To Pseudo Distributed HBase (Deployed in aws ec2),http://mail-archives.apache.org/mod_mbox/hbase-user/,201304
+eed8091e792d194e2ee49321c0723d5c,"Table listed in ""list"", but not in .META.",http://mail-archives.apache.org/mod_mbox/hbase-user/,201208
+a1e6ae3a74aaaa9a9dfb0e485e9c1f84,map reduce range of records from hbase table,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+2710704a2eeee8914171783d9f73e0c9,Problem in using HBase Bulk Load,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+101bc7c3d573cc762412f1f97a923f54,zookeeper connection problem in pseudo mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201201
+8d6b7aa550980d652eed1a84dbf85d32,HBase cracks on EC2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+e6217bc33192d0a28dd6e901aa1dba30,problem starting Hbase 0.20 with Katta on EC2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+c93fed4bfb8ae1afd51c49e1f2bb5638,problem in testing coprocessor endpoint,http://mail-archives.apache.org/mod_mbox/hbase-user/,201307
+6cdab184e05698336051a0e10dc21c60,How do I test SampleRegionWALObserver?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+0a9137c1935fb35e2ecb5644a7bb0b44,is there a way to verify whether deployed coprocessor is loaded.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201507
+67d6c47a46a35b2a330a11900ba95ff3,Lease Exception Errors When Running Heavy Map Reduce Job,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+053f31cd2cdf20f47ae205e777a3b225,Region server memory requirements,http://mail-archives.apache.org/mod_mbox/hbase-user/,200812
+a91c39c7d417d3ea50fae5bd0d6e95f9,HBase client hangs after client-side OOM,http://mail-archives.apache.org/mod_mbox/hbase-user/,201408
+1901e77a5e0dab66c69c81e0112b62d9,error in installing and starting hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201410
+f23305375a1884c6998a08070adf3470,Hbase Client problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+1ef8170d025c7ebd4df5d926afb63e57,hbase shell can't connect to server,http://mail-archives.apache.org/mod_mbox/hbase-user/,201403
+86994a2c5a6c12b9fb5902e590e73049,NoSuchMethodError using zipkin with hbase 0.98.5,http://mail-archives.apache.org/mod_mbox/hbase-user/,201410
+3e39644ca64f989e08cdc0eb85640d00,Help - can't start master server for HBase (pseudo-distributed mode).,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+1b74684685bca2ebf3bb6ed7d7521b7c,have you ever met this error?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201307
+a5749f04919366a2dba0941e865d06ad,Snapshots timeouts,http://mail-archives.apache.org/mod_mbox/hbase-user/,201404
+99f07f8013011d8ef53f0a85a95e6f3d,Tune MapReduce over HBase to insert data,http://mail-archives.apache.org/mod_mbox/hbase-user/,201301
+8935018b46f182e50b98fdb3769c2a18,Hbase on EC2 and issues with Amazon NAT Internal Addresses,http://mail-archives.apache.org/mod_mbox/hbase-user/,200901
+787003522fde37fd46fdbbdf74f26a1b,Zookeeper config in 0.20.0,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+f21c6965fbbd013b0855e74d6760a979,regionservers in general and on EC2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+a483e79f1bede4445597280bb8535eb2,Run the namenode and master seperately?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+18e4becadebc6e97eb469ce39ab81c59,=?utf-8?Q?Re=3A_=E7=AD=94=E5=A4=8D=3A_how_config_multi_regionser?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+1fb85b5f587210379e6776c3fed4288a,unable to start hbase-0.20 rc2 due to zookeeper problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+d383895b3cbc22254100bec0cbdfb486,Access hbase remotely from java client,http://mail-archives.apache.org/mod_mbox/hbase-user/,201409
+468fed1d9c5707ef8f247c5a2495b3ba,RegionServer unable to connect to master,http://mail-archives.apache.org/mod_mbox/hbase-user/,201401
+23c25cd09a91ce2d17220650af776810,HBase 0.90.2 CDH3B4 -Compression algorithm 'lzo' previously failed,http://mail-archives.apache.org/mod_mbox/hbase-user/,201104
+811946c96dafd28a0c10c5a92761bf73,None of my tables are showing up,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+9c5edaa0aa97ff67f5f6f177c0d97a6a,HBase crashes when one server goes down,http://mail-archives.apache.org/mod_mbox/hbase-user/,201102
+594684d3567260f5a83449dd0560a444,RegionServer  unable to connect to master,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+78d221edee0b2c8691f2da2449126b21,hbase master retries to RS/DN,http://mail-archives.apache.org/mod_mbox/hbase-user/,201105
+661160101eb079ab1b568583d89b2310,hbase 0.94.6.1 copytable (to 0.98.6 cdh 5.3.1 cloudera),http://mail-archives.apache.org/mod_mbox/hbase-user/,201503
+605d1b2836a29012a3908330e4591f58,Is it possible to connect HBase remotely?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201202
+6bf2d27e8e2238c6e1c46f8d7a769454,how to develop a custom LoadBalancer for HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201404
+a1c06e50857736820a60b5e795124492,YCSB performance degradation with lzo,http://mail-archives.apache.org/mod_mbox/hbase-user/,201103
+94209a8b87e947a5ae6bf8c8f57dc9a6,hadoop n hbase on ec2 cluster,http://mail-archives.apache.org/mod_mbox/hbase-user/,200904
+9a44d22615fb32ca790073c203df641c,Connecting to standalone HBase from a remote client,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+f1c451a51d84e560d96d7ddb67d263dc,Setup hbase-0.20.0-candidate-2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+d39e372b4d29c52cc5193e7a8ca427ca,Upgrade to 0.19.0,http://mail-archives.apache.org/mod_mbox/hbase-user/,200812
+9f8a294b0275b3be53a5d4b0aa95f782,Hbase region server disconnecting with master after some time.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+79a528883d0f5367a48e3d1be89a139a,Hbase import Tsv performance (slow import),http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+88f508f075c33baebc77730fd970c43f,HBase 0.90.2 CDH3B4 - regions infinitely stuck in transition?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201104
+3c3815ced85166a15a67348f97458fbb,Hanging regionservers,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+de91747b4933cf0c50a9e6a3de77ecf8,HBase Failing on Large Loads,http://mail-archives.apache.org/mod_mbox/hbase-user/,200906
+29702226b3cdc9fe94e56e76cf56e8b9,"hbase 0.20.6 - HBaseClusterTestCase, DU, cygwin, IntelliJ - arg!",http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+e34dab1aefae488f454595c15a7358d3,error starting task tracker,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+816b308bea5255e8ada145578bdf4c29,Xceiver problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,201011
+c405fe11f15780f3ef9b9d0e639d8c8f,Htrace spans not generated for hbase client side code,http://mail-archives.apache.org/mod_mbox/hbase-user/,201507
+724559a458f314b6c24bb4b8c28464ec,where does the client find the master ip,http://mail-archives.apache.org/mod_mbox/hbase-user/,200809
+94117eca4c8462448b1eaa5f2343f5c0,How to set HBase to listen on aparticular IP,http://mail-archives.apache.org/mod_mbox/hbase-user/,201010
+ba866464e1aa1680a0285ccfa2549e59,How to turn on tracing on HBase?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201408
+8f8384d9e17ef194f1c619b4714df0cc,HBase 0.94.3 with ACL RS won't start,http://mail-archives.apache.org/mod_mbox/hbase-user/,201406
+722fbc40408f817c2cf347f27436422a,loss znode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+02f3cf72943d4704e1e93900f9738076,Regionserver problems because of datanode timeouts,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+c100643e28ce6179de31382f5533c116,Tweaking HBase splits,http://mail-archives.apache.org/mod_mbox/hbase-user/,201105
+49ba00d3807ee0d6767672a69f1656ba,All tables lost after reboot of one region server,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+8f56b5e76d999496dda254b69ef92936,hbase performance issue,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+c712947cb205ebc79f1b8f0483d4442d,HBase scan performance decreases over time.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+6670c33454de7e6dda3589d06ccd26f7,hfile 9.4 to 9.6,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+23bbdc41d409db1e456889d1be501a3c,Unable to connect from windows desktop to HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201304
+c7fe2ea56c68ff238e7795e7524988bb,HBase client hangs after connecting to Zookeeper in pseudo-mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201303
+fd2a5ed998dcb4d26f0b270e67ba167a,hbase cluster on EC2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200901
+8b181dc52c93e1b80ea29bb3237b1bb3,Region Servers going down frequently,http://mail-archives.apache.org/mod_mbox/hbase-user/,200904
+652b9a7b1653ddf54ac1942ef2295a70,Region servers going down frequently (0.20 alpha),http://mail-archives.apache.org/mod_mbox/hbase-user/,200906
+69b998e99ae72c7f64ef2b34548e3e9f,problem when change zookeeper.znode.parent,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+efef912de89ce796c3945d9766b4307f,problem in configuring hbase with hdfs,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+da63a3530bc8720cde450e037ce3196b,HBase Client connect to remote HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+71baae0ead9147ce7f736f998234a212,hbase.bucketcache.percentage.in.combinedcache with ioengine=<FILE ON,http://mail-archives.apache.org/mod_mbox/hbase-user/,201510
+9928cd2a8850e45e1f808efa21c7573d,Hbase first run problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+425536f5408adb68051cc64506c376bc,HBase Standalone Error,http://mail-archives.apache.org/mod_mbox/hbase-user/,201401
+903af6befebeb3dede0b481e98c1d2de,hbase error,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+fa4fda5d68c51c2da6de01f0cf5e627c,HBase 0.94 security configurations,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+29dcfd724e407d0d8934f7462710bd40,failed to login,http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+3656953dbd0c131a52591c167eaf1b85,.META error when I try to insert after truncating table,http://mail-archives.apache.org/mod_mbox/hbase-user/,200809
+bf52b5821dc88d8bfb8529297dec22b2,Failed to create /hbase.... KeeperErrorCode = ConnectionLoss for,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+86c92fb22bb0db3a5d5049804097b0f1,hbase.cluster.distributed set to true but it says false,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+859f78258729d5f532baba5334b61b68,HBase went down,http://mail-archives.apache.org/mod_mbox/hbase-user/,201006
+61ed9a69b1212b4d67cafa15875c1f5a,"Lost .META., lost tables",http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+587f879ad2cd972dcfc215305da58ba2,Still need help with data upload into HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200904
+cb98bc56126b4d0265d1b158e81483f5,Regionserver won't start,http://mail-archives.apache.org/mod_mbox/hbase-user/,201503
+9e7e3268b8f0d8471efb16599aa692d0,EC2 remote client woes,http://mail-archives.apache.org/mod_mbox/hbase-user/,201201
+8a16789202a510eb2cbd1aa4e9f4ec50,RegionServer looking for ZooKeeper on 127.0.0.1,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+907ae9499e401a0552e5b044f331fdb3,=?UTF-8?B?UmU6IOetlOWkjTog562U5aSNOiBTaG91bGQgd2Ugc2V0IHRoZSBwcm9wZXJ0eSAiaGJhcw==?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201312
+9871e04b270e44f8fad841efac770dc3,Data Local Questions,http://mail-archives.apache.org/mod_mbox/hbase-user/,201002
+8abe5918f4ffd4c89317152b7a646803,HBase Random Read latency > 100ms,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+15efd1565417a513f65b526ae931d657,periodicFlusher get stuck,http://mail-archives.apache.org/mod_mbox/hbase-user/,201502
+7f61d2f54a032564087475f29c81cc65,HBase / HDFS on EBS?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+3754778171b5840ed397b65d4da60f26,HBase is not running.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201304
+29c15d147901f6065378e094e61437a8,Environment variables in the configuration xml's,http://mail-archives.apache.org/mod_mbox/hbase-user/,201202
+aeb971b00de758b51f7d1317d5ae8056,ClockOutOfSyncException with zookeeper,http://mail-archives.apache.org/mod_mbox/hbase-user/,201105
+4023e3039383db9bb613cafa7c6a3c2a,UnknownScannerException,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+c807355062a4c93589fb8efca30d7002,Failed to start master with HBase 0.94.2 on Hadoop 1.0.4,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+dad9c3661a06a31237d108b086eba3d2,mapreduce runs locally,http://mail-archives.apache.org/mod_mbox/hbase-user/,200807
+ee30a5c554846870f89260e809c64d1b,Ec2 instability,http://mail-archives.apache.org/mod_mbox/hbase-user/,200904
+ff3b93e393a1d518f8437b7e0dedce98,NoClassDefFoundError when running Hadoop with HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201201
+e7b2df4048d221be011ccb0f83825b60,Which parameter control the regions split size?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201008
+1c0c61162047c4502414228cab6d4b96,hbase.zookeeper.quorum minimum nodes ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+94c6a328ee35143ce298cd0d98c7add3,DataXceiver java.io.InterruptedIOException error on scannning Hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201405
+265d15654b41663b5587447509f0bc10,Data Loss During Bulk Load,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+4ebc4bbdeeaf28f92651cd6ddcb47c15,Doubt at hbase configuration,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+eaa75a98bc30abc34da32f4acaf0394b,General question regarding the hbase-site.xml file,http://mail-archives.apache.org/mod_mbox/hbase-user/,201004
+7ebeeed3d9fc58e1e266e637c872f61d,Table with 80 regions having nearly no data in it,http://mail-archives.apache.org/mod_mbox/hbase-user/,200812
+90ae12f29634a3f577315e480a8d0221,hbase regions behaving badly,http://mail-archives.apache.org/mod_mbox/hbase-user/,201511
+9441241f7659dd1478e0df37f99e8c36,High ingest rate and FIN_WAIT1 problems,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+2e2c841d0056e0d19953b41c4716926b,Performance become slower and slower during inserting,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+1df834bafa277ddecd9818436da99767,issue about two hbase on same hadoop cluster,http://mail-archives.apache.org/mod_mbox/hbase-user/,201406
+d543eedf0f85ce5b0a6f20ea4ec1ad00,Problems with region server OOME,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+66a978b3630ea8e46bbc3e051c837e62,Running HBase on Windows,http://mail-archives.apache.org/mod_mbox/hbase-user/,200805
+1dd84b1fae7ba80de7a2f9b570c9f9fb,Zookeeper available but no active master location found,http://mail-archives.apache.org/mod_mbox/hbase-user/,201204
+5681b0c6cb0acd6d377fd7f59e84bef6,Zoo keeper exception in the middle of MR,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+e3af9c9d6a0d97a08ac02823a873b346,Table Upload Optimization,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+edf5f6bef754d04275ffe248569dd526,Question to speaker (tab file loading) at yesterdays user group,http://mail-archives.apache.org/mod_mbox/hbase-user/,200901
+fa17f0303dbc36b2bd3fb4f6c8ef36b9,can not enable snapshot function on hbase 0.94.6,http://mail-archives.apache.org/mod_mbox/hbase-user/,201410
+a10bfacf6efb48bc3fbf19c8ee661e97,What cause region server to timeout other than long gc?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+c051f314e4e1540f0de8c33d95eaa2a0,hbase.tmp dir property not working,http://mail-archives.apache.org/mod_mbox/hbase-user/,201108
+a6f60c19f08f8ad5c64102a0e489f626,Hbase pseudo distributed setup not starting,http://mail-archives.apache.org/mod_mbox/hbase-user/,201306
+6a632386d7aed98b60bbdd4907910477,CleanerChore exception,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+6eb55be789deced6ec7c6a096dd311fc,what is the recommended configuration in hbase to write big data,http://mail-archives.apache.org/mod_mbox/hbase-user/,201106
+84420427c3f796882fb9f293d6ce1f41,"Should we set the property ""hbase.local.dir"" to a list of directories",http://mail-archives.apache.org/mod_mbox/hbase-user/,201312
+599865392f325bce866d7cd6ec68fe25,global memcache limit of 396.9m exceeded cause forcing server,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+1810a0163779c3b5d00febe936224f1e,Read thruput,http://mail-archives.apache.org/mod_mbox/hbase-user/,201304
+0a06957048d5b0584a0a1dc9e7066cf1,Should I close HTable,http://mail-archives.apache.org/mod_mbox/hbase-user/,201002
+1467fbf1b0cbfb3875f325156c28216a,Starting HBase in fully distributed mode...,http://mail-archives.apache.org/mod_mbox/hbase-user/,200912
+818dc99d2d3623f9c700f6e7c9f4bb45,=?GB2312?Q?Re=3A_=B4=F0=B8=B4=3A_Should_we_set_the_property_=22hbase=2Elocal=2E?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201312
+6cfea0f5d1cb945c8d811106df7393fe,0.89 Regionserver outage behaviors,http://mail-archives.apache.org/mod_mbox/hbase-user/,201010
+69df21a0d8001b9e4aa8e492dfa931c4,Region autoSplit when not reach 'hbase.hregion.max.filesize' ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201206
+d030b164ae7cb5633c814a2c607d8513,HBase Issues (perhaps related to 127.0.0.1),http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+860f6d48f67524fe1e4c4eea30991719,Way to Specify HBase master?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200911
+0ff42be5403081a7c83d667a3eae2671,Are transactional indexes and indexed indexes incompatible?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+d47605d0c3f874eba8cdd0a8b50d01ae,Newb sees exception in logs after fresh install,http://mail-archives.apache.org/mod_mbox/hbase-user/,201502
+e88c6df518cda4d81bce1336eea5b836,Using MiniHBaseCluster in Maven Tests with LZO,http://mail-archives.apache.org/mod_mbox/hbase-user/,201105
+9b45029b4e813adc6ede0aca6c793577,HBase Startup Errors,http://mail-archives.apache.org/mod_mbox/hbase-user/,200802
+9029c1b94532f547a16abd918e0bb2a1,Install hbase on Ubuntu 11.10,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+4dcd8473d3d8c6e4728043e51aa2eff9,Problem using HBaseTestingUtility,http://mail-archives.apache.org/mod_mbox/hbase-user/,201010
+c070c3d4bd06b251a81cd3ffe02dbf1a,Set hbase configuration when client is on different machine,http://mail-archives.apache.org/mod_mbox/hbase-user/,200905
+f60975308e564f086c3e609e1e7e9825,RegionServer 60030 Show All RPC Handler Task is empty,http://mail-archives.apache.org/mod_mbox/hbase-user/,201506
+ca68a27bf6e3c3d8e86d90f06daf5d0a,Region server shutdown during writes (bad data nodes),http://mail-archives.apache.org/mod_mbox/hbase-user/,201102
+95d88b1464cd69ed9649799f33ae0db8,Problems with HBase JMX beans,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+616b3364d7ac5e194349f2c36b47e2ce,Master binds only to loopback,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+18cad6ab9efbbbb483d98f6a55469ed8,Zookeeper Error,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+f690e3c234ed770be4e2ec86a6d1660c,hbase.client.ipc.pool.size problem with hbase 0.95.1,http://mail-archives.apache.org/mod_mbox/hbase-user/,201306
+00b93ac06a556bb5e647173a24c7b908,HBase reading test,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+4b44a086aa2df8f5b7b1aef66431fbe0,example - hbase-site.xml - fully distributed,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+41f683b1299a05790f4a88faa4ba8770,Region Servers Crashing - LeaseExpired,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+6477653eb8557282ea502f3078a61614,How to validate HBase configuration (for region servers) from HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+f4dc16d98f1dee4c9df85c928db0d4b3,Data lost during intensive writes,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+96a2ce831350fa653771c03c2a4cd360,Row Counter rpoblem,http://mail-archives.apache.org/mod_mbox/hbase-user/,201206
+ae8aa6966a287beb9546927069e39ec5,Optional memstore flush,http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+0ee11f02ba8d941abca1d779c4f323a5,AccessDeniedException on the regionserver with security enabled,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+a9cfdffc9df17006108e22fab6e98af2,Importing to HBase from Java problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+5de61b7c0b5518b6d54ae836ec41215e,cannot connect with hbase client,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+aeb98d1663a458abe3b50f4098179db2,0.90.1 HMaster malfunction in pseudo-distributed mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201105
+59e8fcc5c8cdafe28aa8499b070e0409,HBase cluster -- 2 machines -- ZooKeeper problems when launching jobs,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+97540b96f86c23dc496abafb940cef34,Hbase data directory not recognizing hadoop's hbase.rootdir,http://mail-archives.apache.org/mod_mbox/hbase-user/,201004
+79c1dc6e7cc10ca8c65878281c998cfb,HBase in a real world application,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+971f02ff907dfc90295704e09fb8f1c0,want to try HBase on a large cluster running Lustre - any advice?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+e702c65fdee05a0359da799f4a632188,UnknownHostException,http://mail-archives.apache.org/mod_mbox/hbase-user/,200809
+43a7cdc940a384122d75796603a57f33,error when starting hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201304
+fa0e27c4c1e8c29ac273c1c6ad765fef,Difficulty in use Hbase fully distributed mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+59c648f9a3a5c5cc5aa06fcc7dd813c5,=?UTF-8?B?UmU6IOetlOWkjTogaG93IGNvbmZpZyBtdWx0aSByZWdpb25zZXJ2ZXIsIG9yIHdoYXQgaQ==?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+741950ec307a767c54732eff75a01ccf,Problem in host resolving,http://mail-archives.apache.org/mod_mbox/hbase-user/,201111
+156cb7992e8162fd804905bd0b83cbdf,Enabling IHbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201005
+2cb52d4a0d968acbe38f10deb647a67f,LeaseException,http://mail-archives.apache.org/mod_mbox/hbase-user/,201207
+2320149008cc0272166547e4b869cfbc,HBase 0.20.0 alpha not starting in distributed mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,200906
+90f2504c276feaef85a4b362cf8c5eb3,Performance at large number of regions/node,http://mail-archives.apache.org/mod_mbox/hbase-user/,201005
+b9e5d68458138d74fc4d47a0cf13758c,"Too many ""Compaction Complete"" messages",http://mail-archives.apache.org/mod_mbox/hbase-user/,201309
+0e56e2556fb9ad9edba6921640c9c645,Snapshot Timing Out on a Large HBase Table,http://mail-archives.apache.org/mod_mbox/hbase-user/,201505
+1547a5eb843c4773ef3fa2c94e1da857,Unexpected behaviour when VisibilityController coprocessor is used,http://mail-archives.apache.org/mod_mbox/hbase-user/,201510
+8bc9b8182ec643651c9d25f175a0eb93,Exception when scanning table,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+93a352126dc70403d44fe609671ce8eb,A region server stopped (timeout after trying to connect local,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+4bc608927a1b2163c88b4e3e9f9bb8c0,Coprocessor execution with bulk data,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+7b33882ca6a62c2c526caff8b09f12e0,problem in starting in Hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201110
+3929ecbee838153d3ab607b94b20a419,HBase client query,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+be97cf37be21764b47b0160d81c21770,how to set mapred.system.dir?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201109
+32fcd9809e051dc8d05853f98e3260fa,Help with NPE during bulk load (completebulkload),http://mail-archives.apache.org/mod_mbox/hbase-user/,201104
+626ea34cd6b7382d8e46b944d7f49e7e,Dataloss HBASE-728,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+18c2d27a8b8704a70848397f20a1774d,Handling regionserver crashes in production cluster,http://mail-archives.apache.org/mod_mbox/hbase-user/,201306
+ec998c1a60ac3bbe4c922a959bfd66da,HBase 0.98.1 split policy change?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201404
+9df3bd3e5cb4869c9cee33497fc89e08,how to explain read/write performance change after modifying the,http://mail-archives.apache.org/mod_mbox/hbase-user/,201411
+b046c2b8ea91d8bba489ae580b2b3b7e,Starting 0.20.0 - configuration problem?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+c07ea1ed9cdfc776f015a0fb1cc66c9b,Need some help diagnosing poor performance (long),http://mail-archives.apache.org/mod_mbox/hbase-user/,200809
+e344d2165ff886be611c0d5d3d2d480e,hbase.cluster.distributed property in hbase-site.xml,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+3df412b4b3cfb32c757fdaa9fc7437c5,DataXceiver java.io.EOFException,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+4d65795ca61406e81f506dcbc5b666c5,Dynamic load of Coprocessors,http://mail-archives.apache.org/mod_mbox/hbase-user/,201206
+001e5aeb45b36e742c4e94dcea09b76f,Region Server on EC2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+d50364f13c8a4b6071317ed6affcea5d,is there anyway to turn off compaction in hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201208
+56a54608a7cbd3db132b28a19d1385d7,=?gb2312?B?tPC4tDogtPC4tDogSG93IHRvIGFkanVzdCBoYmFzZSBzZXR0aW5ncw==?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+294324563c2905be95031ffc2807e5f0,Region server goes away,http://mail-archives.apache.org/mod_mbox/hbase-user/,201004
+69dfca25b4d652ba520e20a80e68c69e,major compaction best practice,http://mail-archives.apache.org/mod_mbox/hbase-user/,201105
+e54c6bbd4cfc1693ace0598e19284515,IO Exception on startup,http://mail-archives.apache.org/mod_mbox/hbase-user/,200912
+55a859a058c6acd942c2a304362b5003,Problems running hbase on dfs,http://mail-archives.apache.org/mod_mbox/hbase-user/,200811
+da94372ad366d1204fe746d1d955fee1,BucketCache Configuration,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+88668b7a110a916c748434fdc3c38a8e,Tables & rows disappear,http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+da1341fc0857ccb04fb778d097235748,Restoring HBase from backup,http://mail-archives.apache.org/mod_mbox/hbase-user/,201409
+05cfe6ed05491d65198876726d832cd6,How to set number of mappers when using HBaseStorage,http://mail-archives.apache.org/mod_mbox/hbase-user/,201405
+499c817bb8fd90588c61e6d5263c39f3,Problem with HBase and HDFS,http://mail-archives.apache.org/mod_mbox/hbase-user/,200901
+33a7878bbf7d8a67c438a7f46536b3a2,HBase region server id problem with ipv6 address,http://mail-archives.apache.org/mod_mbox/hbase-user/,200804
+e7d962d24cb5b1b064b1d7c974d6c415,Cannot find row in .META. for table,http://mail-archives.apache.org/mod_mbox/hbase-user/,201403
+8e3b819701b7788c871c3ca77a861eda,Zookeeper exceptions while starting up region,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+d38aed0e68322d5b93452c89b55d0d99,hbase updgrade,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+03081ecac7fa8bbb66016c5855c5e0e5,anyway to turn off per-region metrics?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201307
+caa275b7d3278c09eee31d30e2f5d40d,Scan got exception,http://mail-archives.apache.org/mod_mbox/hbase-user/,201506
+ce3b43ae2e810c7d945d665cf1db8810,hbase master is not starting @ 60010 on new ubutnu 11.04 system,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+c26e52a36a5e0884a8de45ec853e582e,hbase-site.xml property placeholder,http://mail-archives.apache.org/mod_mbox/hbase-user/,201110
+83be110ed19f8bbd31e687fdf58474ed,"Exception in thread ""main""",http://mail-archives.apache.org/mod_mbox/hbase-user/,201102
+93bef5d11727a0e2574659ce7a152bd3,How do I trigger multiple Mapper tasks?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+85dfe6cc879730aeb37adfbfc383293a,Internals of HBase shell to connect with a secure HBase cluster,http://mail-archives.apache.org/mod_mbox/hbase-user/,201309
+3ba8c3f646e3959d3713a47135eeddc4,hbase error caused by DFS timeout,http://mail-archives.apache.org/mod_mbox/hbase-user/,201008
+acea929a0615c9f2851c71f44f4f8e4a,hbase/.archive doesn't exist,http://mail-archives.apache.org/mod_mbox/hbase-user/,201303
+feee9930c2c86b567442c1b86977ef10,Does hbase.hregion.max.filesize have a limit?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+265d765704bf33a9111b49ea6d9ca4c4,Hadoop pipes with Hbase as input,http://mail-archives.apache.org/mod_mbox/hbase-user/,201208
+68d4e0167ce13a899fe6075068d51067,"Solved - Question on Hbase 0.89 - interactive shell works, programs",http://mail-archives.apache.org/mod_mbox/hbase-user/,201009
+ff3143cbc0fc7703d9c411ada12d6639,RAM Problems - Keeps Crashing,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+2e6c88df90392777fe089b6ab6a67019,Minor compacts seem blocked on major compacts,http://mail-archives.apache.org/mod_mbox/hbase-user/,201510
+dae7f30cee6f38062dd94b3f54d18c38,distributed cluster proble,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+8552af0c5d7ddf01c007e9f9056f7745,Exception starting HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201201
+6f6687bd004d0ac94df7fe3eca787627,hbase on s3 and safemode,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+1a4817e5c659842f319e98d9b52f2259,Exception when running HBase from Hadoop 0.16 package -,http://mail-archives.apache.org/mod_mbox/hbase-user/,200802
+bc3f577b8bff1eaa80532e3e7147f3e8,HBase and Hadoop 0.20-security-append,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+0261ce61f9f91cfce8cde3fc1798d505,Loading data from Hive to HBase takes too long,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+cb5e8bea284361817e4aa937cb8cad62,Capacity planning,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+0f480f3c12c80cd4d64b424085e4086f,Can Hbase run on NFS cluster,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+720844aadf3796a76597fde4e0460193,HBase went down during insertion test,http://mail-archives.apache.org/mod_mbox/hbase-user/,200808
+da7902f51811c6676e12d98d34525ad8,HBASE 0.90.4 and indexing,http://mail-archives.apache.org/mod_mbox/hbase-user/,201111
+badbfbe1ed889e8c293eda3dbe85fb12,zookeeper/mapred problems,http://mail-archives.apache.org/mod_mbox/hbase-user/,201102
+0e9b766f4780fbf8858b68f3cb54aa91,Advice on setting default HBase table mapping attributes within,http://mail-archives.apache.org/mod_mbox/hbase-user/,201305
+c1c914a6bafb6d3c3dd760d9e5c170c6,regions are not getting distributed,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+77b65ad32be6a7f53188fdf10da5a52f,ideas to improve throughput of the base writting,http://mail-archives.apache.org/mod_mbox/hbase-user/,201006
+d13bd02a0c6afbd7df2d58187e977d20,0.92 and Read/writes not scaling,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+63b0fcc27ab681bfe0fef2fe15618e26,Cannot start HBase master with HDFS,http://mail-archives.apache.org/mod_mbox/hbase-user/,200807
+bd19e54001ddd167ff72dcf2113dcdcd,org.apache.hadoop.util.PureJavaCrc32C not available,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+b5d20df79e18b400daf7038d30c13cbc,too many regions cause OME ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201104
+83691b6b07425f0c07d946c6e77349d7,HBase Master cannot be contacted by Region Servers,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+8c340dc334134096f68b880b42a8692c,Replication,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+0db0121890a0f7e0980e17e403ab3f21,Storing images in Hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201301
+398a5b339b6d023c29816bb7b3683e55,HBase Client Concerns,http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+260f2b51822592727aa9d5631d228fae,hdfs /DN errors,http://mail-archives.apache.org/mod_mbox/hbase-user/,201103
+1858de457f782da4cdcbd558316eccd8,hbase.hregion.majorcompaction not taking effect.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201302
+9ba6a2d9866bd2e214b3cc4fade4f417,zookeeper configuration,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+d57efb982b7e8cfcccbdb1950e2c4334,DFSClient errors during massive HBase load,http://mail-archives.apache.org/mod_mbox/hbase-user/,201004
+eca985f073173e831cf34b2299b924f3,Location of HBase's database (database' s files) on the hard disk,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+b09bee7b6ec5bd1e1d3767a7731cb22e,HBase Clustering,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+1fd8833f6e42125af596122f509be092,Force the number of map tasks in MR?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+66e7e8e338ac7f4185021b4f132bb115,split table data into two or more tables,http://mail-archives.apache.org/mod_mbox/hbase-user/,201302
+f990a460676622a61c630b4e970f0508,Regionservers crash with an OutOfMemoryException after a,http://mail-archives.apache.org/mod_mbox/hbase-user/,201005
+4ff718e5ef311e6789da68a215daf30a,s3/s3n working or not working??,http://mail-archives.apache.org/mod_mbox/hbase-user/,201111
+6668cfdf674be6430e3e01dddbee690d,Manage Major Compaction.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201309
+1c4abeb79048c4adce81e5fd2f5a20e2,RPC Client OutOfMemoryError Java Heap Space,http://mail-archives.apache.org/mod_mbox/hbase-user/,201405
+e95a073b8799610b481efa36f9bb271c,how to recover hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201006
+7b16e4cdaf36d7d5ee21b8e9b633855d,try to run PerformanceEvaluation and encounter,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+b8fe26e49796b36e200064739341d5b6,Running two instances of Hbase on a single node,http://mail-archives.apache.org/mod_mbox/hbase-user/,200911
+b56dff38a64a3330acfa263668e251b9,HBase memstore flush configurations,http://mail-archives.apache.org/mod_mbox/hbase-user/,201505
+ecda73410dde2d2837ab114f72189c52,why is hbase creating this mapred directory on hdfs??,http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+1e3db882bc32a8cfde511c38f86427a3,how to check whether zookeeper quorum is working fine or not ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+058e10339850b07ba61c35c785d048d9,Install HBase on hadoop-2.2.0,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+c2a6c53a9b0a1630cdad6f2409a4ac95,Slow region moves,http://mail-archives.apache.org/mod_mbox/hbase-user/,201510
+366a90b0817ed2dc8eadf06a2d758f76,hbase with multiple interfaces,http://mail-archives.apache.org/mod_mbox/hbase-user/,201004
+08f614b8f69ecc9f746f621963069868,hbase/hadoop config(do I need to change /etc/hosts???)-still getting,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+5e8c97510683fa032746b86c58baf0ee,Access remote HBase server with different user names,http://mail-archives.apache.org/mod_mbox/hbase-user/,201211
+b5da5a282d58a628bfbc640cf6c4779d,Hbase pausing problems,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+ba7e1475e3fb6ea91bf1dca0109eda75,How to move table data from hbase 0.94 to 0.96 use,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+5d837f613b0a701bb05c09ed97b241ce,dfs.data.dir - hbase and hadoop,http://mail-archives.apache.org/mod_mbox/hbase-user/,201012
+9c2b3943faeb4b91f437f758d8d85344,Disk space usage of HFilev1 vs HFilev2,http://mail-archives.apache.org/mod_mbox/hbase-user/,201208
+01e6905bfc03336659322347f729e16c,Exception on startup -ClassNotFound-,http://mail-archives.apache.org/mod_mbox/hbase-user/,200912
+b3403d1983877b1888595762096709fc,"Slow mapreduce using Hbase , regardless on number of machines",http://mail-archives.apache.org/mod_mbox/hbase-user/,200807
+cdaa96ff28d4aa7f37cc38239665b3d1,Can't connect to master,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+e67f9d589faf516fd9e368a2f3b6e3ec,Initial region loads in hbase..,http://mail-archives.apache.org/mod_mbox/hbase-user/,201008
+5fe6ef3d83a351d26b26e3d52599b47e,zookeeper quorum verification,http://mail-archives.apache.org/mod_mbox/hbase-user/,201111
+bd6687c853a37928c8932d46ad3527ee,HBase-Hive integration performance issues,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+fdc69f4ee66bf24b9e14e01725a98420,hbase from trunk trunk failed ...,http://mail-archives.apache.org/mod_mbox/hbase-user/,200901
+0ea8461d1a39a54010a09d8c01b41214,hbase insert performance test (from hbasemaster and regionservers),http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+7432b129ada2fa79b72bc80a4dce31b1,Hbase clustering,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+23172729c92324affbde5b4a332fdd73,Co-processor seems to be failing to load,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+7556f806a62065498488b006ce4e6c46,HBase Support,http://mail-archives.apache.org/mod_mbox/hbase-user/,201305
+1760e3c1d5b09c525cd4ec5c7840610e,Java client connection to HBase 0.20.1 problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200911
+222f1e6e81982679b2d89a4dae6d9ffc,HBase failing to restart in single-user mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201505
+82dc12cd2b64a7694d67c7e7073d341e,mapred timeout,http://mail-archives.apache.org/mod_mbox/hbase-user/,200902
+90f797e119edc70a2fa3fbcc285b9e9f,connecting Hbase using java,http://mail-archives.apache.org/mod_mbox/hbase-user/,201303
+21de14f58f68ba13498cd6bda0a71813,Starting Abnormally After Shutting Down For Some Time,http://mail-archives.apache.org/mod_mbox/hbase-user/,201203
+504f7426f606020ab8a3774f0e17860a,Cannot open filename Exceptions,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+7c5e545d72a95ca9bb020973e513fdc6,hbase host dns ip and route for multi network interface card,http://mail-archives.apache.org/mod_mbox/hbase-user/,201107
+ab26f0a5236d066c5ff1bb3e36ffe17b,HBase connectivity issue,http://mail-archives.apache.org/mod_mbox/hbase-user/,201405
+eb1f0548bcfd7aa66a052ceebb46547c,Can not access HBase Shell.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+a6c717f7b2355f1882ee93ee143c2f57,I can't start cluster due to zookeeper,http://mail-archives.apache.org/mod_mbox/hbase-user/,201504
+6a69579bf327634802bdfda3405eaea8,Trouble with s3n/s3,http://mail-archives.apache.org/mod_mbox/hbase-user/,201111
+b0deaadd05cea31ef61b604e3f6f0508,RegionServer dying every two or three days,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+33443d804d92f4463980a84ebae23fe7,Multiple directories for hadoop,http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+0dbb2ad64d63e5f827e6d9462e0fa1d5,What is the impact on RegionServer Crash?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+3f57847a9cbc177b38e2bfd027885fa5,NoSuchColumnFamilyException with rowcounter,http://mail-archives.apache.org/mod_mbox/hbase-user/,201210
+25a1869ae7b530473b7eafa930172acf,HBase - Zookeeper Error.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201412
+686aff549ea8c133ad9191731d33a69c,flushing + compactions after config change,http://mail-archives.apache.org/mod_mbox/hbase-user/,201306
+b0746fe08d657d47d4b4ecbc881a6ea4,HRegionServer failed due to replication,http://mail-archives.apache.org/mod_mbox/hbase-user/,201510
+1ca74031f9e44b8f4ed6c48fa70dccf5,Snapshot failure,http://mail-archives.apache.org/mod_mbox/hbase-user/,201409
+8c37944aa8a10c258330808fbe3a4513,Will hbase automatically distribute the data across region servers or,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+fbd8fd633ef1fd701aefdf328617bcd3,zookeeper can't connect,http://mail-archives.apache.org/mod_mbox/hbase-user/,201101
+9e317d736656d6a99f126fcb4fd958ad,Why does throw java.io.IOException when I run a job?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201004
+dcf03a700b91460c5aead596bae7d06b,DataNode throws SocketTimeoutException,http://mail-archives.apache.org/mod_mbox/hbase-user/,200901
+71aa537d456996ebe68b264780baa209,BigDecimalColumnInterpreter,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+92757f9a3ef33129c6924dadda377b8f,Question about HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+681e58e9de98221db2cb6dc4428f03d4,HBase and hadoop cluster rebalance,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+8c7f2ad617b82554cbffb30fae532c29,Why did HBase dead after a regionserver stopped.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+7bd7429aba70f65b1b5abd3dddc252d3,=?UTF-8?Q?Re=3A_After_hadoop_QJM_failover=EF=BC=8Chbase_can_not_write?=,http://mail-archives.apache.org/mod_mbox/hbase-user/,201412
+05077d06997aaca15610965ec39bfd09,scan performance improvement,http://mail-archives.apache.org/mod_mbox/hbase-user/,201011
+7a481af58db62a0b23c70942f42c7d80,help! code for hbase 0.90  ries ERROR in hbase 0.94,http://mail-archives.apache.org/mod_mbox/hbase-user/,201212
+fb0caf43d73ec215dc1cd0698c847c33,local mode with S3 configuration,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+3fd2705dd285cc7252aeae2ad091b47c,How to debug/run HBase in eclipse,http://mail-archives.apache.org/mod_mbox/hbase-user/,201111
+82a70c34dd2baceb76b69883ae9bb73e,Start hbase with replication mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201510
+3715d5ea2b614e1d6541076704a84982,problem installing hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+3d3a3c618b9330c72425849da7fdee14,Starting 0.96.0?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201311
+98ba87e27538a73d23347d43ea3001c2,Trying to get the region servers working....,http://mail-archives.apache.org/mod_mbox/hbase-user/,201006
+04ec5497ad44d44e2855d283806598d1,HBase slowdown while running MR job with GET,http://mail-archives.apache.org/mod_mbox/hbase-user/,201109
+8342da35838ddc4f68cca16c89e1c6b0,why hbase using much more space than actual ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+5c1e27a3abee60d8c783fc26d1c485e2,Unable to override zookeeper server maxSessionTimeout property,http://mail-archives.apache.org/mod_mbox/hbase-user/,201311
+fdef0c8a8e8cfa8bd2a3e0f54406740e,RegionServer Aborting,http://mail-archives.apache.org/mod_mbox/hbase-user/,201003
+a2fb69ca28ccd856d57f7163d1bf10a3,Hmaster and HRegionServer disappearance reason to ask,http://mail-archives.apache.org/mod_mbox/hbase-user/,201207
+da68022418029c88c9a4525e1328154d,trick to running hbase on ec2?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201006
+c6c29049b283a9aeaea9ac10edee048d,RegionServers Crashing every hour in production env,http://mail-archives.apache.org/mod_mbox/hbase-user/,201303
+21d937927ea6b20d8822f2a1e5f21ded,HBase Exceptions on version 0.20.1,http://mail-archives.apache.org/mod_mbox/hbase-user/,200910
+27fd9df282f67734400d99b7ac8fc5c0,Profiling map reduce jobs?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201306
+f7d29ca6382973e14999bb84e41c5026,newbie questions,http://mail-archives.apache.org/mod_mbox/hbase-user/,200805
+dd57e3140b047571e1e2681862c50054,Questions about BucketCache,http://mail-archives.apache.org/mod_mbox/hbase-user/,201502
+eb05e449adb5f0925b7442b94afccdf7,problem regarding hbase 0.20.2,http://mail-archives.apache.org/mod_mbox/hbase-user/,200912
+097e881844533c7a0b6887a772635199,HBase looses regions.,http://mail-archives.apache.org/mod_mbox/hbase-user/,200905
+7582d695b4a39becb49f2046e2dea8e2,memcache size configurable?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+f8206a113cbf1aec4aceb58826e10ded,hbase-site.xml Content is not allowed in prolog.,http://mail-archives.apache.org/mod_mbox/hbase-user/,201207
+1e81aec5fa6bd3b2b49d253c7633c586,Using DBInputFormat in Map/Reduce,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+404152add2ff371c9f108d1edc0db4b7,HBase-0.20.0 multi read,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+b9a451adbcf683ba41c8f1a932490f1d,why one regionserver start unsuccessfully ?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200809
+3d4e155412c93e56368279ffec72fbf0,Enabling Indexing in HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,201005
+53b7ba9f4da90afc1a0f970e39be2006,Java Client can't connect to a remote standalone hbase server,http://mail-archives.apache.org/mod_mbox/hbase-user/,201401
+96dc144d239b43f27adadb411217c998,Hbase single-Node cluster config problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200808
+dd8f63012519b58e7b06440165d9802f,Hadoop-2.4.0 HBase-0.19.18 Region server startup failed,http://mail-archives.apache.org/mod_mbox/hbase-user/,201405
+b28c8ebe0fcd173894d381b67b8637e0,Setting zookeeper timeout to higher value,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+078578f556da3c32903649a5b618a544,base tmp.dir property not working,http://mail-archives.apache.org/mod_mbox/hbase-user/,201108
+7c0d2981ab15b8d25d3047ea3eeb9a4f,HBase Multi-Threaded Writes,http://mail-archives.apache.org/mod_mbox/hbase-user/,201209
+9c37e69bfbd142906c8bb8e6305f4c75,hbase 0.96 on hadoop 2.2.0,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+d9711471a5869cbba37dc7487ea621e4,Unable to run HBase 0.96 with Hadoop 2.1-beta,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+3c1e9343f09d4fdbab1dbd313458ff03,HBase Java Client API hangs,http://mail-archives.apache.org/mod_mbox/hbase-user/,201411
+216021955736bb54f5071aaf153d4585,Problem With Zookeeper,http://mail-archives.apache.org/mod_mbox/hbase-user/,201001
+6314c9741f3123e324a22a741e0b0757,Hbase on EC2 and issues with external access,http://mail-archives.apache.org/mod_mbox/hbase-user/,200903
+65d7f3e3a9d18b29198131f57f6966c2,HMaster and HRegionServer quit automately in a few seconds after,http://mail-archives.apache.org/mod_mbox/hbase-user/,201407
+32af7bfedbe0432a751002007e01fdb2,running out of memory. Reasons?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201009
+278bf9e5fe545a394958e4fe2a8681b8,Hbase region server is not communicating with zookeeper and stopping,http://mail-archives.apache.org/mod_mbox/hbase-user/,201308
+76ff2882e6b71a577514b0712fd91e76,HBase 0.20.1 Distributed Install Problems,http://mail-archives.apache.org/mod_mbox/hbase-user/,200911
+3fe85ab93c729833ab587512fc94ebeb,More on Large scale Scans...,http://mail-archives.apache.org/mod_mbox/hbase-user/,201007
+7638d93e00838b5540615cc657594e3a,Setting up Secondary Indexing...,http://mail-archives.apache.org/mod_mbox/hbase-user/,201002
+037366950cec35fb2b53c4e129f927c8,Region servers going down under heavy write load,http://mail-archives.apache.org/mod_mbox/hbase-user/,201306
+078580662d0e7ea35e35d982dc6a8ad6,HBase Log Location,http://mail-archives.apache.org/mod_mbox/hbase-user/,201310
+1fb3415670184da758f877b63b6e7900,hbase site configuration problem,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+33fe4c33a4fb6ba90f97dc0c367240a1,"Important ""Undefined Error""",http://mail-archives.apache.org/mod_mbox/hbase-user/,201205
+3e7fb58ce48b04e53b1bbe7bbab60fb0,HBase will not allow table creation in pseudo-distributed mode,http://mail-archives.apache.org/mod_mbox/hbase-user/,201110
+faa70ce2807601b67fa19927f25e65b3,Regions loading too fast,http://mail-archives.apache.org/mod_mbox/hbase-user/,201009
+42886c2c89bc9c57a70534b4aa96c028,Record limit in scan api?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200911
+37f81871627b17a81e28c27f3eb7cf9c,HBase Error,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+4fcb5d6900e4057c5070d4fb7271fb84,Hive/Hbase Integration issue,http://mail-archives.apache.org/mod_mbox/hbase-user/,201505
+7cbfe2eb60e8fbd341e00582242565e1,HBase error disabled security features are not available,http://mail-archives.apache.org/mod_mbox/hbase-user/,201511
+c8431bdaf57b9c08e80cd324d7cdeacd,question about RetriesExhaustedException,http://mail-archives.apache.org/mod_mbox/hbase-user/,200808
+140c6b6d68e491f64581e38e96944f62,HBase standalone ZooKeeper error,http://mail-archives.apache.org/mod_mbox/hbase-user/,201503
+3554715f3dc0ca0c39f70ed1385b1eab,OOME when restarting hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200905
+5753a69014b39a76c748782d2364b3da,Is Thrift Java API Hbase.Client thread safe?,http://mail-archives.apache.org/mod_mbox/hbase-user/,201411
+b0b0fced4401ea4431f78f7fdca27312,AggregateProtocol Help,http://mail-archives.apache.org/mod_mbox/hbase-user/,201112
+25c48f9a639cd871ac4c4be721dddd3c,is there any problem with our environment?,http://mail-archives.apache.org/mod_mbox/hbase-user/,200909
+8379eb595285ff161e2e33a37db377e0,HBaseTestingUtility startMiniCluster throw exception,http://mail-archives.apache.org/mod_mbox/hbase-user/,201408
+e1ba552630a7fd1c91204bc15bfe6bbc,Thrift reverse scan out of order exception,http://mail-archives.apache.org/mod_mbox/hbase-user/,201503
+e11cdd9fee08697feb57b3e85c964c50,Connection failure to HBase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200908
+5a673c39ce1b2a1f8d5ba1a1b4c0f593,Doubt Regading HLogs,http://mail-archives.apache.org/mod_mbox/hbase-user/,201305
+354140a4fae0ed85e11ee0ec1d4b1f33,how safe table permanently in hbase,http://mail-archives.apache.org/mod_mbox/hbase-user/,200907
+72368c0d2a49b5b15b0add93016fc4e6,Hbase Master is aborted when regionserver is started,http://mail-archives.apache.org/mod_mbox/hbase-user/,201408
+db04e02cb923a5311f261894d747d1c4,NotServingRegionException - Map/Reduce process fails,http://mail-archives.apache.org/mod_mbox/hbase-user/,200810
+6c68a7f9d848f9124293d92dcb00b279,Configuring tombstone purge independent of deleted cell purge,http://mail-archives.apache.org/mod_mbox/hbase-user/,201409
+e8ab7b2ed87e8fad52130e74cf56bf0e,user_permission error - undefined method 'getTable',http://mail-archives.apache.org/mod_mbox/hbase-user/,201401
