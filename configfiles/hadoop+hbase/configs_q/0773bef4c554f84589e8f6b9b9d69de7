@@ -1,0 +1,1 @@
+{"mapreduce.task.io.sort.factor": ["300"], "dfs.datanode.max.transfer.threads": ["4096"], "mapreduce.task.io.sort.mb": ["300"], "mapreduce.reduce.merge.inmem.threshold": ["0"]}

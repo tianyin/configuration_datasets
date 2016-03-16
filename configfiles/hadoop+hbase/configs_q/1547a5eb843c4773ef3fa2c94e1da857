@@ -1,0 +1,1 @@
+{"hbase.coprocessor.master.classes": ["org.apache.hadoop.hbase.security.visibility.VisibilityController"], "hbase.coprocessor.region.classes": ["org.apache.hadoop.hbase.security.visibility.VisibilityController"], "hfile.format.version": ["3"]}

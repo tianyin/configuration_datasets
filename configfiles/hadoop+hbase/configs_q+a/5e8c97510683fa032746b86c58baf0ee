@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://server1:9000/hbase"], "hbase.zookeeper.quorum": ["server1"]}

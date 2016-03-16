@@ -1,0 +1,1 @@
+{"dfs.namenode.rpc-address.mycluster.nn2": ["snn.domain:8020"], "dfs.namenode.rpc-address.mycluster.nn1": ["nn.domain:8020"]}

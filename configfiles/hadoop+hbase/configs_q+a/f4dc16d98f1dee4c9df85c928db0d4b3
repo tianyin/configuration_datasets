@@ -1,0 +1,1 @@
+{"dfs.block.size": ["8388608"], "hbase.hstore.blockCache.blockSize": ["65536"], "dfs.replication": ["2"]}

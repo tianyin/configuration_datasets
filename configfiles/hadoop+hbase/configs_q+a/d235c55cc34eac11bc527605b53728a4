@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://localhost:54310"], "hadoop.tmp.dir": ["/home/mallik/hadoop-${user.name}"], "mapred.job.tracker": ["localhost:54311"], "dfs.replication": ["1"]}

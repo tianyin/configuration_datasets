@@ -1,0 +1,1 @@
+{"io.compression.codecs": ["\n\norg.apache.hadoop.io.compress.GzipCodec,\n\norg.apache.hadoop.io.compress.DefaultCodec,\n\norg.apache.hadoop.io.compress.BZip2Codec,\n\norg.apache.hadoop.io.compress.SnappyCodec\n                                       "], "mapreduce.map.output.compress": ["true"], "mapred.map.output.compress.codec": ["org.apache.hadoop.io.compress.SnappyCodec"]}

@@ -1,0 +1,1 @@
+{"hbase.rootdir": ["hdfs://cdh1:54310/hbase"], "dfs.data.dir": ["/mnt/hadoop/data"]}

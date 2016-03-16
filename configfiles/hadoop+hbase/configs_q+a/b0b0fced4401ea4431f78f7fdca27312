@@ -1,0 +1,1 @@
+{"hbase.rpc.timeout": ["180000"], "hbase.coprocessor.user.region.classes": ["org.apache.hadoop.hbase.coprocessor.AggregateImplementation"]}

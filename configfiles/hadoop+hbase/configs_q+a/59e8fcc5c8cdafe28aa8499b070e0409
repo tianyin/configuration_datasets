@@ -1,0 +1,1 @@
+{"hbase.zookeeper.quorum": ["slave"], "hbase.cluster.distributed": ["true"], "hbase.zookeeper.property.maxClientCnxns": ["3000"], "hbase.rootdir": ["hdfs://master:9000/hbase"], "hbase.hregion.max.filesize": ["32000000"]}

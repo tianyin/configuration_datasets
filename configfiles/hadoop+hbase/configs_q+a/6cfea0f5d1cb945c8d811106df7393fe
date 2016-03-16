@@ -1,0 +1,1 @@
+{"hbase.regionserver.optionallogflushinterval": ["1000"], "hbase.regionserver.flushlogentries": ["1"]}

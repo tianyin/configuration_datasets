@@ -1,0 +1,1 @@
+{"dfs.nameservices": ["ns1,ns2"], "dfs.namenode.rpc-address.ns1": ["Hadoop01:8040"], "fs.default.name": ["hdfs://Hadoop01:8020"]}

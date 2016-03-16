@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/hduser/hadoop_ecosystem/apache_hbase/zk_datadir"], "fs.default.name": ["hdfs://cldx-1139-1033:9000"], "hbase.rootdir": ["hdfs://cldx-1139-1033:9000/hbase"], "hbase.zookeeper.quorum": ["cldx-1140-1034"], "hbase.cluster.distributed": ["true"]}

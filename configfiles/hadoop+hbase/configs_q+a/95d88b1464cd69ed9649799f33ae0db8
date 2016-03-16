@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/data/zookeeper"], "hbase.rootdir": ["file:///data/hbase"]}

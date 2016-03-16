@@ -1,0 +1,1 @@
+{"yarn.nodemanager.aux-services.mapreduce.shuffle.class": ["org.apache.hadoop.mapred.ShuffleHandler"], "yarn.nodemanager.aux-services": ["mapreduce.shuffle"], "fs.default.name": ["hdfs://localhost:9000"], "mapreduce.framework.name": ["yarn"], "dfs.replication": ["1"]}

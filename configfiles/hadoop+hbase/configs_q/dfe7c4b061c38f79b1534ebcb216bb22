@@ -1,0 +1,1 @@
+{"dfs.namenode.checkpoint.dir": ["/var/lib/hadoop-hdfs/cache/${user.name\n}/dfs/namesecondary"], "hadoop.tmp.dir": ["/var/lib/hadoop-hdfs/cache/${user.name}"], "dfs.namenode.name.dir": ["/var/lib/hadoop-hdfs/cache/${user.name}/dfs/name"]}

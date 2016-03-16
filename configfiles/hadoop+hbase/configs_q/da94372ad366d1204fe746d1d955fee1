@@ -1,0 +1,1 @@
+{"hbase.bucketcache.size": ["6144"], "hbase.bucketcache.percentage.in.combinedcache": ["0.8"], "hbase.offheapcache.percentage": ["0"], "hbase.bucketcache.ioengine": ["offheap"]}

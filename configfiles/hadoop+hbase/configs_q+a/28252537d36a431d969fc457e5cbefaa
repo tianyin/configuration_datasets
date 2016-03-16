@@ -1,0 +1,1 @@
+{"mapred.reduce.child.java.opts": ["-XX:ErrorFile=/opt/cores/mapreduce_java_error%p.log", "-XX:ErrorFile=3D/opt/cores/mapreduce_java_error%p.log"], "mapred.map.child.java.opts": ["-XX:ErrorFile=/opt/cores/mapreduce_java_error%p.log", "-XX:ErrorFile=3D/opt/cores/mapreduce_java_error%p.log"]}

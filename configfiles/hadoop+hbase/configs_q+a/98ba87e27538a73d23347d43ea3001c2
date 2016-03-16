@@ -1,0 +1,1 @@
+{"hbase.master": ["172.28.1.138:60000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://172.28.1.138/hbase"], "hbase.zookeeper.quorum": ["172.28.1.138,172.28.2.136"]}

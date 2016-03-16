@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["s4:9001"], "hadoop.logfile.size": ["1000000"], "dfs.name.dir": ["/export/home/hadoop/dfs/name"], "hadoop.logfile.count": ["10"], "dfs.replication": ["2"], "dfs.datanode.max.xcievers": ["1024"], "fs.default.name": ["hdfs://s3:9000"]}

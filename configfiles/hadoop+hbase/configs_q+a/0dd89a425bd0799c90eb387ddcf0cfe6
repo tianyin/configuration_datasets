@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/app/software/app1", "/app/software/app=\n1", "/home1/user=\n1/dir1,/home2/user2/dir2", "/home1/user1/dir1,/home2/user2/dir2"], "hadoop.tmp.d=\nir": ["/app/software/app1"], "dfs.data.dir": ["${hadoop.tmp.dir}/dfs/data", "/SD1/hadoop_data"]}

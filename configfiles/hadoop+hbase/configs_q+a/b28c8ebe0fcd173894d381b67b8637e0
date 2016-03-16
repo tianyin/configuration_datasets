@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/hadoop/HbaseData/zookeeper"], "zookeeper.session.timeout": ["600000"], "hbase.zookeeper.property.tickTime": ["30000"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["1"], "hbase.rootdir": ["hdfs://192.168.20.30:9000/hbase"], "hbase.zookeeper.quorum": ["192.168.20.30"]}

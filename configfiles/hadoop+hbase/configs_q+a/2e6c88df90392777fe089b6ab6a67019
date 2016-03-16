@@ -1,0 +1,1 @@
+{"hbase.regionserver.thread.compaction.throttle": ["2684354560"], "hbase.hstore.compaction.max": ["9"], "hbase.hstore.compactionThreshold": ["3"], "hbase.hregion.majorcompaction": ["0"]}

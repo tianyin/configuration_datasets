@@ -1,0 +1,1 @@
+{"dfs.client.read.shortcircuit": ["true"], "dfs.domain.socket.path": ["/home/hadoop/cdh4-dn-socket/dn_socket"]}

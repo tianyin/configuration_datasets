@@ -1,0 +1,1 @@
+{"dfs.support.append": ["true"], "dfs.block.size": ["134217728"], "dfs.replication": ["2"], "io.file.buffer.size": ["65536"], "dfs.datanode.max.xcievers": ["4096"]}

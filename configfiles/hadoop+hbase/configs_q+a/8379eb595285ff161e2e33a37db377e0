@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.tmp.dir": ["/tmp/hbase"], "hbase.rootdir": ["file:///scratch/mingtzha/hbase/test"], "hbase.zookeeper.quorum": ["localhost"], "hbase.ipc.warn.response.time": ["1"]}

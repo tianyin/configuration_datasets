@@ -1,0 +1,1 @@
+{"dfs.datanode.handler.count": ["100"], "dfs.namenode.handler.count": ["100"], "dfs.datanode.du.reserved": ["5368709120"], "dfs.replication": ["3"], "dfs.datanode.max.xcievers": ["4096"]}

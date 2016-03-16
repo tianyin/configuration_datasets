@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://fs0.cm.cluster:8020"], "hbase.rootdir": ["hdfs://fs0.cm.cluster:8020/hbase"]}

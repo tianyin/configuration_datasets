@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["127.0.0.1:54311"], "fs.default.name": ["hdfs://127.0.0.1:54310"], "hadoop.tmp.dir": ["/home/hadoop/Desktop/hadoop-datastore/hadoop-$hadoop"], "dfs.replication": ["1"], "hbase.master": ["local"], "hbase.rootdir": ["hdfs://127.0.0.1:9000/hbase", "file:///var/hbase"]}

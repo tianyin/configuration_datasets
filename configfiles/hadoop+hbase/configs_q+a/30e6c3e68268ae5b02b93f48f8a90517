@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["localhost:8021"], "hadoop.tmp.dir": ["/home/yanglin/Programs/hadoop_tmp_dir/hadoop-${user.name}\n    "], "fs.default.name": ["hdfs://localhost"], "dfs.replication": ["1"]}

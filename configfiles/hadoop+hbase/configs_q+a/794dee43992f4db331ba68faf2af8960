@@ -1,0 +1,1 @@
+{"fs.viewfs.mounttable.ClusterX.link./dir2": ["hdfs://ns1/dir1"], "fs.viewfs.mounttable.ClusterX.link./dir3": ["hdfs://ns2/dir2"], "fs.defaultFS": ["hdfs://ns1"], "fs.viewfs.mounttable.ClusterX.link./dir4": ["hdfs://ns3/dir3"], "fs.viewfs.mounttable.ClusterX.link./dir5": ["hdfs://ns4/dir4"]}

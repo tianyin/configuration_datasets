@@ -1,0 +1,1 @@
+{"yarn.nodemanager.container-monitor.resource-calculator.class": ["org.apache.hadoop.yarn.util.LinuxResourceCalculatorPlugin"]}

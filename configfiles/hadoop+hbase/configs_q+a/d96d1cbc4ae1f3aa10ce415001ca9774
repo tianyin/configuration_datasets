@@ -1,0 +1,1 @@
+{"dfs.data.dir": ["file:/home/cluster/mydata/hdfs/datanode"], "fs.defaultFS": ["hdfs://master:9000"], "dfs.replication": ["2"], "dfs.name.dir": ["file:/home/cluster/mydata/hdfs/namenode"]}

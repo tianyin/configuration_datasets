@@ -1,0 +1,1 @@
+{"hbase.regionserver.lease.period": ["60000"]}

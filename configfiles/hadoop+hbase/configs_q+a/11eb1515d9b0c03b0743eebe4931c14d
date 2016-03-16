@@ -1,0 +1,1 @@
+{"dfs.namenode.rpc-address.mycluster.nn2": ["10.232.98.78:20020"], "dfs.namenode.rpc-address.mycluster.nn3": ["10.232.98.79:20020"], "dfs.namenode.rpc-address.mycluster.nn1": ["10.232.98.77:20020"], "dfs.client.failover.proxy.provider.mycluster": ["org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"], "dfs.ha.namenodes.mycluster": ["nn1,nn2,nn3"]}

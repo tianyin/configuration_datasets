@@ -1,0 +1,1 @@
+{"hadoop.security.token.service.use_ip": ["true"], "hadoop.tmp.dir": ["${celer.hadoop.data.dir}"], "fs.default.name": ["hdfs://${celer.hadoop.master.address}:${celer.hadoop.bind.port}"], "hadoop.security.authorization": ["false"], "hadoop.security.authentication": ["simple"]}

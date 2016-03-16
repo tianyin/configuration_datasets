@@ -1,0 +1,1 @@
+{"dfs.client.failover.proxy.provider.nn": ["org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"], "dfs.namenode.rpc-address.ns.nn2": ["nn2:8020"], "dfs.namenode.rpc-address.ns.nn1": ["nn1:8020"]}

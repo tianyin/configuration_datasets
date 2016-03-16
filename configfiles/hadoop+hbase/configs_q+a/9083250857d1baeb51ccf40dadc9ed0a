@@ -1,0 +1,1 @@
+{"yarn.nodemanager.aux-services": ["mapreduce.shuffle"], "yarn.resourcemanager.scheduler.class": ["org.apache.hadoop.yarn.server.resourcemanager.scheduler.fair.FairSch=\neduler"], "yarn.nodemanager.aux-services.mapreduce.shuffle.class": ["org.apache.hadoop.mapred.ShuffleHandler"]}

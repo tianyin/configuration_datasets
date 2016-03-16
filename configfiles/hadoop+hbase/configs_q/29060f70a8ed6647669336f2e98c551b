@@ -1,0 +1,1 @@
+{"hbase.coprocessor.region.classes": ["com.hbase.example.region.coprocessors.MyCustomRegionObserver"]}

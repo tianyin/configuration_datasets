@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/my/path/hbase-data/zookeeper"], "mapreduce.framework.name": ["yarn"], "hbase.rootdir": ["hdfs://my.hbase.server.de:8020/hbase"], "hbase.cluster.distributed": ["true"], "hbase.master.wait.on.regionservers.mintostart": ["1"], "hbase.zookeeper.quorum": ["my.hbase.server.de"]}

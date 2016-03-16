@@ -1,0 +1,1 @@
+{"yarn.nodemanager.remote-app-log-dir": ["/var/log/hadoop-yarn/apps"], "yarn.log-aggregation-enable": ["true"]}

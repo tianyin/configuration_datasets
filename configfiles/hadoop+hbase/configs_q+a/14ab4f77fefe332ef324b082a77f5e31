@@ -1,0 +1,1 @@
+{"dfs.namenode.edits.dir": ["${dfs.namenode.name.dir}"]}

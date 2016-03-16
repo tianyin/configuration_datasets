@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["localhost:9002"], "hadoop.tmp.dir": ["/cygdrive/d/datarepublik/tmp/hadoop-${user.name}"], "dfs.replication": ["1"], "hbase.master": ["http://localhost:60000"], "fs.default.name": ["localhost:9001"], "mapred.child.java.opts": ["-Xmx512m"], "hbase.rootdir": ["hdfs://localhost:9001/hbase"]}

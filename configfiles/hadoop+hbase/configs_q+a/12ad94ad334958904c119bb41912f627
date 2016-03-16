@@ -1,0 +1,1 @@
+{"hbase.hstore.blockingStoreFiles": ["200"], "hbase.hregion.majorcompaction": ["0"], "hbase.hregion.memstore.block.multiplier": ["4"], "hbase.hregion.memstore.flush.size": ["1073741824"], "hbase.hregion.max.filesize": ["1073741824"], "hbase.hstore.compactionThreshold": ["5"], "hbase.regionserver.lease.period": ["3000000"], "hbase.hstore.blockingWaitTime": ["30000"]}

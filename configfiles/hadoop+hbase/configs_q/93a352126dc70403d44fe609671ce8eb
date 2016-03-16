@@ -1,0 +1,1 @@
+{"zookeeper.session.timeout": ["60000"], "hbase.cluster.distributed": ["true"], "hbase.ZooKeeper.quorum": ["m146,m145,m143"]}

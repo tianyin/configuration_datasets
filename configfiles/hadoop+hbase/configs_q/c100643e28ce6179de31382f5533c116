@@ -1,0 +1,1 @@
+{"hbase.hregion.memstore.flush.size": ["6291456"], "hbase.hregion.max.filesize": ["1048576"]}

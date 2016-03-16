@@ -1,0 +1,1 @@
+{"hadoop.proxyuser.nfsserver.hosts": ["*", "* rw"], "hadoop.proxyuser.nfsserver.groups": ["*"], "nfs.exports.allowed.hosts": ["* rw"], "nfs.dump.dir": ["/tmp/.hdfs-nfs"]}

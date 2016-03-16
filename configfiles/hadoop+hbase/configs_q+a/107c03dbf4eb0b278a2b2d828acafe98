@@ -1,0 +1,1 @@
+{"hbase.master": ["192.168.2.3:60000"], "hbase.rootdir": ["hdfs://192.168.2.3:20001/hbase"], "hbase.zookeeper.quorum": ["192.168.2.3"]}

@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.zookeeper.property.maxClientCnxns": ["200"], "hbase.rootdir": ["hdfs://ub13:54310/hbase"], "hbase.zookeeper.quorum": ["ub13,ub12,ub11"]}

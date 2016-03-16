@@ -1,0 +1,1 @@
+{"fs.viewfs.mounttabl=\ne.default.link./home/storage/mount1": ["hdfs://10.108.99.68:8020=\n"], "fs.default.name": ["viewfs:///"], "dfs.name.dir": ["/hom=\ne/storage/namenode"]}

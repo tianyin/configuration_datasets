@@ -1,0 +1,1 @@
+{"hadoop.http.filter.initializers": ["org.apache.hadoop.http.lib.StaticUserWebFilter,org.apache.hadoop.security.authentication.server.AuthenticationFilter \n"]}

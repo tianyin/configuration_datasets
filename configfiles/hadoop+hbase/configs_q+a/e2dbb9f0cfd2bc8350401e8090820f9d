@@ -1,0 +1,1 @@
+{"yarn.scheduler.capacity.root.*dev*\n.acl_submit_applications": ["*smunnavar,test*"], "yarn.scheduler.capacity.root.dev.acl_submit_applications": ["*"], "yarn.scheduler.capacity.root.*dev*\n> .acl_submit_applications": ["*smunnavar,test*"]}

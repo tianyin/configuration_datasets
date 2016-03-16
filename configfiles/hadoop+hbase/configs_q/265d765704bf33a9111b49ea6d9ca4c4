@@ -1,0 +1,1 @@
+{"hbase.mapred.tablecolumns": ["col_fam:name"], "mapred.input.format.class": ["org.apache.hadoop.hbase.mapred.TableInputFormat"], "hadoop.pipes.java.recordreader": ["true"]}

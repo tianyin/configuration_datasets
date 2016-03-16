@@ -1,0 +1,1 @@
+{"hbase.hstore.compaction.max": ["15"], "hbase.regionserver.lease.period": ["360000"], "hbase.hstore.compactionThreshold": ["8"], "hbase.master.lease.period": ["720000"]}

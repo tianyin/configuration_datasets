@@ -1,0 +1,1 @@
+{"hbase.regionserver.msginterval": ["1000"], "hbase.regions.percheckin": ["10"]}

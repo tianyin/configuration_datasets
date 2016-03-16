@@ -1,0 +1,1 @@
+{"hbase.hstore.blockingStoreFiles": ["13"], "hbase.hstore.compactionThreshold": ["7"], "hbase.client.write.buffer": ["4194304"], "hbase.regionserver.lease.period": ["90000"], "hbase.rpc.timeout": ["120000"], "hbase.regionserver.handler.count": ["20"]}

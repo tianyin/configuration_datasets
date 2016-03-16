@@ -1,0 +1,1 @@
+{"hbase.regionserver.handler.count": ["50"], "hfile.block.cache.size": ["0.3"], "hbase.regionserver.global.memstore.upperLimit": ["0.3"], "dfs.datanode.max.xcievers": ["10000"]}

@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["file:///hadoop/hbase/hbase-0.98.11-hadoop2/data/zookeeper"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["file:///hadoop/hbase/hbase-0.98.11-hadoop2/data/"], "hbase.zookeeper.quorum": ["node1"]}

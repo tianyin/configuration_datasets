@@ -1,0 +1,1 @@
+{"dfs.datanode.socket.write.timeout": ["0"], "mapred.child.java.opts": ["-Xmx1024m"], "dfs.datanode.max.xcievers": ["1024"]}

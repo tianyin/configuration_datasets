@@ -1,0 +1,1 @@
+{"hbase.regionserver.optionalcacheflushinterval": ["1800000"]}

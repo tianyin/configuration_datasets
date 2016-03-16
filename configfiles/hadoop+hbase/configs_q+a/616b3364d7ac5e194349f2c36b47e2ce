@@ -1,0 +1,1 @@
+{"hbase.master": ["localhost.localdomain"], "hbase.rootdir": ["hdfs://localhost/hbase"], "hbase.zookeeper.quorum": ["localhost.localdomain"], "hbase.master.port": ["60000"]}

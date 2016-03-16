@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/hadoop/zookeeper/data"], "hbase.cluster.distributed": ["true"], "hbase.zookeeper.property.maxClientCnxns": ["2000"], "hbase.rootdir": ["hdfs://namenode:9000/hbase"], "hbase.zookeeper.quorum": ["10.251.27.130,10.250.9.220,10.251.110.50"]}

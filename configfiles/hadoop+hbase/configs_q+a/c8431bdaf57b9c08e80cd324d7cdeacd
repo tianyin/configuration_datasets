@@ -1,0 +1,1 @@
+{"hbase.master": ["masterhost:60000"], "fs.default.name": ["hdfs://masterhost:9000"], "hbase.rootdir": ["hdfs://masterhost:9000/hbase"], "dfs.data.dir": ["/home/${user.name}/dfs/data"], "dfs.name.dir": ["/home/${user.name}/dfs/name"]}

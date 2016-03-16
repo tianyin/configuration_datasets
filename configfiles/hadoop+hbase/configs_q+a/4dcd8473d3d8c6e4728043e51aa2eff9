@@ -1,0 +1,1 @@
+{"javax.xml.parsers.DocumentBuilderFa=\nctory": ["com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImp=\nl"], "javax.xml.parsers.DocumentBuilderFactory": ["com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl"], "javax.xml.parsers.DocumentBuilderFac=\ntory": ["com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl=\n"]}

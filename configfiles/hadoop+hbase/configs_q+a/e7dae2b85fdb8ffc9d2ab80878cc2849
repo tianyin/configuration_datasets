@@ -1,0 +1,1 @@
+{"mapred.child.ulimit": ["3145728"], "mapred.child.java.opts": ["-Xmx2048m"]}

@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.zookeeper.quorum": ["domU-12-31-39-06-29-91.compute-1.internal"]}

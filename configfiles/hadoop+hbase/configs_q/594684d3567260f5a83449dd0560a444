@@ -1,0 +1,1 @@
+{"hbase.master.dns.interface": ["master"], "zookeeper.znode.master": ["master"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://master:9000/user/hadoop/hbase"], "hbase.master": ["master:60000"]}

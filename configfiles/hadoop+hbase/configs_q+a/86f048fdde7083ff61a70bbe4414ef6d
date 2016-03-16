@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/home/astie/hdfs/temp"], "fs.default.name": ["hdfs://localhost:9000"], "dfs.replication": ["1"], "dfs.data.dir": ["/home/astie/hdfs/data"], "dfs.name.dir": ["/home/astie/hdfs/name"]}

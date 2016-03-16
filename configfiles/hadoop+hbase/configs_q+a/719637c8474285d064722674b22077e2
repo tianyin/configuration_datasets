@@ -1,0 +1,1 @@
+{"fs.s3.awsSecretAccessKey": ["AWS_SECRET_ACCESS_KEY"], "fs.s3.awsAccessKeyId": ["AWS_ACCESS_KEY_ID"]}

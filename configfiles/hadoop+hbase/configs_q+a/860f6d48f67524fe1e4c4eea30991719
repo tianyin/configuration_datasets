@@ -1,0 +1,1 @@
+{"hbase.zookeeper.dns.nameserver": ["default"], "hbase.zookeeper.dns.interface": ["default"]}

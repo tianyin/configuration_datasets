@@ -1,0 +1,1 @@
+{"zookeeper.session.timeout": ["30000"], "hbase.hregion.majorcompaction": ["0"]}

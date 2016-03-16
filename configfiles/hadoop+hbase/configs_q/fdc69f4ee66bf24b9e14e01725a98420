@@ -1,0 +1,1 @@
+{"hbase.master": ["local"], "hbase.master.info.port": ["60010"], "hbase.rootdir": ["hdfs://tobethink.pappiptek.lipi.go.id:54310/user/hadoop/hbase"]}

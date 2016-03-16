@@ -1,0 +1,1 @@
+{"mapreduce.job.tracker.address": ["172.31.3.150:8021"], "mapred.job.tracker": ["172.31.3.150:8021"], "mapreduce.framework.name": ["yarn"]}

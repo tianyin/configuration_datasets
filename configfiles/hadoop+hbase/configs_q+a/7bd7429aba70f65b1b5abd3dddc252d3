@@ -1,0 +1,1 @@
+{"dfs.ha.fencing.methods": ["sshfence\n> >                shell(q_hadoop_fence.sh $target_host $target_port)\n> >         ", "sshfence\n> >                shell(/bin/true)\n> >         "]}

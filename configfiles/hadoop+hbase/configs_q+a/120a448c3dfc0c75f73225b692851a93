@@ -1,0 +1,1 @@
+{"hbase.hregion.memstore.block.multiplier": ["2"], "hbase.regionserver.global.memstore.upperLimit": ["0.4"], "hbase.hregion.memstore.flush.size": ["134217728"], "hbase.regionserver.global.memstore.lowerLimit": ["0.35"]}

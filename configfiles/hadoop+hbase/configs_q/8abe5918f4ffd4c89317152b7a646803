@@ -1,0 +1,1 @@
+{"ipc.server.tcpnodelay": ["true"], "hbase.ipc.client.tcpnodelay": ["true"]}

@@ -1,0 +1,1 @@
+{"yarn.resourcemanager.resource-tracker.address": ["${yarn.resourcemanager.hostname}:8031"]}

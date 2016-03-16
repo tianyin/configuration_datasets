@@ -1,0 +1,1 @@
+{"hive.exec.scratchdir": [" /data01/workspace/hive scratch/dir/on/local/linux/disk"], "hive.querylog.location": ["/path/to/hivetmp/dir/on/local/linux/disk"]}

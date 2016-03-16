@@ -1,0 +1,1 @@
+{"hbase.regionserver": ["fbase.cinchcorp.com:60020"], "hbase.master": ["0.0.0.0:60000"], "hbase.rootdir": ["hdfs://localhost:54310/hbase"]}

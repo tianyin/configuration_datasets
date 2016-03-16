@@ -1,0 +1,1 @@
+{"hbase.master": ["local"], "hbase.rootdir": ["hdfs://127.0.0.1:9000/hbase"]}

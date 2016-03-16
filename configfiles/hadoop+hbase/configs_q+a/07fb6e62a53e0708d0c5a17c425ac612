@@ -1,0 +1,1 @@
+{"hadoop.proxyuser.xeon.hosts": ["*"], "hadoop.proxyuser.xeon.groups": ["supergroup"]}

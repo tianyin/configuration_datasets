@@ -1,0 +1,1 @@
+{"dfs.namenode.rpc-address.ns1": ["sles-hdfs1:9000"], "dfs.namenode.http-address.ns1": ["sles-hdfs1:50070"], "dfs.namenode.rpc-address.ns2": ["sles-hdfs4:9000"], "dfs.namenode.http-address.ns2": ["sles-hdfs2:50070"], "dfs.namenode.hosts": ["sles-hdfs2,sles-hdfs5"]}

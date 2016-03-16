@@ -1,0 +1,1 @@
+{"hbase.zookeeper.quorum": ["you_host_or_ip"]}

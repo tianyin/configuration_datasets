@@ -1,0 +1,1 @@
+{"hbase.zookeeper.dns.nameserver": ["192.168.1.122"], "fs.default.name": ["hdfs://s1.idfs.cn:9000"], "hbase.zookeeper.property.clientPort": ["2222"], "hbase.cluster.distributed": ["true"], "hbase.zookeeper.quorum": ["test1"], "hbase.rootdir": ["hdfs://s1.idfs.cn:9000/hbase"], "hbase.regionserver.dns.interface": ["192.168.1.122"]}

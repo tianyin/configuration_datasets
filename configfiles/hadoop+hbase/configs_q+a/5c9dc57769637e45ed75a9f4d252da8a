@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["intelliserver:54311"], "mapred.job.tracker=": ["intelliserver:54311"], "hadoop.tmp.dir": ["/software/home/hadoop/hadoop/hdfstmp"], "fs.default.name": ["hdfs:/=\n/intelliserver:54310", "hdfs://intelliserver:54310"]}

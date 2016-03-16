@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/home/${user.name}/tmp/hadoop"], "fs.default.name": ["hdfs://search9b.cm3:9000"], "dfs.data.dir": ["dfs/data"], "dfs.name.dir": ["dfs/name"]}

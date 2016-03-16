@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["localhost:9001"], "hadoop.tmp.dir": ["/usr/xxx/hdfs"], "hbase.tmp.dir": ["/usr/xxx/hdfs/hbase"], "dfs.replication": ["1"], "dfs.name.dir": ["/usr/xxx/hdfs/name"], "fs.default.name": ["hdfs://localhost:9000"], "hbase.rootdir": ["hdfs://localhost:9000/hbase"], "dfs.data.dir": ["/usr/xxx/hdfs/data"]}

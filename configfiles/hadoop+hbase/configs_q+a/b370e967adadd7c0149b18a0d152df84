@@ -1,0 +1,1 @@
+{"fs.s3.awsSecretAccessKey": [" something "], "fs.s3n.awsAccessKeyId": [" something "], "fs.default.name": ["s3n://bucketname"], "hadoop.tmp.dir": ["/tmp/hadoop"], "fs.s3n.awsSecretAccessKey": [" something "]}

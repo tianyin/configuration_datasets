@@ -1,0 +1,1 @@
+{"zookeeper.session.timeout": ["120000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://ubuntu6:9000/hbase"], "hbase.zookeeper.quorum": ["ubuntu2,ubuntu3,ubuntu7,ubuntu9,ubuntu6"], "hbase.zookeeper.property.clientPort": ["2222"]}

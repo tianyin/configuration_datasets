@@ -1,0 +1,1 @@
+{"mapreduce.jobtracker.hosts.filename": ["/usr/local/hadoop/conf/mapred.include"], "dfs.block.size": ["1048576"], "mapred.job.tracker": ["NameNode:54311"], "mapred.hosts": ["${HADOOP_CONF_DIR}/mapred.include", "/usr/local/hadoop/conf/include"], "dfs.hosts": ["/usr/local/hadoop/conf/include"], "dfs.replication": ["2"], "dfs.hosts.exclude": ["/usr/local/hadoop/conf/exclude"]}

@@ -1,0 +1,1 @@
+{"yarn.nodemanager.aux-services.bar.class": ["com.mypack.MyAuxServiceClassForBar"], "yarn.nodemanager.aux-services": ["mapreduce.shuffle", "foo", "foo,bar", "myauxserviceclassname"], "yarn.nodemanager.aux-services.foo.class": ["com.mypack.MyAuxServiceClassForFoo"]}

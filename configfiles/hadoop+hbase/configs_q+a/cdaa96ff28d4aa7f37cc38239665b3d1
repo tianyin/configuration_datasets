@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/morre/hbase/zookeeper"], "hbase.zookeeper.property.clientPort": ["2222"], "hbase.cluster.distributed": ["true"], "hbase.master": ["58.155.50.240:60000"], "hbase.rootdir": ["hdfs://58.155.50.240:8020/hbase"], "hbase.zookeeper.quorum": ["58.155.50.240,58.155.50.228,58.155.50.224"]}

@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["localhost:54311"], "hadoop.tmp.dir": ["/app/hadoop/tmp"], "fs.default.name": ["hdfs://localhost:54310"]}

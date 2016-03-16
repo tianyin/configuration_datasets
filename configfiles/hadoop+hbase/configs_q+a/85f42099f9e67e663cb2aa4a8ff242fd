@@ -1,0 +1,1 @@
+{"topology.node.switch.mapping.impl": ["org.apache.hadoop.net.ScriptBasedMapping"], "topology.script.file.name": ["/path/to/topo.sh"]}

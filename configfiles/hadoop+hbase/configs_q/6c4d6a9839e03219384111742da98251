@@ -1,0 +1,1 @@
+{"hbase.Coprocessor.region.classes": [" main.java.coprocessor.RowCountEndPoint"]}

@@ -1,0 +1,1 @@
+{"yarn.application.classpath": ["/usr/lib/gphd/hadoop/*,/usr/lib/gphd/hadoop/lib/*,/usr/lib/gphd/hadoo=\np-hdfs/*,/usr/lib/gphd/hadoop-hdfs/lib/*,/usr/lib/gphd/hadoop-yarn/*,/usr/li=\nb/gphd/hadoop-yarn/lib/*,/usr/lib/gphd/hadoop-mapreduce/*,/usr/lib/gphd/hado=\nop-mapreduce/lib/*,/etc/gphd/hadoop/conf/*"]}

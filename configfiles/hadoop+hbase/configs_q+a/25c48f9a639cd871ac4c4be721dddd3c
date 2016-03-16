@@ -1,0 +1,1 @@
+{"hbase.hregion.memstore.block.multiplier": ["4"], "hbase.hstore.blockingStoreFiles": ["20"], "hfile.block.cache.size": ["0"], "dfs.replication": ["2"]}

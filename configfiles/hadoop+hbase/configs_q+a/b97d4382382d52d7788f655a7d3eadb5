@@ -1,0 +1,1 @@
+{"yarn.app.mapreduce.am.command-opts": ["-Xmx384m"], "yarn.nodemanager.aux-services": ["mapreduce_shuffle"], "mapreduce.framework.name": ["yarn"], "yarn.nodemanager.resource.memory-mb": ["1536"], "yarn.scheduler.minimum-allocation-mb": ["256"], "yarn.app.mapreduce.am.resource.mb": ["512"], "yarn.scheduler.maximum-allocation-mb": ["512"]}

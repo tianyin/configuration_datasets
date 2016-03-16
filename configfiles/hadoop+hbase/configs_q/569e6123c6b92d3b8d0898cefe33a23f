@@ -1,0 +1,1 @@
+{"mapreduce.reduce.memory.mb": ["512"], "mapred.child.java.opts": ["\n-Xmx512m -Djava.net.preferIPv4Stack=true -XX:+UseCompressedOops\n-XX:+HeapDumpOnOutOfMemoryError\n-XX:HeapDumpPath=/home/sfdc/logs/hadoop/userlogs/@taskid@/\n"], "yarn.app.mapreduce.am.resource.mb": ["1024"], "yarn.nodemanager.resource.memory-mb": ["5120"]}

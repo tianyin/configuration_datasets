@@ -1,0 +1,1 @@
+{"hbase.regionserver.globalMemcache.lowerLimit": ["0.25"], "hbase.regionserver.globalMemcache.upperLimit": ["0.4"]}

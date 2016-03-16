@@ -1,0 +1,1 @@
+{"yarn.resourcemanager.resource-tracker.address": ["master:9001"], "yarn.resourcemanager.address": ["master:9003"], "yarn.resourcemanager.scheduler.address": ["master:9002"], "fs.defaultFS": ["hdfs://master:9000"], "mapreduce.framework.name": ["yarn"]}

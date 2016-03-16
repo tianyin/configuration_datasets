@@ -1,0 +1,1 @@
+{"dfs.permissions": ["false"], "dfs.web.ugi": ["webuser,webgroup", "webuser,supergroup", "hadoop,supergroup"]}

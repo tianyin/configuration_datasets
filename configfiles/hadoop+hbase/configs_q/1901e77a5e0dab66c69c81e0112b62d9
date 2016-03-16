@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/beesh_hadoop2/zookeeper"], "hbase.rootdir": ["file:///home/beesh_hadoop2/hbase"]}

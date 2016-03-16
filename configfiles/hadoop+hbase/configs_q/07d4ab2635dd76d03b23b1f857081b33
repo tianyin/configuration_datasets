@@ -1,0 +1,1 @@
+{"dfs.datanode.http.address": ["hostname.dc.xx.org:50075"], "dfs.datanode.address": ["hostname.dc.xx.org:50010"], "dfs.datanode.ipc.address": ["hostname.dc.xx.org:50020"]}

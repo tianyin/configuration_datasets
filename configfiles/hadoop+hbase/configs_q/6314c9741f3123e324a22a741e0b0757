@@ -1,0 +1,1 @@
+{"hbase.master": ["*domU-12-31-39-00-E0-96.compute-1.internal*:60000"], "hbase.rootdir": ["hdfs://domU-12-31-39-00-E0-96.compute-1.internal:54310/hbase"]}

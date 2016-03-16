@@ -1,0 +1,1 @@
+{"hbase.rootdir": ["hdfs://linux76:9000/hbase"]}

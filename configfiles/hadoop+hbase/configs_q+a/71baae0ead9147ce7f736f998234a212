@@ -1,0 +1,1 @@
+{"hbase.bucketcache.size": ["102400"], "hbase.bucketcache.percentage.in.combinedcache": ["0.9"], "hbase.bucketcache.ioengine": ["file:/mnt/foo/bar"], "hfile.block.cache.size": ["0.6"]}

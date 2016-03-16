@@ -1,0 +1,1 @@
+{"hadoophack.tunnel.port": ["3600"], "hadoop.rpc.socket.factory.class.default": ["org.apache.hadoop.net.SocksSocketFactory"]}

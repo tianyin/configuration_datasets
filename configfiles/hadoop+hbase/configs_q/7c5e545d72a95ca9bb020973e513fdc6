@@ -1,0 +1,1 @@
+{"hbase.zookeeper.dns.interface": ["eth1"], "hbase.cluster.distributed": ["true"], "hbase.zookeeper.quorum": ["node3,hadoop5,hadoopoffice85,hadoopoffice88,hdofficelj001"], "hbase.master": ["hadoop5:60000"], "hbase.rootdir": ["hdfs://node3:54310/hbase"], "hbase.regionserver.dns.interface": ["eth1"]}

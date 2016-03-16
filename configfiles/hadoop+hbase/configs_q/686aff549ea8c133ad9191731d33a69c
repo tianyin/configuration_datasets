@@ -1,0 +1,1 @@
+{"hbase.hregion.memstore.block.multiplier": ["4"], "hbase.hregion.majorcompaction": ["0"], "hbase.hstore.blockingStoreFiles": ["50"], "hbase.hregion.memstore.flush.size": ["134217728"], "hbase.hregion.max.filesize": ["107374182400"]}

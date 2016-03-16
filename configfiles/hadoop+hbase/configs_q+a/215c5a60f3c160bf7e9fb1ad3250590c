@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://sk.r252.0:54310"], "hadoop.tmp.dir": ["/app/hadoop/tmp"], "dfs.http.address": ["0.0.0.0:50070", "0.0.0.0=\n:50070"], "d=\nfs.replication": ["2"], "dfs.replication": ["2"], "mapred.job.tracker": ["sk.r252.0:54311"], "dfs.h=\nttp.address": ["0.0.0.0:50070"]}

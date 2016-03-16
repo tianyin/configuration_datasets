@@ -1,0 +1,1 @@
+{"dfs.web.authentication.kerberos.keytab": ["/home/hadoop-user/hadoop/conf/keytabs/http.keytab"], "dfs.web.authentication.kerberos.principal": ["HTTP/master.hadoop.local@HADOOP.LRZ.DE"], "dfs.webhdfs.enabled": ["true"]}

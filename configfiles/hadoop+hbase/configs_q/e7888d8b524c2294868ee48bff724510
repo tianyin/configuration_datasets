@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["hdfs://127.0.0.1:9001"], "fs.default.name": ["hdfs://127.0.0.1:9000"], "mapred.map.tasks": ["120"], "dfs.replication": ["3"], "dfs.name.dir": ["/usr/hadoop/hdfs/name"], "hbase.master": ["local"], "mapred.child.java.opts": ["-Xmx2000m"], "hbase.rootdir": ["hdfs://127.0.0.1:9000/hbase"], "dfs.data.dir": ["/usr/hadoop/hdfs/data"]}

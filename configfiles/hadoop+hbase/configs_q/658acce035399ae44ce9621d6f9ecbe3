@@ -1,0 +1,1 @@
+{"javax.jdo.option.ConnectionDriverName": ["com.mysql.jdbc.Driver"], "javax.jdo.option.ConnectionUserName": ["hive"], "hive.metastore.warehouse.dir": ["/user/hive/warehouse"], "javax.jdo.option.ConnectionPassword": ["hive"], "javax.jdo.option.ConnectionURL": ["jdbc:mysql://localhost/hivemeta?createDatabaseIfNotExist=true"]}

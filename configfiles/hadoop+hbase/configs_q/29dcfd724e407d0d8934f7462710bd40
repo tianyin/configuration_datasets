@@ -1,0 +1,1 @@
+{"hadoop.security.token.service.use_ip": ["true"], "hadoop.tmp.dir": ["${celer.hadoop.data.dir}"], "hadoop.security.authorization": ["false"], "hadoop.security.authentication": ["simple"]}

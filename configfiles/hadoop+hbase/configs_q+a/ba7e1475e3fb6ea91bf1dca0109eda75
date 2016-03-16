@@ -1,0 +1,1 @@
+{"hbase.replication": ["true"], "hbase.bridge.server.port": ["60080"], "hbase.defaults.for.version.skip": ["true"], "hbase.bridge.source.zookeeper.quorum": ["192.168.10.22:2281,192.168.10.34:2281,192.168.10.35:2281"], "hbase.zookeeper.quorum": ["192.168.10.23,192.168.10.24,192.168.10.49"]}

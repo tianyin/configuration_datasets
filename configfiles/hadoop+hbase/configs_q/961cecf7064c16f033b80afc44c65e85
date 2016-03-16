@@ -1,0 +1,1 @@
+{"fs.viewfs.mounttable.default.link./NN1Home": ["hdfs://132.168.0.10:8020/NN1Home"], "hadoop.proxyuser.hadoop.hosts": ["132.168.0.10"], "fs.default.name": ["viewfs:///"], "httpfs.fsAccess.conf:fs.default.name": ["hdfs://132.168.0.10:8020"]}

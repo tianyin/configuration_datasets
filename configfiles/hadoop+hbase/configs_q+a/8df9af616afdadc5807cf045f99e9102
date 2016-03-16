@@ -1,0 +1,1 @@
+{"mapreduce.jobtracker.staging.root.dir": ["${hadoop.tmp.dir}/mapred/staging"], "mapreduce.cluster.temp.dir": ["${hadoop.tmp.dir}/mapred/temp"], "mapreduce.jobtracker.system.dir": ["${hadoop.tmp.dir}/mapred/system"], "mapreduce.cluster.local.dir": ["${hadoop.tmp.dir}/mapred/local"]}

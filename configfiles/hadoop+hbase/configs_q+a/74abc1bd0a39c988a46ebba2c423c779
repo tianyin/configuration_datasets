@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["localhost:9001"], "fs.defaultFS": ["hdfs://localhost:9000"], "dfs.replication": ["1"]}

@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/DATA/zookeeper"], "hbase.zookeeper.property.clientPort": ["3181"], "hbase.zookeeper.quorum": ["127.0.0.1", "rs1.example.com,rs2.example.com,rs3.example.com,rs4.example.co=\nm,rs5.example.com", "rs1.example.com,rs2.example.com,rs3.example.com,\n> rs4.example.com,rs5.example.com"]}

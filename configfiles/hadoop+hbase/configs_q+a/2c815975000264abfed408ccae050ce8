@@ -1,0 +1,1 @@
+{"fs.s3.awsSecretAccessKey": ["1234"], "fs.default.name": ["s3://bucket1"], "fs.defaultFS": ["s3://bucket1"], "fs.s3.awsAccessKeyId": ["abcd"]}

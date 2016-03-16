@@ -1,0 +1,1 @@
+{"mapreduce.task.profile.maps": ["0-5"], "mapreduce.task.profile.params": ["-agentlib:hprof=cpu=samples,heap=sites,depth=6,force=n,thread=y,verbose=n,file=%s"], "mapreduce.task.profile": ["true"]}

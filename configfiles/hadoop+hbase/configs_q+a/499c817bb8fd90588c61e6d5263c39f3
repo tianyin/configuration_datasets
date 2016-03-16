@@ -1,0 +1,1 @@
+{"hbase.master": ["node2:9000"], "fs.default.name": ["hdfs://node1/"], "hbase.rootdir": ["hdfs://node1:8020/hbase"]}

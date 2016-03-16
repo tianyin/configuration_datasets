@@ -1,0 +1,1 @@
+{"hbase.security.authentication": ["kerberos"], "hbase.rpc.engine": ["org.apache.hadoop.hbase.ipc.SecureRpcEngine"], "hbase.zookeeper.quorum": ["master.hadoop.local,host49.hadoop.local"]}

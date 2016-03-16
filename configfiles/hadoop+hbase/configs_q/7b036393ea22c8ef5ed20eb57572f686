@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://namenode/hbase"], "hbase.zookeeper.quorum": ["namenode"]}

@@ -1,0 +1,1 @@
+{"mapreduce.reduce.java.opts": ["-Djava.library.path=/usr/local/hadoop-2.4.0/lib/native"], "mapred.child.java.opts": [" \n-Djava.library.path=/usr/local/hadoop-2.4.0/lib/native"], "yarn.app.mapreduce.am.env": ["LD_LIBRARY_PATH=$HADOOP_HOME/lib/native"]}

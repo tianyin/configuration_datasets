@@ -1,0 +1,1 @@
+{"hbase.master": ["srikanth-laptop:60000"], "hbase.rootdir": ["file:///home/srikanth/hbase-store"]}

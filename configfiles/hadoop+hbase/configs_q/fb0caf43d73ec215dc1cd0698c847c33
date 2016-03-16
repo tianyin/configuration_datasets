@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["localhost:47111"], "dfs.replication": ["2"]}

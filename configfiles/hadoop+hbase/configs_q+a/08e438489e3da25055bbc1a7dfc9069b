@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/hadoop/HbaseData/zookeeper"], "hbase.tmp.dir": ["/home/hadoop/Hbasetemp"], "hbase.rootdir": ["hdfs://10.14.24.19:9000/hbase"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["2"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.zookeeper.quorum": ["10.14.24.19"]}

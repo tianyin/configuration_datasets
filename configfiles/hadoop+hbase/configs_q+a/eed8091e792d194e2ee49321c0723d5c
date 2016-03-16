@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/var/hadoop/${user.name}"], "fs.default.name": ["hdfs://localhost:9000"], "dfs.data.dir": ["/var/hdfs-data"], "dfs.name.dir": ["/var/hdfs-data-name"]}

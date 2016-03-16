@@ -1,0 +1,1 @@
+{"dfs.namenode.check.stale.datanode": ["true"], "dfs.namenode.stale.datanode.interval": ["10"]}

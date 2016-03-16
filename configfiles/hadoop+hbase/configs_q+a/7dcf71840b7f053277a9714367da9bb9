@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.maxClientCnxns": ["1000"]}

@@ -1,0 +1,1 @@
+{"hbase.master": ["MACHINENAME=\n:60000", "MACHINENAME:60000"], "hbase.cluster.dist=\nributed": ["true"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://MACHINENAME:9000/hbase"], "hbase.regionserver.handler.count": ["1000"]}

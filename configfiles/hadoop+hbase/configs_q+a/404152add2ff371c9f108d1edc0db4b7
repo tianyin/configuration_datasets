@@ -1,0 +1,1 @@
+{"hbase.master": ["10.42.253.182:60000"], "hbase.cluster.distributed": ["true"], "hbase.zookeeper.property.maxClientCnxns": ["30"], "hbase.rootdir": ["hdfs://convera:9000/hbase"], "hbase.zookeeper.quorum": ["MyMasterServerName", "convera"]}

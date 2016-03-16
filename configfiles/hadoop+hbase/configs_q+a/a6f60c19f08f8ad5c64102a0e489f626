@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://localhost:9000/"], "hbase.zookeeper.property.dataDir": ["/home/hduser/hbase/zookeeper"], "hbase.rootdir": ["hdfs://localhost:9000/hbase"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["1"], "hbase.master": ["localhost:60010"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.zookeeper.quorum": ["localhost"]}

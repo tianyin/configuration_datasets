@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["samplehost.com:9001"], "fs.default.name": ["hdfs://samplehost.com:9000"], "mapreduce.framework.name": ["classic"], "dfs.replication": ["3"], "mapreduce.jobtracker.address": ["samplehost.com:9001"]}

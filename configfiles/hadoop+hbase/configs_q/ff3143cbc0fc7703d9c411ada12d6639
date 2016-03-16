@@ -1,0 +1,1 @@
+{"hbase.regionserver.codecs": ["lzo"], "hbase.zookeeper.property.dataDir": ["/Volumes/Disk1/ZookeeperStorage"], "hbase.zookeeper.property.clientPort": ["2222"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://dynobuntu17:8020/hbase"], "hbase.zookeeper.quorum": ["dynobuntu17"]}

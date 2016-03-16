@@ -1,0 +1,1 @@
+{"hbase.client.retries.number": ["10"], "hbase.master": ["10.1.1.2:60000"], "hbase.regionserver.lease.period": ["120000"], "hbase.regionserver.optionalcacheflushinterval": ["600000"], "hbase.master.lease.period": ["60000"]}

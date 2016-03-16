@@ -1,0 +1,1 @@
+{"hbase.regionserver.class": ["org.apache.hadoop.hbase.ipc.IndexedRegionInterface"], "hbase.regionserver.impl": ["\n        org.apache.hadoop.hbase.regionserver.tableindexed.IndexedRegionServ=\ner\n        "]}

@@ -1,0 +1,1 @@
+{"dfs.datanode.data.dir": ["/Users/jasonhuang/hdfs/data"], "dfs.namenode.name.dir": ["/Users/jasonhuang/hdfs/name"], "dfs.replication": ["1"]}

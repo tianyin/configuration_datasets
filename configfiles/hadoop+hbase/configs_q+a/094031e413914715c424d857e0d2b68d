@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/app/hadoop/app"], "fs.default.name": ["hdfs://kyahadmaster:54310"], "fs.defaultFS": ["hdfs://localhost:9000"]}

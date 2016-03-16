@@ -1,0 +1,1 @@
+{"hadoop.proxyuser.*.groups": ["*"], "hadoop.proxyuser.*.hosts": ["*"]}

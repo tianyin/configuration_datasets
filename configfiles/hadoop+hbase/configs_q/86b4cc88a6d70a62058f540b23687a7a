@@ -1,0 +1,1 @@
+{"yarn.nodemanager.remote-app-log-dir-suffix": ["dc"], "mapreduce.jobhistory.address": ["slc00dgd:10020"], "yarn.log-aggregation-enable": ["true"], "mapreduce.jobhistory.webapp.address": ["slc00dgd:19888"]}

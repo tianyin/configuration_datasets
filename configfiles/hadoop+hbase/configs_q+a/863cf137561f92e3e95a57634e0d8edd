@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["*hdfs://ec2-namdenode(master).*compute.amazonaws.com:8021"]}

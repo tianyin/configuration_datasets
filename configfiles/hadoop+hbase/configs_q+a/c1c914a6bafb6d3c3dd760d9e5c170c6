@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/biginfolabs/BILSftwrs/hbase-0.94.10/zkptmp"], "hbase.master": ["vamshi"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["/home/biginfolabs/BILSftwrs/hbase-0.94.10/hbstmp/"], "hbase.zookeeper.quorum": ["vamshi,vamshi_RS"]}

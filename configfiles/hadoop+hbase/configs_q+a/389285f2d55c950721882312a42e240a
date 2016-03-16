@@ -1,0 +1,1 @@
+{"hbase.master": ["hbase-master:60000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://hadoop-namenode:9000/hbase"], "hbase.zookeeper.quorum": ["hbase-master"], "hbase.zookeeper.property.clientPort": ["2222"]}

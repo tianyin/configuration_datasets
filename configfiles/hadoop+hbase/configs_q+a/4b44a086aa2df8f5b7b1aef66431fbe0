@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/zookeeper"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://node3:9000/hbase"], "hbase.zookeeper.quorum": ["cube"]}

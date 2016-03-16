@@ -1,0 +1,1 @@
+{"dfs.client.failover.proxy.provider.test-cluster": ["org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"], "hbase.rootdir": ["hdfs://test-cluster"]}

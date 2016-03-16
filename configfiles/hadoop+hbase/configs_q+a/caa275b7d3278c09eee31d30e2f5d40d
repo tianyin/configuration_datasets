@@ -1,0 +1,1 @@
+{"hbase.bucketcache.size": ["800000"], "hbase.bucketcache.combinedcache.enabled": ["false"], "hbase.bucketcache.ioengine": ["file:/export/hbase/cache.data"]}

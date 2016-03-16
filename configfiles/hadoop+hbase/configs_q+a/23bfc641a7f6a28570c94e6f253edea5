@@ -1,0 +1,1 @@
+{"dfs.permissions.superusergroup": ["hdfs,hdpdadmngrp", "hdpdadmngrp"], "dfs.cluster.administrators": [" hdfs,hdpdadmngrp"]}

@@ -1,0 +1,1 @@
+{"hbase.regionserver.lease.period": ["600000"], "hbase.rootdir": ["hdfs://localhost:9000/hbase"]}

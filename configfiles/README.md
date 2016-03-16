@@ -11,3 +11,5 @@ The format of `$version.metadata.csv` is:
 "``FILENAME,VERSION,LINK,DESC,SOURCE``"
 
 The only difference is that `$version.metadata.csv` contains the file name pointing to the files, while `all_versions.metadata.csv` does not include the files.
+
+Recently, we also add the configurations of Hadoop and HBase, which has different file format. Please see the docs in `hadoop+hbase` for details.

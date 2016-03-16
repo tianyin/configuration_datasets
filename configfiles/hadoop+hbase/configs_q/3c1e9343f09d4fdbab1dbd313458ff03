@@ -1,0 +1,1 @@
+{"hbase.master.port": ["60000"], "hbase.zookeeper.property.dataDir": ["C:\\Desarrollo\\hbase-0.98.7-hadoop2\\data\\zookeeper"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.regionserver.port": ["60020"], "hbase.master.info.port": ["60010"], "hbase.rootdir": ["file:///C:/Desarrollo/hbase-0.98.7-hadoop2/data/hbase"], "hbase.regionserver.info.port": ["60030"]}

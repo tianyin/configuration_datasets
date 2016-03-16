@@ -1,0 +1,1 @@
+{"fs.s3n.awsAccessKeyId": ["mykeyid"], "hbase.cluster.distributed": ["true"], "fs.s3n.awsSecretAccessKey": ["mysecret"], "hbase.rootdir": ["s3n://mcorner-hbase/"]}

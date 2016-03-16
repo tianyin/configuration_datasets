@@ -1,0 +1,1 @@
+{"yarn.resourcemanager.scheduler.address": ["${yarn.resourcemanager.hostname}:8030"]}

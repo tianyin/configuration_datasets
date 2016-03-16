@@ -1,0 +1,1 @@
+{"dfs.nameservices": ["ns1,ns2"], "dfs.namenode.shared.edits.dir": ["qjournal://10.232.98.61:20022;10.232.98.62:20022;10.232.98.63:20022/nn1,nn2"]}

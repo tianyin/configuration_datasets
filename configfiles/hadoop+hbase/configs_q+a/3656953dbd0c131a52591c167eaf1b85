@@ -1,0 +1,1 @@
+{"hbase.master": ["atlas:60000"], "hbase.rootdir": ["hdfs://atlas:54310/hbase"]}

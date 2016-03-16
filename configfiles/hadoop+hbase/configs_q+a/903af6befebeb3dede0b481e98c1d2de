@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["home/wanli/hadoop/hbasezook"], "hbase.tmp.dir": ["/home/wanli/hadoop/hbasetmp"], "hbase.zookeeper.property.clientPort": ["5000", "6500"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://localhost:9000/hbase"], "hbase.zookeeper.quorum": ["localhost"]}

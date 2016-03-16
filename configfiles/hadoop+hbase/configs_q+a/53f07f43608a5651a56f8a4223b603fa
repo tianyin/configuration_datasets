@@ -1,0 +1,1 @@
+{"hbase.regionserver.lease.period": ["400000"], "hbase.zookeeper.property.syncLimit": ["20"], "hbase.zookeeper.property.tickTime": ["20000"], "hbase.zookeeper.property.initLimit": ["20"], "zookeeper.session.timeout": ["400000"]}

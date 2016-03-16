@@ -1,0 +1,1 @@
+{"zookeeper.session.timeout": ["1200000"], "hbase.zookeeper.property.tickTime": ["6000"]}

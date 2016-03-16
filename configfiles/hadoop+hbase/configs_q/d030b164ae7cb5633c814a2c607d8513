@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/tmp/zookeeper_data"], "hbase.master": ["hadoop1:60000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://hadoop1:9000/hbase"], "hbase.zookeeper.quorum": ["hadoop1,hadoop2,hadoop3"]}

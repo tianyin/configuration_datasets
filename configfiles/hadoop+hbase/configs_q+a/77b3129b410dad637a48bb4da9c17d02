@@ -1,0 +1,1 @@
+{"fs.ftp.host": ["0.0.0.0"], "hadoop.tmp.dir": ["/vol/persistent-hdfs"], "fs.default.name": ["hdfs://ec2-23-23-33-234.compute-1.amazonaws.com:9010", "hdfs://ec2-23-23-33-234.compute-1.amazonaws.com:9010\n> "], "fs.ftp.host.port": ["21"], "io.file.buffer.size": ["65536"]}

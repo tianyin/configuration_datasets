@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["search9b.cm3:9001"], "hbase.cluster.distributed": ["true"], "dfs.data.dir": ["dfs/data"], "dfs.name.dir": ["dfs/name"], "hbase.rootdir": ["hdfs://search9b.cm3:9000/hbase"], "hbase.zookeeper.quorum": ["search58c.cm3,build13.cm3,build14.cm3"]}

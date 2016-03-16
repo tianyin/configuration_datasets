@@ -1,0 +1,1 @@
+{"yarn.nodemanager.local-dirs": ["\n                 /scratch/usr/software/hadoop2/hadoop-dc/temp/nm-local-dir,\n                /tmp/nm-local-dir\n     ", "\n>                  /scratch/usr/software/hadoop2/hadoop-dc/temp/nm-local-dir,\n>                 /tmp/nm-local-dir\n>      "], "yarn.nodemanager.disk-health-checker.min-healthy-disks": ["1.0"]}

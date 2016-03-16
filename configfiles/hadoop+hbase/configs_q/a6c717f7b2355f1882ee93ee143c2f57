@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/proj/ucare/bo/hadoop_data/zookeeper"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["1"], "hbase.master": ["hadoopmaster:60000"], "hbase.rootdir": ["hdfs://hadoopmaster:9000/hbase"]}

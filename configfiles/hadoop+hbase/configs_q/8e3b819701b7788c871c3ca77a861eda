@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["master:54311"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["1"], "dfs.datanode.max.xcievers": ["2047"], "fs.default.name": ["hdfs://master:54310"], "hbase.rootdir": ["hdfs://master:54310/hbase"]}

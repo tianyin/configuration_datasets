@@ -1,0 +1,1 @@
+{"fs.hdfs.impl": ["emr.hbase.fs.BlockableFileSystem=\n"], "hbase.snapshot.enabled": ["true"], "hbase.hregion.max.filesize": ["5073741824"]}

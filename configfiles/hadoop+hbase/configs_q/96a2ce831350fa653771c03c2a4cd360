@@ -1,0 +1,1 @@
+{"mapred.queue.default.acl-submit-job": ["*"], "mapred.queue.default.acl-administer-jobs": ["*"]}

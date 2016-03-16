@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["${hbase.tmp.dir}/zookeeper"], "hbase.tmp.dir": ["/home/user/space/hbase-${user.name}"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://master.hadoopcluster:9000/hbase"], "hbase.zookeeper.quorum": ["master.hadoopcluster,slave1.hadoopcluster,slave2.hadoopcluster"]}

@@ -1,0 +1,1 @@
+{"hbase.regionserver": ["0.0.0.0:10016"], "hbase.master.info.port": ["15040"], "hbase.mas=\nter.info.port": ["15040"], "hbase.rootdir": ["hdfs://localhost:10=\n011/hbase", "hdfs://localhost:10011/hbase", "hdfs://loca=\nlhost:10011/hbase"], "hbase.regionserver.info.port": ["15050"]}

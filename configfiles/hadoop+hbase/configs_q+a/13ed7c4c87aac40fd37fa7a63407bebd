@@ -1,0 +1,1 @@
+{"dfs.replication": ["1"], "mapreduce.jobtracker.address": ["localhost:9000"], "mapreduce.jobtracker.addre=\nss": ["localhost:9000"], "dfs.webhdfs.enabled": ["true"], "dfs.name.dir": ["/home/anand_vihar/hadoop-2.6.0/hdfs/name"], "fs.defaultFS": ["hdfs://localhost:9000"], "dfs.data.dir": ["/home/anand_vihar/hadoop-2.6.0/hdfs/data"]}

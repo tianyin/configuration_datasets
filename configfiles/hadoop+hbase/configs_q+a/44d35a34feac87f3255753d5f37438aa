@@ -1,0 +1,1 @@
+{"dfs.permissions": ["true"], "yarn.nodemanager.linux-container-executor.group": ["hadoop"]}

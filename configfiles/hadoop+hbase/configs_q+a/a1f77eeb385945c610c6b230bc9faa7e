@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://localhost:9000"], "hbase.rootdir": ["HADOOP/HBASE-0.92.1/hbase-0.92.1-security", "file:///home/yogesh/hbase.dir"]}

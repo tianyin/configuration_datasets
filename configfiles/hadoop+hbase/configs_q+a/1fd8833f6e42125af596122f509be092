@@ -1,0 +1,1 @@
+{"mapreduce.tasktracker.reduce.tasks.maximum": ["2"], "mapreduce.tasktracker.map.tasks.maximum": ["2"]}

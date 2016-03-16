@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.tmp.dir": ["s3://bucketname/hbase-tmp/"], "hbase.rootdir": ["s3://bucketname/hbasebackup/"], "hbase.zookeeper.quorum": ["ip-xx-xx-xx-xx.compute.internal"]}

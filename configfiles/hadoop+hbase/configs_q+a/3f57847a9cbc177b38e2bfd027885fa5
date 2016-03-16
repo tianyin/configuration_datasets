@@ -1,0 +1,1 @@
+{"mapreduce.tasktracker.map.tasks.maximum": ["6"], "mapreduce.tasktracker.reduce.tasks.maximum": ["6"], "mapred.job.tracker": ["localhost:9001"], "dfs.datanode.max.xcievers": ["4096"]}

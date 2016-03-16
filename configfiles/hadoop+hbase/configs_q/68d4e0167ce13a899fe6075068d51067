@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.clientPort": ["2181"], "hbase.zookeeper.quorum": ["h02,h03,h04,h05,h06,h07,h08,h09,h10", "node-01,node-02,node-03,node-04,node-05"]}

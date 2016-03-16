@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["http://server:"], "hadoop.security.auth_to_local": ["DEFAULT"], "fs.defaultFS": ["hdfs://server:8020"], "hadoop.security.authentication": ["simple"]}

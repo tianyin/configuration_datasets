@@ -1,0 +1,1 @@
+{"hbase.master": ["http://tobethink.pappiptek.lipi.go.id::60000"], "hbase.rootdir": ["hdfs://tobethink.pappiptek.lipi.go.id:38400/user/hadoop/hbase"]}

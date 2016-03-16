@@ -1,0 +1,1 @@
+{"mapred.hosts.exclude": ["/myhadoop/etc/hadoop/datanode-excludes"], "dfs.hosts.exclude": ["/myhadoop/etc/hadoop/datanode-excludes"], "mapred.hosts": ["/myhadoop/etc/hadoop/datanode-excludes"], "yarn.resourcemanager.nodes.exclude-path": ["/myhadoop/etc/hadoop/nodemanager-excludes"], "dfs.hosts": ["/myhadoop/etc/hadoop/datanode-excludes"]}

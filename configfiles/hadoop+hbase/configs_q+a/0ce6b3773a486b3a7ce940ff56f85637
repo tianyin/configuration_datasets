@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.tmp.dir": ["/var/lib/hbase/cache/${user.name}/tmp"], "hbase.rootdir": ["/var/lib/hbase/cache/${user.name}/root"], "hbase.zookeeper.quorum": ["VM_11"]}

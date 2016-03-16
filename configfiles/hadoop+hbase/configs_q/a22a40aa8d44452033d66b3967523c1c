@@ -1,0 +1,1 @@
+{"dfs.hosts.exclude": ["/usr/local/hadoop/conf/dfs_exclude"]}

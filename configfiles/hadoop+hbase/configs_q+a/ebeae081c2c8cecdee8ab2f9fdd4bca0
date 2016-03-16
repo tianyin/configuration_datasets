@@ -1,0 +1,1 @@
+{"yarn.log-aggregation-enable": ["true"], "yarn.log.server.url": ["http://xxxx:19888/jobhistory/logs/"]}

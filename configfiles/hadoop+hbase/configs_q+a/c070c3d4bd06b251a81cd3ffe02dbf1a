@@ -1,0 +1,1 @@
+{"hbase.regionserver.class": ["org.apache.hadoop.hbase.ipc.IndexedRegionInterface"], "hbase.master": ["foo.bar.com:60000", "rajeevks-dx.bagmane.corp.yahoo.com:60000"], "hbase.rootdir": ["hdfs://rajeevks-dx.bagmane.corp.yahoo.com:9000/hbase"], "hbase.regionserver.impl": ["org.apache.hadoop.hbase.regionserver.tableindexed.IndexedRegionServer"]}

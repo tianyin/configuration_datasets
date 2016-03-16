@@ -1,0 +1,1 @@
+{"mapred.reduce.child.java.opts": ["-Xmx180M"], "mapred.tasktracker.reduce.tasks.maximum": ["2"], "mapred.tasktracker.map.tasks.maximum": ["2"], "mapred.map.child.java.opts": ["-Xmx180M"]}

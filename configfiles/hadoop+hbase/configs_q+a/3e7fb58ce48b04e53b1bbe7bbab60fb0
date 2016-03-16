@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://localhost:8020/hbase"], "dfs.replication": ["1"]}

@@ -1,0 +1,1 @@
+{"yarn.nodemanager.aux-services": ["mapreduce_shuffle"], "mapreduce.framework.name": ["yarn"], "yarn.nodemanager.aux-services.mapreduce_shuffle.class": ["org.apache.hadoop.mapred.ShuffleHandler"]}

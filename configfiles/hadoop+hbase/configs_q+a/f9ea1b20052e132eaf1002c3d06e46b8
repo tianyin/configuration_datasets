@@ -1,0 +1,1 @@
+{"dfs.block.replicator.classname": ["org.apache.hadoop.hdfs.server.namenode.AzureBlockPlacementPolicy=\n"]}

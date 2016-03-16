@@ -1,0 +1,1 @@
+{"hbase.bucketcache.size": ["72800"], "hbase.bucketcache.bucket.sizes": ["9216,17408,33792,66560"], "hbase.bucketcache.ioengine": ["offheap"], "hfile.block.cache.size": ["0.58"]}

@@ -1,0 +1,1 @@
+{"hbase.master.keytab.file": ["/path/to/keytab/hbase.keytab"], "hbase.regionserver.keytab.file": ["/path/to/keytab/hbase.keytab"], "hbase.regionserver.kerberos.principal": ["hbase/_HOST@EXAMPLE.COM"], "hbase.master.kerberos.principal": ["hbase/_HOST@EXAMPLE.COM"]}

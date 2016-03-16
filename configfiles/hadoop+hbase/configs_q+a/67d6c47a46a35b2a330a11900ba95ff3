@@ -1,0 +1,1 @@
+{"hbase.regionserver.lease.period": ["900000", "90000=\n0"], "hbase.rpc.timeout": ["900000"]}

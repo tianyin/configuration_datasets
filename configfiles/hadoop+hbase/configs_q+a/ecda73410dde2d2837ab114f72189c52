@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/deanhdfs/data/hadooptmp"], "fs.default.name": ["hdfs://DNVR-DEV3.test.jsq.bsg.ad.adp.com:54310"]}

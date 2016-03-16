@@ -1,0 +1,1 @@
+{"mapred.system.dir": ["/hadoop/mapred/system"], "mapred.job.tracker": ["machine1.mydomain.com:54311"], "mapred.reduce.tasks": ["50"], "mapred.tasktacker.map.tasks.maximum": ["15"], "mapred.tasktacker.reduce.tasks.maximum": ["15"], "mapred.child.java.opts": ["-Xmx500m"]}

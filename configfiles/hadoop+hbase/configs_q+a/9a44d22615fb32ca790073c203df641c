@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/usr/local/hbase/hbase-0.94.2/data/zookeeper", "path_to_your_datadir"], "hbase.rootdir": ["file:/usr/local/hbase/hbase-0.94.2/data/hbase"], "hbase.zookeeper.quorum": ["ZH-HOST_MACHINE"], "hbase.zookeeper.property.clientPort": ["2181"]}

@@ -1,0 +1,1 @@
+{"mapred.task.timeout": ["600000"], "mapreduce.reduce.shuffle.maxfetchfailures": ["10"], "mapreduce.reduce.shuffle.read.timeout": ["180000"], "mapreduce.reduce.shuffle.connect.timeout": ["180000"], "mapred.jobtracker.blacklist.fault-timeout-window": ["180"], "mapred.healthChecker.script.timeout": ["600000"]}

@@ -1,0 +1,1 @@
+{"hbase.snapshot.region.timeout": ["1800000"], "hbase.snapshot.enabled": ["true"], "hbase.snapshot.master.timeoutMillis": ["1800000"]}

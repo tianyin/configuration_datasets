@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://namenode:54310"], "hadoop.tmp.dir": ["/app/hadoop/tmp"], "dfs.hosts": ["/usr/local/hadoop/includehosts"], "dfs.namenode.secondary.http-address": ["secondarynamenode:50090"], "dfs.replication": ["2"], "dfs.http.address": ["namenode:50070"], "fs.checkpoint.period": ["300"]}

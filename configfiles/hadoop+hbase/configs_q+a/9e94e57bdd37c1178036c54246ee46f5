@@ -1,0 +1,1 @@
+{"keep.task.files.pattern": ["shouldnevereverevermatch"], "mapreduce.jobtracker.retiredjobs.cache.size": ["100"], "mapred.child.java.opts": ["-Xmx2048m"], "keep.failed.task.files": ["true"]}

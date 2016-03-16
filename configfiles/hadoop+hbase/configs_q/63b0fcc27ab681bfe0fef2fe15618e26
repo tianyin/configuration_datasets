@@ -1,0 +1,1 @@
+{"hbase.master": ["192.168.1.5:60000"], "hbase.rootdir": ["hdfs://192.168.1.5:50000/hbase"]}

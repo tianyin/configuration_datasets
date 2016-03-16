@@ -1,0 +1,1 @@
+{"dfs.datanode.address": ["0.0.0.0:50011"], "dfs.name.dir": ["/data/hadoopnamespace"], "dfs.http.address": ["192.168.10.22:50070"], "dfs.permissions": ["false"], "dfs.webhdfs.enabled": ["true"], "dfs.datanode.max.xcievers": ["4096"], "dfs.data.dir": ["/data/hadoopdata"]}

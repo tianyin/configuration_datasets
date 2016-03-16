@@ -1,0 +1,1 @@
+{"hbase.tmp.dir": ["/home/cluster/Hadoop/hbase-0.90.4/temp"], "hbase.rootdir": ["hdfs://master:9000/hbase"], "dfs.replication": ["2"], "hbase.master": ["master:60000"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.zookeeper.quorum": ["master"]}

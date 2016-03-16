@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://localhost:54310"], "hbase.rootdir": ["hdfs://localhost:54310/home/hadoop/Desktop/hbasedata"]}

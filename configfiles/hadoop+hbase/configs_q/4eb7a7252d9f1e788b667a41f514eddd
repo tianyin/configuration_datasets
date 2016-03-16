@@ -1,0 +1,1 @@
+{"mapreduce.map.memory.mb": ["1800", "5260"], "mapred.map.child.java.opts": ["-Xmx1800m", "-Xmx5260m"], "yarn.nodemanager.resource.memory-mb": ["22000", "60000"]}

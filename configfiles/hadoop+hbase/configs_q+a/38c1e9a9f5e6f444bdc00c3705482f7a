@@ -1,0 +1,1 @@
+{"tasktracker.http.port": ["8025"], "fs.default.name": ["pnjhadoopnn01:8020"], "dfs.info.port": ["8023"], "dfs.secondary.info.port": ["8022"], "dfs.http.address": ["pnjhadoopnn01:50070"], "mapred.job.tracker.info.port": ["8024"]}

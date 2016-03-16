@@ -1,0 +1,1 @@
+{"hbase.master": ["localhost:60000"], "hbase.rootdir": ["hdfs://localhost:9000/hbase"], "hbase.zookeeper.quorum": ["127.0.0.1"]}

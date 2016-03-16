@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/home/huongntn/hadoop-${user.name}"], "hbase.rootdir": ["hdfs://localhost:54310/hbase", "*file:///temp/hbase-${user.name}/hbase*", "file:///temp/hbase-${user.name}/hbase"]}

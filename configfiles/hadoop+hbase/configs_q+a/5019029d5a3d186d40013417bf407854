@@ -1,0 +1,1 @@
+{"yarn.nodemanager.container-executor.class": ["org.apache.hadoop.yarn.server.nodemanager.DockerContainerExecutor"]}

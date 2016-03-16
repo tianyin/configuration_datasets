@@ -1,0 +1,1 @@
+{"mapred.fairscheduler.poolnameproperty": ["mapred.job.queue.name"]}

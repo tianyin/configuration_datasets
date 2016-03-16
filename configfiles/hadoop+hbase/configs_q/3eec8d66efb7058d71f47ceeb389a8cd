@@ -1,0 +1,1 @@
+{"javax.jdo.option.ConnectionDriverName": ["com.mysql.jdbc.Driver"], "javax.jdo.option.ConnectionUserName": ["hiveuser1"], "hive.metastore.uris": ["thrift://localhost.localdomain:10000"], "javax.jdo.option.ConnectionPassword": ["hiveuser1"], "javax.jdo.option.ConnectionURL": ["jdbc:mysql://localhost:3306/metastore?createDatabaseIfNotExist=true"]}

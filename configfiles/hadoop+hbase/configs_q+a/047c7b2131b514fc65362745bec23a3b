@@ -1,0 +1,1 @@
+{"mapreduce.jobhistory.address": ["localhost:10020"], "mapreduce.jobhistory.webapp.address": ["localhost:19888"]}

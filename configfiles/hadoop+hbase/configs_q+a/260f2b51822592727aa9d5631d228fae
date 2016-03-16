@@ -1,0 +1,1 @@
+{"dfs.datanode.socket.write.timeout": ["0"], "dfs.datanode.max.xcievers": ["4096"]}

@@ -1,0 +1,1 @@
+{"hbase.regionserver.region.split.policy": ["org.apache.hadoop.hbase.regionserver.ConstantSizeRegionSplitPolicy"]}

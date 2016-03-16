@@ -1,0 +1,1 @@
+{"hbase.coprocessor.region.classes": ["org.apache.hadoop.hbase.coprocessor.SampleRegionWALObserver"]}

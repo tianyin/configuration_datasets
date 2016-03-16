@@ -1,0 +1,1 @@
+{"hbase.regionserver.regionSplitLimit": ["2147483647"]}

@@ -1,0 +1,1 @@
+{"hbase.zookeeper.leaderport": ["3888"], "hbase.zookeeper.property.dataDir": ["${hbase.tmp.dir}/zookeeper"], "hbase.tmp.dir": ["/home/steven/data/hbase-${user.name}"], "hbase.cluster.distributed": ["true"], "hbase.zookeeper.peerport": ["2888"], "hbase.master": ["sz:60000"], "hbase.rootdir": ["hdfs://sz:8998/hbase"], "hbase.zookeeper.quorum": ["sz,hadoop3"]}

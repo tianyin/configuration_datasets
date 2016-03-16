@@ -1,0 +1,1 @@
+{"hbase.master": ["domU-15-35-19-0B-DD-29.compute-1.internal:60000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://domU-15-35-19-0B-DD-29.compute-1.internal:9000/hbase"], "hbase.zookeeper.quorum": ["domU-15-35-19-0B-DD-29.compute-1.internal"]}

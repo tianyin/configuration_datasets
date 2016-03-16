@@ -1,0 +1,1 @@
+{"hbase.master": ["server1:60000"], "hbase.rootdir": ["hdfs://server1:50070/hbase"], "hbase.regionserver.dns.interface": ["eth0"]}

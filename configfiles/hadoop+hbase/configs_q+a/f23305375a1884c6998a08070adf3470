@@ -1,0 +1,1 @@
+{"hbase.rootdir": ["hdfs://=\n192.168.1.68:9000/hbase", "hdfs://192.168.1.68:9000/hbase", "hdfs://user-laptop:9000/hbase", "hdfs://192.168.1.68:9000/h=\nbase"], "hbase.zookeeper.quorum": ["192.168.1.68", "192.=\n168.1.68", "user-laptop", "192.168=\n.1.68"], "hbase.zookeeper.quor=\num": ["user-laptop"]}

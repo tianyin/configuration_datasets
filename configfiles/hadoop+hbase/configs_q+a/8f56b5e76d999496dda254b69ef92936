@@ -1,0 +1,1 @@
+{"hbase.hregion.majorcompaction": ["86400000000"], "dfs.replication": ["2"], "hbase.regionserver.handler.count": ["50"]}

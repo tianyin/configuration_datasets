@@ -1,0 +1,1 @@
+{"fs.viewfs.mounttable.cluster.link./datausers": ["hdfs://namenode01.8020/datausers"], "fs.viewfs.mounttable.cluster.link./apachelogs": ["hdfs://namenode02:8020/apachelogs"]}

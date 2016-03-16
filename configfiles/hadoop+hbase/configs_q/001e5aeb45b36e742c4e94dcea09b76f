@@ -1,0 +1,1 @@
+{"hbase.regionserver": ["ec2externaldns:60020"], "hbase.regionserver.dns.interface": ["0.0.0.0"]}

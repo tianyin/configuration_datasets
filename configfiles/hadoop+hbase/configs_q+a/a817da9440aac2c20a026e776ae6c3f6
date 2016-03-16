@@ -1,0 +1,1 @@
+{"yarn.nodemanager.local-dirs": ["${hadoop.tmp.dir}/nm-local-dir"], "yarn.nodemanager.local-*dirs*": ["${hadoop.tmp.dir}/*nm*-local-*dir*"]}

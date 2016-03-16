@@ -1,0 +1,1 @@
+{"mapreduce.jobhistory.address": ["YOUR_HOST:10020"], "mapreduce.jobhistory.done-dir": ["/mr-history/done"], "mapreduce.jobhistory.intermediate-done-dir": ["/mr-history/tmp"], "mapreduce.jobhistory.webapp.address": ["YOUR_HOST:19888"]}

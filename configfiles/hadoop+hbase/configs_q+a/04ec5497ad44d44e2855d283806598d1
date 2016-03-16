@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/local/panton/hadoop-0.20.2-cdh3u0/dfs/zoo"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://clone11:9000/hbase"], "hbase.zookeeper.quorum": ["clone11"], "hbase.zookeeper.property.clientPort": ["2181"]}

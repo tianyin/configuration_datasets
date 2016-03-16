@@ -1,0 +1,1 @@
+{"fs.quobyte.impl": ["com.quobyte.hadoop.QuobyteFileSystem"], "fs.default.name": ["quobyte://\nprod.corp.quobyte.com:7861/users/kaisers/hadoop-test/"], "fs.defaultFS": ["quobyte://\nprod.corp.quobyte.com:7861/users/kaisers/hadoop-test/"]}

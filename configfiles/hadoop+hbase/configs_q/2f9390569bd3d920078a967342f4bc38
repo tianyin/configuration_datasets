@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/lili/zkdata"], "hbase.cluster.distributed": ["true"], "hbase.tmp.dir": ["/home/lili/hbase-tmp"], "hbase.rootdir": ["hdfs://DC-TEST-1:9000/hbase"], "hbase.zookeeper.quorum": ["DC-TEST-1"]}

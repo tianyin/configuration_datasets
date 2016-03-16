@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/usr/local/hadoop/datastore/hadoop-${user.name}"], "dfs.data.dir": ["C:/cygwin/dfs/data"], "dfs.name.dir": ["C:/cygwin/dfs/logs"]}

@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["master:9001"], "hadoop.tmp.dir": ["/home/vishnu/hadoop-tmp"], "fs.defualt.name": ["hdfs://master:9000"], "dfs.replication": ["2"]}

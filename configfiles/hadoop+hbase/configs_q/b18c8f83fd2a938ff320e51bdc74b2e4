@@ -1,0 +1,1 @@
+{"yarn.resourcemanager.address": ["hdfs://mycluster:8032"], "fs.defaultFS": ["hdfs://mycluser:8020"], "mapreduce.jobtracker.address": ["hdfs://mycluster:8032"]}

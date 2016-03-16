@@ -1,0 +1,1 @@
+{"mapred.map.tasks": ["10"], "mapred.tasktracker.reduce.tasks.maximum": ["7"], "mapred.tasktracker.map.tasks.maximum": ["10"], "mapred.reduce.tasks": ["7"]}

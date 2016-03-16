@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/mnt/zookeeper"], "hbase.zookeeper.property.maxClientCnxns": ["1000"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.zookeeper.quorum": ["10.114.45.186"]}

@@ -1,0 +1,1 @@
+{"dfs.datanode.data.dir": ["file:///usr/local/hadoop/hadoop_store/hdfs/datanode"], "dfs.namenode.name.dir": ["file:///usr/local/hadoop/hadoop_data/hdfs/namenode"], "dfs.replication": ["1"]}

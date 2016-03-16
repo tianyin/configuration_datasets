@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/hdfs/zookeeper"], "dfs.support.append": ["true"], "hbase.cluster.distributed": ["true"], "hbase.client.scanner.caching": ["100"], "hbase.rootdir": ["hdfs://server_1:54310/hbase"], "hbase.zookeeper.quorum": ["server_2"], "hbase.regionserver.handler.count": ["100"]}

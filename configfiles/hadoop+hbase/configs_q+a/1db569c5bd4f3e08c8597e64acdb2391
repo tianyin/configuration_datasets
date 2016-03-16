@@ -1,0 +1,1 @@
+{"hbase.regionserver.global.memstore.upperLimit": ["0.3"], "hbase.zookeeper.property.maxClientCnxns": ["30"], "hbase.regionserver.global.memstore.lowerLimit": ["0.25"], "zookeeper.session.timeout": ["180000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://hbaseserver:50001/hbase"], "hbase.regionserver.handler.count": ["25"]}

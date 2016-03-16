@@ -1,0 +1,1 @@
+{"hbase.rootdi=\nr": ["hdfs://big7:54310/hbase"], "hadoop.profil=\ne": ["2.4"], "hbas=\ne.cluster.distributed": ["true"], "hbase.zookeeper.property.dataDir": ["/home/hduser/hadoop/zookeeper"], "h=\nbase.cluster.distributed": ["true"]}

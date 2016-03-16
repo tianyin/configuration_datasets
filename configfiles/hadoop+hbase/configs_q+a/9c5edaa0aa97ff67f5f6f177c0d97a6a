@@ -1,0 +1,1 @@
+{"hbase.master": ["master:60000"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://master:54310/hbase"], "hbase.zookeeper.quorum": ["master,slave1,slave2"], "dfs.replication": ["2"]}

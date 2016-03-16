@@ -1,0 +1,1 @@
+{"hbase.hregion.memstore.block.multiplier": ["8"], "hbase.hstore.blockingStoreFiles": ["15", "18"], "hbase.regionserver.msginterval": ["10000"], "hbase.hstore.compactionThreshold": ["6"]}

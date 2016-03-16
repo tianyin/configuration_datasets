@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.maxClientCnxns": ["1000"], "dfs.datanode.max.xcievers": ["4096"], "hfile.block.cache.size": ["0.4"], "hbase.hregion.max.filesize": ["1073741824"], "hbase.client.scanner.caching": ["100000"], "hbase.zookeeper.quorum": ["server1,serve3,server5"], "hbase.regionserver.handler.count": ["200"]}

@@ -1,0 +1,1 @@
+{"mapreduce.reduce.memory.mb": ["5000"], "mapreduce.map.memory.mb": ["5000"], "mapreduce.reduce.java.opts": ["-Xmx4g -Djava.awt.headless=true"], "mapreduce.map.java.opts": ["-Xmx4g -Djava.awt.headless=true"]}

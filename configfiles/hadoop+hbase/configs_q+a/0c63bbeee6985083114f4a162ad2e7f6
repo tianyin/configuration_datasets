@@ -1,0 +1,1 @@
+{"dfs.namenode.shared.edits.dir": ["qjournal://n1.com:8485;n2.com:8485/cluster1", "qjournal://n1.com:8485;n2.com:8485/cluster2"]}

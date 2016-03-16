@@ -1,0 +1,1 @@
+{"yarn.nodemanager.remote-app-log-dir": ["/app-logs"], "yarn.nodemanager.log.retain-seconds": ["900000"], "yarn.log-aggregation-enable": ["true"]}

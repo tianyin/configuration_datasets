@@ -1,0 +1,1 @@
+{"hbase.coprocessor.region.classes": ["com.dianping.hbase.ClientGetRegionObserver"], "=\nhbase.coprocessor.region.classes": ["com.dianping.h=\nbase.ClientGetRegionObserver"]}

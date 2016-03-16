@@ -1,0 +1,1 @@
+{"dfs.name.dir": ["/hadoop/dfs/name,/hadoop/dfs/name2"], "dfs.permissions": ["false"], "fs.checkpoint.dir": ["/hadoop/dfs/namesecondary/"], "dfs.replication": ["3"], "dfs.datanode.max.xcievers": ["4096"], "dfs.data.dir": ["/hadoop/dfs/data/"]}

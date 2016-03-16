@@ -1,0 +1,1 @@
+{"hbase.regionserver.class": ["org.apache.hadoop.hbase.ipc.TransactionalRegionInterface"]}

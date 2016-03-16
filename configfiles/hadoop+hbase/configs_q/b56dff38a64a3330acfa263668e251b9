@@ -1,0 +1,1 @@
+{"hbase.regionserver.global.memstore.upperLimit": ["0.4"], "hbase.regionserver.global.memstore.lowerLimit": ["0.3"], "hbase.regionserver.optionalcacheflushinterval": ["86400000"]}

@@ -1,0 +1,1 @@
+{"dfs.nameservices": ["clustera, clusterb"], "dfs.namenode.shared.edits.dir": ["qjournal://node1.example.com:8485;node2.example.com:8485;node3.example.com:8485/clustera", "qjournal://node1.example.com:8485;node2.example.com:8485;node3.example.com:8485/clusterb"]}

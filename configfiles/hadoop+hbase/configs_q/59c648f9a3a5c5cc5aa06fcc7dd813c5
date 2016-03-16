@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/home/liuxin/zookeeper/data"], "dfs.support.append": ["true"], "hbase.cluster.distributed": ["true"], "dfs.datanode.max.xcievers": ["4096"], "hbase.master": ["blade1:60000"], "hbase.rootdir": ["hdfs://blade1:9000/hbase"], "hbase.zookeeper.quorum": ["blade1,blade2,blade3"]}

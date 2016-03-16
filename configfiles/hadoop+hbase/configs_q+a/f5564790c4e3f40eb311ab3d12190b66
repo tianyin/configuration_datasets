@@ -1,0 +1,1 @@
+{"jobtracker.thrift.address": ["0.0.0.0:9290"], "mapred.jobtracker.plugins": ["org.apache.hadoop.thriftfs.ThriftJobTrackerPlugin"], "mapred.job.tracker": ["rack3:8021"]}

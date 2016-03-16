@@ -1,0 +1,1 @@
+{"dfs.datanode.socket.write.timeout": ["0"], "hbase.regionserver.lease.period": ["120000"], "hbase.hregion.max.filesize": ["536870912"], "hbase.hstore.compactionThreshold": ["3"], "dfs.datanode.max.xcievers": ["1023"]}

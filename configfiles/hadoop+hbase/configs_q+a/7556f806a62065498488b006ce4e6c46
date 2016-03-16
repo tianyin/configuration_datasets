@@ -1,0 +1,1 @@
+{"zookeeper.session.timeout": ["180000"], "hbase.zookeeper.property.dataDir": ["/home/imadas/zookeeperfolder"], "hbase.rpc.timeout": ["900000"], "hbase.master": ["127.0.0.1:60000"], "hbase.rootdir": ["/home/imadas/24H-DB"], "hbase.zookeeper.quorum": ["127.0.0.1"]}

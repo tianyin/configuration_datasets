@@ -1,0 +1,1 @@
+{"hbase.zookeeper.quorum": ["gs2,gs3,gs4"]}

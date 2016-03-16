@@ -1,0 +1,1 @@
+{"hbase.hstore.blockingStoreFiles": ["100"], "hbase.hregion.majorcompaction": ["0"], "hbase.hstore.compaction.min": ["10000"], "hbase.hstore.compactionThreshold": ["100"], "hbase.hstore.compaction.max": ["100", "10001"], "hbase.hregion.max.filesize": ["10737418240000"], "dfs.replication": ["1"], "hbase.hstore.blockingWaitTime": ["90000"]}

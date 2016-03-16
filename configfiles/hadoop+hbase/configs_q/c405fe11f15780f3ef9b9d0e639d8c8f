@@ -1,0 +1,1 @@
+{"hbase.trace.spanreceiver.classes": ["org.cloudera.htrace.impl.LocalFileSpanReceiver"]}

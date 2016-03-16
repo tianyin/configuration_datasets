@@ -1,0 +1,1 @@
+{"hadoop.proxyuser.root.groups": ["*"], "hadoop.proxyuser.root.hosts": ["*"], "hadoop.tmp.dir": ["/tmp/hadoop-temp"], "fs.default.name": ["hdfs://10.103.0.17:9000"]}

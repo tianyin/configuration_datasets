@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://A:9000"], "mapreduce.tasktracker.map.tasks.maximum": ["1"], "dfs.replication": ["1"], "dfs.name.dir": ["/tmp/hadoop-bala/dfs/name"], "mapred.job.tracker": ["A:9001"], "dfs.data.dir": ["/tmp/hadoop-bala/dfs/data"]}

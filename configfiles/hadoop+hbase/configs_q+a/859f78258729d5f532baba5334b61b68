@@ -1,0 +1,1 @@
+{"zookeeper.session.timeout": ["60000"], "hbase.regionserver.handler.count": ["100"]}

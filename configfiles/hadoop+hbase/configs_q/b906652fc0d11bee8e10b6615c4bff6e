@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.dataDir": ["/ht_data/hbase/zookeeper"], "hbase.rootdir": ["file:///ht_data/hbase/hbase"], "hbase.zookeeper.quorum": [null], "hbase.zookeeper.property.clientPort": ["2181"]}

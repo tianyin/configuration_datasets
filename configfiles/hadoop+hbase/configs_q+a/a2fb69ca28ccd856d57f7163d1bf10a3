@@ -1,0 +1,1 @@
+{"hbase.hregion.memstore.mslab.enabled": ["true"], "hbase.hregio=\nn.memstore.mslab.enabled": ["tr=\nue"], "hbase.regionserver.handler.count": ["20"]}

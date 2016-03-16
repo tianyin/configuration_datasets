@@ -1,0 +1,1 @@
+{"hbase.regionserver.hlog.writer.impl": ["org.apache.hadoop.hbase.regionserver.wal.SecureProtobufLogWriter"], "hbase.regionserver.hlog.reader.impl": ["org.apache.hadoop.hbase.regionserver.wal.SecureProtobufLogReader"], "hbase.regionserver.wal.encryption": ["false"]}

@@ -1,0 +1,1 @@
+{"mapreduce.shuffle.port": ["localhost:13562"], "mapred.job.tracker": ["localhost:54311"]}

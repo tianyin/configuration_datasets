@@ -1,0 +1,1 @@
+{"hbase.regionserver.optionallogflushinterval": ["3000"], "hbase.regionserver.logroll.period": ["3600000"], "hbase.regionserver.\n> logroll.period": ["3600000"], "hbase.master.logcleaner.ttl": ["604800000"], "hbase.regionserver.\nlogroll.period": ["3600000"]}

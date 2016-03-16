@@ -1,0 +1,1 @@
+{"yarn.nodemanager.health-checker.script.path": ["/scratch/software/hadoop2/hadoop-dc/node_health.sh"], "yarn.nodemanager.health-checker.interval-ms": ["10000"]}

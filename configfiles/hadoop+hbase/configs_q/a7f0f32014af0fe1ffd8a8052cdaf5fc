@@ -1,0 +1,1 @@
+{"hadoop.pipes.java.recordwriter": ["true"], "hadoop.pipes.java.recordreader": ["false"], "hadoop.pipes.executable": ["bin/cpc"]}

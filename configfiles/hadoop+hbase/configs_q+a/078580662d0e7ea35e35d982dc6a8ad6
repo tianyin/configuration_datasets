@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.clientPort": ["2181"], "hbase.zookeeper.property.dataDir": ["/home/ubuntu/Desktop/hbase/zookeeper"], "hbase.rootdir": ["/home/ubuntu/Desktop/hbase"], "hbase.zookeeper.quorum": ["localhost"], "hbase.log.dir": ["/home/ubuntu/Desktop/hbase/logs"]}

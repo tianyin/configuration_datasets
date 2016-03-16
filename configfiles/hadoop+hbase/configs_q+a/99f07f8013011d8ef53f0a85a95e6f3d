@@ -1,0 +1,1 @@
+{"hbase.regionserver.thread.compaction.small": ["10"], "hbase.regionserver.thread.split": ["5"], "hbase.regionserver.thread.compaction.large": ["5"]}

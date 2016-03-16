@@ -1,0 +1,1 @@
+{"hbase.hstore.blockingStoreFiles": ["14"], "hbase.hregion.memstore.block.multiplier": ["3"], "hbase.hstore.compactionThreshold": ["5"], "hbase.hregion.max.filesize": ["536870912"], "hbase.zookeeper.property.maxClientCnxns": ["100"], "hbase.regionserver.handler.count": ["100"]}

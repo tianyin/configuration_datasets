@@ -1,0 +1,1 @@
+{"hadoop.security.group.mapping.ldap.search.filter.group": ["(objectclass=3Dgroup)"], "hadoop.security.group.mapping.ldap.search.filter.user": ["(&(&(objectclass=3Duser)(sAMAccountName=3D{0})))"]}

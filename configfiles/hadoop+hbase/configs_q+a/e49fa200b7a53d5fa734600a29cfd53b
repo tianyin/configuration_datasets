@@ -1,0 +1,1 @@
+{"hadoop.kerberos.kinit.command": ["/usr/bin/kinit"], "hadoop.security.authentication": ["kerberos"], "hadoop.security.authorization": ["true"], "hbase.rpc.engine": ["org.apache.hadoop.hbase.ipc.SecureRpcEngine"], "hbase.security.authentication": ["kerberos"], "hbase.zookeeper.quorum": ["master.hadoop.local,host49.hadoop.local"]}

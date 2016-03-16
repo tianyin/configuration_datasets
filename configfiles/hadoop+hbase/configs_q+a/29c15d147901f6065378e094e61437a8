@@ -1,0 +1,1 @@
+{"fs.default.name": ["hdfs://${HDFS_SERVER}:${HDFS_PORT}/"]}

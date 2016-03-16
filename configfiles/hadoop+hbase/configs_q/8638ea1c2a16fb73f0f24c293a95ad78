@@ -1,0 +1,1 @@
+{"hbase.regionserver.wal.encryption": ["true"], "hbase.crypto.master.key.name": ["hdfs"], "hbase.crypto.keyprovider": ["org.apache.hadoop.hbase.io.crypto.KeyStoreKeyProvider"], "hfile.format.version": ["3"]}

@@ -1,0 +1,1 @@
+{"dfs.datanode.socket.write.timeout": ["20000"], "dfs.datanode.max.transfer.threads": ["8192"], "dfs.socket.timeout": ["20000"]}

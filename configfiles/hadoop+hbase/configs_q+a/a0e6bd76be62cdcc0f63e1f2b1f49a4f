@@ -1,0 +1,1 @@
+{"dfs.permissions": ["false"], "dfs.secondary.namenode.kerberos.https.principal": ["host/_HOST@......"], "dfs.secondary.namenode.kerberos.internal.spnego.principal": ["HTTP/_HOST@REALM"], "dfs.secondary.http.address": ["m146:50090"]}

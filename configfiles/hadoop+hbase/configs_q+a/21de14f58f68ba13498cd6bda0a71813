@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/home/libing/GreatFreeLabs/Hadoop/FS"], "dfs.data.dir": ["${hadoop.tmp.dir}/dfs/data/"], "dfs.replication": ["1"], "dfs.name.dir": ["${hadoop.tmp.dir}/dfs/name/"]}

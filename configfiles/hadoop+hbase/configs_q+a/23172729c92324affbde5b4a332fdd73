@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.coprocessor.region.classes": ["com.myemployer.group.project.hbase.monitoring.coprocessor"]}

@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/opt/hadoop/tmp"], "fs.default.name": ["hdfs://master.cluster.org:54310/"], "hbase.zookeeper.property.dataDir": ["/opt/hbase/zookeeper"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["3"], "hbase.rootdir": ["hdfs://master.cluster.org:54310/hbase"], "hbase.zookeeper.quorum": ["master.cluster.org"]}

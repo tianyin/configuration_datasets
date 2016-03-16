@@ -1,0 +1,1 @@
+{"mapred.system.dir": ["/mapred/system"], "mapred.job.tracker": ["localhost:8021"]}

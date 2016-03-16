@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://crunch:54310/hbase"], "hbase.zookeeper.quorum": ["chanel2,crunch2,crunch3,chris,chanel"]}

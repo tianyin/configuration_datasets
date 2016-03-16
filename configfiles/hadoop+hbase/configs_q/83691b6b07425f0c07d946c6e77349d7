@@ -1,0 +1,1 @@
+{"hbase.tmp.dir": ["/home/hduser/hbase/tmp"], "hbase.local.dir": ["/home/hduser/hbase/local"], "hbase.cluster.distributed": ["true"], "hbase.master.info.port": ["6010"], "hbase.rootdir": ["hdfs://master/hbase"], "hbase.zookeeper.quorum": ["zookeeper-1,zookeeper-2,zookeeper-3,"]}

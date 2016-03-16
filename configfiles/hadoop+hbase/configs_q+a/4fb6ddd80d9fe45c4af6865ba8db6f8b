@@ -1,0 +1,1 @@
+{"dfs.client.read.shortcircuit": ["true"], "dfs.client.domain.socket.data.traffic": ["true"], "dfs.domain.socket.path": ["/var/lib/hadoop/dn_socket"]}

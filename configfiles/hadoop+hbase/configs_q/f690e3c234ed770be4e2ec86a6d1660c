@@ -1,0 +1,1 @@
+{"hbase.client.ipc.pool.size": ["1"], "hbase.client.ipc.pool.type": ["RoundRobinPool"]}

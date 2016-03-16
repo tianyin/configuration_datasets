@@ -1,0 +1,1 @@
+{"hbase.zookeeper.property.tickTime": ["1"], "hbase.rootdir": ["hdfs://Hadoopserver:54310/hbase"], "hbase.cluster.distributed": ["true"], "dfs.replication": ["3"], "hbase.zookeeper.property.clientPort": ["2222"], "hbase.zookeeper.quorum": ["Hadoopserver,Hadoopclient1,Hadoopclient"], "zookeeper.retries": ["5"]}

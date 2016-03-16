@@ -1,0 +1,1 @@
+{"mapred.job.tracker": ["slave2:9001"], "mapred.child.tmp": ["/usr/local/hadoop/tmp"], "hadoop.tmp.dir": ["/usr/local/hadoop/tmp"], "fs.default.name": ["hdfs://slave2:9000"], "dfs.replication": ["1"]}

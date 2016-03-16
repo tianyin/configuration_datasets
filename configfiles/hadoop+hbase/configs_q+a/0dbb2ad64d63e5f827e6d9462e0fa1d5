@@ -1,0 +1,1 @@
+{"hbase.regionserver.msginterval": ["3000"], "hbase.master.lease.period": ["120000"]}

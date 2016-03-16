@@ -1,0 +1,1 @@
+{"hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://localhost/hbase"], "hbase.zookeeper.quorum": ["ip-XX-YYY-Z-QQQ.ec2.internal", "ip-XX-YYY-Z-QQQ.ec2.internal.ec2.internal"]}

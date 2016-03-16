@@ -1,0 +1,1 @@
+{"hbase.master": ["ycsb1:60000"], "hbase.rootdir": ["hdfs://ycsb1:20001/hbase"], "hbase.zookeeper.quorum": ["ycsb1"]}

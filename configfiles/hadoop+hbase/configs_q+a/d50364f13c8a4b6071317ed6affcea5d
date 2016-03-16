@@ -1,0 +1,1 @@
+{"hbase.hstore.compaction.max": ["100"], "hbase.hregion.majorcompaction": ["0"], "hbase.hstore.blockingStoreFiles": ["7"], "hbase.hstore.blockingWaitTime": ["90000"], "hbase.hstore.compactionThreshold": ["100"]}

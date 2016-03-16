@@ -1,0 +1,1 @@
+{"hadoop.tmp.dir": ["/opt/hadoop/hadoop/tmp"], "fs.defaultFS": ["hdfs://blabla-hadoop"]}

@@ -1,0 +1,1 @@
+{"hbase.regionserver.executor.closeregion.threads": ["3"]}

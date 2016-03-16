@@ -1,0 +1,1 @@
+{"hbase.master.port": ["60000"], "hbase.zookeeper.property.dataDir": ["/home/hadoop/zookeeperdata"], "hbase.zookeeper.property.clientPort": ["2181"], "hbase.cluster.distributed": ["true"], "hbase.rootdir": ["hdfs://192.168.107.142:54310/hbase"], "hbase.zookeeper.quorum": ["192.168.107.142,192.168.107.149,192.168.106.202"]}
