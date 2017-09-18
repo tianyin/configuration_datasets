@@ -1,4 +1,4 @@
-#Configuration Datasets
+# Configuration Datasets
 
 We release the datasets we used to study the configuration practices and issues of real-world users. Some of the findings are summarized in the paper,
 
@@ -6,7 +6,7 @@ T. Xu, L. Jin, X. Fan, Y. Zhou, S. Pasupathy, and R. Talwadker, Hey, You Have Gi
 
 Please cite the paper if you use the datasets :-)
 
-#What is included in the datasets?
+# What is included in the datasets?
 
 The datasets contain two subsets, the _configuration files_ used by real-world users and the _configuration issues_ encountered by the users. The former can help studies on the users' practices in configuring software systems, while the latter can help studies on the user's difficulties and errors during their configuration tasks.
 
@@ -16,9 +16,9 @@ The layout of the dataset:
 
 2. `configissues`: this directory contains the datasets of the configuration issues
 
-#What is the scale of the datasets?
+# What is the scale of the datasets?
 
-##configfiles
+## configfiles
 The `configfiles` dataset contains configuration files of two software systems, Apache HTTP server (httpd) (http://httpd.apache.org/) and MySQL database server (https://www.mysql.com/).
 
 In our study, we only used specific versions of httpd and MySQL, i.e., httpd-2.2.x and mysqld-5.x. But the dataset contains the configuration files of all the versions we collected. 
@@ -32,7 +32,7 @@ In our study, we only used specific versions of httpd and MySQL, i.e., httpd-2.2
 
 Only the files we studied (httpd-2.2.x and mysqld-5.x) are included in the datasets. For the rest, we provide you with the link so you can download them directly if you needed.
 
-##configissues
+## configissues
 The `configissues` dataset contains the issues of three software projects, Apache HTTP server (http://httpd.apache.org/), MySQL (https://www.mysql.com/), and Hadoop (https://hadoop.apache.org/).
 
 | Software      |  #issues  |
@@ -43,7 +43,7 @@ The `configissues` dataset contains the issues of three software projects, Apach
 
 Note that we do not consider version in this datasets, which means an issue could be from any version of the software.
 
-#How did we collect the datasets?
+# How did we collect the datasets?
 
 Please refer to the paper. Basically, all the files are collected from the web, including Q&A forums and the official mailing lists of the software, including
 
@@ -75,8 +75,8 @@ Believe or not, we crawled/downloaded the entire mailing list archives and onlin
 
 The issue dataset was collected from the same sources. We used a rolling-based sampling methods to get the datasets, which means we didn't look at all the mail threads/posts (which is not possible).
 
-#How can you use the datasets?
+# How can you use the datasets?
 The instruction of the file format and layout can be found in the README in the dataset folders.
 
-#Warning
+# Warning
 When using the dataset, you have to be aware that the datasets only contain information about parameter-based configurations. It does not contain configuration issues or practices such as compatibility or components. In other words, it reflects a subset of the whole problem.
